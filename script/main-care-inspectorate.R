@@ -109,7 +109,7 @@ cancelled_scot <- cancelled_scot %>%
 # Add to spreadsheet stored in github
 cancelled_scot_month <- read_csv("https://github.com/EmaSabl/CI/blob/aa1a5975be42852954ae891d4b4d487e8a666bd5/data/cancelled_scot.csv") ## previous data
 
-right_join (cancelled_scot_month,
+cancelled_scot <- right_join (cancelled_scot_month,
             cancelled_scot)
 
 write.csv(cancelled_scot, "data/cancelled_scot.csv", row.names = FALSE)
