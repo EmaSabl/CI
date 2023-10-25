@@ -111,5 +111,6 @@ cancelled_scot_month <- read_csv("https://github.com/EmaSabl/CI/blob/aa1a5975be4
 
 cancelled_scot <- right_join (cancelled_scot_month,
             cancelled_scot)
-
+# export cancelled data sets
 write.csv(cancelled_scot, "data/cancelled_scot.csv", row.names = FALSE)
+write.csv(cancelled_LA, "data/cancelled_LA.csv", row.names = FALSE)
