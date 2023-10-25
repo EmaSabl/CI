@@ -3,7 +3,7 @@ name: update
 on:
   workflow_dispatch:
   schedule: 
-  - cron: "0 16 * * WED"
+  - cron: "30 16 * * WED"
 
 jobs: 
   upload:
@@ -37,3 +37,15 @@ jobs:
       run: |
           source('script/main-care-inspectorate.R')
       shell: Rscript {0}
+
+       # commit & push
+    - name: Commit files
+      run: |
+        git config --local user.name actions-user
+        git config --local user.email "actions@github.com"
+        git add data/*
+        git commit -am "GH ACTION Headlines $(date)"
+        git push origin main
+      env:
+        REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+        username: github-actions
