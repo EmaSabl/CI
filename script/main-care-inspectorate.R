@@ -6,7 +6,7 @@ library(lubridate)
 ## Load CI datastore
 
 
-all <- read_csv("https://public-care-inspectorate-bucket.s3.eu-north-1.amazonaws.com/CI-latest/MDSF_latest.csv", locale = locale(encoding = "UTF-8")
+all <- read_csv("https://public-care-inspectorate-bucket.s3.eu-north-1.amazonaws.com/CI-latest/MDSF_latest.csv")
 all$ServiceName <- gsub('<92>',  '', all$ServiceName) 
 
 ## clear not needed columns
