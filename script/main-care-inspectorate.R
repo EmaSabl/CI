@@ -7,6 +7,7 @@ library(lubridate)
 
 
 all <- read_csv("https://public-care-inspectorate-bucket.s3.eu-north-1.amazonaws.com/CI-latest/MDSF_latest.csv")
+all$ServiceName <- gsub('[^\x20-\x7E]',  '', all$ServiceName) 
 
 ## clear not needed columns
 columns_keep <- c("CareService", "Subtype", "ServiceType", "ServiceName",
@@ -32,7 +33,7 @@ all <- all %>%
 
 #check changes
 
-x <- read.csv("https://github.com/EmaSabl/CI/blob/31f636f7a0d97e072a15782fa6850097890385f5/data/CI_full.csv") #previous data
+x <- read.csv("https://github.com/EmaSabl/CI/blob/e119c6da7a0e9a04cec79ca1f7b370c27bc2d92d/data/CIfull.csv") #previous data
 y <- all # new data
 
 columns_equal <- setequal(names(x), names(y))
