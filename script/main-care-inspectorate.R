@@ -32,7 +32,7 @@ all <- all %>%
 
 #check changes
 
-x <- read.csv("https://github.com/EmaSabl/CI/blob/aa1a5975be42852954ae891d4b4d487e8a666bd5/data/CI_full.csv") #previous data
+x <- read.csv("https://github.com/EmaSabl/CI/blob/31f636f7a0d97e072a15782fa6850097890385f5/data/CI_full.csv") #previous data
 y <- all # new data
 
 columns_equal <- setequal(names(x), names(y))
@@ -107,7 +107,7 @@ cancelled_scot <- cancelled_scot %>%
     !!paste(month.abb[month_update], year_update) := n
   )
 # Add to spreadsheet stored in github
-cancelled_scot_month <- read_csv("https://github.com/EmaSabl/CI/blob/aa1a5975be42852954ae891d4b4d487e8a666bd5/data/cancelled_scot.csv") ## previous data
+cancelled_scot_month <- read_csv("https://github.com/EmaSabl/CI/blob/31f636f7a0d97e072a15782fa6850097890385f5/data/cancelled_scot.csv") ## previous data
 
 cancelled_scot <- right_join (cancelled_scot_month,
             cancelled_scot)
