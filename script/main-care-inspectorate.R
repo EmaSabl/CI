@@ -33,7 +33,7 @@ all <- all %>%
 
 #check changes
 
-x <- read.csv("https://github.com/EmaSabl/CI/blob/e119c6da7a0e9a04cec79ca1f7b370c27bc2d92d/data/CIfull.csv") #previous data
+x <- read.csv("https://github.com/EmaSabl/CI/blob/82463700fb06a4afd4ec541188a9fb4f329a31f5/data/CIfull.csv", locale = locale(encoding = "Windows-1252")) #previous data
 y <- all # new data
 
 columns_equal <- setequal(names(x), names(y))
