@@ -16,7 +16,6 @@ jobs:
 
       # Load libraries
       - name: Install packages
-        uses: r-lib/actions/setup-r-dependencies@v2
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
           Rscript -e 'install.packages(c("tidyverse", "dplyr", "lubridate", "tidyr", "janitor", "Rcpp", "s2", "sf"))'
