@@ -23,7 +23,7 @@ jobs:
           
       # Run scripts
       - name: Cancelled services
-        run: Rscript -e 'source("script/main-care-inspectorate.R")'
+        run: Rscript -e 'source("script/main-care-inspectorate.R')'
 
       # Commit & push
       - name: Commit files
