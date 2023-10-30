@@ -285,3 +285,27 @@ write.csv(accom, "data/table/accom.csv", row.names = FALSE)
 write.csv(child_care_agency, "data/table/child_care_agency.csv", row.names = FALSE)
 write.csv(adoption_fostering, "data/table/adoption_fostering.csv", row.names = FALSE)
 write.csv(adult_placement, "data/table/adult_placement.csv", row.names = FALSE)
+
+## COMPLAINTS upheld####
+## For complaints no entry is equal to 0
+comps <- all %>%
+  mutate_at(vars("Complaints_upheld_2122", "Complaints_upheld_2223", "Complaints_upheld_2324"),
+            list(~ ifelse(is.na(.), 0, .)))
+
+#Sum complaints for each row, and then group into LA and client group
+
+compsLA <- comps %>%
+  rowwise() %>%
+  mutate(Complaints_since_2122 = sum(c_across(starts_with("Complaints_upheld_")))) %>%
+  ungroup() %>%
+  group_by(Council_Area_Name, Client_group) %>%
+  summarise("All since 2021/22" = sum(Complaints_since_2122),
+            "2023/24" = sum(Complaints_upheld_2324),
+            "2022/23" = sum(Complaints_upheld_2223),
+            "2021/22" = sum(Complaints_upheld_2122))  %>% 
+  pivot_wider(id_cols = Council_Area_Name, 
+                        names_from = Client_group, 
+                        values_from = c("All since 2021/22", "2023/24", "2022/23", "2021/22"))
+#export complaints tables
+write.csv(compsLA, "data/complaints_LA.csv", row.names = FALSE)
+
