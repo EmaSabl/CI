@@ -1,7 +1,6 @@
 library(tidyverse)
 library(dplyr)
 library(tidyr)
-library(janitor)
 library(lubridate)
 ## Load CI datastore
 
