@@ -1,0 +1,52 @@
+name: test
+
+on:
+  workflow_dispatch:
+  schedule: 
+  - cron: "50 16 * * TUE"
+
+jobs: 
+  upload:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: r-lib/actions/setup-r@12d5b556c504a4be89f0dc9779e0de65bf0cfa44
+      with:
+        r-version: ${{ env.R_VERSION }}
+    
+# Load libraries
+    - name: Install packages
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: |
+          install.packages(c(
+            "tidyverse",
+            "dplyr",
+            "lubridate",
+            "tidyr",
+            "janitor",
+            "Rcpp",
+            "s2",
+            "sf"
+          ))
+      shell: Rscript {0}
+         
+    # Run scripts
+    
+    
+    - name: script
+      run: |
+          source('script/test')
+      shell: Rscript {0}
+    
+      
+ # commit & push
+    - name: Commit files
+      run: |
+        git config --local user.name actions-user
+        git config --local user.email "actions@github.com"
+        git add data/*
+        git commit -am "GH ACTION Headlines $(date)"
+        git push origin main
+      env:
+        REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+        username: github-actions
