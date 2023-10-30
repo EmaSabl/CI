@@ -84,10 +84,10 @@ cancelled_scot <- cancelled_scot %>%
     !!paste(month.abb[month_update], year_update) := n
   )
 # Add to spreadsheet stored in github
-cancelled_scot_month <- read_csv("https://github.com/EmaSabl/CI/blob/31f636f7a0d97e072a15782fa6850097890385f5/data/cancelled_scot.csv") ## previous data
+cancelled_scot_month <- read_csv("data/cancelled_scot.csv") ## previous data
 
 cancelled_scot <- right_join (cancelled_scot_month,
-            cancelled_scot)
+            cancelled_scot, by='CareService')
 # export cancelled data sets
 write.csv(cancelled_scot, "data/cancelled_scot.csv", row.names = FALSE)
 write.csv(cancelled_LA, "data/cancelled_LA.csv", row.names = FALSE)
