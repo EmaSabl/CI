@@ -109,7 +109,7 @@ cancelled_type <- cancelled_type %>%
   )
 ## Add to spreadsheet stored in github
 
-cancelled_type_month <- read.csv("cancelled_type.csv") ## previous data
+cancelled_type_month <- read_csv("data/cancelled_type.csv") ## previous data
 cancelled_type_final <- right_join (cancelled_type_month,
              cancelled_type, by='ServiceType')
 
@@ -179,7 +179,7 @@ new_type <- new_type %>%
 
 ## Add to spreadsheet stored in github
 
-new_type_month <- read.csv("data/new_services_type.csv") ## previous data 
+new_type_month <- read_csv("data/new_services_type.csv") ## previous data 
 new_type_final <- right_join (new_type_month, 
              new_type)
 
