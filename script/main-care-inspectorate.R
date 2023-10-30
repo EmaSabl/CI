@@ -119,7 +119,7 @@ cancelled_type_final <- right_join (cancelled_type_month,
 
 #write.csv(cancelled_scot, "data/cancelled_scot.csv", row.names = FALSE)
 write.csv(cancelled_LA, "data/cancelled_LA.csv", row.names = FALSE)
-write.csv(cancelled_type_final, "data/cancelled_type.csv, row.names = FALSE)
+#write.csv(cancelled_type_final, "data/cancelled_type.csv, row.names = FALSE)
 
 ## NEW SERVICES ####
 # After joining the two together, filter for services registered last month
