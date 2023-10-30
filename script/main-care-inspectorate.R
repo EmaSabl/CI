@@ -262,18 +262,18 @@ accom <- care_tables %>%
 
 child_care_agency <- care_tables %>% 
   filter(Type == "Child Care Agency")%>% 
-  subset(select = -c(Subtype, `Environment`, `Care and play`, `Type`))
+  subset(select = -c(Subtype, `Setting`, `Care and play`, `Type`))
 
 
 adoption_fostering <- care_tables %>% 
   filter(Type == "Adoption Service" |
            Type == "Fostering Service") %>% 
-  subset(select = -c(Subtype, `Environment`, `Care and play`, `Type`))
+  subset(select = -c(Subtype, `Setting`, `Care and play`, `Type`))
 
 
 adult_placement <- care_tables %>% 
   filter(Type == "Adult Placement Service")%>% 
-  subset(select = -c(`Environment`, `Care and play`, `Type`))
+  subset(select = -c(`Setting`, `Care and play`, `Type`))
 
 #export tables 
 write.csv(day_care_of_children, "data/table/day_care_of_children.csv", row.names = FALSE)
