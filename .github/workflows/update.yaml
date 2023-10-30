@@ -23,7 +23,7 @@ jobs:
             "dplyr",
             "lubridate",
             "tidyr",
-            "dplyr",
+            "janitor",
             "Rcpp",
             "s2",
             "sf"
