@@ -5,7 +5,7 @@ library(lubridate)
 ## Load CI datastore
 
 
-all <- read_csv("https://public-care-inspectorate-bucket.s3.eu-north-1.amazonaws.com/CI-latest/MDSF_latest.csv")
+all <- read_csv("data/MDSF_latest.csv")
 
 ## clear not needed columns
 columns_keep <- c("CareService", "Subtype", "ServiceType", "ServiceName",
