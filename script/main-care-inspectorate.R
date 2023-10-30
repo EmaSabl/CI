@@ -184,6 +184,103 @@ new_type_final <- right_join (new_type_month,
              new_type)
 
 #export new services information 
-write.csv(new_services_scot_final, "data/new_services_scot.csv", row.names = FALSE)
+## NOTE TO SELF REMEMBER TO UNCOMMENT ####
+# write.csv(new_services_scot_final, "data/new_services_scot.csv", row.names = FALSE)
 write.csv(new_type_final, "data/new_services_type.csv", row.names = FALSE)
 write.csv(new_LA, "data/new_services_LA.csv", row.names = FALSE)
+
+## TABLES ####
+
+# Select only needed columns and rename them for ease of use
+columns_keep_table <- c("CareService", "Subtype", "ServiceType", "ServiceName",
+                  "Service_town",  "Client_group", 
+                  "Publication_of_Latest_Grading","KQ_Support_Wellbeing", 
+                  "KQ_Care_and_Support_Planning", "KQ_Setting", "KQ_Staff_Team",
+                  "KQ_Leadership", "KQ_Care_Play_and_Learning", "Last_inspection_Date", "Date_Reg", 
+                  "Complaints upheld since 21/22", "Enforcements since 21/22")
+
+#These can be added if useful "MinGrade_change","Service_Postcode"
+
+care_tables <- all %>% 
+  rowwise() %>%
+  mutate(`Complaints upheld since 21/22` = sum(c_across(starts_with("Complaints_upheld_")), na.rm = TRUE)) %>% 
+  mutate('Enforcements since 21/22' = sum(c_across(starts_with("Complaints_upheld_")), na.rm = TRUE)) %>% 
+  select(all_of(columns_keep_table)) %>%
+  rename(Type = CareService,
+         Provider = ServiceType,
+         Name = ServiceName,
+         Town = Service_town,
+         Clients = Client_group,
+         'Wellbeing support' = KQ_Support_Wellbeing,
+        'Care and support' = KQ_Care_and_Support_Planning,
+         'Setting' = KQ_Setting,
+        Staffing = KQ_Staff_Team,
+        Leadership = KQ_Leadership,
+        'Care and play' = KQ_Care_Play_and_Learning,
+        'Grades published' = Publication_of_Latest_Grading,
+        Registered = Date_Reg
+         )
+
+
+## Create 9 separate tables
+
+day_care_of_children <- care_tables %>% 
+  filter(Type == "Day Care of Children" ) %>% 
+  mutate(Subtype = ifelse(Subtype == "Day Care of Children (under 3s)",
+                          "Under 3s", "Over 3s")) %>% 
+  subset(select = -c(`Wellbeing support`,`Care and support`, `Type`))
+
+
+support_service <- care_tables %>% 
+  filter(Type == "Support Service") %>% 
+  subset(select = -c(`Care and play`, `Type`))
+
+#housing has a single grade under environment
+housing_support <- care_tables %>% 
+  filter(Type == "Housing Support Service") %>% 
+  subset(select = -c(`Care and play`, `Type`))
+
+#no postcodes are included for child minding 
+child_minding <- care_tables %>% 
+  filter(Type == "Child Minding") %>% 
+  subset(select = -c(`Postcode`, `Wellbeing support`, `Care and support`, `Type`))
+
+care_homes <- care_tables %>% 
+  filter(Type == "Care Home Service") %>% 
+  subset(select = -c(`Care and play`, `Type`))
+  
+
+accom <- care_tables %>% 
+  filter(Type == "School Care Accommodation Service" |
+           Type == "Offender Accommodation Service" |
+           Type == "Secure Accommodation Service") %>% 
+  subset(select = -c(`Care and play`, `Type`))
+
+# How interested are we in nursing agencies? There are 127 entries in the August data
+# nurse_agency <- care_tables %>% 
+#   filter(Type == "Nurse Agency")
+
+child_care_agency <- care_tables %>% 
+  filter(Type == "Child Care Agency")%>% 
+  subset(select = -c(Subtype, `Environment`, `Care and play`, `Type`))
+
+
+adoption_fostering <- care_tables %>% 
+  filter(Type == "Adoption Service" |
+           Type == "Fostering Service") %>% 
+  subset(select = -c(Subtype, `Environment`, `Care and play`, `Type`))
+
+
+adult_placement <- care_tables %>% 
+  filter(Type == "Adult Placement Service")%>% 
+  subset(select = -c(`Environment`, `Care and play`, `Type`))
+
+#export tables 
+write.csv(day_care_of_children, "data/day_care_of_children.csv", row.names = FALSE)
+write.csv(support_service, "data/support_service.csv", row.names = FALSE)
+write.csv(housing_support, "data/housing_support.csv", row.names = FALSE)
+write.csv(child_minding, "data/child_minding.csv", row.names = FALSE)
+write.csv(care_homes, "data/care_homes.csv", row.names = FALSE)
+write.csv(accom, "data/accom.csv", row.names = FALSE)
+write.csv(care_homes, "data/care_homes.csv", row.names = FALSE)
+write.csv(care_homes, "data/care_homes.csv", row.names = FALSE)
