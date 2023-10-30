@@ -5,7 +5,7 @@ library(lubridate)
 ## Load CI datastore
 
 
-all <- read_csv("data/MDSF_latest.csv")
+all <- read_csv("https://github.com/EmaSabl/CI/blob/96297d77278770060d191f7ef98001f2de56238d/data/MDSF_latest.csv")
 
 ## clear not needed columns
 columns_keep <- c("CareService", "Subtype", "ServiceType", "ServiceName",
