@@ -5,11 +5,11 @@ library(lubridate)
 ## Load CI datastore
 
 
-#all <- read_csv("https://github.com/EmaSabl/CI/blob/96297d77278770060d191f7ef98001f2de56238d/data/MDSF_latest.csv")
+all <- read_csv("https://github.com/EmaSabl/CI/blob/96297d77278770060d191f7ef98001f2de56238d/data/MDSF_latest.csv")
 
 #check changes
 
-x <- read.csv("https://github.com/EmaSabl/CI/blob/82463700fb06a4afd4ec541188a9fb4f329a31f5/data/CIfull.csv", locale = locale(encoding = "Windows-1252")) #previous data
+x <- read.csv("https://github.com/EmaSabl/CI/blob/82463700fb06a4afd4ec541188a9fb4f329a31f5/data/CIfull.csv") #previous data
 y <- all # new data
 
 columns_equal <- setequal(names(x), names(y))
