@@ -243,7 +243,7 @@ housing_support <- care_tables %>%
 #no postcodes are included for child minding 
 child_minding <- care_tables %>% 
   filter(Type == "Child Minding") %>% 
-  subset(select = -c(`Postcode`, `Wellbeing support`, `Care and support`, `Type`))
+  subset(select = -c(`Wellbeing support`, `Care and support`, `Type`))
 
 care_homes <- care_tables %>% 
   filter(Type == "Care Home Service") %>% 
