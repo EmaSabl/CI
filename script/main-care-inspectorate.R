@@ -184,6 +184,6 @@ new_type_final <- right_join (new_type_month,
              new_type)
 
 #export new services information 
-write.csv(new_services_scot_final, "new_services_scot.csv", row.names = FALSE)
-write.csv(new_type_final, "new_services_type.csv", row.names = FALSE)
-write.csv(new_LA, "new_services_LA.csv", row.names = FALSE)
+write.csv(new_services_scot_final, "data/new_services_scot.csv", row.names = FALSE)
+write.csv(new_type_final, "data/new_services_type.csv", row.names = FALSE)
+write.csv(new_LA, "data/new_services_LA.csv", row.names = FALSE)
