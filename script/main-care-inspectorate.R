@@ -383,6 +383,7 @@ adultLAgrades <- adultLAgrades %>%
                                  grade == 6 ~ "Excellent")) %>%
   mutate(grade_means = if_else(is.na(grade_means), "No grade", grade_means)) %>% 
   filter(question != "KQ_Care_Play_and_Learning") %>% 
+  filter(Council_Area_Name != "outside Scotland") %>% 
   select(-grade) %>% 
   mutate(question = case_when(question == "KQ_Support_Wellbeing" ~ "Wellbeing support",
                               question == "KQ_Care_and_Support_Planning" ~ "Care and support",
@@ -452,6 +453,7 @@ childLAgrades <- childLAgrades %>%
                                  grade == 5 ~ "Very good",
                                  grade == 6 ~ "Excellent")) %>%
   mutate(grade_means = if_else(is.na(grade_means), "No grade", grade_means))  %>% 
+  filter(Council_Area_Name != "outside Scotland") %>% 
   select(-grade) %>% 
   mutate(question = case_when(question == "KQ_Support_Wellbeing" ~ "Wellbeing support",
                               question == "KQ_Care_and_Support_Planning" ~ "Care and support",
