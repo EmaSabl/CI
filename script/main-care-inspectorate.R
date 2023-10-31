@@ -248,7 +248,6 @@ child_minding <- care_tables %>%
 care_homes <- care_tables %>% 
   filter(Type == "Care Home Service") %>% 
   subset(select = -c(`Care and play`, `Type`))
-  
 
 accom <- care_tables %>% 
   filter(Type == "School Care Accommodation Service" |
@@ -309,3 +308,165 @@ compsLA <- comps %>%
 #export complaints tables
 write.csv(compsLA, "data/complaints_LA.csv", row.names = FALSE)
 
+## ENFORCEMENTS ####
+enforcements <- all %>% 
+  filter(!is.na(Enforcements_issued_2122) |
+           !is.na(Enforcements_issued_2223) |
+           !is.na(Enforcements_issued_2324))
+
+# LA breakdown
+enforcementsLA <- enforcements %>%
+        group_by(Council_Area_Name) %>%
+        summarise(`Enforcements in 21/22` = sum(Enforcements_issued_2122,na.rm = TRUE),
+           `Enforcements in 22/23` = sum(Enforcements_issued_2223, na.rm = TRUE),
+           `Enforcements in 23/24` = sum(Enforcements_issued_2324,na.rm = TRUE))
+
+# Care service type breakdown
+enforcementscare <- enforcements %>% 
+  group_by(CareService) %>%
+  summarise(`Enforcements in 21/22` = sum(Enforcements_issued_2122, na.rm = TRUE),
+            `Enforcements in 22/23` = sum(Enforcements_issued_2223, na.rm = TRUE),
+            `Enforcements in 23/24` = sum(Enforcements_issued_2324, na.rm = TRUE))
+
+write.csv(enforcementsLA, "data/enforcements_LA.csv", row.names = FALSE)
+write.csv(enforcementscare, "data/enforcements_service.csv", row.names = FALSE)
+
+## Splitting up adult and child services 
+
+adultservs <- all %>%  
+  filter(Client_group == "Adults")
+
+childservs <- all %>% 
+  filter(Client_group == "Children")
+
+## ADULT SERVICES DATA #######################
+
+## Average and count of each ranking for LAs ######
+## Note there is no care and play for adults
+
+#make sure charts indicate that grades are averages
+AdultLA_avg <- adultservs %>% 
+  group_by(Council_Area_Name) %>% 
+  summarise(
+    'Wellbeing support' = mean(KQ_Support_Wellbeing, na.rm = TRUE),
+    'Care and support' = mean(KQ_Care_and_Support_Planning, na.rm = TRUE),
+    'Setting' = mean(KQ_Setting, na.rm = TRUE),
+    'Staffing' = mean(KQ_Staff_Team, na.rm = TRUE),
+    'Leadership' = mean(KQ_Leadership, na.rm = TRUE)
+  ) %>% 
+  filter(Council_Area_Name != 'outside Scotland')  %>% 
+  rename (Council = Council_Area_Name)
+
+
+## Pivot longer based on the graded columns (KQ)
+
+adultservs_long <- adultservs %>%
+  pivot_longer(
+    cols = starts_with("KQ_"),
+    names_to = "question",
+    values_to = "grade"
+  )
+##Count the numbers of each grade for each local authority
+
+adultLAgrades <- adultservs_long %>%
+  group_by(Council_Area_Name, question, grade) %>%
+  summarise(Count = n()) %>%
+  ungroup() %>%
+  complete(Council_Area_Name, question, grade, fill = list(Count = 0))
+
+adultLAgrades <- adultLAgrades %>%
+  mutate(grade_means = case_when(grade == 1 ~ "Unsatisfactory",
+                                 grade == 2 ~ "Weak",
+                                 grade == 3 ~ "Adequate",
+                                 grade == 4 ~ "Good",
+                                 grade == 5 ~ "Very good",
+                                 grade == 6 ~ "Excellent")) %>%
+  mutate(grade_means = if_else(is.na(grade_means), "No grade", grade_means)) %>% 
+  filter(question != "KQ_Care_Play_and_Learning") %>% 
+  select(-grade) %>% 
+  mutate(question = case_when(question == "KQ_Support_Wellbeing" ~ "Wellbeing support",
+                              question == "KQ_Care_and_Support_Planning" ~ "Care and support",
+                              question == "KQ_Setting" ~ "Setting",
+                              question == "KQ_Staff_Team" ~ "Staffing",
+                              question == "KQ_Leadership" ~ "Leadership"))
+
+## Each grade in its own column 
+
+adultLAgrades_spread <- spread(adultLAgrades, key = grade_means, value = Count)
+
+# Sum for each LA and convert to percentages
+
+# adultLAgrades_percent <- adultLAgradesspread %>% 
+#  mutate(Total = select(., `Adequate`, `Excellent`, `Good`, 
+#                      `Unsatisfactory`, `Very good`, `Weak`)  %>% rowSums(na.rm = TRUE)) %>% 
+#  mutate(`Unsatisfactory` = Unsatisfactory/Total, 
+#         `Weak` = Weak/Total, 
+#         `Adequate`= Adequate/Total,
+#         `Good` = Good/Total, 
+#         `Very good` = `Very good`/Total,
+#         `Excellent` = Excellent/Total
+#         ) %>% 
+#  select(-c(Total, `No grade`))
+
+
+## CHILD SERVICES DATA #######################
+
+## Average and count of each ranking for LAs ######
+## Note there is no care and play for adults
+
+childLA_avg <- childservs %>% 
+  group_by(Council_Area_Name) %>%  
+  summarise(
+    'Wellbeing support' = mean(KQ_Support_Wellbeing, na.rm = TRUE),
+    'Care and support' = mean(KQ_Care_and_Support_Planning, na.rm = TRUE),
+    'Setting' = mean(KQ_Setting, na.rm = TRUE),
+    'Staffing' = mean(KQ_Staff_Team, na.rm = TRUE),
+    'Leadership' = mean(KQ_Leadership, na.rm = TRUE),
+    'Play and learning' = mean(KQ_Care_Play_and_Learning, na.rm = TRUE)
+     ) %>% 
+  filter(Council_Area_Name != 'outside Scotland')  %>% 
+  rename (Council = Council_Area_Name) 
+
+  
+## Pivot longer based on the graded columns (KQ)
+
+childservs_long <- childservs %>%
+  pivot_longer(
+    cols = starts_with("KQ_"),
+    names_to = "question",
+    values_to = "grade"
+  )
+##Count the numbers of each grade for each local authority
+
+childLAgrades <- childservs_long %>%
+  group_by(Council_Area_Name, question, grade) %>%
+  summarise(Count = n()) %>%
+  ungroup() %>%
+  complete(Council_Area_Name, question, grade, fill = list(Count = 0))
+
+childLAgrades <- childLAgrades %>%
+  mutate(grade_means = case_when(grade == 1 ~ "Unsatisfactory",
+                                 grade == 2 ~ "Weak",
+                                 grade == 3 ~ "Adequate",
+                                 grade == 4 ~ "Good",
+                                 grade == 5 ~ "Very good",
+                                 grade == 6 ~ "Excellent")) %>%
+  mutate(grade_means = if_else(is.na(grade_means), "No grade", grade_means))  %>% 
+  select(-grade) %>% 
+  mutate(question = case_when(question == "KQ_Support_Wellbeing" ~ "Wellbeing support",
+                              question == "KQ_Care_and_Support_Planning" ~ "Care and support",
+                              question == "KQ_Setting" ~ "Setting",
+                              question == "KQ_Staff_Team" ~ "Staffing",
+                              question == "KQ_Leadership" ~ "Leadership",
+                              question == "KQ_Care_Play_and_Learning" ~ "Play and learning" ))
+                            
+
+## Each grade in its own column 
+
+childLAgrades_spread <- spread(childLAgrades, key = grade_means, value = Count) 
+
+# exports for child and adult services
+write.csv(AdultLA_avg, "data/adult_services_avg_LA.csv", row.names = FALSE)
+write.csv(adultLAgradesspread, "data/adult_grades_counts_LA.csv", row.names = FALSE)
+write.csv(childLA_avg, "data/child_services_avg_LA.csv", row.names = FALSE)
+write.csv(childLAgrades_spread, "data/child_grades_counts_LA.csv", row.names = FALSE)
