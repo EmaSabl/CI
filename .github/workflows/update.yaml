@@ -3,7 +3,7 @@ name: update
 on:
   workflow_dispatch:
   schedule: 
-  - cron: "50 16 * * WED"
+  - cron: "0 12 25 * *"
 
 jobs: 
   upload:
