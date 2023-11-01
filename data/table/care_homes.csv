@@ -2,7 +2,7 @@
 "Older People","Voluntary or Not for Profit","Ruthrieston House","Aberdeen","Adults","20/03/2023",4,4,4,4,5,"27/02/2023","2002_4",1,1
 "Mental Health Problems","Voluntary or Not for Profit","Arrdeir","Aberdeen","Adults","14/08/2019",5,5,5,5,4,"28/04/2022","2002_4",0,0
 "Mental Health Problems","Voluntary or Not for Profit","Northfield Lodge","Aberdeen","Adults","07/06/2022",4,4,3,5,4,"17/05/2022","2002_4",0,0
-"Mental Health Problems","Voluntary or Not for Profit","VSA450 Holburn Street","Aberdeen","Adults","19/05/2023",3,4,3,4,3,"28/03/2023","2002_4",0,0
+"Mental Health Problems","Voluntary or Not for Profit","VSA,450 Holburn Street","Aberdeen","Adults","19/05/2023",3,4,3,4,3,"28/03/2023","2002_4",0,0
 "Mental Health Problems","Voluntary or Not for Profit","4 Rosemount Terrace","Aberdeen","Adults","07/02/2023",4,4,6,5,3,"13/01/2023","2002_4",0,0
 "Mental Health Problems","Voluntary or Not for Profit","40 Ellon Road","Aberdeen","Adults","11/04/2023",5,5,6,5,4,"21/03/2023","2002_4",0,0
 "Learning Disabilities","Voluntary or Not for Profit","Bob Cooney Court","Aberdeen","Adults","09/12/2022",3,3,4,3,4,"14/10/2022","2002_4",0,0
@@ -190,7 +190,7 @@
 "Older People","Voluntary or Not for Profit","Abbeyfield Extra Care House & Templeton House","Glasgow","Adults","21/12/2020",3,3,3,3,3,"24/11/2020","2002_4",1,1
 "Learning Disabilities","Voluntary or Not for Profit","Clannalba","Biggar","Adults","26/10/2022",5,4,4,5,5,"05/10/2022","2002_4",0,0
 "Learning Disabilities","Voluntary or Not for Profit","New Ridgepark","Lanark","Adults","04/10/2022",5,5,5,5,3,"07/07/2022","2002_4",0,0
-"Learning Disabilities","Private","Castle Street Care Home Living Ambitions Limited","Glasgow","Adults","13/09/2023",3,3,4,3,3,"23/08/2023","2002_4",0,0
+"Learning Disabilities","Private","Castle Street Care Home, Living Ambitions Limited","Glasgow","Adults","13/09/2023",3,3,4,3,3,"23/08/2023","2002_4",0,0
 "Mental Health Problems","Voluntary or Not for Profit","Sheriff Park Service","Glasgow","Adults","25/05/2022",5,6,6,6,5,"28/04/2022","2002_4",0,0
 "Learning Disabilities","Voluntary or Not for Profit","Lanark Project","Lanark","Adults","22/09/2022",5,4,5,5,5,"15/09/2022","2002_4",0,0
 "Learning Disabilities","Voluntary or Not for Profit","Threshold Support Services - Residential","Hamilton","Adults","30/11/2022",3,4,4,3,3,"03/11/2022","2002_4",0,0
@@ -418,7 +418,7 @@
 "Mental Health Problems","Voluntary or Not for Profit","SAMH - Mayfield","Denny","Adults","06/10/2022",5,5,5,5,5,"13/09/2022","2002_4",0,0
 "Older People","Private","Summerdale","Falkirk","Adults","05/07/2023",2,2,3,3,2,"26/09/2023","2002_4",1,1
 "Mental Health Problems","Voluntary or Not for Profit","SAMH - Whins Of Milton","Stirling","Adults","11/11/2022",5,5,5,5,5,"29/09/2022","2002_4",0,0
-"Learning Disabilities","Voluntary or Not for Profit","Scottish Autism Central Scotland Area Services - Supported Accommodation","Alloa","Adults","12/12/2022",5,5,5,6,5,"25/11/2022","2002_4",0,0
+"Learning Disabilities","Voluntary or Not for Profit","Scottish Autism, Central Scotland Area Services - Supported Accommodation","Alloa","Adults","12/12/2022",5,5,5,6,5,"25/11/2022","2002_4",0,0
 "Older People","Local Authority","Burnbrae","Falkirk","Adults","21/07/2023",5,4,5,5,4,"19/07/2023","2002_4",1,1
 "Older People","Local Authority","Grahamston House","Falkirk","Adults","14/09/2023",3,4,4,5,4,"12/09/2023","2002_4",0,0
 "Older People","Local Authority","Menstrie House","Menstrie","Adults","20/06/2023",4,4,4,5,5,"25/05/2023","2002_4",0,0
@@ -442,7 +442,7 @@
 "Children & Young People","Private","ACAD Close Support Service","Dumfries","Children","26/01/2022",5,4,5,5,5,"28/09/2021","2003_1",0,0
 "Learning Disabilities","Voluntary or Not for Profit","Scottish Autism - South West Area Services - Staikhill","Lanark","Adults","11/07/2022",3,4,4,4,3,"04/07/2022","2002_4",0,0
 "Physical and Sensory Impairment","Private","Ardencraig Care Home","Glasgow","Adults","02/08/2023",3,4,3,4,4,"27/07/2023","2002_12",1,1
-"Learning Disabilities","Local Authority","Willowbank Bungalows 12&3","Peterhead","Adults","13/12/2022",4,4,3,4,5,"29/09/2022","2002_4",0,0
+"Learning Disabilities","Local Authority","Willowbank Bungalows 1,2&3","Peterhead","Adults","13/12/2022",4,4,3,4,5,"29/09/2022","2002_4",0,0
 "Mental Health Problems","Voluntary or Not for Profit","St. Aubins","Aberdeen","Adults","08/02/2023",3,4,3,4,3,"10/01/2023","2002_4",0,0
 "Mental Health Problems","Voluntary or Not for Profit","Claremont House","Dumfries","Adults","01/12/2022",4,3,4,4,4,"26/10/2022","2002_4",0,0
 "Physical and Sensory Impairment","Voluntary or Not for Profit","Lanarkshire Houses","Carluke","Adults","06/02/2023",4,5,5,5,4,"26/01/2023","2003_7",0,0
@@ -458,7 +458,7 @@
 "Older People","Private","Kendale Hall","Arbroath","Adults","10/07/2023",4,4,4,4,4,"16/06/2023","2003_6",0,0
 "Children & Young People","Local Authority","Drummond House","Dundee","Children","19/05/2023",4,4,4,4,4,"17/04/2023","2002_4",0,0
 "Children & Young People","Private","Care Visions - Lettre Farmhouse","Glasgow","Children","09/07/2020",5,5,5,4,5,"04/02/2020","2003_8",0,0
-"Physical and Sensory Impairment","Voluntary or Not for Profit","Hepburn Court West Lodge","Glenrothes","Adults","22/06/2023",4,3,5,5,4,"16/06/2023","2002_4",0,0
+"Physical and Sensory Impairment","Voluntary or Not for Profit","Hepburn Court, West Lodge","Glenrothes","Adults","22/06/2023",4,3,5,5,4,"16/06/2023","2002_4",0,0
 "Older People","Private","Glenburnie Care Home","Leven","Adults","16/06/2022",4,4,4,4,4,"06/06/2022","2003_3",0,0
 "Learning Disabilities","Voluntary or Not for Profit","Colleonard Court","Banff","Adults","27/03/2023",5,5,5,5,5,"16/03/2023","2003_1",0,0
 "Children & Young People","Voluntary or Not for Profit","Action for Children - ISSC","Ayr","Children","25/09/2022",5,5,5,5,5,"13/07/2022","2004_6",0,0
@@ -468,7 +468,7 @@
 "Older People","Private","Meigle Country House","Blairgowrie","Adults","27/06/2022",4,4,4,4,3,"16/06/2022","2003_9",0,0
 "Older People","Private","Rosturk House","Cupar","Adults","12/01/2023",3,3,3,3,3,"06/09/2023","2004_10",2,2
 "Older People","Private","Lennel House","Coldstream","Adults","02/02/2023",3,3,3,3,3,"17/01/2023","2003_11",0,0
-"Children & Young People","Local Authority","Maidstone No 3 Promenade","Leven","Children","07/02/2022",3,4,5,5,5,"07/01/2022","2004_11",0,0
+"Children & Young People","Local Authority","Maidstone, No 3 Promenade","Leven","Children","07/02/2022",3,4,5,5,5,"07/01/2022","2004_11",0,0
 "Older People","Local Authority","Bonnyton House - Busby","Glasgow","Adults","17/08/2022",4,4,5,5,4,"26/09/2023","2002_4",0,0
 "Older People","Private","Belmont Care Centre","Stranraer","Adults","22/07/2022",3,3,3,3,3,"10/06/2022","2003_12",0,0
 "Children & Young People","Local Authority","Sundrum View","Ayr","Children","29/01/2020",5,5,5,4,4,"16/12/2019","2002_4",0,0
@@ -486,7 +486,7 @@
 "Older People","Private","Spynie - (Care Home)","Elgin","Adults","12/01/2023",3,3,3,3,3,"19/10/2022","2004_4",1,1
 "Learning Disabilities","Private","Southfields","Falkirk","Adults","06/02/2023",4,4,4,4,4,"11/01/2023","2004_5",0,0
 "Older People","Private","Ardenlee","Dunoon","Adults","15/06/2023",1,2,2,2,2,"17/08/2023","2004_7",1,1
-"Learning Disabilities","Local Authority","Short Breaks 32/34 Pickaquoy Loan","Kirkwall","Adults","07/07/2022",4,4,4,4,3,"23/06/2022","2002_4",0,0
+"Learning Disabilities","Local Authority","Short Breaks, 32/34 Pickaquoy Loan","Kirkwall","Adults","07/07/2022",4,4,4,4,3,"23/06/2022","2002_4",0,0
 "Learning Disabilities","Voluntary or Not for Profit","Elderslie Project","Johnstone","Adults","06/01/2022",4,4,3,4,4,"30/11/2021","2004_3",0,0
 "Older People","Private","Pittendreich Care Home","Lasswade","Adults","06/04/2023",3,3,3,3,3,"28/09/2023","2004_6",1,1
 "Older People","Local Authority","Belhaven Nursing Home","Dunbar","Adults","19/07/2022",4,4,5,5,4,"23/06/2022","2004_3",0,0
@@ -525,7 +525,7 @@
 "Learning Disabilities","Voluntary or Not for Profit","Parkholme","Lossiemouth","Adults","01/08/2023",3,3,3,3,3,"06/07/2023","2005_5",3,3
 "Learning Disabilities","Private","Mayfield Lodge","Inverness","Adults","20/10/2022",4,5,5,5,5,"03/10/2022","2005_8",0,0
 "Children & Young People","Private","Common Ground","Thornhill","Children","19/10/2022",2,2,2,2,2,"26/07/2022","2005_8",1,1
-"Older People","Local Authority","Fernlea The Wishart Anderson (Care Home)","Shetland","Adults","11/01/2023",4,5,5,4,4,"25/11/2022","2005_8",0,0
+"Older People","Local Authority","Fernlea, The Wishart Anderson (Care Home)","Shetland","Adults","11/01/2023",4,5,5,4,4,"25/11/2022","2005_8",0,0
 "Older People","Local Authority","Overtonlea (Care Home)","Shetland","Adults","21/10/2022",4,5,4,4,4,"05/10/2022","2005_8",0,0
 "Older People","Local Authority","North Haven (Care Home)","Shetland","Adults","24/11/2022",4,4,4,3,3,"05/10/2022","2005_8",0,0
 "Older People","Local Authority","Isleshavn (Care Home)","Shetland","Adults","12/12/2022",3,5,4,4,3,"14/10/2022","2005_8",0,0
@@ -709,14 +709,14 @@
 "Children & Young People","Local Authority","Woodlea Cottage","Perth","Children","21/08/2023",4,4,4,4,4,"11/07/2023","2010_7",0,0
 "Physical and Sensory Impairment","Voluntary or Not for Profit","Cornerstone - Uphall Care Home","Broxburn","Adults","28/06/2022",5,5,4,5,5,"19/05/2022","2011_3",0,0
 "Children & Young People","Private","Nether Johnstone House","Johnstone","Children","02/06/2023",1,1,1,1,1,"27/04/2023","2010_10",0,0
-"Learning Disabilities","Voluntary or Not for Profit","Dunn Street Duntocher - Respite Service","Clydebank","Adults","15/11/2022",5,4,4,5,5,"03/10/2022","2010_5",0,0
+"Learning Disabilities","Voluntary or Not for Profit","Dunn Street, Duntocher - Respite Service","Clydebank","Adults","15/11/2022",5,4,4,5,5,"03/10/2022","2010_5",0,0
 "Learning Disabilities","Private","Extended Personal Care Limited - Respite","Lennoxtown","Adults","11/02/2020",5,5,4,5,5,"04/12/2019","2010_12",0,0
-"Older People","Private","Abbotsford Care Methil","Leven","Adults","20/07/2023",3,4,3,3,4,"05/07/2023","2011_2",0,0
-"Older People","Private","Abbotsford Care Newburgh","Cupar","Adults","05/09/2023",3,3,3,4,4,"14/08/2023","2011_2",0,0
-"Older People","Private","Abbotsford Care Kinglassie","Lochgelly","Adults","22/09/2022",4,4,4,5,4,"29/08/2022","2011_2",0,0
-"Older People","Private","Abbotsford Care Cowdenbeath","Cowdenbeath","Adults","08/08/2022",5,4,4,4,4,"24/06/2022","2011_2",0,0
-"Learning Disabilities","Private","Abbotsford Care East Wemyss","Kirkcaldy","Adults","08/06/2022",5,5,6,5,5,"13/05/2022","2011_2",0,0
-"Older People","Private","Abbotsford Care Glenrothes","Glenrothes","Adults","18/09/2023",3,3,3,3,3,"22/08/2023","2011_2",5,5
+"Older People","Private","Abbotsford Care, Methil","Leven","Adults","20/07/2023",3,4,3,3,4,"05/07/2023","2011_2",0,0
+"Older People","Private","Abbotsford Care, Newburgh","Cupar","Adults","05/09/2023",3,3,3,4,4,"14/08/2023","2011_2",0,0
+"Older People","Private","Abbotsford Care, Kinglassie","Lochgelly","Adults","22/09/2022",4,4,4,5,4,"29/08/2022","2011_2",0,0
+"Older People","Private","Abbotsford Care, Cowdenbeath","Cowdenbeath","Adults","08/08/2022",5,4,4,4,4,"24/06/2022","2011_2",0,0
+"Learning Disabilities","Private","Abbotsford Care, East Wemyss","Kirkcaldy","Adults","08/06/2022",5,5,6,5,5,"13/05/2022","2011_2",0,0
+"Older People","Private","Abbotsford Care, Glenrothes","Glenrothes","Adults","18/09/2023",3,3,3,3,3,"22/08/2023","2011_2",5,5
 "Older People","Private","Alt- Na- Craig House","Greenock","Adults","22/03/2022",4,4,4,4,4,"03/03/2022","2010_4",0,0
 "Older People","Private","Northlands Care Home","Blairgowrie","Adults","25/01/2022",5,5,5,5,5,"13/01/2022","2010_6",1,1
 "Mental Health Problems","Private","Hilton Court Care Home","Dunfermline","Adults","10/01/2023",5,5,5,5,5,"12/12/2022","2010_10",1,1
@@ -881,7 +881,7 @@
 "Children & Young People","Private","Curo Salus Carruthmuir","Bridge Of Weir","Children","25/09/2022",6,6,6,6,6,"11/08/2022","2012_12",0,0
 "Learning Disabilities","Private","Millburn Homes","Glasgow","Adults","17/05/2022",4,4,5,4,4,"05/05/2022","2013_12",0,0
 "Older People","Private","The Bughties","Dundee","Adults","13/07/2023",3,3,3,3,3,"14/06/2023","2014_6",1,1
-"Older People","Private","Abbotsford Care Dunfermline","Dunfermline","Adults","21/08/2023",3,3,4,4,4,"14/07/2023","2013_2",4,4
+"Older People","Private","Abbotsford Care, Dunfermline","Dunfermline","Adults","21/08/2023",3,3,4,4,4,"14/07/2023","2013_2",4,4
 "Older People","Private","Carmichael House","Dundee","Adults","10/08/2022",3,3,4,4,3,"06/07/2022","2013_3",1,1
 "Alcohol & Drug Misuse","Voluntary or Not for Profit","Wheatley Care - Fullarton Service","Glasgow","Adults","20/07/2022",5,4,5,4,4,"08/06/2022","2013_11",0,0
 "Older People","Private","Cairdean House","Edinburgh","Adults","17/02/2023",4,4,4,4,4,"16/02/2023","2013_4",1,1
@@ -995,7 +995,7 @@
 "Children & Young People","Private","Spark of Genius Woodside","Ayr","Children","03/05/2023",2,2,2,2,2,"30/03/2023","2016_1",0,0
 "Children & Young People","Private","Ardlaghan","Bathgate","Children","06/12/2019",5,5,5,5,4,"31/07/2019","2016_4",0,0
 "Children & Young People","Private","Campsie View","Glasgow","Children","25/09/2022",5,5,5,5,5,"06/07/2022","2016_2",0,0
-"Older People","Voluntary or Not for Profit","Richmond House Crieff","Crieff","Adults","13/12/2022",4,3,3,3,4,"28/11/2022","2016_7",0,0
+"Older People","Voluntary or Not for Profit","Richmond House, Crieff","Crieff","Adults","13/12/2022",4,3,3,3,4,"28/11/2022","2016_7",0,0
 "Children & Young People","Private","The Cottage","Lanark","Children","28/02/2023",4,4,4,4,4,"06/12/2022","2016_8",0,0
 "Older People","Private","Glenbervie Care Home","Larbert","Adults","03/10/2022",5,5,5,5,4,"27/09/2022","2016_12",1,1
 "Children & Young People","Voluntary or Not for Profit","Stepdown North","Glasgow","Children","25/09/2022",5,5,5,5,5,"03/05/2022","2017_3",0,0
@@ -1318,7 +1318,7 @@
 "Children & Young People","Private","Gaolach House","Perth","Children",NA,NA,NA,NA,NA,NA,"06/09/2023","2022_9",0,0
 "Older People","Private","Tantallon House","North Berwick","Adults","13/06/2023",3,4,4,3,3,"30/05/2023","2022_9",0,0
 "Older People","Private","Woodlands Care Home","Aberdeen","Adults","11/07/2023",4,4,4,4,4,"27/06/2023","2022_9",1,1
-"Alcohol & Drug Misuse","Voluntary or Not for Profit","Phoenix Futures National Specialist Family Service Harper House","Saltcoats","Adults","23/08/2023",4,5,5,4,4,"08/08/2023","2022_9",0,0
+"Alcohol & Drug Misuse","Voluntary or Not for Profit","Phoenix Futures National Specialist Family Service, Harper House","Saltcoats","Adults","23/08/2023",4,5,5,4,4,"08/08/2023","2022_9",0,0
 "Children & Young People","Private","Coalburn House","Lanark","Children",NA,NA,NA,NA,NA,NA,NA,"2022_10",0,0
 "Older People","Private","Clyde Court Care Home","Clydebank","Adults","04/07/2023",2,NA,2,3,2,"24/08/2023","2022_10",1,1
 "Older People","Private","Ryan Meadows Care Home","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_10",2,2
