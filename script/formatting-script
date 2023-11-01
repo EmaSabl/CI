@@ -3,6 +3,9 @@ library(dplyr)
 library(tidyr)
 library(lubridate) 
 ## clear not needed columns
+
+update <- read_csv("https://www.careinspectorate.com/images/documents/7331/MDSF_data_30%20September%202023.csv", locale = locale(encoding = "Windows-1252"))
+update$ServiceName <- gsub('[^\x20-\x7E]',  '', update$ServiceName) 
 columns_keep <- c("CareService", "Subtype", "ServiceType", "ServiceName",
                   "Service_town", "Service_Postcode", "ServiceProvider", 
                   "Provided_by_Local_Authority", "Date_Reg", "CareHome_Main_Area_of_Care", 
@@ -15,11 +18,12 @@ columns_keep <- c("CareService", "Subtype", "ServiceType", "ServiceName",
                   "any_requirements_2122", "any_requirements_2223", "any_requirements_2324",
                   "Last_inspection_Date")
 
-all <- all %>% 
+update <- update %>% 
   select(all_of(columns_keep)) 
 
 #Fix the formatting - sentence case for towns and remove fully empty entries
-all$Service_town <- str_to_title(all$Service_town)
+update$Service_town <- str_to_title(update$Service_town)
 
-all <- all %>% 
+update <- update %>% 
   filter(!is.na(CareService) & !is.na(ServiceName) & !is.na(Date_Reg))
+write.csv(update, update_test.csv, row.names = FALSE)
