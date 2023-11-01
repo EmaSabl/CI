@@ -397,7 +397,7 @@ adultLAgrades_spread <- spread(adultLAgrades, key = grade_means, value = Count)
 
 # Sum for each LA and convert to percentages
 
-# adultLAgrades_percent <- adultLAgradesspread %>% 
+# adultLAgrades_percent <- adultLAgrades_spread %>% 
 #  mutate(Total = select(., `Adequate`, `Excellent`, `Good`, 
 #                      `Unsatisfactory`, `Very good`, `Weak`)  %>% rowSums(na.rm = TRUE)) %>% 
 #  mutate(`Unsatisfactory` = Unsatisfactory/Total, 
@@ -469,6 +469,6 @@ childLAgrades_spread <- spread(childLAgrades, key = grade_means, value = Count)
 
 # exports for child and adult services
 write.csv(AdultLA_avg, "data/adult_services_avg_LA.csv", row.names = FALSE)
-write.csv(adultLAgradesspread, "data/adult_grades_counts_LA.csv", row.names = FALSE)
+write.csv(adultLAgrades_spread, "data/adult_grades_counts_LA.csv", row.names = FALSE)
 write.csv(childLA_avg, "data/child_services_avg_LA.csv", row.names = FALSE)
 write.csv(childLAgrades_spread, "data/child_grades_counts_LA.csv", row.names = FALSE)
