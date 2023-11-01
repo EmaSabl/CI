@@ -472,3 +472,6 @@ write.csv(AdultLA_avg, "data/adult_services_avg_LA.csv", row.names = FALSE)
 write.csv(adultLAgrades_spread, "data/adult_grades_counts_LA.csv", row.names = FALSE)
 write.csv(childLA_avg, "data/child_services_avg_LA.csv", row.names = FALSE)
 write.csv(childLAgrades_spread, "data/child_grades_counts_LA.csv", row.names = FALSE)
+
+#once fully automated - uncomment this
+# write.csv(all, "data/CIfull.csv", row.names = FALSE) 
