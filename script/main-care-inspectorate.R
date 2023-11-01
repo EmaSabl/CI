@@ -5,7 +5,7 @@ library(lubridate)
 ## Load CI datastore
 
 
-all <- read_csv("data/MDSF_latest.csv")
+all <- read_csv("data/update_test.csv")
 
 #check changes
 
