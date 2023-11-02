@@ -99,7 +99,7 @@ cancelled_scot <- cancelled_scot %>%
 # Add to spreadsheet stored in github
 cancelled_scot_month <- read_csv("data/cancelled_scot.csv") ## previous data
 
-cancelled_scot <- right_join (cancelled_scot_month,
+cancelled_scot <- left_join (cancelled_scot_month,
             cancelled_scot, by='CareService')
 
 # Cancelled services by ownership type across Scotland 
@@ -123,7 +123,7 @@ cancelled_type <- cancelled_type %>%
 ## Add to spreadsheet stored in github
 
 cancelled_type_month <- read_csv("data/cancelled_type.csv") ## previous data
-cancelled_type_final <- right_join (cancelled_type_month,
+cancelled_type_final <- left_join (cancelled_type_month,
              cancelled_type, by='ServiceType')
 
 # export cancelled data sets
@@ -170,7 +170,7 @@ new_scot <- new_scot %>%
 ## Add to spreadsheet stored in github
 
 new_services_scot <- read_csv("data/new_services_scot.csv") ## previous data  
-new_services_scot_final <- right_join (new_services_scot, 
+new_services_scot_final <- left_join (new_services_scot, 
              new_scot)
  
 
@@ -194,7 +194,7 @@ new_type <- new_type %>%
 ## Add to spreadsheet stored in github
 
 new_type_month <- read_csv("data/new_services_type.csv") ## previous data 
-new_type_final <- right_join (new_type_month, 
+new_type_final <- left_join (new_type_month, 
              new_type)
 
 #export new services information 
