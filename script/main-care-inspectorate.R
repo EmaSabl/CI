@@ -54,20 +54,7 @@ cancelled_LA <- cancelled_services %>%
   pivot_wider(names_from = CareService, 
               values_from = n, 
               values_fill = 0)
-## Monthly breakdown for LA cancelled services
 
-cancel_month <- cancelled_services %>%
-  group_by(Council_Area_Name) %>% 
-  summarise(n = n()) %>% 
-  rename(!!paste(month.abb[month_update], year_update) := n,
-         'Council' = Council_Area_Name)
-
-cancelled_LA_month <- read_csv("data/cancelled_LA_month.csv")
-
-cancelled_LA_month <- full_join(cancelled_LA_month,
-                                cancel_month,
-                                by = 'Council')
-cancelled_LA_month[is.na(cancelled_LA_month)] <- 0
 
 ## Scotland cancelled services by type of service provided
 cancelled_scot <- cancelled_services %>%
@@ -101,6 +88,21 @@ cancelled_scot_month <- read_csv("data/cancelled_scot.csv") ## previous data
 
 cancelled_scot <- left_join (cancelled_scot_month,
             cancelled_scot, by='CareService')
+
+## Monthly breakdown for LA cancelled services
+
+cancel_month <- cancelled_services %>%
+  group_by(Council_Area_Name) %>% 
+  summarise(n = n()) %>% 
+  rename(!!paste(month.abb[month_update], year_update) := n,
+         'Council' = Council_Area_Name)
+
+cancelled_LA_month <- read_csv("data/cancelled_LA_month.csv")
+
+cancelled_LA_month <- full_join(cancelled_LA_month,
+                                cancel_month,
+                                by = 'Council')
+cancelled_LA_month[is.na(cancelled_LA_month)] <- 0
 
 # Cancelled services by ownership type across Scotland 
 
