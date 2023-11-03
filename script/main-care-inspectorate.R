@@ -71,7 +71,7 @@ cancelled_scot <- full_join(cancelled_scot,
 ## save it to a column named based on the preceding month
 
 current_date <- Sys.Date()
-month_update <- month(current_date) - 1
+month_update <- month(current_date) - 2
 year_update <- year(current_date)
 
 if (month_update == 0) {
@@ -130,11 +130,10 @@ cancelled_type_final <- left_join (cancelled_type_month,
 
 # export cancelled data sets
 
-## NOTE TO SELF REMEMBER TO UNCOMMENT THE CANCELLED SCOT####
 
-#write.csv(cancelled_scot, "data/cancelled_scot.csv", row.names = FALSE)
+write.csv(cancelled_scot, "data/cancelled_scot.csv", row.names = FALSE)
 write.csv(cancelled_LA, "data/cancelled_LA.csv", row.names = FALSE)
-#write.csv(cancelled_type_final, "data/cancelled_type.csv, row.names = FALSE)
+write.csv(cancelled_type_final, "data/cancelled_type.csv, row.names = FALSE)
 write.csv(cancelled_LA_month, "data/cancelled_LA_month.csv", row.names = FALSE)
 
 ## NEW SERVICES ####
@@ -175,7 +174,19 @@ new_services_scot <- read_csv("data/new_services_scot.csv") ## previous data
 new_services_scot_final <- left_join (new_services_scot, 
              new_scot)
  
+#LA monthly update 
+new_month <- new_services %>%
+  group_by(Council_Area_Name) %>% 
+  summarise(n = n()) %>% 
+  rename(!!paste(month.abb[month_update], year_update) := n,
+         'Council' = Council_Area_Name)
 
+new_LA_month <- read_csv("data/new_LA_month.csv")
+
+new_LA_month <- full_join(new_LA_month,
+                                new_month,
+                                by = 'Council')
+new_LA_month[is.na(new_LA_month)] <- 0
 
 # new services by ownership type 
 new_type <- new_services %>%
@@ -200,10 +211,11 @@ new_type_final <- left_join (new_type_month,
              new_type)
 
 #export new services information 
-## NOTE TO SELF REMEMBER TO UNCOMMENT ####
-# write.csv(new_services_scot_final, "data/new_services_scot.csv", row.names = FALSE)
+
+write.csv(new_services_scot_final, "data/new_services_scot.csv", row.names = FALSE)
 write.csv(new_type_final, "data/new_services_type.csv", row.names = FALSE)
 write.csv(new_LA, "data/new_services_LA.csv", row.names = FALSE)
+write.csv(new_LA_month, "data/new_LA_month.csv", row.names = FALSE)
 
 ## TABLES ####
 
@@ -489,5 +501,5 @@ write.csv(adultLAgrades_spread, "data/adult_grades_counts_LA.csv", row.names = F
 write.csv(childLA_avg, "data/child_services_avg_LA.csv", row.names = FALSE)
 write.csv(childLAgrades_spread, "data/child_grades_counts_LA.csv", row.names = FALSE)
 
-#once fully automated - uncomment this
+#Finally update the csv for the previous month
 # write.csv(all, "data/CIfull.csv", row.names = FALSE) 
