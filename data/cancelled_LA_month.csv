@@ -1,34 +1,34 @@
-"Council","Jan 2023","Feb 2023","Mar 2023","Apr 2023","May 2023","Jun 2023","Jul 2023","Aug 2023","Sep 2023"
-"Aberdeen City",2,4,4,6,3,2,6,5,1
-"Aberdeenshire",5,5,4,8,1,5,8,7,4
-"Angus",1,1,0,3,2,1,2,4,0
-"Argyll & Bute",4,0,1,3,3,0,1,2,0
-"City of Edinburgh",13,13,8,8,6,5,1,8,8
-"Clackmannanshire",1,0,1,1,1,0,0,2,1
-"Dumfries & Galloway",1,1,1,3,4,3,5,2,0
-"Dundee City",4,6,5,3,5,3,4,1,5
-"East Ayrshire",2,1,2,0,3,1,2,5,1
-"East Lothian",1,0,1,2,4,2,3,0,3
-"Falkirk",3,3,3,2,2,5,1,3,2
-"Fife",3,3,9,10,12,8,12,6,2
-"Glasgow City",1,5,4,13,5,4,6,12,3
-"Highland",3,5,4,3,8,6,4,4,5
-"Midlothian",1,1,2,0,2,3,0,1,0
-"Moray",1,0,1,2,2,1,0,4,0
-"North Lanarkshire",2,5,4,9,4,3,3,9,3
-"Orkney Islands",2,0,1,0,0,1,1,0,0
-"Renfrewshire",2,0,2,1,0,2,1,2,5
-"South Lanarkshire",4,3,1,3,10,7,0,6,5
-"Stirling",1,3,2,4,4,4,0,1,2
-"West Dunbartonshire",1,2,1,2,0,0,0,1,1
-"West Lothian",3,2,1,6,3,2,2,1,4
-"East Dunbartonshire",0,2,6,1,1,1,1,0,1
-"East Renfrewshire",0,1,0,2,3,0,1,3,0
-"Inverclyde",0,1,0,0,1,1,0,2,1
-"North Ayrshire",0,2,0,3,2,2,2,5,2
-"Perth & Kinross",0,1,2,2,3,4,4,4,1
-"Scottish Borders",0,1,2,3,1,0,2,5,0
-"South Ayrshire",0,2,1,4,1,0,3,3,1
-"Na h-Eileanan Siar",0,0,0,1,0,3,1,1,1
-"outside Scotland",0,0,0,0,1,0,1,0,0
-"Shetland Islands",0,0,0,0,0,0,1,1,0
+"Council","Jan 2023","Feb 2023","Mar 2023","Apr 2023","May 2023","Jun 2023","Jul 2023","Aug 2023","Sep 2023.x","Sep 2023.y"
+"Aberdeen City",2,4,4,6,3,2,6,5,1,1
+"Aberdeenshire",5,5,4,8,1,5,8,7,4,4
+"Angus",1,1,0,3,2,1,2,4,0,0
+"Argyll & Bute",4,0,1,3,3,0,1,2,0,0
+"City of Edinburgh",13,13,8,8,6,5,1,8,8,8
+"Clackmannanshire",1,0,1,1,1,0,0,2,1,1
+"Dumfries & Galloway",1,1,1,3,4,3,5,2,0,0
+"Dundee City",4,6,5,3,5,3,4,1,5,5
+"East Ayrshire",2,1,2,0,3,1,2,5,1,1
+"East Lothian",1,0,1,2,4,2,3,0,3,3
+"Falkirk",3,3,3,2,2,5,1,3,2,2
+"Fife",3,3,9,10,12,8,12,6,2,2
+"Glasgow City",1,5,4,13,5,4,6,12,3,3
+"Highland",3,5,4,3,8,6,4,4,5,5
+"Midlothian",1,1,2,0,2,3,0,1,0,0
+"Moray",1,0,1,2,2,1,0,4,0,0
+"North Lanarkshire",2,5,4,9,4,3,3,9,3,3
+"Orkney Islands",2,0,1,0,0,1,1,0,0,0
+"Renfrewshire",2,0,2,1,0,2,1,2,5,5
+"South Lanarkshire",4,3,1,3,10,7,0,6,5,5
+"Stirling",1,3,2,4,4,4,0,1,2,2
+"West Dunbartonshire",1,2,1,2,0,0,0,1,1,1
+"West Lothian",3,2,1,6,3,2,2,1,4,4
+"East Dunbartonshire",0,2,6,1,1,1,1,0,1,1
+"East Renfrewshire",0,1,0,2,3,0,1,3,0,0
+"Inverclyde",0,1,0,0,1,1,0,2,1,1
+"North Ayrshire",0,2,0,3,2,2,2,5,2,2
+"Perth & Kinross",0,1,2,2,3,4,4,4,1,1
+"Scottish Borders",0,1,2,3,1,0,2,5,0,0
+"South Ayrshire",0,2,1,4,1,0,3,3,1,1
+"Na h-Eileanan Siar",0,0,0,1,0,3,1,1,1,1
+"outside Scotland",0,0,0,0,1,0,1,0,0,0
+"Shetland Islands",0,0,0,0,0,0,1,1,0,0
