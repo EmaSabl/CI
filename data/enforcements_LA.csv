@@ -1,25 +1,27 @@
 "Council_Area_Name","Enforcements in 21/22","Enforcements in 22/23","Enforcements in 23/24"
 "Aberdeen City",1,0,4
-"Aberdeenshire",0,3,0
-"Angus",0,1,1
-"City of Edinburgh",0,1,5
-"Dumfries & Galloway",0,3,1
-"Dundee City",1,0,1
+"Aberdeenshire",0,3,2
+"Angus",0,1,2
+"Argyll & Bute",0,0,2
+"City of Edinburgh",0,1,9
+"Dumfries & Galloway",0,3,0
+"Dundee City",1,0,2
 "East Ayrshire",1,0,0
+"East Dunbartonshire",0,0,2
 "East Lothian",0,1,0
 "East Renfrewshire",1,0,1
-"Fife",4,8,3
-"Glasgow City",3,3,3
-"Highland",1,1,1
-"Inverclyde",2,2,2
-"Midlothian",1,0,1
+"Fife",4,8,4
+"Glasgow City",3,3,4
+"Highland",1,1,3
+"Inverclyde",2,2,3
+"Midlothian",1,0,2
 "Moray",0,1,2
-"North Ayrshire",1,0,0
+"North Ayrshire",1,0,1
 "North Lanarkshire",1,2,2
 "Perth & Kinross",1,1,1
 "Renfrewshire",1,3,0
 "South Ayrshire",1,0,1
-"South Lanarkshire",3,4,3
+"South Lanarkshire",3,4,5
 "Stirling",0,0,3
 "West Lothian",0,2,2
 "outside Scotland",0,0,15
