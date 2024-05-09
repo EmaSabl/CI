@@ -1,14 +1,14 @@
-"CareService","Jan 2023","Feb 2023","Mar 2023","Apr 2023","May 2023","Jun 2023","Jul 2023","Aug 2023","Sep 2023","Oct 2023","Nov 2023","Dec 2023","Jan 2024"
-"Adult Placement Service",0,0,0,2,0,0,0,0,0,0,0,0,0
-"Care Home Service",0,2,5,8,13,6,4,5,8,1,2,7,2
-"Child Minding",37,39,41,53,51,44,32,64,33,34,27,22,51
-"Day Care of Children",5,16,11,20,13,15,21,23,10,10,13,14,11
-"Housing Support Service",7,6,5,10,3,4,8,7,3,11,6,6,7
-"Nurse Agency",0,0,1,1,5,2,2,0,0,0,0,1,2
-"School Care Accommodation Service",0,0,0,0,0,0,0,2,1,0,0,0,0
-"Secure Accommodation Service",0,0,0,0,0,1,0,0,0,0,0,0,0
-"Support Service",12,10,10,14,12,7,11,9,7,11,10,11,12
-"Offender Accommodation Service",0,0,0,0,0,0,0,0,0,0,0,0,0
-"Child Care Agency",0,0,0,0,0,0,0,0,0,0,0,0,0
-"Adoption Service",0,0,0,0,0,0,0,0,0,0,0,0,0
-"Fostering Service",0,0,0,0,0,0,0,0,0,0,0,0,0
+"CareService","Jan 2023","Feb 2023","Mar 2023","Apr 2023","May 2023","Jun 2023","Jul 2023","Aug 2023","Sep 2023","Oct 2023","Nov 2023","Dec 2023","Jan 2024","Feb 2024"
+"Adult Placement Service",0,0,0,2,0,0,0,0,0,0,0,0,0,1
+"Care Home Service",0,2,5,8,13,6,4,5,8,1,2,7,2,6
+"Child Minding",37,39,41,53,51,44,32,64,33,34,27,22,51,28
+"Day Care of Children",5,16,11,20,13,15,21,23,10,10,13,14,11,12
+"Housing Support Service",7,6,5,10,3,4,8,7,3,11,6,6,7,9
+"Nurse Agency",0,0,1,1,5,2,2,0,0,0,0,1,2,0
+"School Care Accommodation Service",0,0,0,0,0,0,0,2,1,0,0,0,0,3
+"Secure Accommodation Service",0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"Support Service",12,10,10,14,12,7,11,9,7,11,10,11,12,12
+"Offender Accommodation Service",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Child Care Agency",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Adoption Service",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Fostering Service",0,0,0,0,0,0,0,0,0,0,0,0,0,1

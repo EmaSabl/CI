@@ -38,7 +38,7 @@ NA,"Voluntary or Not for Profit","Capability Scotland - Fife Services","Dunferml
 NA,"Voluntary or Not for Profit","Wemyss House","Prestonpans","Adults","23/03/2020",5,5,NA,5,5,"06/02/2020","2004_10",0,0
 NA,"Voluntary or Not for Profit","Moray Women's Aid","Elgin","Adults","16/11/2023",4,5,NA,2,4,"18/10/2023","2004_8",0,0
 NA,"Voluntary or Not for Profit","Capability Scotland - Community Living Services South West","Glasgow","Adults","25/06/2020",5,5,NA,5,5,"24/01/2020","2004_8",0,0
-NA,"Voluntary or Not for Profit","Community Help and Advice Initiative","Edinburgh","Adults","31/07/2017",4,4,NA,5,4,"10/07/2017","2004_8",0,0
+NA,"Voluntary or Not for Profit","Housing Support Services","Edinburgh","Adults","31/07/2017",4,4,NA,5,4,"10/07/2017","2004_8",0,0
 NA,"Local Authority","Housing Support","Irvine","Adults","26/03/2018",6,6,NA,6,6,"07/02/2018","2004_10",0,0
 NA,"Voluntary or Not for Profit","Tollcross Housing Association","Glasgow","Adults","27/08/2018",5,5,NA,5,5,"25/07/2018","2004_10",0,0
 NA,"Local Authority","North Ayrshire Council Short Stay Hostel","Ardrossan","Adults","18/08/2017",6,6,NA,6,6,"26/04/2017","2004_10",0,0
@@ -49,7 +49,7 @@ NA,"Health Board","NHS Forth Valley Community Residential Resources","Camelon","
 NA,"Voluntary or Not for Profit","withYOU Horizons Young People's Service","Edinburgh","Adults","24/09/2020",5,5,NA,5,5,"13/03/2020","2004_8",0,0
 NA,"Voluntary or Not for Profit","withYOU East Craigs Learning Disabilities Service","Edinburgh","Adults","09/03/2023",5,5,NA,4,5,"01/02/2023","2004_8",0,0
 NA,"Voluntary or Not for Profit","with YOU St. Leonards Older People's Service","Edinburgh","Adults","30/05/2023",5,6,NA,4,4,"24/03/2023","2004_8",1,1
-NA,"Voluntary or Not for Profit","with YOU West Lothian Mental Health Service","Livingston","Adults","18/07/2023",3,3,NA,3,3,"05/07/2023","2004_8",0,0
+NA,"Voluntary or Not for Profit","with YOU West Lothian Mental Health Service","Livingston","Adults","21/02/2024",3,3,NA,3,3,"24/01/2024","2004_8",0,0
 NA,"Voluntary or Not for Profit","with YOU Lothian Service","Tranent","Adults","20/02/2023",4,3,NA,4,3,"16/01/2023","2004_8",0,0
 NA,"Voluntary or Not for Profit","withYOU Edinburgh Mental Health Service","Edinburgh","Adults","06/05/2022",5,5,NA,5,5,"05/05/2022","2004_8",0,0
 NA,"Voluntary or Not for Profit","withYOU Peffer Learning Disabilities Service","Edinburgh","Adults","27/11/2023",5,5,NA,6,4,"01/11/2023","2004_8",0,0
@@ -69,7 +69,7 @@ NA,"Voluntary or Not for Profit","Penumbra - Borders Supported Living Service","
 NA,"Voluntary or Not for Profit","North Lanarkshire Supported Living Service","Glasgow","Adults","23/10/2023",5,5,NA,5,4,"07/09/2023","2004_8",0,0
 NA,"Voluntary or Not for Profit","Homelife Girvan","Girvan","Adults","08/06/2023",5,5,NA,5,5,"28/04/2023","2004_8",0,0
 NA,"Voluntary or Not for Profit","Scottish Autism - West of Scotland Outreach","Castlemilk","Adults","05/01/2024",4,4,NA,4,4,"11/12/2023","2004_7",0,0
-NA,"Voluntary or Not for Profit","Scottish Autism - Central Outreach Team","Alloa","Adults","26/01/2023",5,5,NA,6,5,"19/01/2023","2004_8",0,0
+NA,"Voluntary or Not for Profit","Scottish Autism - Central Outreach Team","Alloa","Adults","09/02/2024",5,5,NA,6,5,"07/02/2024","2004_8",0,0
 NA,"Voluntary or Not for Profit","Scottish Autism - South West Scotland Services","Lanark","Adults","18/12/2019",5,5,NA,5,5,"27/11/2019","2004_7",0,0
 NA,"Private","Stoneywood Care Services Ltd","Denny","Adults","06/10/2023",4,5,NA,5,4,"22/09/2023","2004_7",0,0
 NA,"Local Authority","Meiklehill","Kirkintilloch","Adults","23/11/2023",5,5,NA,5,5,"06/10/2023","2004_9",0,0
@@ -86,7 +86,7 @@ NA,"Private","Thorntoun Supported Living Services","Kilmarnock","Adults","25/02/
 NA,"Voluntary or Not for Profit","Scottish Veterans Residences - Whitefoord House","Edinburgh","Adults","27/09/2018",5,5,NA,4,4,"15/01/2024","2004_9",0,0
 NA,"Local Authority","Viewfield Gate","Ayr","Adults","26/09/2023",4,5,NA,5,4,"07/09/2023","2004_12",0,0
 NA,"Local Authority","South Ayrshire Sheltered Housing Wardens","Ayr","Adults","11/10/2017",5,5,NA,5,6,"21/08/2017","2005_1",0,0
-NA,"Voluntary or Not for Profit","Hillcrest Homes Tenancy Support Service","Dundee","Adults","13/07/2023",4,5,NA,5,3,"26/05/2023","2004_9",0,0
+NA,"Voluntary or Not for Profit","Hillcrest Homes Tenancy Support Service","Forfar","Adults","13/07/2023",4,5,NA,5,3,"21/02/2024","2004_9",0,0
 NA,"Voluntary or Not for Profit","The Abbeyfield (Monifieth) Society Limited","Dundee","Adults","16/06/2023",4,3,NA,3,2,"31/05/2023","2004_10",0,0
 NA,"Voluntary or Not for Profit","Edinburgh Young Persons Service","Edinburgh","Adults","14/08/2018",6,6,NA,6,6,"28/06/2018","2004_7",0,0
 NA,"Voluntary or Not for Profit","Fife Support Service","Kirkcaldy","Adults","05/09/2023",5,5,NA,5,5,"15/08/2023","2004_7",0,0
@@ -94,8 +94,8 @@ NA,"Voluntary or Not for Profit","Abbeyfield Breadalbane Society Limited","Aberf
 NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - Perth & Kinross","Perth","Adults","13/06/2023",4,4,NA,4,4,"18/05/2023","2004_8",0,0
 NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - Stirling, Clackmannanshire and Falkirk","Stirling","Adults","14/03/2023",5,5,NA,5,4,"03/02/2023","2004_8",0,0
 NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - North Lanarkshire","Wishaw","Adults","22/03/2023",5,5,NA,4,3,"20/02/2023","2004_8",2,2
-NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - South Lanarkshire 1","East Kilbride","Adults","04/03/2020",5,5,NA,5,6,"31/01/2020","2004_8",1,1
-NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - North Ayrshire Housing Support Service","Stevenston","Adults","05/01/2024",4,5,NA,3,5,"15/12/2023","2004_8",0,0
+NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - South Lanarkshire 1","East Kilbride","Adults","04/03/2020",5,5,NA,5,6,"26/02/2024","2004_8",1,1
+NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - North Ayrshire Housing Support Service","Stevenston","Adults","05/01/2024",4,5,NA,3,5,"22/12/2023","2004_8",1,1
 NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - South & East Ayrshire Housing Support","Cumnock","Adults","09/11/2023",4,4,NA,4,4,"27/10/2023","2004_8",0,0
 NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - East Renfrewshire & South Lanarkshire 2","Glasgow","Adults","11/09/2019",6,6,NA,5,6,"03/05/2019","2004_8",2,2
 NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - East & West Dunbartonshire Supported Living Services","Glasgow","Adults","19/05/2023",5,5,NA,6,4,"18/04/2023","2004_8",0,0
@@ -115,7 +115,7 @@ NA,"Voluntary or Not for Profit","Abbeyfield Helensburgh","Helensburgh","Adults"
 NA,"Voluntary or Not for Profit","Clydebank Women's Aid - Housing Support Unit","Clydebank","Adults","26/06/2018",5,5,NA,5,5,"04/05/2018","2004_7",0,0
 NA,"Voluntary or Not for Profit","Action Group - Team B","Edinburgh","Adults","12/12/2023",5,4,NA,5,4,"17/11/2023","2004_7",0,0
 NA,"Voluntary or Not for Profit","Action Group - Team D","Edinburgh","Adults","29/09/2023",5,4,NA,4,4,"31/07/2023","2004_7",0,0
-NA,"Voluntary or Not for Profit","Anchor House","Perth","Adults","31/07/2018",6,6,NA,6,6,"29/05/2018","2004_11",0,0
+NA,"Voluntary or Not for Profit","Anchor House","Perth","Adults","23/02/2024",4,6,NA,6,5,"26/01/2024","2004_11",0,0
 NA,"Private","My Care Tayside","Dundee","Adults","10/03/2023",4,5,NA,5,4,"01/02/2023","2004_9",3,3
 NA,"Voluntary or Not for Profit","Lanarkshire Supported Living Service","Glasgow","Adults","04/02/2020",5,5,NA,5,4,"19/12/2020","2004_7",0,0
 NA,"Voluntary or Not for Profit","Penumbra - Western Isles Supported Living Service","Stornoway","Adults","19/03/2018",6,6,NA,6,6,"29/01/2018","2004_7",0,0
@@ -124,9 +124,9 @@ NA,"Voluntary or Not for Profit","Penumbra - Edinburgh Supported Living Service"
 NA,"Voluntary or Not for Profit","Enable Scotland (Leading the Way) Edinburgh and West Lothian","Edinburgh","Adults","08/01/2024",4,6,NA,6,4,"30/11/2023","2004_11",1,1
 NA,"Voluntary or Not for Profit","Enable Scotland East Argyll & Bute","Helensburgh","Adults","09/05/2023",5,5,NA,5,5,"27/02/2023","2004_11",0,0
 NA,"Voluntary or Not for Profit","Enable Scotland (Leading the Way) - Ayrshire","Kilmarnock","Adults","13/09/2023",4,4,NA,4,4,"24/08/2023","2004_11",0,0
-NA,"Voluntary or Not for Profit","Enable Scotland (Leading the Way) - Glasgow","Glasgow","Adults","07/04/2023",4,5,NA,5,3,"09/02/2023","2004_11",2,2
+NA,"Voluntary or Not for Profit","Enable Scotland (Leading the Way) - Glasgow","Glasgow","Adults","07/04/2023",4,5,NA,5,3,"08/02/2024","2004_11",1,1
 NA,"Voluntary or Not for Profit","Enable Scotland (Leading the Way) - East Renfrewshire Community Support Services","Glasgow","Adults","07/06/2023",5,5,NA,4,5,"05/05/2023","2004_11",0,0
-NA,"Voluntary or Not for Profit","Enable Scotland (Leading the Way) - Lanarkshire Services","Euro Central","Adults","23/03/2023",4,5,NA,5,3,"24/02/2023","2004_10",0,0
+NA,"Voluntary or Not for Profit","Enable Scotland (Leading the Way) - Lanarkshire Services","Euro Central","Adults","23/03/2023",4,5,NA,5,3,"24/02/2023","2004_10",1,1
 NA,"Voluntary or Not for Profit","Enable Scotland (Leading the Way) - Forth Valley","Stirling","Adults","25/10/2023",4,4,NA,4,4,"24/10/2023","2004_11",0,0
 NA,"Voluntary or Not for Profit","ENABLE Scotland: West","Glasgow","Adults","23/10/2023",4,5,NA,5,4,"18/09/2023","2004_11",0,0
 NA,"Voluntary or Not for Profit","Hillcrest Futures Dundee - Alexander Street, Lismore Terrace, Longfield Drive","Dundee","Adults","17/10/2023",4,6,NA,5,4,"12/09/2023","2004_11",1,1
@@ -135,7 +135,7 @@ NA,"Voluntary or Not for Profit","Hillcrest Futures Edinburgh and Fife","Edinbur
 NA,"Voluntary or Not for Profit","Sense Scotland Supported Living Glasgow 1 & Surrounding Area","Glasgow","Adults","16/05/2023",4,4,NA,4,4,"20/04/2023","2004_12",0,0
 NA,"Voluntary or Not for Profit","Sense Scotland Supported Living: Lanarkshire West Lothian and Surrounding Areas","Coatbridge","Adults","01/05/2017",6,6,NA,5,5,"24/03/2017","2004_11",0,0
 NA,"Voluntary or Not for Profit","Sense Scotland Supported Living: Dundee 2 & Surrounding Areas","Dundee","Adults","25/09/2022",4,5,NA,4,4,"21/07/2022","2004_12",0,0
-NA,"Voluntary or Not for Profit","Sense Scotland Supported Living: Fife & Surrounding Areas","Glenrothes","Adults","11/04/2023",3,3,NA,3,3,"15/03/2023","2004_12",0,0
+NA,"Voluntary or Not for Profit","Sense Scotland Supported Living: Fife & Surrounding Areas","Kirkcaldy","Adults","11/04/2023",3,3,NA,3,3,"15/03/2023","2004_12",0,0
 NA,"Voluntary or Not for Profit","Sense Scotland Supported Living: Aberdeenshire & Surrounding Area","Ellon","Adults","03/04/2023",5,5,NA,4,5,"02/02/2023","2004_9",0,0
 NA,"Voluntary or Not for Profit","Evergreen Home Support","Greenock","Adults","04/12/2023",4,4,NA,5,4,"22/09/2023","2004_7",0,0
 NA,"Private","Denovan Home Care","Denny","Adults","09/05/2023",5,5,NA,5,5,"12/01/2023","2004_8",0,0
@@ -150,13 +150,13 @@ NA,"Voluntary or Not for Profit","North Lanarkshire Women's Aid","Glasgow","Adul
 NA,"Voluntary or Not for Profit","Trust Housing Association Ltd - Branch 4","Glasgow","Adults","23/11/2023",5,5,NA,5,5,"06/11/2023","2004_7",1,1
 NA,"Voluntary or Not for Profit","Teen Challenge UK - North East Scotland","Turriff","Adults","13/08/2018",5,5,NA,5,5,"01/08/2018","2004_9",0,0
 NA,"Voluntary or Not for Profit","Teen Challenge UK - Whitchester House","Duns","Adults","24/08/2023",5,4,NA,5,4,"23/08/2023","2004_9",0,0
-NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - Angus Services","Arbroath","Adults","23/11/2023",5,5,NA,3,4,"14/11/2023","2004_8",0,0
+NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - Angus Services","Arbroath","Adults","23/11/2023",5,5,NA,3,4,"27/02/2024","2004_8",0,0
 NA,"Voluntary or Not for Profit","Dalmuir Park Housing Association Sheltered Housing Service","Clydebank","Adults","14/08/2023",5,5,NA,5,5,"27/07/2023","2004_12",0,0
 NA,"Voluntary or Not for Profit","Wheatley Care Flexible Homelessness Outreach Support Service","Glasgow","Adults","20/12/2016",6,6,NA,5,5,"22/09/2016","2004_11",0,0
 NA,"Voluntary or Not for Profit","Angus Women's Aid","Arbroath","Adults","26/03/2019",5,5,NA,4,5,"18/02/2019","2004_10",0,0
 NA,"Voluntary or Not for Profit","Dundee Women's Aid","Dundee","Adults","13/02/2019",5,5,NA,5,6,"21/01/2019","2004_10",0,0
 NA,"Local Authority","West Dunbartonshire HSCP, Throughcare/Aftercare Team","Dumbarton","Adults","27/02/2020",5,6,NA,6,5,"17/01/2020","2004_11",0,0
-NA,"Private","Careline Home Support","Glasgow","Adults","09/11/2023",3,3,NA,3,3,"21/09/2023","2004_8",0,0
+NA,"Private","Careline Home Support","Glasgow","Adults","22/02/2024",3,3,NA,3,3,"01/02/2024","2004_8",0,0
 NA,"Voluntary or Not for Profit","Dumbarton District Women's Aid","Alexandria","Adults","23/07/2018",5,5,NA,5,5,"06/06/2018","2004_8",0,0
 NA,"Voluntary or Not for Profit","Bob McTaggart House","Glasgow","Adults","30/03/2023",3,3,NA,3,3,"14/03/2023","2005_3",0,0
 NA,"Private","Dudhope Villa and Sister Properties","Dundee","Adults","11/07/2023",4,3,NA,4,3,"29/06/2023","2004_11",0,0
@@ -190,7 +190,7 @@ NA,"Local Authority","Tenancy Support Service Motherwell","Motherwell","Adults",
 NA,"Local Authority","Tenancy Support Service Wishaw","Wishaw","Adults","21/09/2016",5,5,NA,4,5,"03/08/2016","2004_7",0,0
 NA,"Local Authority","Care and Support Service (South)","Hamilton","Adults","01/08/2019",4,4,NA,5,4,"20/05/2019","2004_8",0,0
 NA,"Voluntary or Not for Profit","Potential Living","Motherwell","Adults","15/05/2023",5,6,NA,5,5,"17/04/2023","2004_9",0,0
-NA,"Voluntary or Not for Profit","Aberdeen Foyer - Supported Accommodation","Aberdeen","Adults","22/02/2019",5,5,NA,5,4,"12/02/2019","2004_8",0,0
+NA,"Voluntary or Not for Profit","Aberdeen Foyer - Supported Accommodation","Aberdeen","Adults","22/02/2019",5,5,NA,5,4,"02/02/2024","2004_8",0,0
 NA,"Voluntary or Not for Profit","Support for Ordinary Living","Wishaw","Adults","24/03/2023",6,5,NA,5,5,"28/02/2023","2004_9",1,1
 NA,"Local Authority","City of Edinburgh Council Bingham and Randolph","Edinburgh","Adults","22/05/2019",5,5,NA,5,4,"11/04/2019","2004_9",0,0
 NA,"Local Authority","City of Edinburgh Council Family and Household Support South West","Edinburgh","Adults","06/02/2017",5,5,NA,5,4,"19/01/2017","2004_9",0,0
@@ -218,9 +218,9 @@ NA,"Local Authority","Cumbernauld Home Support Service","Glasgow","Adults","31/1
 NA,"Local Authority","Airdrie Home Support Service","Airdrie","Adults","16/11/2023",2,2,NA,4,3,"28/09/2023","2004_8",2,2
 NA,"Local Authority","Community Alarm Service","Lanarkshire","Adults","19/07/2023",5,3,NA,5,4,"26/04/2023","2004_7",1,1
 NA,"Local Authority","Motherwell Home Support Service","Motherwell","Adults","14/11/2023",4,3,NA,3,4,"11/10/2023","2004_7",1,1
-NA,"Local Authority","Wishaw and Shotts Home Support Service","Wishaw","Adults","05/06/2023",2,2,NA,2,2,"16/05/2023","2004_7",5,5
+NA,"Local Authority","Wishaw and Shotts Home Support Service","Wishaw","Adults","05/06/2023",2,2,NA,2,2,"21/02/2024","2004_7",5,5
 NA,"Voluntary or Not for Profit","Home-Start Stirling","Stirling","Adults","06/05/2019",5,5,NA,5,5,"14/02/2019","2004_11",0,0
-NA,"Voluntary or Not for Profit","Frontline Fife Homelessness Services","Kirkcaldy","Adults","25/04/2018",5,5,NA,5,5,"22/03/2018","2005_1",0,0
+NA,"Voluntary or Not for Profit","Frontline Fife Homelessness Services","Kirkcaldy","Adults","25/04/2018",5,5,NA,5,5,"14/02/2024","2005_1",1,1
 NA,"Local Authority","Care & Support Services, Dumfries & Galloway Council","Dumfries","Adults","13/09/2023",5,5,NA,5,5,"23/08/2023","2004_8",0,0
 NA,"Private","Trust In Fife","Kirkcaldy","Adults","27/11/2019",5,5,NA,4,4,"23/10/2019","2004_9",0,0
 NA,"Voluntary or Not for Profit","Threads","Paisley","Adults","04/08/2023",4,5,NA,5,4,"13/07/2023","2004_12",0,0
@@ -238,7 +238,7 @@ NA,"Voluntary or Not for Profit","Inspire Stonehaven","Stonehaven","Adults","06/
 NA,"Voluntary or Not for Profit","Cornerstone North Aberdeenshire Housing Support","Peterhead","Adults","09/09/2020",4,4,NA,5,4,"28/01/2020","2004_9",0,0
 NA,"Voluntary or Not for Profit","Cornerstone Dundee Housing Support and Care At Home","Dundee","Adults","03/03/2020",4,4,NA,4,4,"12/12/2019","2004_9",0,0
 NA,"Voluntary or Not for Profit","East Dumbartonshire Services","Glasgow","Adults","29/01/2020",5,5,NA,5,5,"17/01/2020","2004_10",0,0
-NA,"Voluntary or Not for Profit","Moray Services (Housing Support)","Elgin","Adults","05/12/2023",2,3,NA,3,2,"13/10/2023","2004_10",0,0
+NA,"Voluntary or Not for Profit","Moray Services (Housing Support)","Elgin","Adults","05/12/2023",2,3,NA,3,2,"08/02/2024","2004_10",0,0
 NA,"Voluntary or Not for Profit","West Dunbartonshire Services 1","Dumbarton","Adults","14/03/2023",5,5,NA,5,4,"13/12/2022","2004_9",0,0
 NA,"Voluntary or Not for Profit","Cornerstone NLCS Community Support","Airdrie","Adults","24/02/2020",5,5,NA,5,5,"02/12/2019","2004_9",0,0
 NA,"Voluntary or Not for Profit","Glasgow Services","Glasgow","Adults","23/02/2023",4,4,NA,4,4,"24/01/2023","2004_9",0,0
@@ -249,7 +249,7 @@ NA,"Voluntary or Not for Profit","Centred Housing Support Service","Inverness","
 NA,"Voluntary or Not for Profit","British Red Cross- Support at Home","Inverness","Adults","23/06/2023",5,4,NA,6,5,"02/06/2023","2004_8",0,0
 NA,"Voluntary or Not for Profit","Cantray Square Housing Support Service","Inverness","Adults","05/12/2022",5,6,NA,5,5,"03/11/2022","2005_2",2,2
 NA,"Voluntary or Not for Profit","Real Life Options Lilywynd","Forfar","Adults","01/02/2023",5,5,NA,5,5,"24/01/2023","2004_9",0,0
-NA,"Voluntary or Not for Profit","Real Life Options Dunfermline Services","Dunfermline","Adults","11/09/2023",3,5,NA,3,3,"25/01/2024","2004_9",0,0
+NA,"Voluntary or Not for Profit","Real Life Options Dunfermline Services","Dunfermline","Adults","26/02/2024",3,5,NA,3,3,"25/01/2024","2004_9",0,0
 NA,"Voluntary or Not for Profit","Gateway","Inverness","Adults","21/06/2023",5,5,NA,4,5,"30/05/2023","2004_8",1,1
 NA,"Voluntary or Not for Profit","Hjaltland Housing Association Ltd","Shetland","Adults","10/11/2023",5,5,NA,5,5,"12/10/2023","2004_8",0,0
 NA,"Voluntary or Not for Profit","New Start Highland","Inverness","Adults","06/05/2019",6,6,NA,6,6,"15/03/2019","2004_9",0,0
@@ -263,7 +263,7 @@ NA,"Voluntary or Not for Profit","Key - Dunbartonshire","Glasgow","Adults","29/0
 NA,"Voluntary or Not for Profit","Key - Ayrshire and South Lanarkshire","Glasgow","Adults","14/02/2023",4,5,NA,4,3,"24/01/2023","2004_11",0,0
 NA,"Voluntary or Not for Profit","Key Community Supports - Clyde Coast","Glasgow","Adults","22/11/2023",5,5,NA,4,5,"11/10/2023","2004_11",0,0
 NA,"Voluntary or Not for Profit","Key Community Supports - North Lanarkshire","Coatbridge","Adults","19/06/2023",5,5,NA,4,5,"12/06/2023","2004_11",0,0
-NA,"Voluntary or Not for Profit","Key Community Supports - Falkirk","Falkirk","Adults","06/03/2023",5,5,NA,5,5,"19/01/2024","2004_11",0,0
+NA,"Voluntary or Not for Profit","Key Community Supports - Falkirk","Falkirk","Adults","08/02/2024",5,5,NA,5,5,"19/01/2024","2004_11",0,0
 NA,"Voluntary or Not for Profit","Fife Housing Support","Dunfermline","Adults","07/08/2023",4,5,NA,4,4,"25/07/2023","2004_7",0,0
 NA,"Voluntary or Not for Profit","Aberdeenshire North","Aberdeen","Adults","21/08/2023",5,4,NA,5,5,"01/08/2023","2004_11",0,0
 NA,"Voluntary or Not for Profit","Dumfries & Galloway Services","Dumfries","Adults","18/09/2023",4,5,NA,5,4,"18/08/2023","2004_11",0,0
@@ -305,13 +305,13 @@ NA,"Voluntary or Not for Profit","Carr Gomm Support Services 4","Falkirk","Adult
 NA,"Voluntary or Not for Profit","Carr Gomm Support Services 3","Edinburgh","Adults","30/01/2020",5,5,NA,4,5,"24/12/2019","2004_7",0,0
 NA,"Voluntary or Not for Profit","Carr Gomm Support Services 5","Edinburgh","Adults","07/09/2023",5,5,NA,5,5,"10/07/2023","2004_7",0,0
 NA,"Voluntary or Not for Profit","Carr Gomm Support Services 2","Edinburgh","Adults","01/10/2019",4,4,NA,5,5,"31/07/2019","2004_7",0,0
-NA,"Voluntary or Not for Profit","Leonard Cheshire Disability - South West Scotland - Housing Support Service","Dumfries","Adults","25/09/2022",5,4,NA,4,5,"29/06/2022","2004_7",0,0
+NA,"Voluntary or Not for Profit","Leonard Cheshire Disability - South West Scotland - Housing Support Service","Dumfries","Adults","25/09/2022",5,4,NA,4,5,"29/06/2022","2004_7",1,1
 NA,"Voluntary or Not for Profit","Leonard Cheshire Services (Scotland) - Glasgow","Edinburgh","Adults","28/11/2019",4,4,NA,4,4,"08/11/2019","2004_7",0,0
 NA,"Voluntary or Not for Profit","Dundee Survival Group","Dundee","Adults","03/10/2023",4,4,NA,4,4,"08/09/2023","2004_11",0,0
 NA,"Private","Paramount Care","Westhill","Adults","25/09/2023",5,4,NA,4,5,"12/09/2023","2004_11",1,1
 NA,"Voluntary or Not for Profit","Leonard Cheshire Services (Scotland) - Edinburgh and Fife Support at Home","Edinburgh","Adults","06/07/2023",5,5,NA,5,5,"26/06/2023","2004_7",1,1
 NA,"Voluntary or Not for Profit","Leonard Cheshire Disability - Aberdeen","Aberdeen","Adults","08/01/2020",5,5,NA,4,5,"18/11/2019","2004_7",0,0
-NA,"Voluntary or Not for Profit","Leonard Cheshire Services (Scotland) - Glamis House","Glenrothes","Adults","09/01/2024",2,3,NA,3,3,"06/11/2023","2004_7",3,3
+NA,"Voluntary or Not for Profit","Leonard Cheshire Services (Scotland) - Glamis House","Glenrothes","Adults","09/01/2024",2,3,NA,3,3,"09/02/2024","2004_7",3,3
 NA,"Voluntary or Not for Profit","Glasgow Housing Support and Care at Home Service","Glasgow","Adults","26/07/2023",4,4,NA,4,4,"07/07/2023","2004_10",0,0
 NA,"Voluntary or Not for Profit","South Glasgow Alcohol and Drug Recovery Hub","Glasgow","Adults","26/06/2023",4,5,NA,5,4,"09/05/2023","2004_9",0,0
 NA,"Voluntary or Not for Profit","The Mungo Foundation Arden Branch","Glasgow","Adults","15/06/2023",4,5,NA,5,4,"06/06/2023","2004_9",0,0
@@ -330,14 +330,14 @@ NA,"Local Authority","Care at Home Services","Kirkwall","Adults","25/08/2023",4,
 NA,"Voluntary or Not for Profit","Blackwood Forth Valley Care and Support Services","Stirling","Adults","11/01/2024",5,5,NA,5,5,"22/11/2023","2004_8",0,0
 NA,"Voluntary or Not for Profit","Community Service","Glasgow","Adults","03/07/2023",4,5,NA,5,4,"08/06/2023","2005_3",0,0
 NA,"Voluntary or Not for Profit","Harbour Homes Scotland - Sheltered Housing Service","Edinburgh","Adults","10/04/2017",6,6,NA,5,5,"29/03/2017","2004_8",0,0
-NA,"Local Authority","Sheltered Housing - Orkney","Kirkwall","Adults","13/12/2023",2,2,NA,3,2,"18/01/2024","2004_12",0,0
+NA,"Local Authority","Sheltered Housing - Orkney","Kirkwall","Adults","16/02/2024",2,3,NA,3,3,"18/01/2024","2004_12",0,0
 NA,"Local Authority","Mental Health Community Support Service @ Annsbrae House","Shetland","Adults","24/10/2023",5,5,NA,5,5,"11/10/2023","2004_9",0,0
 NA,"Voluntary or Not for Profit","Women's Aid Orkney","Kirkwall","Adults","07/07/2023",5,5,NA,5,5,"19/05/2023","2004_9",1,1
 NA,"Voluntary or Not for Profit","Direct Access Hostel","Glasgow","Adults","28/11/2023",3,3,NA,4,3,"08/11/2023","2005_3",0,0
 NA,"Voluntary or Not for Profit","Turning Point Scotland - Dumfries North and East","Dumfries","Adults","07/07/2020",5,5,NA,5,5,"14/02/2020","2004_8",0,0
 NA,"Voluntary or Not for Profit","Turning Point Scotland - Dundee","Dundee","Adults","12/12/2023",5,5,NA,5,4,"11/08/2023","2004_8",0,0
 NA,"Voluntary or Not for Profit","Turning Point Scotland - Wigtownshire & Stewartry West","Dumfries","Adults","12/07/2019",5,5,NA,6,5,"11/04/2019","2004_8",0,0
-NA,"Voluntary or Not for Profit","Turning Point Scotland - Glasgow Alcohol & Drug Crisis Service","Glasgow","Adults","07/06/2018",5,5,NA,4,5,"27/03/2018","2004_8",0,0
+NA,"Voluntary or Not for Profit","Turning Point Scotland - Glasgow Alcohol & Drug Crisis Service","Glasgow","Adults","07/06/2018",5,5,NA,4,5,"22/02/2024","2004_8",0,0
 NA,"Voluntary or Not for Profit","Turning Point - Inverclyde","Greenock","Adults","29/01/2020",5,5,NA,5,5,"20/12/2019","2004_8",0,0
 NA,"Voluntary or Not for Profit","Renfrewshire and East Renfrewshire Mental Health, Learning Disability and/ or Physical Disability Service","Paisley","Adults","29/09/2023",5,5,NA,5,5,"10/08/2023","2004_8",0,0
 NA,"Voluntary or Not for Profit","Inverness Women's Aid (Housing Support)","Inverness","Adults","12/03/2019",5,5,NA,6,5,"25/01/2019","2004_11",0,0
@@ -348,7 +348,7 @@ NA,"Local Authority","Inverclyde Learning Disability Support & Care at Home Serv
 NA,"Local Authority","Inverclyde Centre","Greenock","Adults","02/10/2023",4,4,NA,5,5,"08/09/2023","2004_11",0,0
 NA,"Local Authority","Care & Support at Home","Greenock","Adults","05/01/2024",5,5,NA,5,5,"15/11/2023","2004_11",0,0
 NA,"Voluntary or Not for Profit","The Redwoods Caring Foundation - Housing Support Service","Edinburgh","Adults","14/09/2023",5,5,NA,5,5,"05/09/2023","2004_9",0,0
-NA,"Voluntary or Not for Profit","Real Life Options - Glasgow Balmore Service","Glasgow","Adults","04/12/2023",2,2,NA,2,2,"26/09/2023","2004_9",0,0
+NA,"Voluntary or Not for Profit","Real Life Options - Glasgow Balmore Service","Glasgow","Adults","04/12/2023",2,2,NA,2,2,"29/01/2024","2004_9",0,0
 NA,"Voluntary or Not for Profit","Transform Community Development","Dundee","Adults","14/11/2022",3,3,NA,4,3,"25/10/2022","2004_10",0,0
 NA,"Voluntary or Not for Profit","Paisley Project","Paisley","Adults","22/05/2023",5,5,NA,5,5,"24/04/2023","2004_10",1,1
 NA,"Voluntary or Not for Profit","Somerset Place","Glasgow","Adults","02/10/2018",5,5,NA,5,5,"17/08/2018","2004_9",0,0
@@ -380,9 +380,9 @@ NA,"Local Authority","Mid - Argyll, Kintyre, Islay and Jura Home Care Service","
 NA,"Private","Real Care Agency","East Kilbride","Adults","28/06/2023",4,4,NA,5,4,"16/05/2023","2004_11",2,2
 NA,"Local Authority","Renfrewshire Council Home Care Service","Paisley","Adults","10/01/2023",4,4,NA,4,3,"01/12/2022","2004_11",1,1
 NA,"Local Authority","Perth & Kinross Council - Homeless Housing Support Service","Perth","Adults","23/02/2018",6,6,NA,6,6,"30/01/2018","2004_11",0,0
-NA,"Private","Grangemouth Carers Ltd","Grangemouth","Adults","20/03/2023",5,5,NA,5,4,"02/03/2023","2004_10",0,0
+NA,"Private","Grangemouth Carers Ltd","Grangemouth","Adults","27/02/2024",5,4,NA,5,5,"23/02/2024","2004_10",0,0
 NA,"Voluntary or Not for Profit","Phoenix Futures Glasgow Resettlement Service","Glasgow","Adults","16/08/2023",5,5,NA,5,4,"18/07/2023","2005_1",0,0
-NA,"Local Authority","City of Edinburgh Council Family and Household Support North West","Edinburgh","Adults","05/04/2017",5,5,NA,5,5,"01/03/2017","2004_9",0,0
+NA,"Local Authority","City of Edinburgh Council Family and Household Support North West","Edinburgh","Adults","05/04/2017",5,5,NA,5,5,"22/02/2024","2004_9",0,0
 NA,"Voluntary or Not for Profit","Thistle Foundation","Edinburgh","Adults","22/04/2020",5,5,NA,5,5,"05/02/2020","2004_7",0,0
 NA,"Voluntary or Not for Profit","Edinburgh Women's Aid","Edinburgh","Adults","22/01/2019",5,5,NA,5,4,"27/11/2018","2004_8",0,0
 NA,"Voluntary or Not for Profit","Action Group - Team A","Edinburgh","Adults","03/11/2023",4,3,NA,3,4,"18/10/2023","2004_7",1,1
@@ -396,15 +396,15 @@ NA,"Voluntary or Not for Profit","SAMH - Moray - Housing Support Service","Elgin
 NA,"Local Authority","Home Care Services - Mainstream Team","Kirkintilloch","Adults","31/07/2023",5,5,NA,5,5,"26/05/2023","2004_10",1,1
 NA,"Voluntary or Not for Profit","Bethany Christian Trust Housing Support Fife","Leven","Adults","08/01/2024",5,5,NA,6,4,"07/12/2023","2004_12",0,0
 NA,"Private","Dumfries Supported Living","Dumfries","Adults","23/06/2023",4,5,NA,5,4,"26/05/2023","2004_11",0,0
-NA,"Voluntary or Not for Profit","Companas Outreach","Alness","Adults","13/08/2018",5,5,NA,4,5,"27/06/2018","2004_12",0,0
+NA,"Voluntary or Not for Profit","Murray House Outreach","Invergordon","Adults","13/08/2018",5,5,NA,4,5,"27/06/2018","2004_12",0,0
 NA,"Voluntary or Not for Profit","Dumfries and Galloway Outreach Service","Dumfries","Adults","25/06/2018",5,5,NA,5,5,"20/03/2018","2004_12",0,0
-NA,"Voluntary or Not for Profit","ELCAP Housing Support","Prestonpans","Adults","29/03/2023",5,5,NA,5,6,"18/01/2024","2004_11",0,0
+NA,"Voluntary or Not for Profit","ELCAP Housing Support","Prestonpans","Adults","22/02/2024",5,5,NA,5,5,"18/01/2024","2004_11",0,0
 NA,"Local Authority","GCC SWS Hostels and Supported Accommodation Project","Glasgow","Adults","22/01/2018",5,5,NA,5,5,"07/11/2017","2005_5",0,0
 NA,"Voluntary or Not for Profit","Perth & Kinross and Forth Valley","Glasgow","Adults","08/10/2019",5,5,NA,5,5,"28/08/2019","2004_12",0,0
 NA,"Local Authority","Scottish Borders Council - Homelessness Services","Galashiels","Adults","21/11/2023",5,5,NA,5,5,"01/11/2023","2004_9",0,0
 NA,"Local Authority","Accommodation with Care and Housing Support (Fife)","Glenrothes","Adults","01/11/2023",4,5,NA,4,4,"11/10/2023","2005_1",1,1
-NA,"Local Authority","Adult Services, Resources - Housing Support and Care At Home Service","Glenrothes","Adults","07/11/2023",2,5,NA,3,3,"12/04/2023","2005_1",0,0
-NA,"Private","Dalriada Care at Home  Housing and Support","Bo'ness","Adults","30/01/2023",5,4,NA,4,5,"12/01/2023","2005_2",0,0
+NA,"Local Authority","Adult Services, Resources - Housing Support and Care At Home Service","Glenrothes","Adults","07/11/2023",2,5,NA,3,3,"20/02/2024","2005_1",0,0
+NA,"Private","Dalriada Care at Home  Housing and Support","Bo'ness","Adults","30/01/2023",5,4,NA,4,5,"26/02/2024","2005_2",0,0
 NA,"Local Authority","Lewis and Harris - Community Living Housing Support Service","Stornoway","Adults","23/01/2024",4,4,NA,4,4,"17/01/2024","2005_1",0,0
 NA,"Local Authority","West Dunbartonshire Council Community Alarm Service","Clydebank","Adults","25/04/2017",5,5,NA,5,5,"30/03/2017","2005_2",0,0
 NA,"Local Authority","Sheltered Housing Services","Glenrothes","Adults","08/01/2018",4,4,NA,5,4,"20/12/2017","2005_2",0,0
@@ -421,7 +421,7 @@ NA,"Local Authority","Renfrewshire Council Through Care Team","Paisley","Adults"
 NA,"Private","Horizon Support","Leven","Adults","12/09/2017",5,5,NA,4,4,"23/08/2017","2006_1",0,0
 NA,"Voluntary or Not for Profit","ASSIST","Aberdeen","Adults","13/06/2017",5,5,NA,5,5,"17/05/2017","2005_10",0,0
 NA,"Voluntary or Not for Profit","Emmaus Glasgow","Glasgow","Adults","08/01/2024",4,5,NA,5,3,"12/12/2023","2006_1",0,0
-NA,"Local Authority","Kalisgarth and Very Sheltered Housing","Orkney","Adults","08/08/2023",4,5,NA,4,3,"06/07/2023","2006_3",0,0
+NA,"Local Authority","Kalisgarth and Very Sheltered Housing","Orkney","Adults","08/08/2023",4,5,NA,4,3,"19/12/2023","2006_3",0,0
 NA,"Local Authority","Dundee City Council - Supported Living Team","Dundee","Adults","06/01/2020",6,6,NA,6,5,"01/10/2019","2006_6",0,0
 NA,"Private","Care Services (Perth) Limited","Perth","Adults","13/07/2020",5,5,NA,5,5,"18/12/2019","2006_1",0,0
 NA,"Private","North East Community Care Ltd","Turriff","Adults","15/12/2021",4,4,NA,4,4,"03/11/2021","2006_2",0,0
@@ -442,7 +442,7 @@ NA,"Voluntary or Not for Profit","What If (Female) Project","Glasgow","Adults","
 NA,"Local Authority","Stomaigh Support Service","Isle Of North Uist","Adults","09/01/2023",5,5,NA,5,5,"09/12/2022","2006_11",0,0
 NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - Scottish Borders","Melrose","Adults","19/04/2023",3,4,NA,5,3,"21/03/2023","2006_12",1,1
 NA,"Voluntary or Not for Profit","Wheatley Care Stirling Housing Support Service","Stirling","Adults","24/10/2018",4,4,NA,5,5,"16/08/2018","2006_7",0,0
-NA,"Voluntary or Not for Profit","Action Group - Team C","Edinburgh","Adults","29/01/2020",5,5,NA,5,5,"23/08/2019","2006_9",0,0
+NA,"Voluntary or Not for Profit","Action Group - Team C","Edinburgh","Adults","29/01/2020",5,5,NA,5,5,"08/02/2024","2006_9",0,0
 NA,"Voluntary or Not for Profit","George Street Project","Aberdeen","Adults","22/01/2024",5,5,NA,5,5,"16/01/2024","2006_7",0,0
 NA,"Voluntary or Not for Profit","Penumbra - Glasgow ARBD Supported Living Service","Glasgow","Adults","01/02/2023",5,6,NA,6,4,"21/12/2022","2006_11",0,0
 NA,"Local Authority","South Ayrshire Care at Home","Ayr","Adults","06/12/2023",5,5,NA,5,5,"13/10/2023","2006_8",0,0
@@ -483,7 +483,7 @@ NA,"Voluntary or Not for Profit","Wheatley Care The Fordneuk Accommodation and S
 NA,"Voluntary or Not for Profit","The National Autistic Society - Central Scotland Services","Glasgow","Adults","15/11/2023",5,5,NA,4,4,"10/10/2023","2008_6",1,1
 NA,"Voluntary or Not for Profit","Rowan Alba Ltd - Stramullion","Edinburgh","Adults","02/04/2019",5,5,NA,4,5,"11/02/2019","2007_10",0,0
 NA,"Voluntary or Not for Profit","Rowan Alba Ltd - Thorntree Street","Edinburgh","Adults","27/04/2023",5,4,NA,5,5,"18/04/2023","2007_10",0,0
-NA,"Voluntary or Not for Profit","Key Community Supports - Stirling/Clackmannan","Falkirk","Adults","06/03/2023",4,5,NA,5,4,"25/01/2024","2008_8",0,0
+NA,"Voluntary or Not for Profit","Key Community Supports - Stirling/Clackmannan","Falkirk","Adults","21/02/2024",5,5,NA,5,5,"25/01/2024","2008_8",0,0
 NA,"Private","GMD Community Services","Coatbridge","Adults","14/08/2023",5,5,NA,5,4,"31/07/2023","2011_8",0,0
 NA,"Voluntary or Not for Profit","Lochaber Women's Aid","Fort William","Adults","06/03/2019",5,5,NA,5,3,"22/02/2019","2008_10",0,0
 NA,"Voluntary or Not for Profit","Midlothian Housing Support & Care at Home","Penicuik","Adults","22/06/2023",5,5,NA,5,5,"31/05/2023","2008_1",0,0
@@ -513,7 +513,7 @@ NA,"Voluntary or Not for Profit","Threshold Glasgow","Glasgow","Adults","08/11/2
 NA,"Private","Westlands","Dundee","Adults","08/03/2023",5,6,NA,5,5,"22/11/2022","2009_2",0,0
 NA,"Private","Living Ambitions Limited - South Lanarkshire and West of Scotland","Glasgow","Adults","23/10/2022",4,4,NA,4,4,"10/10/2022","2009_2",1,1
 NA,"Voluntary or Not for Profit","Threshold Edinburgh","Edinburgh","Adults","20/12/2023",5,4,NA,5,5,"07/11/2023","2009_1",0,0
-NA,"Voluntary or Not for Profit","Leonard Cheshire Disability - Stenhouse - Supported Living","Edinburgh","Adults","11/07/2023",3,4,NA,4,4,"16/06/2023","2010_2",0,0
+NA,"Voluntary or Not for Profit","Leonard Cheshire Disability - Stenhouse - Supported Living","Edinburgh","Adults","20/02/2024",4,4,NA,4,4,"16/06/2023","2010_2",0,0
 NA,"Voluntary or Not for Profit","Threshold Support Services - Housing Support","Larkhall","Adults","30/07/2019",5,5,NA,5,5,"18/07/2019","2009_7",0,0
 NA,"Local Authority","Aberdeenshire Supported Living Project","Banff","Adults","04/02/2020",5,5,NA,6,4,"12/12/2019","2009_3",0,0
 NA,"Private","NPHomecare","Glasgow","Adults","27/04/2023",4,4,NA,4,4,"21/04/2023","2009_4",0,0
@@ -522,17 +522,17 @@ NA,"Voluntary or Not for Profit","Brothers of Charity Services (Scotland) - Camp
 NA,"Private","Orems Care Service Housing Support","Glasgow","Adults","21/06/2023",5,4,NA,4,4,"05/05/2023","2009_11",0,0
 NA,"Local Authority","North Ayrshire Council - Irvine, Garnock Valley and Community Alarm","Irvine","Adults","24/11/2023",5,4,NA,4,5,"03/11/2023","2009_9",1,1
 NA,"Local Authority","North Ayrshire Council - Three Towns, North Coast and Arran","Irvine","Adults","14/06/2022",5,5,NA,5,5,"01/06/2022","2009_9",0,0
-NA,"Voluntary or Not for Profit","Thera (Scotland)","Edinburgh","Adults","01/10/2019",5,5,NA,5,5,"12/09/2019","2009_12",0,0
-NA,"Private","Roberts Care & Training Ltd","Paisley","Adults","23/01/2020",5,5,NA,5,5,"11/01/2024","2009_6",0,0
+NA,"Voluntary or Not for Profit","Thera (Scotland)","Edinburgh","Adults","27/02/2024",5,5,NA,5,5,"09/02/2024","2009_12",0,0
+NA,"Private","Roberts Care & Training Ltd","Paisley","Adults","26/02/2024",3,5,NA,5,4,"11/01/2024","2009_6",0,0
 NA,"Voluntary or Not for Profit","Johnstone & Paisley Supported Living Services","Johnstone","Adults","18/10/2023",5,4,NA,4,5,"11/09/2023","2009_7",0,0
 NA,"Private","HRM Homecare Services Ltd - Central / West","Kilmarnock","Adults","03/03/2023",5,5,NA,4,4,"22/02/2023","2010_3",1,1
 NA,"Private","Venture Support and Care","Banff","Adults","21/09/2023",3,4,NA,4,3,"25/08/2023","2009_5",0,0
 NA,"Voluntary or Not for Profit","Crossroads Caring Scotland - Glasgow/Blantyre/East Dunbarton","Glasgow","Adults","30/01/2020",4,4,NA,4,4,"13/12/2019","2009_4",0,0
 NA,"Voluntary or Not for Profit","Jericho Benedictines Housing Support Unit (Bank Street)","Greenock","Adults","21/01/2020",5,5,NA,5,4,"12/01/2024","2009_4",0,0
 NA,"Private","Inchmarlo Continuing Care Retirement Community - Housing Support Service","Banchory","Adults","01/05/2023",5,5,NA,6,4,"23/03/2023","2010_3",0,0
-NA,"Voluntary or Not for Profit","Cheshire House","Inverness","Adults","28/10/2019",5,5,NA,5,5,"17/09/2019","2010_4",0,0
+NA,"Voluntary or Not for Profit","Cheshire House","Inverness","Adults","28/10/2019",5,5,NA,5,5,"22/02/2024","2010_4",0,0
 NA,"Local Authority","North West Home Care Service Cluster 2","Edinburgh","Adults","19/11/2019",4,4,NA,5,4,"27/09/2019","2010_1",0,0
-NA,"Voluntary or Not for Profit","Milltown Community","Laurencekirk","Adults","12/12/2023",3,3,NA,3,3,"20/11/2023","2009_9",1,1
+NA,"Voluntary or Not for Profit","Milltown Community","Laurencekirk","Adults","27/02/2024",3,3,NA,3,3,"24/01/2024","2009_9",1,1
 NA,"Voluntary or Not for Profit","Women's Aid East and Midlothian","Dalkeith","Adults","15/04/2019",5,5,NA,5,5,"21/02/2019","2010_9",0,0
 NA,"Voluntary or Not for Profit","Cornerstone Fife","Dunfermline","Adults","17/02/2023",4,5,NA,4,5,"13/01/2023","2010_1",0,0
 NA,"Local Authority","South East Hub Services","Edinburgh","Adults","10/04/2020",4,4,NA,4,4,"30/01/2020","2009_10",0,0
@@ -563,9 +563,9 @@ NA,"Private","Harmony Care and Support Service","Edinburgh","Adults","30/01/2024
 NA,"Private","Visiting Angelz","Paisley","Adults","26/04/2022",4,3,NA,3,3,"04/03/2022","2012_8",0,0
 NA,"Local Authority","Community Resource Team","Oban","Adults","04/02/2020",4,4,NA,4,3,"09/12/2019","2010_10",0,0
 NA,"Voluntary or Not for Profit","West Lothian Housing Support Services","Livingston","Adults","15/03/2023",4,4,NA,4,4,"15/02/2023","2012_1",0,0
-NA,"Private","Delight Supported Living Ltd","Glasgow","Adults","28/07/2023",3,3,NA,3,2,"30/11/2023","2010_10",1,1
+NA,"Private","Delight Supported Living Ltd","Glasgow","Adults","23/02/2024",4,4,NA,4,3,"30/11/2023","2010_10",1,1
 NA,"Private","Social Care Alba Ltd","Edinburgh","Adults","20/07/2023",4,4,NA,4,4,"15/06/2023","2011_4",1,1
-NA,"Private","Tailor Maid Homecare","Glasgow","Adults","18/11/2019",5,5,NA,4,5,"15/10/2019","2010_10",0,0
+NA,"Private","Tailor Maid Homecare","Glasgow","Adults","18/11/2019",5,5,NA,4,5,"02/02/2024","2010_10",0,0
 NA,"Voluntary or Not for Profit","Hayfield Care at Home Services","Glasgow","Adults","01/10/2019",5,5,NA,5,4,"20/08/2019","2010_11",0,0
 NA,"Private","Catch Scotland Ltd","Houston","Adults","12/01/2024",4,5,NA,4,4,"24/11/2023","2011_3",0,0
 NA,"Voluntary or Not for Profit","L'Arche Highland","Inverness","Adults","20/01/2023",5,5,NA,6,5,"17/01/2023","2011_11",0,0
@@ -579,10 +579,10 @@ NA,"Voluntary or Not for Profit","Perthshire Women's Aid - Housing Support.","Pe
 NA,"Voluntary or Not for Profit","Geeza Break","Glasgow","Adults","13/12/2023",5,5,NA,5,4,"16/11/2023","2011_10",0,0
 NA,"Private","Priory Supported Living in Scotland","Glasgow","Adults","08/02/2019",4,4,NA,4,4,"16/11/2018","2011_3",0,0
 NA,"Voluntary or Not for Profit","Hillcrest Futures - North Grimsby/Dundee Outreach Service","Arbroath","Adults","13/05/2019",4,4,NA,4,3,"25/04/2019","2011_2",0,0
-NA,"Local Authority","East Ayrshire Health and Social Care Partnership Care at Home and Housing Support Service (North Locality)","Kilmarnock","Adults","17/07/2023",4,5,NA,4,3,"01/06/2023","2011_4",2,2
-NA,"Local Authority","East Ayrshire Health & Social Care Partnership Care at Home and Housing Support Service (South Locality)","Cumnock","Adults","16/06/2023",4,5,NA,4,3,"30/05/2023","2011_3",2,2
-NA,"Private","Bluebird Care (East and Mid Lothian)","Dalkeith","Adults","28/04/2023",4,4,NA,4,4,"02/03/2023","2011_8",0,0
-NA,"Local Authority","Greenwood","Campbeltown","Adults","24/06/2019",5,5,NA,4,4,"11/01/2024","2012_5",0,0
+NA,"Local Authority","East Ayrshire Health and Social Care Partnership Care at Home and Housing Support Service (North Locality)","Kilmarnock","Adults","17/07/2023",4,5,NA,4,3,"20/02/2024","2011_4",2,2
+NA,"Local Authority","East Ayrshire Health & Social Care Partnership Care at Home and Housing Support Service (South Locality)","Cumnock","Adults","29/02/2024",3,3,NA,3,3,"13/02/2024","2011_3",2,2
+NA,"Private","Bluebird Care (East and Midlothian)","Musselburgh","Adults","28/04/2023",4,4,NA,4,4,"02/03/2023","2011_8",0,0
+NA,"Local Authority","Greenwood","Campbeltown","Adults","12/02/2024",4,5,NA,4,4,"11/01/2024","2012_5",0,0
 NA,"Voluntary or Not for Profit","Borders Services","Galashiels","Adults","20/02/2023",4,4,NA,4,4,"19/01/2023","2011_3",0,0
 NA,"Local Authority","Dundee City Council - Homecare - Enablement & Support Citywide and Community Mental Health Older People Team","Dundee","Adults","30/01/2024",5,5,NA,5,5,"25/10/2023","2012_1",1,1
 NA,"Local Authority","Care at Home City Wide","Dundee","Adults","20/03/2020",5,5,NA,5,5,"30/01/2020","2012_1",0,0
@@ -629,20 +629,20 @@ NA,"Voluntary or Not for Profit","The Barrhead Project","Barrhead","Adults","08/
 NA,"Voluntary or Not for Profit","Sense Scotland Highland and Lochaber Housing Support Service","Fort William","Adults","15/05/2023",5,5,NA,5,5,"26/04/2023","2013_9",0,0
 NA,"Private","Bon Accord Care - Housing Support - 2","Aberdeen","Adults","27/11/2023",4,3,NA,4,4,"13/10/2023","2013_8",0,0
 NA,"Private","Bon Accord Care - Housing Support - 1","Aberdeen","Adults","11/07/2023",3,3,NA,3,4,"08/06/2023","2013_8",1,1
-NA,"Private","Home is Best Ltd","Glasgow","Adults","19/04/2023",6,5,NA,5,5,"17/03/2023","2013_7",0,0
+NA,"Private","Home is Best Ltd","Glasgow","Adults","23/02/2024",6,5,NA,5,5,"21/02/2024","2013_7",0,0
 NA,"Local Authority","Ashton View Homeless Persons' Unit","Dumbarton","Adults","27/06/2023",5,5,NA,5,4,"02/06/2023","2013_9",0,0
-NA,"Local Authority","GCC SWS Homelessness Emergency/Assessment Centre (1)","Glasgow","Adults","12/07/2016",5,5,NA,5,5,"07/12/2023","2013_10",0,0
+NA,"Local Authority","GCC SWS Homelessness Emergency/Assessment Centre (1)","Glasgow","Adults","06/02/2024",5,5,NA,5,5,"07/12/2023","2013_10",0,0
 NA,"Local Authority","GCC SWS Homelessness Emergency/Assessment Centre (2)","Glasgow","Adults","06/06/2018",6,6,NA,6,6,"18/04/2018","2013_10",0,0
-NA,"Local Authority","GCC SWS Homelessness Emergency/Assessment Centre (3)","Glasgow","Adults","10/08/2016",5,5,NA,5,5,"11/01/2024","2013_10",0,0
+NA,"Local Authority","GCC SWS Homelessness Emergency/Assessment Centre (3)","Glasgow","Adults","08/02/2024",5,5,NA,5,5,"11/01/2024","2013_10",0,0
 NA,"Private","Tus Nua Care Services Ltd","Dundee","Adults","17/11/2023",5,5,NA,5,5,"23/10/2023","2014_4",0,0
 NA,"Voluntary or Not for Profit","North Lanarkshire Support Service","Coatbridge","Adults","17/03/2020",5,5,NA,5,5,"15/01/2020","2013_4",0,0
 NA,"Voluntary or Not for Profit","Ark Western Isles","Stornoway","Adults","25/09/2022",5,5,NA,4,4,"02/06/2022","2013_10",0,0
-NA,"Local Authority","ACC Learning Disability Integrated Care Services","Aberdeen","Adults","29/07/2019",4,4,NA,5,4,"11/07/2019","2013_9",0,0
+NA,"Local Authority","ACC Learning Disability Integrated Care Services","Aberdeen","Adults","29/07/2019",4,4,NA,5,4,"11/07/2019","2013_9",1,1
 NA,"Local Authority","Dunmuir Park Housing Support Service","Castle Douglas","Adults","09/03/2020",4,4,NA,4,3,"20/01/2020","2013_11",0,0
 NA,"Private","Alltogether Care Services Ltd","Clydebank","Adults","01/05/2023",6,5,NA,5,6,"18/04/2023","2014_2",0,0
-NA,"Local Authority","Abbey Court Very Sheltered Housing","Peterhead","Adults","31/05/2023",3,5,NA,5,3,"28/04/2023","2013_9",0,0
+NA,"Local Authority","Abbey Court Very Sheltered Housing","Peterhead","Adults","13/02/2024",4,5,NA,5,4,"25/01/2024","2013_9",0,0
 NA,"Local Authority","Dawson Court Very Sheltered Housing","Turriff","Adults","10/05/2023",4,4,NA,4,4,"12/04/2023","2013_9",0,0
-NA,"Voluntary or Not for Profit","with YOU Midlothian Temporary Accommodation and Tenancy Support Service","Dalkeith","Adults","08/03/2023",4,4,NA,3,3,"08/02/2023","2013_7",0,0
+NA,"Voluntary or Not for Profit","withYOU Midlothian Temporary Accommodation and Tenancy Support Service","Dalkeith","Adults","08/03/2023",4,4,NA,3,3,"08/02/2023","2013_7",0,0
 NA,"Local Authority","Jarvis Court Very Sheltered Housing","Fraserburgh","Adults","15/05/2023",5,5,NA,5,5,"19/04/2023","2013_9",0,0
 NA,"Local Authority","Dalvenie Gardens Very Sheltered Housing and Resource Centre","Banchory","Adults","15/01/2024",5,5,NA,5,5,"07/12/2023","2013_9",0,0
 NA,"Voluntary or Not for Profit","Homelink Caithness","Wick","Adults","21/06/2023",4,5,NA,5,5,"18/05/2023","2014_1",0,0
@@ -652,8 +652,7 @@ NA,"Voluntary or Not for Profit","Cowdenbeath","Cowdenbeath","Adults","08/01/202
 NA,"Private","Right There Orkney Young Persons' Accommodation Service","Kirkwall","Adults","15/08/2019",5,5,NA,5,5,"25/07/2019","2013_7",0,0
 NA,"Voluntary or Not for Profit","17 Westerton Crescent","Aberdeen","Adults","31/05/2023",5,5,NA,5,5,"22/05/2023","2013_9",0,0
 NA,"Private","Step Up (Housing, Employability & Community Support Services)","Falkirk","Adults","26/09/2023",5,5,NA,5,5,"04/09/2023","2013_9",0,0
-NA,"Private","Hazelhead Homecare Ltd (Cumbernauld)","Cumbernauld","Adults","10/02/2023",3,5,NA,3,3,"05/12/2022","2015_1",2,2
-NA,"Private","Keane Premier Support Services","Glasgow","Adults","30/01/2024",4,4,NA,4,4,"02/08/2023","2014_8",3,3
+NA,"Private","Keane Premier Support Services","Glasgow","Adults","30/01/2024",4,4,NA,4,4,"15/02/2024","2014_8",3,3
 NA,"Voluntary or Not for Profit","Dundee Specialist Mental Health Outreach Service","Dundee","Adults","22/11/2023",4,4,NA,3,4,"29/09/2023","2014_3",0,0
 NA,"Voluntary or Not for Profit","Penumbra - Central Aberdeen Supported Living Service","Aberdeen","Adults","04/04/2023",5,5,NA,6,4,"26/01/2023","2013_9",0,0
 NA,"Private","MADETOCARE Ltd","Edinburgh","Adults","13/02/2023",5,4,NA,4,3,"06/02/2023","2014_12",0,0
@@ -663,12 +662,11 @@ NA,"Voluntary or Not for Profit","Cornerstone Castlecraigs Court - Bessie Dunlop
 NA,"Voluntary or Not for Profit","British Red Cross Support at Home","Dundee","Adults","14/03/2023",4,4,NA,4,4,"06/02/2023","2014_9",1,1
 NA,"Local Authority","Housing Support Outreach Service","Aberdeen","Adults","01/08/2016",5,5,NA,5,5,"07/07/2016","2014_1",0,0
 NA,"Voluntary or Not for Profit","Border Women's Aid Ltd","Hawick","Adults","07/08/2019",5,5,NA,5,5,"03/06/2019","2014_5",0,0
-NA,"Voluntary or Not for Profit","Inspire Greenfolds","Huntly","Adults","14/04/2023",5,4,NA,4,4,"21/03/2023","2014_4",0,0
 NA,"Voluntary or Not for Profit","Inspire Union Street & Chattan Place","Aberdeen","Adults","18/02/2020",5,5,NA,5,5,"16/01/2020","2014_4",0,0
 NA,"Voluntary or Not for Profit","Inspire Great Northern Road & Hopetoun","Aberdeen","Adults","23/03/2020",5,5,NA,5,4,"12/12/2019","2014_3",0,0
 NA,"Voluntary or Not for Profit","West of Scotland Housing Support","Glasgow","Adults","24/07/2023",5,5,NA,4,4,"12/06/2023","2015_2",2,2
 NA,"Private","Castle Care (Scotland) Ltd","Inverness","Adults","21/06/2023",4,4,NA,4,4,"20/01/2023","2014_5",1,1
-NA,"Private","SSCN Healthcare","Edinburgh","Adults","02/08/2023",3,4,NA,3,4,"07/07/2023","2014_4",3,3
+NA,"Private","SSCN Healthcare","Edinburgh","Adults","02/08/2023",3,4,NA,3,4,"31/01/2024","2014_4",3,3
 NA,"Voluntary or Not for Profit","Broomhill Park","Aberdeen","Adults","03/10/2023",4,5,NA,5,5,"12/09/2023","2014_2",0,0
 NA,"Voluntary or Not for Profit","Dundee Youth Housing Service","Dundee","Adults","13/09/2023",4,4,NA,4,4,"10/08/2023","2015_5",0,0
 NA,"Local Authority","City of Edinburgh Council Family and Household Support North East","Edinburgh","Adults","16/11/2017",5,5,NA,5,4,"04/10/2017","2014_7",0,0
@@ -676,7 +674,7 @@ NA,"Voluntary or Not for Profit","Inspire Viewfield","Aberdeen","Adults","22/11/
 NA,"Local Authority","Weavers Burn","Dundee","Adults","20/08/2019",5,5,NA,5,5,"23/07/2019","2014_5",0,0
 NA,"Voluntary or Not for Profit","Fife Care at Home and Housing Support Service","Kirkcaldy","Adults","06/03/2023",5,5,NA,5,5,"20/02/2023","2014_3",0,0
 NA,"Voluntary or Not for Profit","Kibble Housing Support Services","Paisley","Adults","16/10/2019",5,5,NA,5,5,"03/09/2019","2014_12",0,0
-NA,"Voluntary or Not for Profit","Cornerstone Baxter View","Dumbarton","Adults","05/03/2020",6,6,NA,6,6,"16/11/2023","2014_10",0,0
+NA,"Voluntary or Not for Profit","Cornerstone Baxter View","Dumbarton","Adults","01/02/2024",2,2,NA,2,2,"16/11/2023","2014_10",0,0
 NA,"Voluntary or Not for Profit","Enable Scotland West Argyll and Bute Housing Support","Lochgilphead","Adults","20/12/2019",5,5,NA,5,4,"04/09/2019","2014_12",0,0
 NA,"Voluntary or Not for Profit","A.S.I.S.T.","Glasgow","Adults","16/06/2017",5,5,NA,5,5,"06/06/2017","2014_7",0,0
 NA,"Voluntary or Not for Profit","Stravaig Project","Glasgow","Adults","27/04/2023",6,5,NA,5,5,"13/04/2023","2014_7",0,0
@@ -697,10 +695,10 @@ NA,"Voluntary or Not for Profit","Hillcrest Futures Angus - Doocot Park/Lousen P
 NA,"Private","Lyle Court","Edinburgh","Adults","16/05/2019",5,5,NA,4,4,"24/04/2019","2015_4",0,0
 NA,"Voluntary or Not for Profit","VSA Outreach Service","Aberdeen","Adults","04/03/2020",5,5,NA,5,5,"16/01/2020","2015_1",0,0
 NA,"Voluntary or Not for Profit","Wigtownshire Women's Aid","Stranraer","Adults","19/03/2019",5,5,NA,5,5,"16/01/2019","2015_10",0,0
-NA,"Private","Invercare Services Ltd","Greenock","Adults","19/12/2023",3,3,NA,3,3,"03/11/2023","2015_2",10,10
+NA,"Private","Invercare Services Ltd","Greenock","Adults","19/12/2023",3,3,NA,3,3,"03/11/2023","2015_2",11,11
 NA,"Private","Bright Care (Perthshire & Angus)","Perth","Adults","12/07/2019",5,5,NA,5,4,"17/05/2019","2015_5",0,0
 NA,"Private","Shaw Community Living - Edinburgh","Edinburgh","Adults","16/10/2023",5,4,NA,5,4,"10/10/2023","2014_12",0,0
-NA,"Voluntary or Not for Profit","Wheatley Care Personalised and Self Directed Support Services (North Lanarkshire)","Wishaw","Adults","24/11/2023",4,3,NA,4,4,"08/08/2023","2015_4",0,0
+NA,"Voluntary or Not for Profit","Wheatley Care Personalised and Self Directed Support Services (North Lanarkshire)","Wishaw","Adults","24/11/2023",4,3,NA,4,4,"19/02/2024","2015_4",0,0
 NA,"Voluntary or Not for Profit","Ark Moray","Forres","Adults","02/08/2023",5,5,NA,4,5,"10/07/2023","2015_5",0,0
 NA,"Voluntary or Not for Profit","St. James Court","Inverurie","Adults","05/12/2023",4,4,NA,4,4,"08/11/2023","2015_6",0,0
 NA,"Voluntary or Not for Profit","Engage Support Services","Glasgow","Adults","13/02/2023",4,5,NA,5,3,"08/02/2023","2015_7",0,0
@@ -725,7 +723,7 @@ NA,"Private","1st Homecare Dumfries","Dumfries","Adults","07/07/2023",5,5,NA,5,4
 NA,"Voluntary or Not for Profit","Ark Borders","Hawick","Adults","18/07/2023",4,4,NA,4,4,"07/06/2023","2016_2",0,0
 NA,"Voluntary or Not for Profit","Justice Support Service","Aberdeen","Adults","22/12/2016",5,5,NA,5,5,"24/11/2016","2015_12",0,0
 NA,"Voluntary or Not for Profit","Ending Violence and Abuse Aberdeen (EVAA)","Aberdeen","Adults","10/02/2020",5,5,NA,5,5,"10/01/2020","2015_12",0,0
-NA,"Voluntary or Not for Profit","Crossroads Caring Scotland - Falkirk Housing Support Service","Alloa","Adults","22/06/2023",5,4,NA,4,4,"01/06/2023","2015_10",0,0
+NA,"Voluntary or Not for Profit","Crossroads Caring Scotland -  Falkirk Housing Support Service","Glasgow","Adults","28/02/2024",5,4,NA,4,4,"26/02/2024","2015_10",0,0
 NA,"Voluntary or Not for Profit","Edinburgh Mental Health Service","Edinburgh","Adults","20/04/2023",5,5,NA,5,5,"28/02/2023","2016_4",0,0
 NA,"Voluntary or Not for Profit","Jedburgh Services","Duns","Adults","13/06/2023",5,6,NA,5,5,"01/06/2023","2016_7",0,0
 NA,"Local Authority","West Dunbartonshire HSCP Learning Disability Service - Community Connections","Dumbarton","Adults","31/07/2023",5,5,NA,5,5,"16/05/2023","2016_1",0,0
@@ -737,7 +735,7 @@ NA,"Voluntary or Not for Profit","Real Life Options Macduff","Macduff","Adults",
 NA,"Voluntary or Not for Profit","Real Life Options Bathgate Gideon Street","Bathgate","Adults","24/04/2023",5,4,NA,4,5,"19/04/2023","2017_9",0,0
 NA,"Voluntary or Not for Profit","Real Life Options North East Fife Services","Cupar","Adults","12/12/2023",5,4,NA,4,4,"17/11/2023","2016_4",0,0
 NA,"Voluntary or Not for Profit","Real Life Options Glenrothes Services","Glenrothes","Adults","19/06/2023",4,5,NA,4,4,"26/04/2023","2016_4",0,0
-NA,"Voluntary or Not for Profit","Real Life Options Glasgow - Glenwood Service","Glasgow","Adults","03/01/2024",3,3,NA,3,3,"15/11/2023","2016_4",0,0
+NA,"Voluntary or Not for Profit","Real Life Options Glasgow - Glenwood Service","Glasgow","Adults","03/01/2024",3,3,NA,3,3,"29/01/2024","2016_4",0,0
 NA,"Private","Magdalen House","Dundee","Adults","04/12/2023",5,4,NA,4,4,"03/11/2023","2017_9",0,0
 NA,"Voluntary or Not for Profit","Cornerstone Aberdeen South","Aberdeen","Adults","23/11/2023",3,3,NA,3,3,"02/11/2023","2016_4",1,1
 NA,"Voluntary or Not for Profit","Cornerstone New Deer","Turriff","Adults","18/10/2022",5,3,NA,3,5,"29/09/2022","2016_4",0,0
@@ -750,7 +748,7 @@ NA,"Voluntary or Not for Profit","Shetland Women's Aid","Lerwick","Adults","02/0
 NA,"Private","Beyond Limits Dumfries & Galloway","Lockerbie","Adults","20/04/2023",6,6,NA,5,5,"14/02/2023","2016_11",0,0
 NA,"Local Authority","Pleyfauld House Very Sheltered Housing","Inverurie","Adults","10/10/2019",5,5,NA,4,5,"20/09/2019","2017_2",0,0
 NA,"Voluntary or Not for Profit","Community Integrated Care - Highland Services North","Glasgow","Adults","10/05/2022",5,5,NA,5,5,"03/05/2022","2016_9",0,0
-NA,"Private","Bright Care (Stirling)","Stirling","Adults","25/01/2023",5,5,NA,5,4,"22/01/2024","2016_12",0,0
+NA,"Private","Bright Care (Stirling)","Stirling","Adults","14/02/2024",5,5,NA,5,5,"22/01/2024","2016_12",0,0
 NA,"Voluntary or Not for Profit","Sense Scotland Supported Living: Ayrshire & Surrounding Area","Ardrossan","Adults","18/03/2020",5,5,NA,5,5,"22/01/2020","2016_10",0,0
 NA,"Voluntary or Not for Profit","Sense Scotland Supported Living: Glasgow 2 & Surrounding Area","Glasgow","Adults","24/05/2023",5,5,NA,5,5,"28/04/2023","2016_10",0,0
 NA,"Voluntary or Not for Profit","Sense Scotland Supported Living: Dundee 3 & Surrounding Area","Dundee","Adults","23/07/2019",5,5,NA,5,5,"18/06/2019","2016_10",0,0
@@ -758,14 +756,14 @@ NA,"Voluntary or Not for Profit","Sense Scotland Supported Living: Dundee 1 & Su
 NA,"Voluntary or Not for Profit","Sense Scotland Supported Living: Perth & Kinross & Surrounding Area","Perth","Adults","08/06/2022",3,3,NA,3,3,"17/05/2022","2016_10",1,1
 NA,"Private","Gold Healthcare","Inverness","Adults","31/03/2023",5,4,NA,5,5,"01/12/2022","2016_11",0,0
 NA,"Voluntary or Not for Profit","Aberdeen City & Shire Housing Support","Inverurie","Adults","04/12/2023",4,5,NA,4,4,"22/11/2023","2017_3",0,0
-NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - Highland Service B","Inverness","Adults","06/09/2023",3,4,NA,3,3,"11/01/2024","2017_1",2,2
+NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - Highland Service B","Inverness","Adults","28/02/2024",3,4,NA,3,3,"11/01/2024","2017_1",2,2
 NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - Highland Service C","Inverness","Adults","13/09/2023",4,4,NA,4,4,"17/08/2023","2017_1",0,0
-NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - Highland Service D","Inverness","Adults","06/06/2023",3,4,NA,4,3,"19/01/2024","2017_1",0,0
+NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - Highland Service D","Inverness","Adults","02/02/2024",3,4,NA,4,3,"19/01/2024","2017_1",0,0
 NA,"Private","Delight Supported Living Ltd -  Ayrshire","Irvine","Adults","24/01/2024",3,5,NA,3,4,"10/01/2024","2016_12",1,1
 NA,"Local Authority","Western Isles Housing Support","Stornoway","Adults","15/03/2019",5,5,NA,4,4,"07/02/2019","2017_9",0,0
 NA,"Private","Purple Social Care - Housing Support","Edinburgh","Adults","08/03/2023",4,5,NA,4,4,"12/01/2023","2016_12",0,0
 NA,"Private","CERA - Ayrshire","Prestwick","Adults","05/10/2023",4,4,NA,4,4,"19/09/2023","2016_12",2,2
-NA,"Private","Delight Supported Living Edinburgh and East Lothian","Musselburgh, East Lothian","Adults","29/06/2022",3,3,NA,3,3,"11/04/2022","2016_12",0,0
+NA,"Private","Delight Supported Living Edinburgh and East Lothian","Musselburgh, East Lothian","Adults","29/06/2022",3,3,NA,3,3,"09/02/2024","2016_12",0,0
 NA,"Private","Kingdom Housing Support - James Bank","Dunfermline","Adults","07/11/2023",4,5,NA,5,3,"31/10/2023","2017_3",0,0
 NA,"Private","Kingdom Housing Support - 2","Dunfermline","Adults","13/07/2023",3,5,NA,3,3,"22/06/2023","2017_3",1,1
 NA,"Private","Kingdom Housing Support - 1","Dunfermline","Adults","19/10/2023",5,5,NA,5,5,"27/09/2023","2017_3",0,0
@@ -780,23 +778,23 @@ NA,"Voluntary or Not for Profit","Trust Housing Association Ltd - Branch 3 Housi
 NA,"Voluntary or Not for Profit","Scottish Autism Tayside Housing Support & Outreach Service","Dundee","Adults","24/02/2020",5,5,NA,5,5,"23/01/2020","2017_8",0,0
 NA,"Voluntary or Not for Profit","Sense Scotland Supported Living Lanarkshire 2 & surrounding area","Hamilton","Adults","14/12/2023",5,5,NA,5,5,"22/11/2023","2017_8",0,0
 NA,"Voluntary or Not for Profit","The Richmond Fellowship Scotland - Dundee Services","Dundee","Adults","30/08/2023",5,6,NA,5,5,"07/08/2023","2017_8",0,0
-NA,"Voluntary or Not for Profit","Cyrenians Housing First","Edinburgh","Adults","11/07/2023",3,2,NA,3,2,"17/01/2024","2018_1",0,0
+NA,"Voluntary or Not for Profit","Cyrenians Housing First","Edinburgh","Adults","22/02/2024",3,3,NA,3,3,"17/01/2024","2018_1",0,0
 NA,"Voluntary or Not for Profit","Cyrenians Communities","Edinburgh","Adults","12/06/2023",5,5,NA,5,5,"02/05/2023","2018_1",0,0
-NA,"Voluntary or Not for Profit","SAMH WayForward Service","Glasgow","Adults","06/05/2019",4,4,NA,4,4,"18/01/2024","2017_6",0,0
-NA,"Voluntary or Not for Profit","East Lothian Support Services","Musselburgh","Adults","08/01/2024",3,3,NA,3,3,"20/04/2023","2017_9",1,1
+NA,"Voluntary or Not for Profit","SAMH WayForward Service","Glasgow","Adults","14/02/2024",4,4,NA,4,4,"18/01/2024","2017_6",0,0
+NA,"Voluntary or Not for Profit","East Lothian Support Services","Musselburgh","Adults","08/01/2024",3,3,NA,3,3,"15/11/2023","2017_9",2,2
 NA,"Private","Here2Care","Kirkwall","Adults","17/03/2023",6,6,NA,5,5,"09/02/2023","2017_8",0,0
-NA,"Private","TLA Neighbourhood Services","Dundee","Adults","24/08/2023",4,4,NA,3,3,"27/07/2023","2017_9",0,0
+NA,"Private","TLA Neighbourhood Services","Dundee","Adults","26/02/2024",4,4,NA,3,3,"07/02/2024","2017_9",0,0
 NA,"Local Authority","Woodview","Elgin","Adults","12/10/2018",5,5,NA,4,4,"03/09/2018","2017_8",1,1
 NA,"Private","Local Lanarkshire Care","Airdrie","Adults","21/08/2023",5,5,NA,5,5,"21/07/2023","2017_9",1,1
-NA,"Health Board","S.I.L.C. Support Service (Skye & Lochalsh)","Isle Of Skye","Adults","15/09/2023",3,4,NA,4,2,"18/12/2023","2018_1",0,0
+NA,"Health Board","S.I.L.C. Support Service (Skye & Lochalsh)","Isle Of Skye","Adults","28/02/2024",4,4,NA,4,3,"18/12/2023","2018_1",0,0
 NA,"Local Authority","NE Hub - Re-ablement Service","Edinburgh","Adults","12/05/2023",5,4,NA,4,5,"19/04/2023","2017_10",0,0
 NA,"Local Authority","NE Home Care Service Leith","Edinburgh","Adults","12/05/2023",5,4,NA,4,5,"19/04/2023","2017_10",0,0
 NA,"Local Authority","SW Hub - Re-ablement Service","Edinburgh","Adults","03/02/2023",5,5,NA,5,5,"30/01/2023","2017_10",0,0
 NA,"Local Authority","SE Home Care Service Cluster 2","Edinburgh","Adults","08/12/2022",5,4,NA,4,5,"07/12/2022","2017_10",0,0
 NA,"Voluntary or Not for Profit","Scottish Autism Perth & Angus Housing Support & Outreach Service","Dundee","Adults","11/01/2024",5,5,NA,4,4,"19/12/2023","2017_8",0,0
-NA,"Voluntary or Not for Profit","The Disabilities Trust Community Services (Scotland)","Glasgow","Adults","09/12/2021",4,4,NA,4,4,"29/09/2021","2018_3",0,0
+NA,"Voluntary or Not for Profit","The Disabilities Trust Community Services (Scotland)","Glasgow","Adults","09/12/2021",4,4,NA,4,4,"09/02/2024","2018_3",0,0
 NA,"Voluntary or Not for Profit","Wheatley Care Falkirk and Grangemouth Flexible Housing Support Service","Grangemouth","Adults","05/07/2023",5,5,NA,5,5,"22/05/2023","2017_11",0,0
-NA,"Private","CERA - Lothians","North Berwick","Adults","08/03/2021",4,4,NA,4,4,"23/02/2021","2018_2",1,1
+NA,"Private","CERA - Lothians","Musselburgh","Adults","08/03/2021",4,4,NA,4,4,"23/02/2021","2018_2",1,1
 NA,"Voluntary or Not for Profit","Flexible Homelessness Outreach Support Service - North West","Glasgow","Adults","08/02/2022",4,4,NA,4,4,"17/12/2021","2018_1",0,0
 NA,"Voluntary or Not for Profit","East Lothian Services","Musselburgh","Adults","07/03/2023",5,5,NA,5,5,"21/02/2023","2017_11",0,0
 NA,"Voluntary or Not for Profit","East Dunbartonshire Women's Aid SCIO Housing Support Service","Glasgow","Adults","24/07/2019",5,5,NA,NA,5,"09/05/2019","2018_4",0,0
@@ -810,17 +808,17 @@ NA,"Voluntary or Not for Profit","West Lothian Women's Aid","Livingston","Adults
 NA,"Voluntary or Not for Profit","Gateway Housing Support Service and Care at Home Service","Inverness","Adults","13/07/2023",5,5,NA,4,4,"22/06/2023","2018_3",0,0
 NA,"Private","Living Ambitions - Aberdeen Community Services","Aberdeen","Adults","18/09/2023",4,4,NA,4,4,"06/09/2023","2018_5",0,0
 NA,"Private","CERA - Perth & Kinross & Fife","Perth","Adults","10/12/2019",4,4,NA,4,4,"14/11/2019","2018_2",0,0
-NA,"Private","Cera - Dumfries and Galloway","Newton Stewart","Adults","29/07/2020",5,5,NA,4,4,"06/03/2020","2018_2",1,1
+NA,"Private","Cera - Dumfries and Galloway","Newton Stewart","Adults","29/07/2020",5,5,NA,4,4,"20/02/2024","2018_2",1,1
 NA,"Private","Highland Home Carers Ltd - Ross-shire","Invergordon","Adults","09/10/2023",4,4,NA,4,4,"19/09/2023","2018_4",0,0
-NA,"Private","Highland Home Carers Ltd - Supported Living","Inverness","Adults","07/12/2022",5,5,NA,5,5,"10/11/2022","2018_4",1,1
+NA,"Private","Highland Home Carers Ltd - Supported Living","Inverness","Adults","22/02/2024",5,5,NA,5,4,"09/02/2024","2018_4",1,1
 NA,"Private","ION Care and Support Services Falkirk and West Lothian","Broxburn","Adults","26/01/2023",5,5,NA,5,5,"17/01/2023","2018_3",0,0
 NA,"Local Authority","Corporate Parenting Hub - Glasgow Road","Stirling","Adults","22/07/2019",4,4,NA,4,4,"30/05/2019","2018_7",0,0
-NA,"Private","SRS Care Solutions Limited","Hamilton","Adults","05/07/2023",4,4,NA,4,4,"30/05/2023","2018_1",3,3
+NA,"Private","SRS Care Solutions Central Limited","Hamilton","Adults","05/07/2023",4,4,NA,4,4,"30/05/2023","2018_1",3,3
 NA,"Private","Integrity Social Care Solutions Housing Support with Care at Home","Dunfermline","Adults","13/11/2023",3,3,NA,4,3,"01/11/2023","2018_6",0,0
 NA,"Voluntary or Not for Profit","Clackmannanshire Women's Aid","Alloa","Adults","28/01/2019",5,5,NA,5,NA,"11/01/2019","2018_7",0,0
 NA,"Private","DDL Care Services Ltd","Peebles","Adults","30/05/2023",5,5,NA,5,5,"11/05/2023","2018_5",0,0
 NA,"Private","D.I.A.L. Network","Ayr","Adults","13/04/2023",5,4,NA,4,4,"01/02/2023","2018_7",0,0
-NA,"Voluntary or Not for Profit","New Directions West Lothian - Housing Support","Livingston","Adults","14/02/2023",5,5,NA,3,4,"18/01/2023","2018_5",0,0
+NA,"Voluntary or Not for Profit","New Directions West Lothian - Housing Support","Livingston","Adults","27/02/2024",5,5,NA,3,4,"06/02/2024","2018_5",0,0
 NA,"Voluntary or Not for Profit","Moray Supported Living","Elgin","Adults","29/06/2022",4,4,NA,4,4,"21/06/2022","2018_6",3,3
 NA,"Voluntary or Not for Profit","Maryville Sheltered Housing Complex","Glasgow","Adults","19/09/2023",5,4,NA,4,4,"17/08/2023","2018_12",0,0
 NA,"Voluntary or Not for Profit","Holy Rosary Residence Flats","Greenock","Adults",NA,NA,NA,NA,NA,NA,NA,"2018_12",0,0
@@ -828,7 +826,6 @@ NA,"Voluntary or Not for Profit","Tiphereth Supported Living","Edinburgh","Adult
 NA,"Local Authority","Supported Living and Outreach","Lerwick","Adults","20/01/2023",4,5,NA,5,4,"25/11/2022","2018_7",0,0
 NA,"Private","Rainbow Services Central","Falkirk","Adults","09/10/2023",5,4,NA,4,5,"05/10/2023","2018_7",0,0
 NA,"Local Authority","East Ayrshire Community Supports","Kilmarnock","Adults","11/05/2023",5,5,NA,4,4,"20/03/2023","2018_10",1,1
-NA,"Private","Beechwood","Dunoon","Adults","08/10/2019",5,5,NA,NA,4,"12/09/2019","2018_7",0,0
 NA,"Local Authority","Sheltered Housing Support Service","Edinburgh","Adults","11/07/2023",4,4,NA,4,3,"29/05/2023","2018_9",0,0
 NA,"Voluntary or Not for Profit","Renfrewshire Housing and Support Service","Renfrew","Adults","30/07/2019",5,5,NA,5,5,"14/06/2019","2018_11",0,0
 NA,"Voluntary or Not for Profit","Social Bite Village","Edinburgh","Adults","03/10/2022",4,4,NA,4,4,"06/09/2022","2018_6",0,0
@@ -840,7 +837,7 @@ NA,"Local Authority","Glasgow City Council, Social Work Services, Home Care Serv
 NA,"Local Authority","Glasgow City Council, Social Work Services, Home Care Service - South","Glasgow","Adults","14/07/2023",4,4,NA,4,4,"13/06/2023","2018_9",0,0
 NA,"Local Authority","Glasgow City Council, Social Work Services, Home Care Service - North East","Glasgow","Adults","17/07/2023",5,4,NA,4,4,"13/06/2023","2018_9",1,1
 NA,"Private","Beechmount","Johnstone","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_4",0,0
-NA,"Voluntary or Not for Profit","Four Square (Scotland) - Keymoves","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,"21/12/2023","2019_7",0,0
+NA,"Voluntary or Not for Profit","Four Square (Scotland) - Keymoves","Edinburgh","Adults","05/02/2024",5,4,NA,5,5,"21/12/2023","2019_7",0,0
 NA,"Private","Treddinoch","Falkirk","Adults","08/09/2023",5,4,NA,4,5,"01/09/2023","2019_4",0,0
 NA,"Local Authority","Vibrant Communities Housing Support Service","Kilmarnock","Adults",NA,NA,NA,NA,NA,NA,NA,"2018_12",0,0
 NA,"Private","S & A Homes Housing Support Services","Stranraer","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_3",0,0
@@ -849,20 +846,20 @@ NA,"Voluntary or Not for Profit","We Are With You Borders","Galashiels","Adults"
 NA,"Voluntary or Not for Profit","We Are With You Dumfries & Galloway","Dumfries","Adults","20/12/2021",5,4,NA,4,4,"19/11/2021","2019_3",0,0
 NA,"Voluntary or Not for Profit","We Are With You East Ayrshire","Kilmarnock","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_3",0,0
 NA,"Voluntary or Not for Profit","We Are With You South Ayrshire","Ayr","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_3",0,0
-NA,"Private","Constance Care South Lanarkshire","High Blantyre","Adults","28/06/2023",3,3,NA,4,3,"04/04/2023","2019_1",2,2
+NA,"Private","Constance Care South Lanarkshire","High Blantyre","Adults","28/06/2023",3,3,NA,4,3,"31/01/2024","2019_1",2,2
 NA,"Private","Highland Croft Home Care","Dornoch","Adults","06/09/2023",5,5,NA,4,4,"11/07/2023","2018_11",0,0
 NA,"Voluntary or Not for Profit","SAMH North Lanarkshire Support Service","Airdrie","Adults","18/10/2023",5,5,NA,5,5,"13/10/2023","2018_12",0,0
-NA,"Private","Nacor Healthcare","Falkirk","Adults","08/09/2023",4,4,NA,2,3,"25/01/2024","2019_6",1,1
+NA,"Private","Nacor Healthcare","Falkirk","Adults","22/02/2024",4,4,NA,3,3,"25/01/2024","2019_6",1,1
 NA,"Voluntary or Not for Profit","The Salvation Army Outreach Support Service Aberdeenshire","Aberdeen","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_3",0,0
 NA,"Voluntary or Not for Profit","Community Support Services","Glasgow","Adults","29/11/2023",5,4,NA,NA,4,"08/11/2023","2019_2",0,0
 NA,"Private","RMR Specialist Care","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_8",0,0
-NA,"Voluntary or Not for Profit","The Inclusion Group","Dundee","Adults","16/02/2021",3,3,NA,3,3,"16/01/2024","2019_9",0,0
+NA,"Voluntary or Not for Profit","The Inclusion Group","Dundee","Adults","26/02/2024",4,4,NA,4,4,"16/01/2024","2019_9",0,0
 NA,"Private","Hands-4-Care-Services","Motherwell","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_9",0,0
 NA,"Voluntary or Not for Profit","Homelife Ayr","Ayr","Adults","12/06/2023",4,3,NA,4,4,"04/05/2023","2019_6",0,0
 NA,"Private","Kareplus Glasgow","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_4",0,0
 NA,"Voluntary or Not for Profit","Archway Supported Living Services","Aberdeen","Adults","24/04/2023",4,4,NA,4,4,"21/04/2023","2019_4",0,0
 NA,"Voluntary or Not for Profit","Criminal Justice Tenancy Sustainment Service","Glasgow","Adults","28/02/2020",5,5,NA,5,5,"13/02/2020","2019_3",0,0
-NA,"Private","Allied Health-Services Fraserburgh","Fraserburgh","Adults","21/08/2023",2,2,NA,3,3,"12/12/2023","2018_12",0,0
+NA,"Private","Allied Health-Services Fraserburgh","Fraserburgh","Adults","28/02/2024",3,3,NA,3,3,"12/12/2023","2018_12",0,0
 NA,"Private","Care Quality Services Limited - Dundee","Dundee","Adults","18/10/2022",5,4,NA,4,4,"12/09/2022","2018_12",1,1
 NA,"Private","Care Quality Services Limited - Moray","Elgin","Adults","02/11/2023",2,2,NA,3,2,"13/12/2023","2018_12",0,0
 NA,"Private","Allied Health-Services Isle of Bute","Rothesay","Adults","17/09/2019",5,5,NA,4,4,"15/08/2019","2018_12",0,0
@@ -881,7 +878,7 @@ NA,"Private","SCRT Paisley","Paisley","Adults","05/06/2023",4,4,NA,5,5,"12/05/20
 NA,"Voluntary or Not for Profit","Allarton","Glasgow","Adults","11/10/2021",4,4,NA,4,4,"03/09/2021","2019_9",0,0
 NA,"Private","Sunflower Home Care","Inverness","Adults","11/07/2023",4,4,NA,4,4,"26/06/2023","2019_7",0,0
 NA,"Private","CERA - Forth Valley","Alloa","Adults","14/09/2023",5,4,NA,4,4,"11/09/2023","2019_9",1,1
-NA,"Private","Ayrshire Care Solutions","Cumnock","Adults","02/10/2023",4,3,NA,3,3,"12/09/2023","2019_4",0,0
+NA,"Private","Ayrshire Care Solutions","Cumnock","Adults","02/10/2023",4,3,NA,3,3,"15/02/2024","2019_4",0,0
 NA,"Private","Care4Life Services","Helensburgh","Adults","08/11/2023",5,5,NA,5,4,"06/10/2023","2019_5",0,0
 NA,"Private","ION Care and Support Services (Housing Support) (Lanarkshire)","Coatbridge","Adults","13/04/2023",5,4,NA,4,4,"07/04/2023","2019_10",0,0
 NA,"Private","Direct Care Service","Bathgate","Adults","09/10/2023",4,4,NA,4,4,"31/08/2023","2020_1",0,0
@@ -903,18 +900,18 @@ NA,"Voluntary or Not for Profit","Perthshire Floating Housing Support","Glasgow"
 NA,"Private","Constance Care North Lanarkshire and East Renfrewshire","Motherwell","Adults","27/10/2023",4,4,NA,5,5,"21/09/2023","2019_12",1,1
 NA,"Private","Constance Care Ayrshire","Ayr","Adults","17/08/2023",5,4,NA,4,5,"14/08/2023","2019_12",0,0
 NA,"Private","Bliss Care Solutions Ltd","Edinburgh","Adults","23/05/2023",5,4,NA,5,4,"12/05/2023","2020_3",0,0
-NA,"Private","SSP Care and Support Services","Stirling","Adults","23/02/2023",4,3,NA,3,4,"23/01/2023","2020_2",0,0
+NA,"Private","SSP Care and Support Services","Stirling","Adults","23/02/2024",4,3,NA,3,4,"06/02/2024","2020_2",0,0
 NA,"Private","Hierarchy Support Services","Livingston","Adults","20/11/2023",5,4,NA,4,4,"08/11/2023","2020_6",0,0
 NA,"Voluntary or Not for Profit","Aberdeen Outreach Housing Support Service","Aberdeen","Adults",NA,NA,NA,NA,NA,NA,NA,"2020_7",0,0
 NA,"Voluntary or Not for Profit","Action for Children Housing Support for Edinburgh, East and Midlothian","Edinburgh","Adults","04/08/2023",5,5,NA,5,4,"24/07/2023","2020_5",0,0
 NA,"Voluntary or Not for Profit","Western Isles Women's Aid","Isle Of Lewis","Adults","21/12/2023",4,3,NA,4,3,"14/11/2023","2020_4",0,0
-NA,"Private","TLC (Scotland)","Prestwick","Adults","29/03/2023",4,3,NA,3,3,"24/01/2024","2019_12",3,3
+NA,"Private","TLC (Scotland)","Prestwick","Adults","22/02/2024",2,2,NA,3,2,"24/01/2024","2019_12",3,3
 NA,"Private","1st Homecare Glenrothes","Falkirk (Falkirk)","Adults","20/09/2021",4,4,NA,4,4,"27/08/2021","2020_9",1,1
-NA,"Private","1st Homecare Ltd - Falkirk","Falkirk","Adults","18/01/2023",5,NA,NA,NA,5,"22/01/2024","2020_9",0,0
+NA,"Private","1st Homecare Ltd - Falkirk","Falkirk","Adults","01/02/2024",5,NA,NA,NA,5,"22/01/2024","2020_9",0,0
 NA,"Voluntary or Not for Profit","Glasgow Youth Service","Glasgow","Adults","25/03/2022",5,5,NA,5,5,"14/02/2022","2020_5",0,0
 NA,"Voluntary or Not for Profit","Wheatley Care Falkirk Supported Living Service","Falkirk","Adults","08/11/2023",5,4,NA,4,5,"17/10/2023","2020_3",0,0
-NA,"Voluntary or Not for Profit","Wheatley Care Fife Supported Living and Outreach Support Service","Kirkcaldy","Adults","23/06/2023",4,3,NA,4,3,"07/06/2023","2020_3",0,0
-NA,"Voluntary or Not for Profit","West Lothian Supported Living and Outreach Support Service","Bathgate","Adults","14/04/2022",4,4,NA,4,4,"11/03/2022","2020_3",0,0
+NA,"Voluntary or Not for Profit","Wheatley Care Fife Supported Living Service","Kirkcaldy","Adults","23/06/2023",4,3,NA,4,3,"07/06/2023","2020_3",0,0
+NA,"Voluntary or Not for Profit","West Lothian Supported Living and Outreach Support Service","Bathgate","Adults","27/02/2024",5,4,NA,4,5,"14/02/2024","2020_3",0,0
 NA,"Private","Gateways Housing Support","Denny","Adults","27/06/2023",5,4,NA,5,4,"09/06/2023","2020_12",0,0
 NA,"Voluntary or Not for Profit","Leonard Cheshire Lammermuir","Livingston","Adults","30/01/2024",5,5,NA,5,5,"22/01/2024","2020_11",0,0
 NA,"Voluntary or Not for Profit","Capability Scotland - Perth Services","Perth","Adults","27/04/2022",3,4,NA,4,4,"29/03/2022","2020_5",0,0
@@ -928,12 +925,12 @@ NA,"Voluntary or Not for Profit","Glasgow East Housing Support Service","Glasgow
 NA,"Voluntary or Not for Profit","Housing First Team","Falkirk","Adults","04/05/2023",5,5,NA,5,6,"14/03/2023","2020_11",0,0
 NA,"Private","Easter Inch Limited t/a T&T Healthcare Solutions","Bathgate","Adults","16/03/2022",5,5,NA,5,5,"11/02/2022","2020_8",0,0
 NA,"Private","All Care Services Ltd: Homecare and Housing Support Service","Livingston","Adults","09/10/2023",4,4,NA,4,4,"07/09/2023","2021_1",0,0
-NA,"Private","Safe Hands Support Scotland","Stirling","Adults","06/03/2023",5,4,NA,4,5,"26/01/2024","2020_11",0,0
+NA,"Private","Safe Hands Support Scotland","Stirling","Adults","13/02/2024",5,4,NA,4,3,"26/01/2024","2020_11",0,0
 NA,"Voluntary or Not for Profit","Affinity Trust - Aberdeen","Aberdeen","Adults","04/07/2023",5,5,NA,5,5,"09/06/2023","2020_9",1,1
 NA,"Voluntary or Not for Profit","Midlothian Park Cottage","Dalkeith","Adults","15/06/2023",5,5,NA,5,5,"05/06/2023","2021_2",0,0
 NA,"Private","Supporting Positive Paths C.I.C.","Edinburgh","Adults","31/03/2023",3,3,NA,3,4,"10/02/2023","2021_1",1,1
 NA,"Private","Mears Supported Living - North Lanarkshire","Wishaw","Adults","23/10/2022",5,5,NA,4,4,"16/08/2022","2020_9",1,1
-NA,"Private","Mears Supported Living - Central","Alva","Adults","24/10/2022",5,5,NA,5,5,"17/10/2022","2020_9",1,1
+NA,"Private","Mears Supported Living - Central","Alva","Adults","24/10/2022",5,5,NA,5,5,"19/02/2024","2020_9",1,1
 NA,"Private","Mears Supported Living - Aberdeenshire","Macduff","Adults","20/09/2022",4,5,NA,3,3,"25/08/2022","2020_9",0,0
 NA,"Voluntary or Not for Profit","Daldorch House Adult Service","Mauchline","Adults","19/04/2022",3,3,NA,3,3,"21/04/2022","2021_1",0,0
 NA,"Voluntary or Not for Profit","Leonard Cheshire Fulwood","Glasgow","Adults","16/05/2023",4,4,NA,4,4,"28/04/2023","2020_11",0,0
@@ -944,7 +941,7 @@ NA,"Private","Unfading Care Ltd","Edinburgh","Adults","14/11/2023",3,3,NA,4,4,"0
 NA,"Voluntary or Not for Profit","West Lothian Housing Support & Care at Home","Livingston","Adults","26/04/2023",5,NA,NA,NA,5,"23/03/2023","2021_4",0,0
 NA,"Private","My Homecare Edinburgh","Edinburgh","Adults","17/01/2024",4,3,NA,4,3,"30/11/2023","2021_4",1,1
 NA,"Private","Love Housing Support - Fife","Dunfermline","Adults","31/03/2023",5,NA,NA,NA,4,"24/02/2023","2021_5",0,0
-NA,"Private","Love Housing Support - Lanarkshire","Bellshill","Adults","07/01/2022",3,3,NA,4,4,NA,"2021_5",0,0
+NA,"Private","Love Housing Support - Lanarkshire","Bellshill","Adults","07/01/2022",NA,NA,NA,NA,NA,NA,"2021_5",0,0
 NA,"Local Authority","Braefoot Young Peoples Housing Support Service","Kirkcaldy","Adults","01/08/2023",4,5,NA,4,4,"12/06/2023","2021_5",0,0
 NA,"Private","Excel Care Services","Dunfermline","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_5",0,0
 NA,"Private","Partners that Care","Greenock","Adults","22/08/2023",5,5,NA,5,5,"08/08/2023","2021_5",0,0
@@ -961,7 +958,7 @@ NA,"Local Authority","Inverclyde Transition Houses","Greenock","Adults",NA,NA,NA
 NA,"Voluntary or Not for Profit","Cornerstone Maud","Maud","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_8",0,0
 NA,"Voluntary or Not for Profit","Cornerstone Ellon","Ellon","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_8",0,0
 NA,"Local Authority","Castle Crags  Housing Support and Care at Home Service: Group Two","Edinburgh","Adults","06/03/2023",5,5,NA,5,4,"27/01/2023","2021_8",0,0
-NA,"Voluntary or Not for Profit","Cornerstone Borders CS","Airdrie","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_8",0,0
+NA,"Voluntary or Not for Profit","Cornerstone Borders CS","Airdrie","Adults",NA,NA,NA,NA,NA,NA,"14/02/2024","2021_8",0,0
 NA,"Private","Support Services 1st Choice Ltd","Hawick","Adults","05/12/2023",2,2,NA,3,2,"07/11/2023","2021_8",1,1
 NA,"Private","KINCARE HEALTH SOLUTIONS","Edinburgh","Adults","15/11/2023",4,4,NA,4,4,"30/10/2023","2021_8",0,0
 NA,"Voluntary or Not for Profit","Langstane Housing Support Service","Aberdeen","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_9",0,0
@@ -973,11 +970,11 @@ NA,"Voluntary or Not for Profit","Dumfries & Galloway Housing First and Housing 
 NA,"Voluntary or Not for Profit","Aberdeen City Housing First Service","Aberdeen","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_10",0,0
 NA,"Voluntary or Not for Profit","Glasgow Residential Stabilisation Service","Glasgow","Adults","22/12/2023",5,NA,NA,NA,4,"15/11/2023","2021_10",0,0
 NA,"Private","Home Care (Scotland) Housing Support","Dingwall","Adults","23/05/2023",5,4,NA,5,5,"22/05/2023","2021_10",0,0
-NA,"Private","ChrystalKay Healthcare Ltd","Edinburgh","Adults","25/09/2023",2,2,NA,2,2,"23/01/2024","2021_11",1,1
+NA,"Private","ChrystalKay Healthcare Ltd","Edinburgh","Adults","29/02/2024",2,2,NA,2,2,"23/01/2024","2021_11",1,1
 NA,"Voluntary or Not for Profit","Change Grow Live Edinburgh Services","Edinburgh","Adults","29/06/2023",5,5,NA,5,5,"21/06/2023","2021_11",0,0
 NA,"Voluntary or Not for Profit","Change Grow Live West Lothian Services","Bathgate","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_11",0,0
 NA,"Voluntary or Not for Profit","Cornerstone Dundee Supported Living","Dundee","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_11",0,0
-NA,"Voluntary or Not for Profit","Linda Harkin","Greenock","Adults","25/09/2022",3,3,NA,3,3,"13/06/2022","2021_11",0,0
+NA,"Voluntary or Not for Profit","Inverclyde Women's Aid SCIO","Greenock","Adults","25/09/2022",3,3,NA,3,3,"13/06/2022","2021_11",0,0
 NA,"Voluntary or Not for Profit","CGL Forth Valley Recovery Service","Alloa","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_12",0,0
 NA,"Private","Premo Group","Stirling","Adults","15/05/2023",4,4,NA,4,4,"28/04/2023","2021_12",0,0
 NA,"Voluntary or Not for Profit","Hame","Dundee","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_12",0,0
@@ -997,8 +994,8 @@ NA,"Private","DB Quality Care Ltd","Edinburgh","Adults","27/03/2023",4,NA,NA,NA,
 NA,"Private","Swanton Care and Community, Supported Living Service  Scotland","Falkirk","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_6",0,0
 NA,"Voluntary or Not for Profit","The Kincarrathie Trust Housing Support Service","Perth","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_7",0,0
 NA,"Private","Cogent Healthcare","Bathgate","Adults",NA,NA,NA,NA,NA,NA,"19/01/2024","2022_7",0,0
-NA,"Voluntary or Not for Profit","Teviot Court","Penicuik","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_8",0,0
-NA,"Voluntary or Not for Profit","Todhill Complex Needs Service -  Housing Support Service","Stevenston","Adults","07/12/2023",4,3,NA,3,3,"16/11/2023","2022_8",0,0
+NA,"Voluntary or Not for Profit","Teviot Court","Penicuik","Adults",NA,NA,NA,NA,NA,NA,"20/02/2024","2022_8",0,0
+NA,"Voluntary or Not for Profit","Todhill Complex Needs Service -  Housing Support Service","Stevenston","Adults","07/12/2023",4,3,NA,3,3,"22/12/2023","2022_8",0,0
 NA,"Private","Wilta Health Solutions Ltd","Dalkeith","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_8",0,0
 NA,"Private","Balmoral Dundee","Dundee","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_8",0,0
 NA,"Voluntary or Not for Profit","Edinburgh East Housing Support Service","Edinburgh","Adults","04/10/2023",5,4,NA,5,4,"03/08/2023","2022_8",0,0
@@ -1007,7 +1004,7 @@ NA,"Voluntary or Not for Profit","Cornerstone NLCS Cumbernauld","Airdrie","Adult
 NA,"Voluntary or Not for Profit","Cornerstone NLCS Airdrie","Airdrie","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_10",0,0
 NA,"Voluntary or Not for Profit","Cornerstone NLCS Motherwell & Wishaw","Airdrie","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_10",0,0
 NA,"Local Authority","West Lothian Housing with Care- (Colinshiel Court and Rosemount Gardens)","Bathgate","Adults",NA,NA,NA,NA,NA,NA,"29/01/2024","2022_11",0,0
-NA,"Local Authority","West Lothian Council Housing with Care- (Brucefield House & Norvell Lodge)","Bathgate","Adults",NA,NA,NA,NA,NA,NA,"06/11/2023","2022_11",0,0
+NA,"Local Authority","West Lothian Council Housing with Care- (Brucefield House & Norvell Lodge)","Bathgate","Adults","19/02/2024",4,4,NA,4,4,"06/11/2023","2022_11",0,0
 NA,"Local Authority","West Lothian Council Housing with Care- (Dickson Court & Almondvale Gardens)","West Calder","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_11",0,0
 NA,"Private","P4C Healthcare Ltd","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_12",0,0
 NA,"Private","Balmoral Homecare Stirling","Stirling","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_12",0,0
@@ -1048,3 +1045,4 @@ NA,"Private","Call - In Homecare Glasgow","Glasgow","Adults",NA,NA,NA,NA,NA,NA,N
 NA,"Voluntary or Not for Profit","Angus Learning Disabilities","Forfar","Adults",NA,NA,NA,NA,NA,NA,NA,"2024_1",0,0
 NA,"Private","WNHSS","Paisley","Adults",NA,NA,NA,NA,NA,NA,NA,"2024_1",0,0
 NA,"Voluntary or Not for Profit","The Christian Community Action Support Team known as CCAST Highland","Tain","Adults",NA,NA,NA,NA,NA,NA,NA,"2024_1",0,0
+NA,"Voluntary or Not for Profit","Cornerstone Waterfront","Helensburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2024_2",0,0

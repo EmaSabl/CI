@@ -1,7 +1,7 @@
 "Subtype","Provider","Name","Town","Clients","Grades published","Wellbeing support","Care and support","Staffing","Leadership","Last_inspection_Date","Registered","Complaints upheld since 21/22","Enforcements since 21/22"
 NA,"Local Authority","Aberdeenshire Council Shared Lives Scheme","Banchory","Adults","22/08/2018",6,6,5,6,"02/07/2018","2008_1",0,0
 NA,"Local Authority","Moray Supported Lodgings Project","Elgin","Adults","25/10/2018",5,5,5,5,"01/10/2018","2007_9",0,0
-NA,"Local Authority","Supported Lodgings Scheme","Glenrothes","Adults","06/05/2019",5,5,5,4,"22/02/2019","2008_4",0,0
+"Adult Placement (not continuing care)","Local Authority","Supported Lodgings Scheme","Glenrothes","Adults","06/05/2019",5,5,5,4,"22/02/2019","2008_4",0,0
 NA,"Local Authority","Shared Lives Fife","Glenrothes","Adults","12/03/2018",6,6,5,5,"15/01/2018","2006_4",0,0
 NA,"Local Authority","Aberdeen City Council Supported Lodging Scheme","Aberdeen","Adults","22/08/2018",4,4,4,4,"02/08/2018","2007_12",0,0
 NA,"Local Authority","City of Edinburgh Council Shared Lives","Edinburgh","Adults","08/01/2019",5,5,5,5,"06/12/2018","2007_10",0,0
@@ -19,7 +19,7 @@ NA,"Local Authority","Supported Carers Service","Glasgow","Adults","15/03/2019",
 NA,"Voluntary or Not for Profit","Shared Lives & Short Breaks Service","Irvine","Adults","18/01/2019",6,6,5,6,"14/11/2018","2008_1",0,0
 NA,"Local Authority","Supported Carers Scheme","Paisley","Adults","12/03/2019",5,5,5,4,"01/03/2023","2008_6",0,0
 NA,"Local Authority","Supported Lodgings Scheme","Dumfries","Adults","20/01/2022",3,3,4,4,"13/12/2021","2008_3",0,0
-"Adult Placement Continuing Care","Local Authority","Supportive Carers Scheme","Falkirk","Adults","12/08/2019",4,4,4,3,"31/05/2019","2008_6",0,0
+"Adult Placement Continuing Care","Local Authority","Supportive Carers Scheme","Falkirk","Adults","12/08/2019",4,4,4,3,"05/02/2024","2008_6",0,0
 NA,"Local Authority","Supported Carers Scheme","Saltcoats","Adults","04/10/2018",5,5,5,6,"09/08/2018","2008_6",0,0
 "Adult Placement (not continuing care)","Local Authority","East Ayrshire Adult Placement","Galston","Adults","26/09/2018",5,5,6,5,"09/08/2018","2008_6",0,0
 NA,"Voluntary or Not for Profit","Springboard Supported Lodging Service","Inverness","Adults","03/04/2019",4,4,4,4,"22/02/2019","2009_2",0,0
@@ -30,20 +30,19 @@ NA,"Local Authority","Shared Lives Moray","Elgin","Adults","27/09/2017",6,6,6,6,
 NA,"Voluntary or Not for Profit","Stepdown Supported Carers Service","Glasgow","Adults","26/08/2022",4,4,5,4,"11/07/2022","2011_4",0,0
 NA,"Local Authority","East Ayrshire Supported Carers Scheme","Kilmarnock","Adults","16/04/2019",6,6,5,5,"14/03/2019","2012_7",0,0
 NA,"Local Authority","Supported Lodgings Scheme","Arbroath","Adults","15/10/2018",5,5,5,5,"04/09/2018","2013_5",0,0
-NA,"Voluntary or Not for Profit","Kibble's Adult Placement Services","Glasgow","Adults","08/01/2024",5,6,6,5,"13/12/2023","2013_10",0,0
+NA,"Voluntary or Not for Profit","Kibble's Adult Placement Services","Paisley","Adults","08/01/2024",5,6,6,5,"13/12/2023","2013_10",0,0
 NA,"Local Authority","East Renfrewshire Council HSPC Adult Placement Centre","Glasgow","Adults","08/01/2020",5,5,5,5,"25/10/2019","2017_12",0,0
 "Adult Placement Continuing Care","Voluntary or Not for Profit","Care Visions Adult Service","Stirling","Adults","18/12/2023",4,3,NA,NA,"01/11/2023","2018_8",0,0
 "Adult Placement (not continuing care)","Voluntary or Not for Profit","Fosterplus (Fostercare) Ltd Adult Placement Service","Glasgow","Adults","06/12/2019",4,4,4,3,"08/09/2022","2018_7",0,0
 NA,"Voluntary or Not for Profit","Fostering Relations Ltd - Adult Placement Service","Grangemouth","Adults","22/08/2019",5,5,4,4,"26/07/2019","2018_6",0,0
 NA,"Voluntary or Not for Profit","National Fostering Agency Scotland","Grangemouth","Adults","04/08/2021",4,4,4,4,"21/09/2022","2018_7",0,0
 "Adult Placement Continuing Care","Voluntary or Not for Profit","TACT Scotland Adult Placement Service","Glasgow","Adults",NA,NA,NA,NA,NA,NA,"2018_8",0,0
-NA,"Voluntary or Not for Profit","Brighter Horizons (Bachlaw) Adult Placement Service","Macduff","Adults",NA,NA,NA,NA,NA,"01/03/2023","2018_4",0,0
 NA,"Local Authority","Fostering and Continuing Care Adult Placement Service","Glenrothes","Adults",NA,NA,NA,NA,NA,"17/03/2023","2019_4",0,0
 NA,"Local Authority","Scottish Borders Council Continuing Care Service","Galashiels","Adults",NA,NA,NA,NA,NA,"28/07/2022","2018_11",0,0
 NA,"Voluntary or Not for Profit","Foster Care Associates Scotland Adult Placement Service","Glasgow","Adults",NA,NA,NA,NA,NA,"05/05/2023","2019_2",0,0
 NA,"Local Authority","CEC Adult Placement (Continuing Care)","Edinburgh","Adults","26/09/2023",4,4,NA,NA,"12/09/2023","2019_2",0,0
 NA,"Local Authority","Inverclyde Council Continuing Care Service","Greenock","Adults",NA,NA,NA,NA,NA,NA,"2018_12",0,0
-NA,"Voluntary or Not for Profit","Aberlour Fostering Continuing Care Service","Kirkcaldy","Adults",NA,NA,NA,NA,NA,NA,"2019_5",0,0
+NA,"Voluntary or Not for Profit","Aberlour Fostering Continuing Care Service","Kirkcaldy","Adults",NA,NA,NA,NA,NA,"13/02/2024","2019_5",0,0
 NA,"Local Authority","Argyll and Bute Council Continuing Care Service","Oban","Adults",NA,NA,NA,NA,NA,NA,"2019_6",0,0
 NA,"Local Authority","North Lanarkshire Council - Supported Care Service","Airdrie","Adults",NA,NA,NA,NA,NA,NA,"2019_10",0,0
 NA,"Voluntary or Not for Profit","Barnardo's Fostering Service North Continuing Care","Aberdeen","Adults","01/11/2021",3,4,4,4,"12/12/2022","2019_6",0,0
@@ -67,7 +66,7 @@ NA,"Local Authority","Moray Continuing Care Services","Elgin","Adults","21/08/20
 "Adult Placement Continuing Care","Voluntary or Not for Profit","SWIIS Foster Care Scotland - Continuing Care","Dunfermline","Adults",NA,NA,NA,NA,NA,NA,"2020_8",0,0
 NA,"Local Authority","Orkney Adult Placement Service","Kirkwall","Adults","16/11/2023",4,3,3,2,"23/10/2023","2020_9",0,0
 NA,"Local Authority","Highland Council Adult Placement Continuing Care","Inverness","Adults",NA,NA,NA,NA,NA,"12/09/2022","2020_9",0,0
-"Adult Placement Continuing Care","Local Authority","Adult placement Continuing Care","Alloa","Adults","25/11/2022",1,2,2,2,"13/10/2023","2021_6",0,0
+"Adult Placement Continuing Care","Local Authority","Adult placement Continuing Care","Alloa","Adults","16/02/2024",4,5,4,4,"13/10/2023","2021_6",0,0
 "Adult Placement Continuing Care","Local Authority","Continuing Care Adult Placement Service","Shetland","Adults",NA,NA,NA,NA,NA,"18/08/2022","2021_6",0,0
 "Adult Placement Continuing Care","Voluntary or Not for Profit","Fostering People Scotland Limited","Dundee","Adults",NA,NA,NA,NA,NA,"25/10/2022","2022_7",0,0
 "Adult Placement (not continuing care)","Voluntary or Not for Profit","Adult Placement - Supported Care","Dundee","Adults",NA,NA,NA,NA,NA,NA,"2022_7",0,0
