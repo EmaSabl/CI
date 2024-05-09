@@ -71,8 +71,8 @@ cancelled_scot <- full_join(cancelled_scot,
 ## save it to a column named based on the preceding month
 
 current_date <- Sys.Date()
-month_update <- 3
-# month_update <- month(current_date) - 1
+
+month_update <- month(current_date) - 1
 year_update <- year(current_date)
 
 if (month_update == 0) {
