@@ -1,9 +1,9 @@
 "Council_Area_Name","All since 2021/22_Adults","All since 2021/22_Children","2023/24_Adults","2023/24_Children","2022/23_Adults","2022/23_Children","2021/22_Adults","2021/22_Children"
-"Aberdeen City",35,9,13,1,12,4,10,4
-"Aberdeenshire",26,21,10,8,7,7,9,6
-"Angus",45,12,13,5,15,2,17,5
+"Aberdeen City",35,10,13,2,12,4,10,4
+"Aberdeenshire",22,21,7,8,7,7,8,6
+"Angus",46,12,14,5,15,2,17,5
 "Argyll & Bute",9,7,4,3,1,1,4,3
-"City of Edinburgh",86,26,28,10,33,7,25,9
+"City of Edinburgh",88,26,30,10,33,7,25,9
 "Clackmannanshire",9,5,3,2,3,2,3,1
 "Dumfries & Galloway",18,6,6,1,5,3,7,2
 "Dundee City",56,11,16,6,24,4,16,1
@@ -11,24 +11,24 @@
 "East Dunbartonshire",16,9,6,6,7,2,3,1
 "East Lothian",25,12,9,4,8,5,8,3
 "East Renfrewshire",7,3,2,3,2,0,3,0
-"Falkirk",27,5,9,2,5,2,13,1
-"Fife",118,10,41,6,41,1,36,3
-"Glasgow City",101,49,37,17,38,20,26,12
+"Falkirk",29,5,11,2,5,2,13,1
+"Fife",119,10,42,6,41,1,36,3
+"Glasgow City",101,51,37,19,38,20,26,12
 "Highland",34,9,7,4,12,3,15,2
-"Inverclyde",23,6,6,3,10,2,7,1
-"Midlothian",23,5,9,2,7,2,7,1
+"Inverclyde",22,6,6,3,10,2,6,1
+"Midlothian",24,5,10,2,7,2,7,1
 "Moray",18,5,4,2,10,1,4,2
 "Na h-Eileanan Siar",0,0,0,0,0,0,0,0
-"North Ayrshire",26,14,5,7,10,3,11,4
+"North Ayrshire",27,14,6,7,10,3,11,4
 "North Lanarkshire",68,14,18,7,22,5,28,2
 "Orkney Islands",1,0,0,0,1,0,0,0
-"Perth & Kinross",48,10,19,1,18,3,11,6
-"Renfrewshire",41,21,12,4,18,12,11,5
+"Perth & Kinross",49,10,20,1,18,3,11,6
+"Renfrewshire",42,21,12,4,18,12,12,5
 "Scottish Borders",18,3,7,2,10,1,1,0
 "Shetland Islands",2,0,2,0,0,0,0,0
-"South Ayrshire",33,5,16,3,13,0,4,2
+"South Ayrshire",33,4,16,2,13,0,4,2
 "South Lanarkshire",91,16,26,6,24,7,41,3
 "Stirling",17,5,6,2,9,1,2,2
-"West Dunbartonshire",22,3,4,1,11,1,7,1
-"West Lothian",43,25,9,11,13,10,21,4
+"West Dunbartonshire",21,3,4,1,11,1,6,1
+"West Lothian",45,24,11,12,13,9,21,3
 "outside Scotland",0,0,0,0,0,0,0,0

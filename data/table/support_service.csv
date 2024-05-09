@@ -12,8 +12,8 @@
 "Other than Care at home","Local Authority","Lilybank Resource Centre","Forfar","Adults","18/07/2018",6,6,6,6,6,"10/07/2018","2002_4",0,0
 "Other than Care at home","Local Authority","Lochlands Adult Resource Centre","Arbroath","Adults","19/08/2016",5,5,5,5,5,"14/06/2016","2002_4",0,0
 "Other than Care at home","Voluntary or Not for Profit","The Dalhousie Centre","Brechin","Adults","27/03/2017",5,5,5,4,4,"14/02/2017","2002_4",0,0
-"Care at Home","Private","The Deirdre Knight Centre","Forfar","Adults","01/06/2018",5,5,5,5,5,"18/05/2018","2002_4",0,0
-"Care at Home","Voluntary or Not for Profit","Kirriemuir Day Care","Kirriemuir","Adults","11/04/2016",4,4,4,4,4,"13/12/2023","2002_4",0,0
+"Other than Care at home","Private","The Deirdre Knight Centre","Forfar","Adults","01/06/2018",5,5,5,5,5,"18/05/2018","2002_4",0,0
+"Care at Home","Voluntary or Not for Profit","Kirriemuir Day Care","Kirriemuir","Adults","08/01/2024",3,2,3,3,3,"13/12/2023","2002_4",0,0
 "Other than Care at home","Voluntary or Not for Profit","The Adam Centre","Montrose","Adults","16/06/2016",5,5,6,5,5,"30/03/2016","2002_4",0,0
 "Other than Care at home","Local Authority","Woodlands Centre","Campbeltown","Adults","21/07/2017",5,5,4,5,5,"24/05/2017","2002_4",0,0
 "Other than Care at home","Local Authority","Thomson Court Day Care","Isle Of Bute","Adults","08/11/2017",5,5,4,5,4,"28/09/2017","2002_4",0,0
@@ -32,7 +32,7 @@
 "Other than Care at home","Voluntary or Not for Profit","Abbie Resource Base","Glasgow","Adults","13/09/2023",5,4,5,6,4,"21/08/2023","2002_4",0,0
 "Other than Care at home","Voluntary or Not for Profit","Touchbase Adult Support Services","Glasgow","Adults","16/03/2018",5,5,5,4,4,"05/03/2018","2002_4",0,0
 "Care at Home","Voluntary or Not for Profit","Alzheimer Scotland - Glasgow Service","Glasgow","Adults","11/07/2023",5,5,5,5,4,"25/05/2023","2002_4",0,0
-"Other than Care at home","Local Authority","Carlton Centre","Glasgow","Adults","29/06/2017",4,4,4,4,4,"22/11/2023","2002_4",0,0
+"Other than Care at home","Local Authority","Carlton Centre","Glasgow","Adults","03/01/2024",4,4,4,4,4,"22/11/2023","2002_4",0,0
 "Other than Care at home","Local Authority","Focal Point Day Centre","Glasgow","Adults","06/06/2017",4,4,5,4,4,"16/05/2017","2002_4",0,0
 "Other than Care at home","Local Authority","Woodside Day Centre","Glasgow","Adults","08/02/2018",5,5,4,5,5,"21/12/2017","2002_4",0,0
 "Other than Care at home","Local Authority","Riddrie Resource Centre","Glasgow","Adults","20/06/2018",4,4,5,4,4,"20/04/2018","2002_4",0,0
@@ -41,7 +41,7 @@
 "Other than Care at home","Local Authority","Hawthorn House Day Care","Glasgow","Adults","04/12/2018",6,6,6,5,5,"25/07/2018","2002_4",0,0
 "Care at Home","Voluntary or Not for Profit","Junction 52","Glasgow","Adults","26/10/2023",4,5,6,6,3,"19/09/2023","2002_4",0,0
 "Care at Home","Local Authority","Inverclyde Day Services","Greenock","Adults","09/05/2013",5,5,6,5,5,"21/01/2016","2002_4",0,0
-"Care at Home","Voluntary or Not for Profit","Alzheimer Scotland - Inverclyde Project","Greenock","Adults","27/10/2023",5,5,5,5,5,"07/09/2023","2002_4",0,0
+"Other than care at home","Voluntary or Not for Profit","Alzheimer Scotland - Inverclyde Project","Greenock","Adults","27/10/2023",5,5,5,5,5,"07/09/2023","2002_4",0,0
 "Other than Care at home","Local Authority","Dirrans Centre","Kilwinning","Adults","13/11/2017",6,6,6,6,6,"06/10/2017","2002_4",0,0
 "Other than Care at home","Local Authority","Cumbernauld Locality","Glasgow","Adults","16/10/2023",5,6,5,5,5,"25/09/2023","2002_4",0,0
 "Other than Care at home","Local Authority","Cumbernauld and Kilsyth Integrated Day Services","Cumbernauld","Adults","09/10/2019",5,5,5,5,5,"14/06/2019","2002_4",0,0
@@ -54,19 +54,19 @@
 "Care at Home","Local Authority","Anchor Centre","Paisley","Adults","12/02/2018",4,4,5,4,4,"20/12/2017","2002_4",0,0
 "Other than Care at home","Local Authority","Disability Resource Centre","Paisley","Adults","01/11/2016",6,6,5,6,6,"29/09/2016","2002_4",0,0
 "Other than Care at home","Local Authority","Day Opportunities - Milldale","Paisley","Adults","27/06/2016",4,4,4,4,4,"15/06/2016","2002_4",0,0
-"Care at Home","Local Authority","The Mirin","Paisley","Adults","30/01/2017",4,4,4,4,4,"28/11/2016","2002_4",0,0
-"Care at Home","Local Authority","Meldrum House","Glasgow","Adults","17/07/2017",5,5,5,5,5,"05/06/2017","2002_4",0,0
-"Care at Home","Local Authority","Saltire Neighbourhood Centre","Glasgow","Adults","13/07/2018",5,5,5,5,5,"22/05/2018","2002_4",0,0
-"Care at Home","Local Authority","Harry Heaney Centre","Glasgow","Adults","17/06/2019",5,5,5,5,5,"10/05/2019","2002_4",0,0
-"Care at Home","Local Authority","McClymont Resource Centre","Lanark","Adults","13/09/2019",5,5,5,5,5,"05/08/2019","2002_4",0,0
-"Care at Home","Local Authority","Lesmahagow Neighbourhood Centre","Lanark","Adults","08/03/2017",5,5,6,5,5,"07/02/2017","2002_4",0,0
+"Other than care at home","Local Authority","The Mirin","Paisley","Adults","30/01/2017",4,4,4,4,4,"28/11/2016","2002_4",0,0
+"Other than care at home","Local Authority","Meldrum House","Glasgow","Adults","17/07/2017",5,5,5,5,5,"05/06/2017","2002_4",0,0
+"Other than care at home","Local Authority","Saltire Neighbourhood Centre","Glasgow","Adults","13/07/2018",5,5,5,5,5,"22/05/2018","2002_4",0,0
+"Other than care at home","Local Authority","Harry Heaney Centre","Glasgow","Adults","17/06/2019",5,5,5,5,5,"10/05/2019","2002_4",0,0
+"Other than care at home","Local Authority","McClymont Resource Centre","Lanark","Adults","13/09/2019",5,5,5,5,5,"05/08/2019","2002_4",0,0
+"Other than care at home","Local Authority","Lesmahagow Neighbourhood Centre","Lanark","Adults","08/03/2017",5,5,6,5,5,"07/02/2017","2002_4",0,0
 "Care at Home","Local Authority","Canderavon Neighbourhood Centre","Larkhall","Adults","27/05/2016",4,4,5,5,5,"16/02/2016","2002_4",0,0
-"Care at Home","Local Authority","Jimmy Swinburne Resource Centre","Glasgow","Adults","17/07/2018",5,5,5,4,5,"15/05/2018","2002_4",0,0
-"Care at Home","Local Authority","St. Andrew's Day Centre","Hamilton","Adults","03/12/2019",5,4,5,5,5,"24/07/2019","2002_4",0,0
+"Other than care at home","Local Authority","Jimmy Swinburne Resource Centre","Glasgow","Adults","17/07/2018",5,5,5,4,5,"15/05/2018","2002_4",0,0
+"Other than care at home","Local Authority","St. Andrew's Day Centre","Hamilton","Adults","03/12/2019",5,4,5,5,5,"24/07/2019","2002_4",0,0
 "Other than Care at home","Local Authority","Lifestyle Lanark, Harry Smith Complex","Lanark","Adults","25/09/2015",6,6,6,6,6,"12/08/2015","2002_4",0,0
-"Care at Home","Local Authority","South Lanarkshire Lifestyles East Kilbride","Glasgow","Adults","09/01/2017",5,5,5,5,5,"13/12/2016","2002_4",0,0
-"Care at Home","Local Authority","South Lanarkshire Lifestyles Eastfield","Glasgow","Adults","20/12/2017",5,5,5,5,4,"15/11/2017","2002_4",0,0
-"Care at Home","Local Authority","South Lanarkshire Lifestyles - Stonehouse","Larkhall","Adults","26/06/2017",5,5,5,4,5,"26/05/2017","2002_4",0,0
+"Other than care at home","Local Authority","South Lanarkshire Lifestyles East Kilbride","Glasgow","Adults","09/01/2017",5,5,5,5,5,"13/12/2016","2002_4",0,0
+"Other than care at home","Local Authority","South Lanarkshire Lifestyles Eastfield","Glasgow","Adults","20/12/2017",5,5,5,5,4,"15/11/2017","2002_4",0,0
+"Other than care at home","Local Authority","South Lanarkshire Lifestyles - Stonehouse","Larkhall","Adults","26/06/2017",5,5,5,4,5,"26/05/2017","2002_4",0,0
 "Other than Care at home","Voluntary or Not for Profit","West End Project - Dumbarton","Dumbarton","Adults","20/01/2020",5,5,6,6,6,"14/01/2020","2002_4",0,0
 "Other than Care at home","Local Authority","Dumbarton Centre","Dumbarton","Adults","22/02/2016",5,5,5,4,4,"30/10/2015","2002_4",0,0
 "Care at Home","Voluntary or Not for Profit","Leonard Cheshire Rosyth Support Service","Dunfermline","Adults","11/07/2023",5,4,4,5,5,"10/07/2023","2002_4",0,0
@@ -91,11 +91,10 @@
 "Care at Home","Local Authority","Barra Day Centre","Isle Of Barra","Adults","08/09/2020",6,6,5,5,5,"28/11/2019","2002_4",0,0
 "Care at Home","Voluntary or Not for Profit","Cobhair Bharraigh SCIO","Isle Of Barra","Adults","18/08/2020",5,5,6,5,5,"27/11/2019","2002_4",0,0
 "Care at Home","Voluntary or Not for Profit","Solas Day Centre","Stornoway","Adults","24/11/2023",5,6,5,5,5,"30/10/2023","2002_4",0,0
-"Care at Home","Local Authority","Blairgowrie Day Opportunities","Blairgowrie","Adults","13/11/2023",5,5,5,5,4,"10/08/2023","2002_4",0,0
+"Other than care at home","Local Authority","Blairgowrie Day Opportunities","Blairgowrie","Adults","13/11/2023",5,5,5,5,4,"10/08/2023","2002_4",0,0
 "Care at Home","Local Authority","Gleneagles Day Opportunities","Perth","Adults","25/04/2023",5,5,5,4,5,"23/03/2023","2002_4",0,0
 "Care at Home","Local Authority","Kinnoull Day Opportunities","Perth","Adults","20/10/2023",5,6,6,6,5,"23/08/2023","2002_4",0,0
-"Other than Care at home","Voluntary or Not for Profit","The Oasis.","Pitlochry","Adults","30/03/2018",5,5,5,5,5,"21/11/2017","2002_4",0,0
-"Care at Home","Local Authority","Dumfries Activity & Resource Centre","Dumfries","Adults","08/08/2017",4,4,5,5,4,"29/06/2017","2002_4",0,0
+"Other than care at home","Local Authority","Dumfries Activity & Resource Centre","Dumfries","Adults","08/08/2017",4,4,5,5,4,"29/06/2017","2002_4",0,0
 "Other than Care at home","Local Authority","Kirkconnel ARC","Sanquhar","Adults","28/06/2016",4,4,5,5,4,"06/05/2016","2002_4",0,0
 "Other than Care at home","Local Authority","Annan Activity & Resource Centre","Annan","Adults","24/06/2016",5,5,4,5,4,"05/05/2016","2002_4",0,0
 "Other than Care at home","Local Authority","Castle Douglas Activity & Resource Centre","Castle Douglas","Adults","05/09/2017",5,5,5,5,5,"03/08/2017","2002_4",0,0
@@ -139,7 +138,7 @@
 "Care at Home","Voluntary or Not for Profit","Miller Street Dementia Resource Centre","Clydebank","Adults","14/08/2023",5,5,5,5,4,"03/07/2023","2002_12",0,0
 "Other than Care at home","Local Authority","Rosehill Adult Resource Centre","Montrose","Adults","27/07/2016",5,5,5,5,5,"21/06/2016","2003_4",0,0
 "Other than Care at home","Local Authority","Short Breaks for Children (Support Service)","Shetland","Adults","26/02/2020",5,3,5,5,4,"11/10/2019","2003_4",0,0
-"Care at Home","Voluntary or Not for Profit","The Inclusion Group","Dundee","Adults","07/03/2023",4,3,3,3,3,"21/02/2023","2003_4",0,0
+"Care at Home","Voluntary or Not for Profit","The Inclusion Group","Dundee","Adults","07/03/2023",4,3,3,3,3,"16/01/2024","2003_4",0,0
 "Care at Home","Local Authority","Be Able North","Edinburgh","Adults","21/09/2023",5,5,4,5,4,"21/08/2023","2002_4",0,0
 "Other than Care at home","Voluntary or Not for Profit","Clashfarquhar House","Stonehaven","Adults","16/07/2018",5,5,4,5,4,"06/06/2018","2002_4",0,0
 "Other than Care at home","Voluntary or Not for Profit","Beannachar","Aberdeen","Adults","19/02/2018",5,5,6,5,6,"19/01/2018","2002_4",0,0
@@ -153,7 +152,7 @@
 "Other than Care at home","Local Authority","Falcon Day Centre","Paisley","Adults","23/05/2017",6,6,5,5,5,"19/05/2017","2002_4",0,0
 "Other than Care at home","Local Authority","Johnstone Day Centre","Johnstone","Adults","01/08/2017",6,6,6,5,5,"22/06/2017","2002_4",0,0
 "Other than Care at home","Local Authority","Ralston Day Centre","Paisley","Adults","06/06/2017",6,6,5,5,5,"05/05/2017","2002_4",0,0
-"Care at Home","Local Authority","South Lanarkshire Lifestyles - Fairhill","Hamilton","Adults","22/02/2019",5,5,5,5,5,"22/01/2019","2002_4",0,0
+"Other than care at home","Local Authority","South Lanarkshire Lifestyles - Fairhill","Hamilton","Adults","22/02/2019",5,5,5,5,5,"22/01/2019","2002_4",0,0
 "Other than Care at home","Local Authority","Napier House Day Services","Fife","Adults","21/12/2017",5,5,5,5,5,"08/12/2017","2002_4",0,0
 "Other than Care at home","Local Authority","Ostlers House Day Care","Kirkcaldy","Adults","19/11/2019",5,5,5,5,5,"29/10/2019","2002_4",0,0
 "Other than Care at home","Local Authority","Ladywalk House","Anstruther","Adults","19/06/2018",5,5,5,5,5,"15/03/2018","2002_4",0,0
@@ -175,13 +174,13 @@
 "Other than Care at home","Voluntary or Not for Profit","Kinross Centre","Kinross","Adults","09/03/2017",6,6,5,5,5,"03/02/2017","2005_12",0,0
 "Other than Care at home","Voluntary or Not for Profit","Mid-Lin Day Care","Dundee","Adults","03/11/2017",5,5,5,4,5,"19/09/2017","2002_4",0,0
 "Other than Care at home","Voluntary or Not for Profit","Connections","Glasgow","Adults","01/10/2019",6,6,6,6,6,"25/07/2019","2002_4",0,0
-"Care at Home","Voluntary or Not for Profit","Alzheimer Scotland - North Ayrshire Day Care Services","Ardrossan","Adults","28/08/2019",5,5,4,5,5,"12/07/2019","2002_4",0,0
+"Other than care at home","Voluntary or Not for Profit","Alzheimer Scotland - North Ayrshire Day Care Services","Ardrossan","Adults","28/08/2019",5,5,4,5,5,"12/07/2019","2002_4",0,0
 "Other than Care at home","Local Authority","Burns Day Service","Irvine","Adults","25/06/2018",4,4,4,4,4,"21/05/2018","2002_4",0,0
 "Other than Care at home","Local Authority","Stronach Day Service","Isle Of Arran","Adults","09/06/2017",4,4,5,4,4,"05/05/2017","2002_4",0,0
 "Other than Care at home","Local Authority","Castleview Day Care","Ardrossan","Adults","09/07/2018",4,4,4,4,4,"23/05/2018","2002_4",0,0
 "Other than Care at home","Local Authority","Stevenson Day Care and Resource Centre","Largs","Adults","12/06/2019",5,5,5,5,4,"08/05/2019","2002_4",0,0
 "Care at Home","Voluntary or Not for Profit","Alzheimer Scotland - Renfrewshire Services","Paisley","Adults","11/01/2017",6,6,6,6,5,"01/12/2016","2002_4",0,0
-"Other than Care at home","Local Authority","Sir John Mann Integrated Day Service","Bellshill","Adults","20/06/2016",5,5,4,5,5,"10/05/2016","2002_4",0,0
+"Other than Care at home","Local Authority","Sir John Mann Integrated Day Service","Bellshill","Adults","20/06/2016",5,5,4,5,5,"12/01/2024","2002_4",0,0
 "Care at Home","Voluntary or Not for Profit","PLUS","Stirling","Adults","17/08/2023",3,4,5,5,4,"26/07/2023","2003_6",0,0
 "Other than Care at home","Local Authority","Wellgate Day Support Service","Dundee","Adults","16/03/2016",6,6,6,6,6,"25/02/2016","2003_12",0,0
 "Other than Care at home","Voluntary or Not for Profit","Corbenic Camphill Community","Dunkeld","Adults","16/11/2023",5,4,5,4,4,"30/10/2023","2004_9",0,0
@@ -199,7 +198,7 @@
 "Other than Care at home","Local Authority","Girvan Opportunities","Girvan","Adults","05/06/2017",6,6,5,5,5,"24/04/2017","2002_4",0,0
 "Care at Home","Voluntary or Not for Profit","LifeCare - Dean Club","Edinburgh","Adults","11/05/2016",6,6,5,6,5,"21/04/2016","2004_3",0,0
 "Other than Care at home","Voluntary or Not for Profit","Libertus Services","Edinburgh","Adults","03/08/2023",5,4,4,5,5,"18/07/2023","2004_7",0,0
-"Care at Home","Local Authority","Parkhall House","Glasgow","Adults","27/08/2018",5,5,5,5,4,"03/08/2018","2004_1",0,0
+"Other than care at home","Local Authority","Parkhall House","Glasgow","Adults","27/08/2018",5,5,5,5,4,"03/08/2018","2004_1",0,0
 "Care at Home","Voluntary or Not for Profit","Share Scotland - Edinburgh - Care at Home","Edinburgh","Adults","11/10/2023",5,5,NA,5,4,"03/10/2023","2004_7",0,0
 "Care at Home","Voluntary or Not for Profit","Share Scotland - Glasgow","Glasgow","Adults","15/11/2019",5,5,NA,5,4,"11/10/2019","2004_7",0,0
 "Other than Care at home","Voluntary or Not for Profit","Walter & Joan Gray (Support Service)","Shetland","Adults","05/10/2018",4,4,4,4,4,"28/08/2018","2002_4",0,0
@@ -223,9 +222,9 @@
 "Care at Home","Voluntary or Not for Profit","Fife Support Service","Kirkcaldy","Adults","05/09/2023",5,5,NA,5,5,"15/08/2023","2004_7",0,0
 "Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - Perth & Kinross - Care at Home","Perth","Adults","13/06/2023",4,4,NA,4,4,"18/05/2023","2004_8",0,0
 "Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - Stirling, Clackmannanshire and Falkirk","Stirling","Adults","14/03/2023",5,5,NA,5,4,"03/02/2023","2004_8",0,0
-"Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - North Lanarkshire - Care at Home","Wishaw","Adults","07/02/2019",5,5,NA,5,5,"20/02/2023","2004_8",0,0
+"Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - North Lanarkshire - Care at Home","Wishaw","Adults","22/03/2023",5,5,NA,5,5,"20/02/2023","2004_8",0,0
 "Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - South Lanarkshire 1 - Care at Home","East Kilbride","Adults","04/03/2020",5,5,NA,5,6,"31/01/2020","2004_8",0,0
-"Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - North Ayrshire - Care at Home","Stevenston","Adults","02/11/2022",4,3,NA,3,4,"15/12/2023","2004_8",0,0
+"Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - North Ayrshire - Care at Home","Stevenston","Adults","05/01/2024",4,5,NA,3,5,"15/12/2023","2004_8",0,0
 "Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - South & East Ayrshire Care at Home","Cumnock","Adults","09/11/2023",4,4,NA,4,4,"27/10/2023","2004_8",0,0
 "Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - East Renfrewshire & South Lanarkshire 2","Glasgow","Adults","11/09/2019",6,6,NA,5,6,"03/05/2019","2004_8",0,0
 "Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - East & West Dunbartonshire Supported Living Services","Glasgow","Adults","19/05/2023",5,5,NA,6,4,"18/04/2023","2004_8",0,0
@@ -241,7 +240,7 @@
 "Care at Home","Private","Inchmarlo Continuing Care Retirement Community - Support Service","Banchory","Adults","01/05/2023",5,5,NA,6,4,"23/03/2023","2002_4",0,0
 "Care at Home","Local Authority","Midlothian Council - Domiciliary Care - Care at Home","Bonnyrigg","Adults","29/11/2023",4,3,NA,4,4,"15/11/2023","2004_9",4,4
 "Care at Home","Private","Phoenix Therapy and Care Ltd - Care at Home","Dunbar","Adults","18/07/2023",4,4,NA,4,4,"15/06/2023","2004_9",0,0
-"Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - Angus Services","Dundee","Adults","23/11/2023",5,5,NA,3,4,"14/11/2023","2004_8",0,0
+"Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - Angus Services","Arbroath","Adults","23/11/2023",5,5,NA,3,4,"14/11/2023","2004_8",0,0
 "Other than Care at home","Voluntary or Not for Profit","Inclusion Alliance","Edinburgh","Adults","06/06/2016",6,6,NA,5,6,"30/05/2016","2005_3",0,0
 "Care at Home","Voluntary or Not for Profit","Hamilton Supported Living - Care at Home Service","Hamilton","Adults","11/09/2019",5,5,NA,4,4,"20/05/2019","2004_9",0,0
 "Care at Home","Voluntary or Not for Profit","Lanarkshire Association for Mental Health Individual Support Service","Airdrie","Adults","02/03/2020",5,5,NA,5,5,"04/02/2020","2004_9",0,0
@@ -262,7 +261,7 @@
 "Care at Home","Voluntary or Not for Profit","Glasgow Connect","Glasgow","Adults","14/09/2023",4,4,NA,4,4,"18/08/2023","2004_8",0,0
 "Care at Home","Private","Hilton Nursing and Homecare Agency - Care at Home","Haddington","Adults","13/06/2023",5,6,NA,6,5,"06/06/2023","2004_9",0,0
 "Care at Home","Private","Hazelhead Homecare","Carluke","Adults",NA,4,3,NA,5,4,"14/10/2022","2004_9",0,0
-"Care at Home","Voluntary or Not for Profit","Alzheimer Scotland - Fife Service","Kirkcaldy","Adults","26/11/2019",5,5,NA,5,4,"02/10/2019","2004_7",0,0
+"Other than care at home","Voluntary or Not for Profit","Alzheimer Scotland - Fife Service","Kirkcaldy","Adults","26/11/2019",5,5,NA,5,4,"02/10/2019","2004_7",0,0
 "Care at Home","Voluntary or Not for Profit","Inclusion Glasgow Supported Living 1","Glasgow","Adults","23/06/2023",5,4,NA,4,3,"28/04/2023","2005_4",0,0
 "Care at Home","Voluntary or Not for Profit","C-Change Scotland","Glasgow","Adults","28/02/2023",5,5,NA,5,5,"19/01/2023","2004_8",0,0
 "Care at Home","Private","Stoneywood Care Services Ltd","Denny","Adults","06/10/2023",4,5,NA,5,4,"22/09/2023","2004_7",0,0
@@ -301,17 +300,17 @@
 "Other than Care at home","Voluntary or Not for Profit","Alzheimer Scotland Edinburgh, Mid & East Lothian","Edinburgh","Adults","07/08/2023",6,5,NA,6,5,"14/07/2023","2004_7",0,0
 "Care at Home","Voluntary or Not for Profit","Real Life Options Lilywynd","Forfar","Adults","01/02/2023",5,5,NA,5,5,"24/01/2023","2004_9",0,0
 "Other than Care at home","Voluntary or Not for Profit","Tiphereth Support Service","Edinburgh","Adults","05/10/2017",5,5,6,5,5,"10/08/2017","2004_7",0,0
-"Care at Home","Voluntary or Not for Profit","Real Life Options Dunfermline Services","Dunfermline","Adults","11/09/2023",3,5,NA,3,3,"18/08/2023","2004_9",0,0
+"Care at Home","Voluntary or Not for Profit","Real Life Options Dunfermline Services","Dunfermline","Adults","11/09/2023",3,5,NA,3,3,"25/01/2024","2004_9",0,0
 "Care at Home","Private","One to One Care Limited","Inverurie","Adults","24/02/2020",5,5,NA,5,5,"21/01/2020","2004_9",0,0
 "Care at Home","Voluntary or Not for Profit","Cloverfield Grove","Aberdeen","Adults","18/12/2019",5,5,NA,4,5,"20/11/2019","2004_8",0,0
-"Care at Home","Voluntary or Not for Profit","Aberdeenshire Services","Glasgow","Adults","21/08/2023",5,4,NA,5,5,"01/08/2023","2004_11",0,0
+"Care at Home","Voluntary or Not for Profit","Aberdeenshire North","Aberdeen","Adults","21/08/2023",5,4,NA,5,5,"01/08/2023","2004_11",0,0
 "Care at Home","Voluntary or Not for Profit","Dumfries & Galloway Services","Dumfries","Adults","18/09/2023",4,5,NA,5,4,"18/08/2023","2004_11",0,0
 "Care at Home","Voluntary or Not for Profit","East Dunbartonshire Phase 2","Glasgow","Adults","08/07/2023",4,4,NA,4,4,"01/06/2023","2004_10",0,0
 "Care at Home","Voluntary or Not for Profit","East Dunbartonshire Phase 1","Glasgow","Adults","17/07/2023",5,5,NA,4,4,"01/06/2023","2004_10",0,0
 "Care at Home","Voluntary or Not for Profit","Renfrewshire Supported Living Initiative","Paisley","Adults","18/02/2020",6,6,NA,6,5,"01/11/2019","2004_10",0,0
 "Care at Home","Voluntary or Not for Profit","Lyssenmore","Saltcoats","Adults","03/01/2020",4,4,NA,5,4,"04/11/2019","2004_9",0,0
 "Care at Home","Voluntary or Not for Profit","East Dunbartonshire Phase 3","Glasgow","Adults","29/06/2023",4,4,NA,4,4,"06/06/2023","2004_10",0,0
-"Care at Home","Voluntary or Not for Profit","Quarriers Village Supported Living Service","Bridge Of Weir","Adults","30/07/2020",5,5,NA,4,5,"21/02/2020","2004_10",1,1
+"Care at Home","Voluntary or Not for Profit","Quarriers Village supported living","Bridge Of Weir","Adults","30/07/2020",5,5,NA,4,5,"29/01/2024","2004_10",1,1
 "Care at Home","Local Authority","Intermediate Care Team, ICT East","Kilmarnock","Adults","28/07/2023",5,4,NA,4,4,"17/07/2023","2004_7",0,0
 "Care at Home","Voluntary or Not for Profit","Homelife Girvan","Girvan","Adults","08/06/2023",5,5,NA,5,5,"28/04/2023","2004_8",0,0
 "Care at Home","Voluntary or Not for Profit","Glasgow SOLE","Glasgow","Adults","29/01/2020",6,6,NA,6,5,"28/11/2019","2004_10",0,0
@@ -319,7 +318,7 @@
 "Care at Home","Voluntary or Not for Profit","ABC Supported Living","Greenock","Adults","08/12/2023",5,6,NA,5,5,"27/10/2023","2004_9",0,0
 "Care at Home","Voluntary or Not for Profit","Fife Care Support","Dunfermline","Adults","07/08/2023",4,5,NA,4,4,"25/07/2023","2004_7",0,0
 "Care at Home","Voluntary or Not for Profit","Scottish Autism Lothian Outreach Team (care at home)","Edinburgh","Adults","07/12/2023",4,3,NA,5,4,"16/11/2023","2004_7",0,0
-"Care at Home","Voluntary or Not for Profit","Scottish Autism - West of Scotland Outreach","Glasgow","Adults","03/12/2019",4,4,NA,4,5,"11/12/2023","2004_7",0,0
+"Care at Home","Voluntary or Not for Profit","Scottish Autism - West of Scotland Outreach","Glasgow","Adults","05/01/2024",4,4,NA,4,4,"11/12/2023","2004_7",0,0
 "Care at Home","Voluntary or Not for Profit","Scottish Autism - Central Outreach Team","Alloa","Adults","26/01/2023",5,5,NA,6,5,"19/01/2023","2004_8",0,0
 "Other than Care at home","Voluntary or Not for Profit","Fife Intensive Rehabilitation and Substance Use Team (FIRST) Limited","Kirkcaldy","Adults","23/09/2016",6,6,6,6,6,"19/08/2016","2006_1",0,0
 "Care at Home","Local Authority","East Kilbride Home Care Service","Glasgow","Adults","25/02/2020",4,4,NA,5,5,"24/01/2020","2004_8",0,0
@@ -368,7 +367,7 @@
 "Care at Home","Voluntary or Not for Profit","Action Group - Team D - Care at Home","Edinburgh","Adults","29/09/2023",5,4,NA,4,4,"31/07/2023","2004_7",0,0
 "Care at Home","Voluntary or Not for Profit","Leonard Cheshire Services (Scotland) - Edinburgh and Fife Support at Home - Care at Home","Dunfermline","Adults","06/07/2023",5,5,NA,5,5,"26/06/2023","2004_7",0,0
 "Care at Home","Voluntary or Not for Profit","Leonard Cheshire Disability - Aberdeen","Aberdeen","Adults","08/01/2020",5,5,NA,4,5,"18/11/2019","2004_7",0,0
-"Care at Home","Voluntary or Not for Profit","Leonard Cheshire Services (Scotland) - Glamis House - Care at Home","Glenrothes","Adults","04/09/2023",2,3,NA,2,3,"06/11/2023","2004_7",0,0
+"Care at Home","Voluntary or Not for Profit","Leonard Cheshire Services (Scotland) - Glamis House - Care at Home","Glenrothes","Adults","09/01/2024",2,3,NA,3,3,"06/11/2023","2004_7",0,0
 "Care at Home","Voluntary or Not for Profit","Glasgow Housing Support and Care at Home Service","Glasgow","Adults","26/07/2023",4,4,NA,4,4,"07/07/2023","2004_9",0,0
 "Care at Home","Voluntary or Not for Profit","The Mungo Foundation Arden Branch","Glasgow","Adults","15/06/2023",4,5,NA,5,4,"06/06/2023","2004_9",0,0
 "Care at Home","Voluntary or Not for Profit","Perth & Kinross and Forth Valley","Glasgow","Adults","08/10/2019",5,5,NA,5,5,"28/08/2019","2004_12",0,0
@@ -382,15 +381,15 @@
 "Care at Home","Voluntary or Not for Profit","Cantray Square Care at Home Service","Inverness","Adults","05/12/2022",5,6,NA,5,5,"03/11/2022","2005_2",0,0
 "Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - Housing Support Glasgow North and West","Glasgow","Adults","11/04/2023",5,5,NA,5,4,"15/03/2023","2004_8",0,0
 "Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - Edinburgh - Care at Home","Edinburgh","Adults","19/06/2023",5,5,NA,5,5,"19/05/2023","2004_8",1,1
-"Care at Home","Local Authority","West Dunbartonshire Council Sheltered Housing","Clydebank","Adults","31/07/2023",4,4,NA,3,3,"25/04/2023","2004_11",0,0
-"Care at Home","Local Authority","West Dunbartonshire Council Home Care Service","Clydebank","Adults","12/06/2023",3,3,NA,3,3,"06/10/2023","2004_11",1,1
+"Care at Home","Local Authority","West Dunbartonshire Council Sheltered Housing","Clydebank","Adults","29/01/2024",4,4,NA,3,3,"25/04/2023","2004_11",0,0
+"Care at Home","Local Authority","West Dunbartonshire Council Home Care Service","Clydebank","Adults","29/01/2024",3,3,NA,3,3,"06/10/2023","2004_11",1,1
 "Care at Home","Local Authority","West Dunbartonshire Council Learning Disability Service","Clydebank","Adults","16/01/2020",5,5,NA,5,6,"22/11/2019","2004_11",0,0
 "Care at Home","Private","Highland Home Carers Ltd Support Service - Care at Home","Inverness","Adults","31/07/2023",4,5,NA,4,5,"13/07/2023","2004_8",1,1
 "Care at Home","Local Authority","Care at Home Services","Kirkwall","Adults","25/08/2023",4,5,NA,4,4,"10/08/2023","2004_9",0,0
 "Care at Home","Voluntary or Not for Profit","Blackwood Care - St. Leonard's Court - Care at Home","Ayr","Adults","14/04/2023",5,5,NA,5,5,"24/02/2023","2004_8",0,0
 "Care at Home","Voluntary or Not for Profit","Blackwood North East Care and Support Services","Aberdeen","Adults","03/05/2023",5,5,NA,5,4,"21/04/2023","2004_8",0,0
 "Care at Home","Private","Keltic Care Limited Support Service - Care at Home","Inverness","Adults","23/06/2023",5,5,NA,5,5,"07/06/2023","2004_9",0,0
-"Care at Home","Voluntary or Not for Profit","Blackwood Forth Valley Care and Support Services","Stirling","Adults","08/12/2022",5,5,NA,5,5,"22/11/2023","2004_8",0,0
+"Care at Home","Voluntary or Not for Profit","Blackwood Forth Valley Care and Support Services","Stirling","Adults","11/01/2024",5,5,NA,5,5,"22/11/2023","2004_8",0,0
 "Care at Home","Private","Joans Carers Ltd","Helensburgh","Adults","17/11/2023",4,3,NA,5,4,"02/10/2023","2004_9",0,0
 "Care at Home","Voluntary or Not for Profit","Supported Accommodation Services","Glasgow","Adults","16/11/2023",5,5,NA,4,4,"24/10/2023","2004_9",0,0
 "Care at Home","Voluntary or Not for Profit","Community Service","Glasgow","Adults","03/07/2023",4,5,NA,5,4,"08/06/2023","2004_10",0,0
@@ -408,20 +407,20 @@
 "Care at Home","Voluntary or Not for Profit","Renfrewshire and East Renfrewshire Mental Health, Learning Disability and/ or Physical Disability Service","Paisley","Adults","29/09/2023",5,5,NA,5,5,"10/08/2023","2004_8",0,0
 "Care at Home","Voluntary or Not for Profit","Turning Point - Inverclyde","Greenock","Adults","29/01/2020",5,5,NA,5,5,"20/12/2019","2004_8",0,0
 "Care at Home","Local Authority","Meiklehill","Kirkintilloch","Adults","23/11/2023",5,5,NA,5,5,"06/10/2023","2004_9",0,0
-"Care at Home","Local Authority","Clackmannanshire Reablement and Technology Enabled Care Service","Alloa","Adults","22/12/2022",5,5,NA,5,5,"08/12/2022","2004_11",0,0
+"Care at Home","Local Authority","Clackmannanshire Reablement and Technology Enabled Care Service","Alloa","Adults","18/01/2024",5,5,NA,5,4,"11/01/2024","2004_11",0,0
 "Care at Home","Local Authority","Inverclyde Learning Disability Support & Care at Home Service","Greenock","Adults","16/01/2020",5,5,NA,5,5,"12/11/2019","2004_11",0,0
-"Care at Home","Local Authority","Care & Support at Home","Greenock","Adults","04/06/2019",5,5,NA,5,5,"15/11/2023","2004_11",0,0
+"Care at Home","Local Authority","Care & Support at Home","Greenock","Adults","05/01/2024",5,5,NA,5,5,"15/11/2023","2004_11",0,0
 "Care at Home","Local Authority","East Lothian Council - Homecare Services","Haddington","Adults","24/10/2023",4,5,NA,4,4,"29/09/2023","2004_8",0,0
-"Care at Home","Voluntary or Not for Profit","with YOU Peffer Learning Disabilities Service","Edinburgh","Adults","27/11/2023",5,5,NA,6,4,"01/11/2023","2004_8",0,0
+"Care at Home","Voluntary or Not for Profit","with YOU Caltongate/ Peffer  Disabilities Service","Edinburgh","Adults","27/11/2023",5,5,NA,6,4,"01/11/2023","2004_8",0,0
 "Care at Home","Voluntary or Not for Profit","Real Life Options - Glasgow Balmore Service","Glasgow","Adults","04/12/2023",2,2,NA,2,2,"26/09/2023","2004_9",0,0
-"Care at Home","Local Authority","Castle Douglas Community Support Services","Castle Douglas","Adults","06/12/2019",4,4,NA,4,4,"21/11/2023","2004_9",0,0
+"Care at Home","Local Authority","Castle Douglas Community Support Services","Castle Douglas","Adults","08/01/2024",4,4,NA,4,4,"21/11/2023","2004_9",0,0
 "Care at Home","Private","Kippen Care Services","Perth","Adults","29/03/2023",3,3,NA,3,4,"06/03/2023","2005_6",1,1
 "Care at Home","Voluntary or Not for Profit","Alzheimer Scotland - Dumfries & Galloway","Dumfries","Adults","10/09/2019",5,4,5,5,4,"01/08/2019","2004_12",0,0
 "Care at Home","Voluntary or Not for Profit","Hillcrest Futures Dundee - Alexander Street, Lismore Terrace, Longfield Drive","Dundee","Adults","17/10/2023",4,6,NA,5,4,"12/09/2023","2005_3",0,0
 "Care at Home","Voluntary or Not for Profit","Hillcrest Futures - Tullideph, David Street, Martingale, Birkdale Services","Dundee","Adults","30/04/2019",4,4,NA,5,4,"16/04/2019","2004_12",0,0
 "Care at Home","Local Authority","Community Support Service - Elgin","Elgin","Adults","19/06/2020",4,4,NA,3,3,"21/02/2020","2004_9",0,0
 "Other than Care at home","Voluntary or Not for Profit","Turning Point Scotland - North East Edinburgh Recovery Service","Edinburgh","Adults","06/09/2019",6,5,5,5,5,"23/08/2019","2007_5",0,0
-"Care at Home","Private","Montana Home Care Ltd","Falkirk","Adults","14/12/2023",5,6,NA,5,5,"01/12/2023","2004_10",0,0
+"Care at Home","Private","Desiree MacLennan","Falkirk","Adults","14/12/2023",5,6,NA,5,5,"01/12/2023","2004_10",0,0
 "Care at Home","Voluntary or Not for Profit","Crossroads Fife","Glenrothes","Adults","13/03/2023",5,6,NA,5,5,"06/03/2023","2005_2",0,0
 "Care at Home","Voluntary or Not for Profit","Key - Highland (Lochaber, Inverness and Nairn)","Invergordon","Adults","13/03/2023",5,5,NA,4,4,"22/12/2022","2004_11",0,0
 "Care at Home","Voluntary or Not for Profit","Key - Highland (Caithness and Sutherland)","Invergordon","Adults","31/01/2023",4,4,NA,4,4,"19/12/2022","2004_11",1,1
@@ -429,15 +428,15 @@
 "Care at Home","Local Authority","Dundee City Council - Dundee Community Living","Dundee","Adults","03/10/2019",6,6,NA,6,6,"13/09/2019","2004_11",0,0
 "Care at Home","Local Authority","Angus Health & Social Care Enablement & Response Team","Carnoustie","Adults","18/12/2019",5,5,NA,5,5,"15/11/2019","2006_1",0,0
 "Care at Home","Local Authority","Mull & Iona, Coll & Tiree and Colonsay Home Care Service/Care at Home Service","Argyll And Bute","Adults","20/12/2019",5,5,NA,4,4,"20/09/2019","2004_11",0,0
-"Care at Home","Voluntary or Not for Profit","Key Community Supports - Glasgow West","Glasgow","Adults","22/11/2019",5,5,NA,5,5,"11/10/2019","2004_11",2,2
-"Care at Home","Voluntary or Not for Profit","Enable Scotland (Leading the Way) - Lanarkshire Services","Euro Central","Adults","23/04/2019",5,5,NA,5,5,"24/02/2023","2004_11",0,0
-"Care at Home","Voluntary or Not for Profit","Key Community Supports - Glasgow South","Glasgow","Adults","18/06/2020",5,5,NA,5,5,"11/08/2023","2004_11",0,0
+"Care at Home","Voluntary or Not for Profit","Key Community Supports - Glasgow West","Glasgow","Adults","22/11/2019",5,5,NA,5,5,"26/01/2024","2004_11",2,2
+"Care at Home","Voluntary or Not for Profit","Enable Scotland (Leading the Way) - Lanarkshire Services","Euro Central","Adults","23/03/2023",5,5,NA,5,5,"24/02/2023","2004_11",0,0
+"Care at Home","Voluntary or Not for Profit","Key Community Supports - Glasgow South","Glasgow","Adults","15/01/2024",5,5,NA,5,5,"11/08/2023","2004_11",0,0
 "Care at Home","Voluntary or Not for Profit","Key - Dunbartonshire","Glasgow","Adults","29/01/2020",5,5,NA,5,5,"02/12/2019","2004_11",0,0
 "Care at Home","Voluntary or Not for Profit","Key - Ayrshire and South Lanarkshire","Glasgow","Adults","14/02/2023",4,5,NA,4,3,"24/01/2023","2004_11",0,0
 "Care at Home","Voluntary or Not for Profit","Key Community Supports - Clyde Coast","Glasgow","Adults","22/11/2023",5,5,NA,4,5,"11/10/2023","2004_11",0,0
 "Care at Home","Voluntary or Not for Profit","Key Community Supports - North Lanarkshire","Coatbridge","Adults","19/06/2023",5,4,NA,5,4,"12/06/2023","2004_11",0,0
-"Care at Home","Voluntary or Not for Profit","Key Community Supports - Falkirk","Falkirk","Adults","06/03/2023",5,5,NA,5,5,"26/01/2023","2004_11",0,0
-"Care at Home","Private","Ailsa Care Services West","Falkirk","Adults","21/12/2021",4,3,NA,3,3,"08/12/2021","2004_11",0,0
+"Care at Home","Voluntary or Not for Profit","Key Community Supports - Falkirk","Falkirk","Adults","06/03/2023",5,5,NA,5,5,"19/01/2024","2004_11",0,0
+"Care at Home","Private","Ailsa Care Services West","Falkirk","Adults",NA,4,3,NA,3,3,"08/12/2021","2004_11",0,0
 "Care at Home","Private","Guardian Care Homes (UK) Ltd - Trafalgar Close - Care at Home","Coldstream","Adults","21/12/2023",3,3,NA,4,2,"28/11/2023","2004_9",0,0
 "Care at Home","Voluntary or Not for Profit","Enable Scotland (Leading the Way) - Oban, Lorn and Isles","Oban","Adults","06/08/2019",5,5,NA,5,5,"05/06/2019","2004_11",0,0
 "Care at Home","Voluntary or Not for Profit","ENABLE Scotland: West","Glasgow","Adults","23/10/2023",4,5,NA,5,4,"18/09/2023","2004_11",0,0
@@ -445,8 +444,8 @@
 "Care at Home","Local Authority","Stirling Council Reablement and Tec Services","Stirling","Adults","12/12/2023",5,5,NA,5,5,"02/11/2023","2004_11",0,0
 "Care at Home","Voluntary or Not for Profit","Enable Scotland (Leading the Way) - Ayrshire","Kilmarnock","Adults","13/09/2023",5,5,NA,4,5,"24/08/2023","2004_11",0,0
 "Care at Home","Voluntary or Not for Profit","Enable Scotland (Leading the Way) - East Renfrewshire Community Support Services","Glasgow","Adults","07/06/2023",5,5,NA,5,4,"05/05/2023","2004_11",0,0
-"Care at Home","Voluntary or Not for Profit","Enable Scotland (Leading the Way) Edinburgh and West Lothian","Edinburgh","Adults","20/08/2019",6,6,NA,6,5,"30/11/2023","2004_11",0,0
-"Care at Home","Voluntary or Not for Profit","Enable Scotland (Leading the Way) - Glasgow","Glasgow","Adults","20/06/2019",5,5,NA,5,5,"09/02/2023","2004_11",0,0
+"Care at Home","Voluntary or Not for Profit","Enable Scotland (Leading the Way) Edinburgh and West Lothian","Edinburgh","Adults","08/01/2024",4,6,NA,6,4,"30/11/2023","2004_11",0,0
+"Care at Home","Voluntary or Not for Profit","Enable Scotland (Leading the Way) - Glasgow","Glasgow","Adults","07/04/2023",5,5,NA,5,5,"09/02/2023","2004_11",0,0
 "Care at Home","Voluntary or Not for Profit","Enable Scotland East Argyll & Bute","Helensburgh","Adults","09/05/2023",5,5,NA,5,5,"27/02/2023","2004_11",0,0
 "Care at Home","Local Authority","Mid - Argyll, Kintyre, Islay and Jura Home Care Service","Campbeltown","Adults","08/09/2020",4,4,NA,4,4,"05/03/2020","2005_4",0,0
 "Care at Home","Private","Dudhope Villa and Sister Properties","Dundee","Adults","11/07/2023",4,3,NA,4,3,"29/06/2023","2004_11",0,0
@@ -462,7 +461,7 @@
 "Care at Home","Local Authority","Perth & Kinross Council - Adults with Learning Disabilities","Perth","Adults","23/10/2019",5,5,NA,5,5,"20/09/2019","2004_11",0,0
 "Care at Home","Voluntary or Not for Profit","Tagsa Uibhist Home Support","Isle Of Benbecula","Adults","07/02/2023",4,5,NA,5,4,"22/12/2022","2004_12",0,0
 "Care at Home","Voluntary or Not for Profit","Baillieston Community Care Ltd","Glasgow","Adults","25/04/2023",4,5,NA,4,4,"27/03/2023","2004_11",0,0
-"Care at Home","Voluntary or Not for Profit","SAMH - Edinburgh Support Service","Edinburgh","Adults","18/03/2019",4,4,NA,5,5,"05/02/2019","2004_11",0,0
+"Care at Home","Voluntary or Not for Profit","SAMH Edinburgh Support Service","Edinburgh","Adults","18/03/2019",4,4,NA,5,5,"05/02/2019","2004_11",0,0
 "Care at Home","Voluntary or Not for Profit","Glasgow Personalisation Service","Glasgow","Adults","17/04/2023",4,4,NA,4,4,"07/04/2023","2004_11",0,0
 "Care at Home","Voluntary or Not for Profit","SAMH - Falkirk Support Service and Stirling Outreach","Airdrie","Adults","16/06/2020",5,5,NA,5,5,"20/02/2020","2004_11",0,0
 "Care at Home","Voluntary or Not for Profit","SAMH - Moray - Care at Home Service","Elgin","Adults","03/08/2020",6,6,NA,6,5,"06/03/2020","2004_11",0,0
@@ -472,7 +471,7 @@
 "Care at Home","Private","Dumfries Supported Living","Dumfries","Adults","23/06/2023",4,5,NA,5,4,"26/05/2023","2004_11",0,0
 "Care at Home","Private","Extended Personal Care Limited","Lennoxtown","Adults","01/09/2023",5,4,NA,4,4,"14/07/2023","2004_11",0,0
 "Care at Home","Private","Primecare Health Ltd","Broxburn","Adults","05/01/2022",4,4,NA,3,4,"17/11/2021","2005_7",0,0
-"Care at Home","Voluntary or Not for Profit","ELCAP Care at Home","Prestonpans","Adults","29/03/2023",5,5,NA,5,5,"06/02/2023","2004_11",0,0
+"Care at Home","Voluntary or Not for Profit","ELCAP Care at Home","Prestonpans","Adults","29/03/2023",5,5,NA,5,5,"18/01/2024","2004_11",0,0
 "Care at Home","Private","Lynedoch Care Ltd - Care at Home","Edinburgh","Adults","04/05/2023",4,4,NA,4,4,"07/04/2023","2005_4",0,0
 "Care at Home","Private","The Beeches Home Care Agency Ltd","Glasgow","Adults","13/08/2021",4,3,NA,3,3,"16/07/2021","2005_1",0,0
 "Care at Home","Local Authority","Accommodation with Care and Housing Support (Fife)","Glenrothes","Adults","01/11/2023",4,5,NA,4,4,"11/10/2023","2005_1",0,0
@@ -483,15 +482,15 @@
 "Care at Home","Private","Prestige Nursing and Care - East Fife","Methil","Adults","19/04/2023",4,5,NA,5,5,"20/03/2023","2005_2",2,2
 "Care at Home","Voluntary or Not for Profit","Turning Point Scotland - South Ayrshire Independent Living","Ayr","Adults","11/02/2020",5,5,NA,5,5,"09/01/2020","2004_12",0,0
 "Care at Home","Local Authority","Generic - Care at Home - Uist and Harris","Isle Of Benbecula","Adults","05/07/2021",4,4,NA,4,4,"28/06/2021","2005_2",0,0
-"Care at Home","Local Authority","Lewis and Harris - Community Living Care at Home Service","Stornoway","Adults",NA,4,4,NA,4,3,"18/10/2019","2004_12",0,0
-"Care at Home","Local Authority","Jenny MacLachlan Centre","Carluke","Adults","20/03/2017",6,6,5,5,5,"19/01/2017","2006_5",0,0
+"Care at Home","Local Authority","Lewis and Harris - Community Living Care at Home Service","Stornoway","Adults","23/01/2024",4,4,NA,4,4,"17/01/2024","2004_12",0,0
+"Other than care at home","Local Authority","Jenny MacLachlan Centre","Carluke","Adults","20/03/2017",6,6,5,5,5,"19/01/2017","2006_5",0,0
 "Care at Home","Local Authority","Home Care Service - Care at Home","Elgin","Adults","19/12/2023",5,5,NA,5,5,"21/11/2023","2004_12",1,1
 "Care at Home","Local Authority","East Fife Care at Home","Glenrothes","Adults","17/02/2023",4,4,NA,4,4,"07/02/2023","2005_1",6,6
 "Other than Care at home","Local Authority","Aberdeenshire Day Services - Older People","Inverurie","Adults","29/05/2019",5,5,5,5,5,"02/05/2019","2002_4",0,0
 "Care at Home","Voluntary or Not for Profit","Lifecare - St. Bernard's Club","Edinburgh","Adults","11/05/2016",6,6,5,6,5,"21/04/2016","2004_3",0,0
 "Care at Home","Private","Crossroads (Perth and Kinross) Care Attendant Scheme","Perth","Adults","16/02/2023",5,6,NA,5,5,"14/02/2023","2005_1",0,0
 "Care at Home","Private","Crossroads Care - Skye & Lochalsh","Portree","Adults","14/10/2019",5,5,NA,4,4,"11/09/2019","2005_2",0,0
-"Care at Home","Voluntary or Not for Profit","Oxgangs Care","Edinburgh","Adults","24/08/2023",4,4,4,4,4,"28/07/2023","2006_2",0,0
+"Other than Care at home","Voluntary or Not for Profit","Oxgangs Care","Edinburgh","Adults","24/08/2023",4,4,4,4,4,"28/07/2023","2006_2",0,0
 "Other than Care at home","Private","Rashielee Day Centre","Erskine","Adults","15/06/2018",5,5,6,5,4,"11/05/2018","2005_3",0,0
 "Care at Home","Private","Paramount Care","Westhill","Adults","25/09/2023",5,4,NA,4,5,"12/09/2023","2004_11",1,1
 "Other than Care at home","Voluntary or Not for Profit","Hope Park House","Blairgowrie","Adults","13/03/2019",4,4,4,4,4,"07/02/2019","2003_4",0,0
@@ -524,8 +523,8 @@
 "Care at Home","Private","Abbey Care Services","Kirriemuir","Adults","05/04/2023",4,5,NA,4,5,"02/03/2023","2006_3",1,1
 "Care at Home","Private","Care Services (Perth) Limited","Perth","Adults","13/07/2020",5,5,NA,5,5,"18/12/2019","2006_1",0,0
 "Care at Home","Private","Balmoral Health and Social Care","Grangemouth","Adults","27/02/2023",5,5,NA,5,4,"23/02/2023","2006_6",0,0
-"Care at Home","Voluntary or Not for Profit","Gaberston Support Service","Alloa","Adults","28/03/2023",5,5,NA,5,5,"15/12/2023","2004_10",0,0
-"Care at Home","Local Authority","Whitehill Day Centre","Hamilton","Adults","12/10/2018",5,5,5,5,5,"24/07/2018","2006_11",0,0
+"Care at Home","Voluntary or Not for Profit","Gaberston Support Service","Alloa","Adults","22/01/2024",5,5,NA,5,5,"15/12/2023","2004_10",0,0
+"Other than care at home","Local Authority","Whitehill Day Centre","Hamilton","Adults","12/10/2018",5,5,5,5,5,"24/07/2018","2006_11",0,0
 "Care at Home","Local Authority","South East Hub Services","Edinburgh","Adults","10/04/2020",4,4,NA,4,4,"30/01/2020","2006_8",0,0
 "Care at Home","Private","North East Community Care Ltd","Turriff","Adults","15/12/2021",4,4,NA,4,4,"03/11/2021","2006_2",0,0
 "Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - Aberdeenshire","Alford","Adults","21/05/2021",3,3,NA,3,3,"12/05/2021","2006_1",0,0
@@ -535,7 +534,7 @@
 "Other than Care at home","Local Authority","Burnie","Buckie","Adults","28/10/2016",5,5,5,5,5,"15/09/2016","2006_8",0,0
 "Care at Home","Local Authority","Disability Resources Support Accommodation Services","Kirkwall","Adults","02/11/2023",5,4,NA,4,5,"09/10/2023","2006_11",0,0
 "Other than Care at home","Local Authority","Montrose Day Centre","Paisley","Adults","25/11/2016",6,6,5,5,5,"12/08/2016","2007_3",0,0
-"Care at Home","Private","1st Homecare Falkirk","Falkirk","Adults","18/01/2023",5,NA,NA,NA,5,"20/12/2022","2006_4",0,0
+"Care at Home","Private","1st Homecare Falkirk","Falkirk","Adults","18/01/2023",5,NA,NA,NA,5,"22/01/2024","2006_4",0,0
 "Care at Home","Voluntary or Not for Profit","Leonard Cheshire Disability - Trafalgar Lane - Supported Living","Edinburgh","Adults","08/08/2023",4,4,NA,4,4,"04/05/2023","2006_4",0,0
 "Care at Home","Voluntary or Not for Profit","Lifecare Outreach Care at Home","Edinburgh","Adults","24/04/2023",5,5,NA,5,5,"11/04/2023","2006_3",0,0
 "Care at Home","Private","Mochridhe Homecare & Housing Support","Glasgow","Adults","30/01/2023",5,5,NA,5,5,"17/01/2023","2006_9",0,0
@@ -546,11 +545,11 @@
 "Other than Care at home","Voluntary or Not for Profit","Real Life Options - West Fife Support Service","Dunfermline","Adults","18/03/2019",5,5,5,4,4,"21/02/2019","2006_6",0,0
 "Care at Home","Local Authority","Stomaigh Care at Home Service","Isle Of North Uist","Adults","09/01/2023",5,5,NA,5,5,"09/12/2022","2006_11",0,0
 "Care at Home","Voluntary or Not for Profit","Carr Gomm Support Services 1","Glasgow","Adults","02/03/2023",5,5,NA,5,5,"07/02/2023","2006_6",0,0
-"Care at Home","Local Authority","Strathmore Day Opportunities for Older People","Blairgowrie","Adults","13/11/2023",5,5,5,5,5,"10/08/2023","2009_9",0,0
+"Other than care at home","Local Authority","Strathmore Day Opportunities for Older People","Blairgowrie","Adults","13/11/2023",5,5,5,5,5,"10/08/2023","2009_9",0,0
 "Other than Care at home","Local Authority","Milan","Glasgow","Adults","07/09/2016",5,5,4,5,4,"04/08/2016","2007_12",0,0
 "Other than Care at home","Local Authority","West Fife Community Support Service","Cowdenbeath","Adults","24/05/2016",6,6,6,6,6,"18/03/2016","2006_8",0,0
 "Care at Home","Voluntary or Not for Profit","Action Group - Team C - Care at Home","Edinburgh","Adults","29/01/2020",5,5,NA,5,5,"23/08/2019","2006_9",0,0
-"Care at Home","Voluntary or Not for Profit","Answer House - Support Service","Bathgate","Adults","08/07/2019",5,5,4,4,5,"28/05/2019","2006_10",0,0
+"Other than care at home","Voluntary or Not for Profit","Answer House - Support Service","Bathgate","Adults","08/07/2019",5,5,4,4,5,"28/05/2019","2006_10",0,0
 "Care at Home","Voluntary or Not for Profit","Penumbra - Glasgow ARBD Supported Living Service","Glasgow","Adults","01/02/2023",5,6,NA,6,4,"21/12/2022","2006_11",0,0
 "Other than Care at home","Local Authority","Budhill Day Care","Glasgow","Adults","24/10/2017",4,4,5,4,4,"01/08/2017","2006_8",0,0
 "Other than Care at home","Local Authority","Newcraigielea","Shetland","Adults","06/09/2023",5,5,4,4,5,"03/08/2023","2007_1",0,0
@@ -565,7 +564,7 @@
 "Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - Scottish Borders - Care at Home","Melrose","Adults","19/04/2023",3,4,NA,5,3,"21/03/2023","2006_12",0,0
 "Care at Home","Voluntary or Not for Profit","Leonard Cheshire Disability - Jewel Park - Supported Living","Edinburgh","Adults","05/04/2023",4,4,NA,3,4,"27/01/2023","2008_11",0,0
 "Care at Home","Voluntary or Not for Profit","Wheatley Care Personalised and Self Directed Support Services (Renfrewshire)","Linwood","Adults","26/09/2023",5,5,NA,5,5,"31/08/2023","2008_4",0,0
-"Care at Home","Voluntary or Not for Profit","Real Life Options Fraserburgh","Fraserburgh","Adults","23/01/2020",5,5,NA,4,5,"22/11/2023","2007_1",0,0
+"Care at Home","Voluntary or Not for Profit","Real Life Options Fraserburgh","Fraserburgh","Adults","08/01/2024",5,5,NA,4,5,"22/11/2023","2007_1",0,0
 "Care at Home","Voluntary or Not for Profit","NAS SW Scotland Supported Living","Mauchline","Adults","01/11/2023",4,5,NA,4,4,"12/10/2023","2007_2",0,0
 "Other than Care at home","Voluntary or Not for Profit","The Haven","Kirkcaldy","Adults","04/06/2018",4,4,4,4,3,"04/04/2018","2011_2",0,0
 "Care at Home","Voluntary or Not for Profit","Teens +","Edinburgh","Adults","15/03/2017",5,5,4,5,4,"26/01/2017","2009_9",0,0
@@ -582,9 +581,9 @@
 "Care at Home","Private","Clyde Health Care - Home Care: Supporting People","Glasgow","Adults","26/09/2022",3,4,NA,4,3,"11/08/2022","2007_8",0,0
 "Other than Care at home","Voluntary or Not for Profit","The Oasis","Helensburgh","Adults","27/10/2016",6,6,6,6,5,"26/08/2016","2007_9",0,0
 "Other than Care at home","Local Authority","Kalisgarth Day Centre","Orkney","Adults","14/08/2023",5,5,4,4,3,"06/06/2023","2007_11",0,0
-"Other than Care at home","Voluntary or Not for Profit","Caring in Craigmillar","Edinburgh","Adults","31/08/2023",5,5,4,4,5,"11/08/2023","2007_9",0,0
+"Other than Care at Home","Voluntary or Not for Profit","Caring in Craigmillar","Edinburgh","Adults","31/08/2023",5,5,4,4,5,"11/08/2023","2007_9",0,0
 "Care at Home","Private","Scottish Nursing Guild - Care at Home","Edinburgh","Adults","23/03/2023",6,6,NA,6,6,"20/02/2023","2007_7",0,0
-"Care at Home","Voluntary or Not for Profit","Clydeside Independent Living","Greenock","Adults","21/10/2019",6,6,NA,5,5,"27/10/2023","2008_2",0,0
+"Care at Home","Voluntary or Not for Profit","Clydeside Independent Living","Greenock","Adults","08/01/2024",5,6,NA,5,5,"27/10/2023","2008_2",0,0
 "Care at Home","Voluntary or Not for Profit","Penumbra Glasgow City Supported Living","Glasgow","Adults","28/02/2020",5,5,NA,5,4,"16/12/2019","2007_10",0,0
 "Other than Care at home","Voluntary or Not for Profit","Grampian Autistic Society - Support Service","Aberdeen","Adults","13/09/2017",5,5,4,5,5,"18/08/2017","2010_10",0,0
 "Other than Care at home","Local Authority","Motherwell Locality Support Service (Disability)","Motherwell","Adults","27/07/2023",5,5,5,5,5,"07/07/2023","2007_9",0,0
@@ -594,9 +593,9 @@
 "Care at Home","Voluntary or Not for Profit","Wheatley Care The Fordneuk Accommodation and Support Service","Glasgow","Adults","16/03/2023",5,5,NA,5,5,"10/03/2023","2008_4",0,0
 "Care at Home","Voluntary or Not for Profit","Rowan Alba Ltd - Thorntree Street - Care at Home","Edinburgh","Adults","27/04/2023",5,4,NA,5,5,"18/04/2023","2007_10",0,0
 "Care at Home","Voluntary or Not for Profit","West Lothian Housing Support & Care at Home","Livingston","Adults","26/04/2023",5,5,NA,5,5,"23/03/2023","2008_1",0,0
-"Care at Home","Voluntary or Not for Profit","Key Community Supports - Stirling/Clackmannan","Falkirk","Adults","06/03/2023",4,5,NA,5,4,"03/02/2023","2008_8",0,0
+"Care at Home","Voluntary or Not for Profit","Key Community Supports - Stirling/Clackmannan","Falkirk","Adults","06/03/2023",4,5,NA,5,4,"25/01/2024","2008_8",0,0
 "Care at Home","Voluntary or Not for Profit","Thera (Scotland)","Edinburgh","Adults","01/10/2019",5,5,NA,5,5,"12/09/2019","2009_12",0,0
-"Other than Care at home","Voluntary or Not for Profit","Penumbra Dundee Nova Service","Dundee","Adults","13/06/2016",6,6,4,6,5,"14/12/2023","2008_1",0,0
+"Other than Care at home","Voluntary or Not for Profit","Penumbra Dundee Nova Service","Dundee","Adults","11/01/2024",5,6,4,6,4,"14/12/2023","2008_1",0,0
 "Care at Home","Voluntary or Not for Profit","Trust Housing Association Ltd - Branch 2","Glasgow","Adults","25/09/2023",5,5,NA,5,5,"06/09/2023","2008_12",0,0
 "Care at Home","Voluntary or Not for Profit","with YOU East Craigs Learning Disabilities Service","Edinburgh","Adults","09/03/2023",5,5,NA,4,5,"01/02/2023","2007_11",0,0
 "Care at Home","Voluntary or Not for Profit","The Courtyard at Turning Point Scotland","Ayr","Adults",NA,5,5,NA,5,5,"20/01/2023","2007_11",0,0
@@ -625,7 +624,7 @@
 "Care at Home","Voluntary or Not for Profit","Visualise Housing Support and Care at Home","Edinburgh","Adults","14/07/2020",5,5,NA,5,5,"07/02/2020","2008_9",1,1
 "Care at Home","Voluntary or Not for Profit","Quarriers East Ayrshire Supported Living Service","Kilmarnock","Adults","06/03/2023",5,4,NA,5,5,"02/03/2023","2008_6",0,0
 "Care at Home","Voluntary or Not for Profit","Turning Point Scotland - Perth & Kinross","Perth","Adults","21/05/2019",5,5,NA,5,5,"12/04/2019","2008_6",0,0
-"Care at Home","Voluntary or Not for Profit","Crossroads Caring Scotland -  Forth Valley Service","Glasgow","Adults","06/03/2023",5,5,NA,5,4,"01/02/2023","2008_9",0,0
+"Care at Home","Voluntary or Not for Profit","Crossroads Caring Scotland -  Forth Valley Service","Glasgow","Adults","22/06/2023",5,5,NA,5,4,"01/06/2023","2008_9",0,0
 "Care at Home","Voluntary or Not for Profit","Ben View Community Bathing Service","Dumbarton","Adults","14/12/2023",5,5,NA,5,5,"20/10/2023","2010_10",0,0
 "Care at Home","Voluntary or Not for Profit","Drylaw Rainbow Club Day Centre","Edinburgh","Adults","12/02/2018",6,6,5,6,5,"05/02/2018","2009_12",1,1
 "Care at Home","Voluntary or Not for Profit","L'Arche Edinburgh","Edinburgh","Adults","15/11/2019",5,5,NA,5,5,"24/09/2019","2008_9",0,0
@@ -643,21 +642,21 @@
 "Care at Home","Local Authority","Aberdeenshire Supported Living Project","Banff","Adults","04/02/2020",5,5,NA,6,4,"12/12/2019","2009_3",0,0
 "Care at Home","Private","NPHomecare","Glasgow","Adults","27/04/2023",4,4,NA,4,4,"21/04/2023","2009_4",0,0
 "Care at Home","Voluntary or Not for Profit","Eskmills Project - Care at Home","Edinburgh","Adults","16/03/2023",5,4,NA,6,5,"10/03/2023","2009_4",0,0
-"Care at Home","Voluntary or Not for Profit","Brothers of Charity Services (Scotland) - Supported Living Community of Care - Care at Home","Galashiels","Adults","10/08/2023",2,2,NA,2,2,"13/12/2023","2009_3",0,0
-"Care at Home","Voluntary or Not for Profit","Brothers of Charity Services (Scotland) - Campus of Care - Care at Home","Galashiels","Adults","10/08/2023",2,2,NA,2,2,"13/12/2023","2009_2",0,0
+"Care at Home","Voluntary or Not for Profit","Brothers of Charity Services (Scotland) - Supported Living Community of Care - Care at Home","Galashiels","Adults","08/01/2024",3,2,NA,3,2,"13/12/2023","2009_3",0,0
+"Care at Home","Voluntary or Not for Profit","Brothers of Charity Services (Scotland) - Campus of Care - Care at Home","Galashiels","Adults","08/01/2024",3,2,NA,3,2,"13/12/2023","2009_2",0,0
 "Other than Care at home","Voluntary or Not for Profit","Oakburn Park Day Care Service","Glasgow","Adults","23/10/2017",6,6,4,4,6,"20/09/2017","2009_7",0,0
 "Care at Home","Voluntary or Not for Profit","Threshold Support Services - Care at Home","Hamilton","Adults","30/07/2019",5,5,NA,5,5,"18/07/2019","2009_7",0,0
 "Care at Home","Local Authority","North Ayrshire Council - Irvine, Garnock Valley and Community Alarm","Irvine","Adults","24/11/2023",5,4,NA,4,5,"03/11/2023","2009_9",1,1
 "Care at Home","Voluntary or Not for Profit","Auchlochan Homecare","Lanark","Adults","04/03/2019",5,5,NA,5,5,"11/02/2019","2009_1",0,0
 "Care at Home","Local Authority","North Ayrshire Council - Three Towns, North Coast and Arran","Irvine","Adults","14/06/2022",5,5,NA,5,5,"01/06/2022","2009_9",0,0
-"Care at Home","Private","Roberts Care & Training Ltd","Paisley","Adults","23/01/2020",5,5,NA,5,5,"20/01/2020","2009_6",0,0
+"Care at Home","Private","Roberts Care & Training Ltd","Paisley","Adults","23/01/2020",5,5,NA,5,5,"11/01/2024","2009_6",0,0
 "Other than Care at home","Private","Dunvegan Lodge Day Care","Glasgow","Adults","25/09/2022",5,5,4,5,5,"13/05/2022","2009_1",0,0
 "Care at Home","Voluntary or Not for Profit","Johnstone & Paisley Supported Living Services","Johnstone","Adults","18/10/2023",5,4,NA,4,5,"11/09/2023","2009_7",0,0
 "Care at Home","Private","Westlands","Dundee","Adults","08/03/2023",5,6,NA,5,5,"22/11/2022","2009_2",0,0
 "Care at Home","Private","HRM Homecare Services Ltd - Central / West","Kilmarnock","Adults","03/03/2023",5,5,NA,4,4,"22/02/2023","2010_3",0,0
 "Care at Home","Private","Venture Support and Care","Peterhead","Adults","21/09/2023",3,4,NA,4,3,"25/08/2023","2009_5",0,0
 "Care at Home","Private","Caalcare Limited","Dundee","Adults","13/05/2019",6,6,NA,6,6,"23/04/2019","2009_5",0,0
-"Care at Home","Voluntary or Not for Profit","Jericho Benedictines Housing Support Unit (Bank Street)","Greenock","Adults","21/01/2020",5,5,NA,5,4,"11/10/2019","2009_4",0,0
+"Care at Home","Voluntary or Not for Profit","Jericho Benedictines Housing Support Unit (Bank Street)","Greenock","Adults","21/01/2020",5,5,NA,5,4,"12/01/2024","2009_4",0,0
 "Care at Home","Private","Visiting Angelz","Paisley","Adults","26/04/2022",4,3,NA,3,3,"04/03/2022","2012_8",0,0
 "Other than Care at home","Local Authority","Renfrew Day Centre","Renfrew","Adults","28/03/2017",5,5,4,4,5,"08/02/2017","2009_7",0,0
 "Care at Home","Voluntary or Not for Profit","Milltown Community","Laurencekirk","Adults","12/12/2023",3,3,NA,3,3,"20/11/2023","2009_9",0,0
@@ -665,11 +664,11 @@
 "Care at Home","Private","HRM Homecare Services Ltd - South West Branch (1)","Coatbridge","Adults","17/06/2020",4,4,NA,4,4,"10/02/2020","2010_7",0,0
 "Care at Home","Local Authority","North West Home Care Service Cluster 2","Edinburgh","Adults","19/11/2019",4,4,NA,5,4,"27/09/2019","2010_1",0,0
 "Care at Home","Private","Bright Care (Edinburgh)","Edinburgh","Adults","20/10/2023",5,5,NA,5,5,"14/08/2023","2010_10",0,0
-"Care at Home","Voluntary or Not for Profit","Camphill Blair Drummond Day Service","Stirling","Adults","17/08/2018",6,6,6,6,6,"07/06/2018","2009_12",0,0
+"Other than care at home","Voluntary or Not for Profit","Camphill Blair Drummond Day Service","Stirling","Adults","17/08/2018",6,6,6,6,6,"07/06/2018","2009_12",0,0
 "Care at Home","Voluntary or Not for Profit","Cornerstone Fife","Dunfermline","Adults","17/02/2023",4,5,NA,4,5,"13/01/2023","2010_1",0,0
-"Care at Home","Local Authority","South Lanarkshire Lifestyles - Carluke","Carluke","Adults","20/06/2017",5,5,6,5,5,"19/05/2017","2009_11",0,0
+"Other than care at home","Local Authority","South Lanarkshire Lifestyles - Carluke","Carluke","Adults","20/06/2017",5,5,6,5,5,"19/05/2017","2009_11",0,0
 "Care at Home","Private","CERA - Argyll & Bute","Dunoon","Adults","14/11/2023",3,4,NA,4,3,"29/09/2023","2010_2",0,0
-"Care at Home","Voluntary or Not for Profit","George Street Project","Aberdeen","Adults","30/05/2019",5,5,NA,5,5,"10/05/2019","2010_6",0,0
+"Care at Home","Voluntary or Not for Profit","George Street Project","Aberdeen","Adults","22/01/2024",5,5,NA,5,5,"16/01/2024","2010_6",0,0
 "Other than Care at home","Private","Milan Day Care Support Service","Edinburgh","Adults","22/06/2016",5,5,4,5,4,"19/05/2016","2012_1",0,0
 "Other than Care at home","Voluntary or Not for Profit","Camphill School Aberdeen Support Service","Aberdeen","Adults","26/09/2023",5,5,5,5,5,"01/09/2023","2010_8",0,0
 "Care at Home","Private","Lifeways Community Care (Inverness) Limited","Inverness","Adults","04/12/2023",4,4,NA,4,4,"22/11/2023","2010_1",0,0
@@ -679,20 +678,19 @@
 "Care at Home","Local Authority","Doocot View Very Sheltered Housing","Banff","Adults","21/03/2023",5,5,4,5,5,"07/02/2023","2010_8",0,0
 "Care at Home","Local Authority","Orkney Responder Service","Kirkwall","Adults","19/04/2023",5,5,NA,5,4,"21/12/2022","2010_5",0,0
 "Care at Home","Voluntary or Not for Profit","Hanover Care at Home Service - Morris Court Dalry","Dalry","Adults","20/03/2023",5,5,NA,4,5,"09/03/2023","2011_3",0,0
-"Care at Home","Private","Rainbow Services","Ayr","Adults","17/10/2023",5,5,NA,5,5,"05/12/2023","2010_4",0,0
+"Care at Home","Private","Rainbow Services","Ayr","Adults","23/01/2024",5,5,NA,5,5,"05/12/2023","2010_4",0,0
 "Care at Home","Local Authority","Community Resource Team","Oban","Adults","04/02/2020",4,4,NA,4,3,"09/12/2019","2010_10",0,0
 "Care at Home","Voluntary or Not for Profit","Dalmuir Park Housing Association Sheltered Housing Service","Clydebank","Adults","14/08/2023",5,5,NA,5,5,"27/07/2023","2011_6",0,0
 "Care at Home","Voluntary or Not for Profit","INCLUDEM Intensive Support Services","Glasgow","Adults","15/07/2020",5,5,NA,5,6,"14/02/2020","2011_4",0,0
 "Care at Home","Private","Tailor Maid Homecare","Glasgow","Adults","18/11/2019",5,5,NA,4,5,"15/10/2019","2010_10",0,0
 "Other than Care at home","Private","Grigor House","Nairn","Adults","21/12/2017",5,5,5,5,4,"19/12/2017","2010_10",0,0
-"Care at Home","Private","CERA - Central Scotland","Coatbridge","Adults","28/11/2022",4,4,NA,4,4,"01/11/2022","2010_8",0,0
+"Care at Home","Private","CERA - Central Scotland","Coatbridge","Adults","28/11/2022",4,4,NA,4,4,"15/01/2024","2010_8",0,0
 "Care at Home","Private","CERA - East Kilbride","Glasgow","Adults","05/12/2023",4,3,NA,3,4,"31/10/2023","2010_8",0,0
 "Other than Care at home","Voluntary or Not for Profit","The Open Door Edinburgh","Edinburgh","Adults","16/05/2016",5,5,5,5,5,"30/03/2016","2011_10",0,0
 "Care at Home","Voluntary or Not for Profit","Autism Initiatives UK","Perth","Adults","04/10/2022",4,5,NA,5,4,"09/09/2022","2010_4",0,0
 "Care at Home","Private","CERA - Ellon","Ellon","Adults","17/05/2023",5,4,NA,4,5,"17/04/2023","2010_6",1,1
-"Other than Care at home","Private","Green Routes","Stirling","Adults","03/10/2017",5,5,4,5,4,"31/07/2017","2011_2",0,0
 "Care at Home","Voluntary or Not for Profit","Craigton Grove and Associated Housing","Peterculter","Adults","31/01/2023",4,5,NA,6,4,"06/12/2022","2010_10",0,0
-"Care at Home","Voluntary or Not for Profit","Barnardo's Caern in the community service","Edinburgh","Adults","11/09/2023",5,5,NA,5,5,"07/09/2023","2011_3",0,0
+"Other than Care at home","Voluntary or Not for Profit","Barnardo's Caern in the community service","Edinburgh","Adults","11/09/2023",5,5,NA,5,5,"07/09/2023","2011_3",0,0
 "Other than Care at home","Voluntary or Not for Profit","Penumbra - Angus Nova Project","Arbroath","Adults","29/04/2016",6,6,NA,6,6,"13/04/2016","2010_10",0,0
 "Other than Care at home","Voluntary or Not for Profit","Aberdeen Nova Service","Aberdeen","Adults","08/01/2018",6,6,NA,6,6,"20/11/2017","2010_8",0,0
 "Care at Home","Voluntary or Not for Profit","West Lothian Occupational Services","Livingston","Adults","17/07/2023",5,5,NA,4,4,"08/02/2023","2012_1",0,0
@@ -701,13 +699,13 @@
 "Care at Home","Voluntary or Not for Profit","Aberlour Options - Dundee","Dundee","Adults","07/09/2020",5,5,NA,4,5,"18/03/2020","2010_9",0,0
 "Other than Care at home","Local Authority","Kyle Support Service","Ayr","Adults","13/06/2017",5,5,3,5,4,"11/05/2017","2011_4",0,0
 "Other than Care at home","Voluntary or Not for Profit","East Kilbride & District Dementia Carers' Group","Glasgow","Adults","09/07/2019",5,5,6,5,6,"03/07/2019","2011_3",0,0
-"Care at Home","Voluntary or Not for Profit","Aberlour Options - Fife","Glenrothes","Adults","18/12/2019",5,5,NA,5,5,"10/11/2023","2010_9",0,0
+"Care at Home","Voluntary or Not for Profit","Aberlour Options - Fife","Glenrothes","Adults","11/01/2024",5,5,NA,5,4,"10/11/2023","2010_9",0,0
 "Care at Home","Private","Social Care Alba Ltd","Edinburgh","Adults","20/07/2023",4,4,NA,4,4,"15/06/2023","2011_4",0,0
 "Care at Home","Voluntary or Not for Profit","Hayfield Care at Home Services","Glasgow","Adults","01/10/2019",5,5,NA,5,4,"20/08/2019","2010_11",0,0
 "Care at Home","Local Authority","West Fife Care at Home","Cowdenbeath","Adults","20/02/2023",4,4,NA,4,4,"07/02/2023","2011_6",5,5
 "Other than Care at home","Voluntary or Not for Profit","C.O.J.A.C.  Adult Care Services","Glasgow","Adults","14/09/2023",5,4,4,5,5,"03/08/2023","2012_9",0,0
 "Care at Home","Private","Clayton Care Limited","Edinburgh","Adults","21/11/2019",5,5,NA,4,4,"23/10/2019","2011_2",0,0
-"Care at Home","Private","Harmony Care and Support Service","Edinburgh","Adults","29/03/2023",5,6,NA,4,4,"23/02/2023","2014_6",0,0
+"Care at Home","Private","Harmony Care and Support Service","Edinburgh","Adults","30/01/2024",5,5,NA,4,4,"24/01/2024","2014_6",0,0
 "Care at Home","Voluntary or Not for Profit","The Redwoods Caring Foundation - Care at Home","Edinburgh","Adults","14/09/2023",5,5,NA,5,5,"05/09/2023","2011_4",0,0
 "Care at Home","Voluntary or Not for Profit","Up2Us Support Service","Glasgow","Adults","09/05/2023",5,5,NA,5,4,"21/04/2023","2010_12",0,0
 "Care at Home","Private","Everycare (Edinburgh) Ltd","Edinburgh","Adults","11/09/2019",5,5,NA,4,4,"25/07/2019","2011_3",0,0
@@ -718,13 +716,13 @@
 "Care at Home","Voluntary or Not for Profit","Hillcrest Futures - North Grimsby/Dundee Outreach Service","Arbroath","Adults","13/05/2019",4,4,NA,4,3,"25/04/2019","2011_2",0,0
 "Care at Home","Private","Cairllum Care Ltd","St Quivox","Adults","13/06/2023",4,4,NA,4,4,"19/05/2023","2012_1",0,0
 "Care at Home","Private","GMD Community Services","Coatbridge","Adults","14/08/2023",5,5,NA,5,4,"31/07/2023","2011_8",0,0
-"Care at Home","Private","Catch Scotland Ltd","Houston","Adults","14/09/2020",5,5,NA,4,5,"24/11/2023","2011_3",1,1
+"Care at Home","Private","Catch Scotland Ltd","Houston","Adults","12/01/2024",4,5,NA,4,4,"24/11/2023","2011_3",1,1
 "Care at Home","Local Authority","East Ayrshire Health and Social Care Partnership Care at Home and Housing Support Service (North Locality)","Kilmarnock","Adults","17/07/2023",4,5,NA,4,3,"01/06/2023","2011_4",0,0
 "Care at Home","Local Authority","East Ayrshire Health & Social Care Partnership Care at Home and Housing Support Service (South Locality)","Cumnock","Adults","16/06/2023",4,5,NA,4,3,"30/05/2023","2011_4",1,1
 "Care at Home","Private","Bluebird Care (East and Mid Lothian) - Care at Home","Dalkeith","Adults","28/04/2023",4,4,NA,4,4,"02/03/2023","2011_8",0,0
 "Care at Home","Voluntary or Not for Profit","Borders Services","Galashiels","Adults","20/02/2023",4,4,NA,4,4,"19/01/2023","2011_3",0,0
 "Care at Home","Private","Elite Care at Home Ltd","Lockerbie","Adults","23/06/2023",5,5,NA,4,4,"31/05/2023","2011_5",0,0
-"Care at Home","Local Authority","Dundee City Council - Homecare - Enablement & Support Citywide and Community Mental Health Older People Team","Dundee","Adults","05/02/2020",5,5,NA,5,5,"25/10/2023","2012_1",0,0
+"Care at Home","Local Authority","Dundee City Council - Homecare - Enablement & Support Citywide and Community Mental Health Older People Team","Dundee","Adults","30/01/2024",5,5,NA,5,5,"25/10/2023","2012_1",0,0
 "Care at Home","Local Authority","Care at Home City Wide","Dundee","Adults","20/03/2020",5,5,NA,5,5,"30/01/2020","2012_1",0,0
 "Care at Home","Local Authority","Dundee City Council - Homecare - Social Care Response Service","Dundee","Adults","20/03/2020",5,5,NA,5,5,"18/02/2020","2012_1",0,0
 "Care at Home","Voluntary or Not for Profit","Inspire Peterhead","Peterhead","Adults","02/02/2023",5,3,NA,3,5,"20/01/2023","2011_6",0,0
@@ -733,19 +731,19 @@
 "Care at Home","Voluntary or Not for Profit","Inspire Community Living Project","Aberdeen","Adults","18/03/2022",5,5,NA,5,5,"16/03/2022","2011_6",0,0
 "Care at Home","Private","Flourish Home Support Services","Alloa","Adults","19/01/2023",5,5,NA,5,4,"11/01/2023","2011_12",0,0
 "Care at Home","Private","JPM Community Care Services","Lockerbie","Adults","05/06/2023",4,5,NA,5,4,"05/05/2023","2011_5",0,0
-"Care at Home","Private","Fairport Care at Home Limited Trading as Home Instead Senior Care","Edinburgh","Adults","17/03/2020",6,6,NA,5,5,"22/11/2023","2011_10",0,0
-"Care at Home","Private","ACS Care at Home Ltd","Lochgelly","Adults","24/06/2019",4,4,NA,5,5,"16/05/2019","2011_7",2,2
+"Care at Home","Private","Fairport Care at Home Limited Trading as Home Instead Senior Care","Edinburgh","Adults","10/01/2024",6,6,NA,5,5,"22/11/2023","2011_10",0,0
+"Care at Home","Private","ACS Care at Home Ltd","Lochgelly","Adults","26/01/2024",4,4,NA,5,4,"16/05/2019","2011_7",2,2
 "Other than Care at home","Local Authority","Arran View Support Service","Ayr","Adults","19/06/2023",4,5,5,5,5,"09/06/2023","2011_9",0,0
 "Care at Home","Private","Your Care at Home Ltd","Johnstone","Adults","14/09/2023",5,5,NA,4,4,"07/09/2023","2011_12",0,0
 "Care at Home","Voluntary or Not for Profit","Affinity Trust Scotland West Services","Irvine","Adults","27/09/2023",3,3,NA,4,3,"01/09/2023","2011_9",0,0
 "Care at Home","Voluntary or Not for Profit","Affinity Trust - Argyll & Bute","Oban","Adults","22/09/2023",4,5,NA,4,4,"25/08/2023","2011_9",0,0
 "Care at Home","Voluntary or Not for Profit","Cornerstone Perth and Kinross Services","Perth","Adults","18/04/2023",4,5,NA,5,3,"13/03/2023","2012_8",0,0
 "Care at Home","Voluntary or Not for Profit","Partners in Play - Community Support","Coatbridge","Adults","20/11/2023",5,4,5,4,5,"10/10/2023","2012_3",0,0
-"Care at Home","Voluntary or Not for Profit","Carr Gomm Argyll & Bute Responder","Lochgilphead","Adults","20/11/2019",5,5,NA,5,5,"08/12/2023","2012_1",2,2
+"Care at Home","Voluntary or Not for Profit","Carr Gomm Argyll & Bute Responder","Lochgilphead","Adults","05/01/2024",5,5,NA,5,5,"08/12/2023","2012_1",2,2
 "Other than Care at home","Voluntary or Not for Profit","The Foundry","Glasgow","Adults","03/07/2018",5,5,4,5,4,"07/06/2018","2012_3",0,0
 "Care at Home","Voluntary or Not for Profit","Orkney Supported Living","Kirkwall","Adults","23/11/2022",5,5,NA,5,5,"20/10/2022","2012_1",0,0
 "Care at Home","Private","Rosshead Care at Home","Alexandria","Adults","19/06/2019",4,4,NA,4,4,"16/05/2019","2012_4",0,0
-"Care at Home","Local Authority","Greenwood","Campbeltown","Adults","24/06/2019",5,5,NA,4,4,"27/05/2019","2012_5",0,0
+"Care at Home","Local Authority","Greenwood","Campbeltown","Adults","24/06/2019",5,5,NA,4,4,"11/01/2024","2012_5",0,0
 "Care at Home","Voluntary or Not for Profit","L'Arche Highland","Inverness","Adults","20/01/2023",5,5,NA,6,5,"17/01/2023","2011_11",0,0
 "Care at Home","Private","ScotNursing & Medical Services Limited","Glasgow","Adults","17/06/2020",5,5,NA,5,5,"05/02/2020","2014_2",0,0
 "Other than Care at home","Voluntary or Not for Profit","An Carina Day Centre","West Calder","Adults","09/12/2016",4,4,5,4,4,"24/11/2016","2011_12",0,0
@@ -827,21 +825,21 @@
 "Care at Home","Private","Alltogether Care Services Ltd","Clydebank","Adults","01/05/2023",6,5,NA,5,6,"18/04/2023","2014_2",0,0
 "Care at Home","Voluntary or Not for Profit","Centred Care at Home Service Inverness","Inverness","Adults","15/06/2020",5,5,NA,4,5,"24/02/2020","2013_7",0,0
 "Care at Home","Local Authority","Jarvis Court Very Sheltered Housing","Fraserburgh","Adults","15/05/2023",5,5,NA,5,5,"19/04/2023","2013_9",0,0
-"Care at Home","Local Authority","Dalvenie Gardens Very Sheltered Housing and Resource Centre","Banchory","Adults","18/12/2019",5,5,NA,5,5,"07/12/2023","2013_9",0,0
+"Care at Home","Local Authority","Dalvenie Gardens Very Sheltered Housing and Resource Centre","Banchory","Adults","15/01/2024",5,5,NA,5,5,"07/12/2023","2013_9",0,0
 "Care at Home","Local Authority","Abbey Court Very Sheltered Housing","Peterhead","Adults","31/05/2023",3,5,NA,5,3,"28/04/2023","2013_9",0,0
 "Care at Home","Local Authority","Dawson Court Very Sheltered Housing","Turriff","Adults","10/05/2023",4,4,NA,4,4,"12/04/2023","2013_9",0,0
 "Care at Home","Private","Adroit Care and Support Services Limited","Kirkcaldy","Adults","23/01/2020",5,5,NA,4,5,"22/11/2019","2013_10",0,0
 "Care at Home","Private","Florence Court","Aberdeen","Adults","27/09/2023",4,4,NA,3,3,"13/09/2023","2013_8",0,0
 "Care at Home","Private","Angel Care Services (Scotland) Limited","Greenock","Adults","31/08/2017",4,4,5,4,4,"16/08/2017","2014_1",0,0
-"Care at Home","Voluntary or Not for Profit","Cowdenbeath","Cowdenbeath","Adults","12/01/2023",5,5,NA,5,5,"28/11/2023","2014_2",0,0
+"Care at Home","Voluntary or Not for Profit","Cowdenbeath","Cowdenbeath","Adults","08/01/2024",5,5,NA,5,5,"28/11/2023","2014_2",0,0
 "Care at Home","Voluntary or Not for Profit","Quarriers Family Support Service","Dumfries","Adults","11/03/2020",5,5,NA,5,5,"30/01/2020","2014_1",0,0
 "Care at Home","Local Authority","Cowan Court Extra Care Housing","Penicuik","Adults","26/10/2023",5,5,NA,5,5,"12/10/2023","2013_9",0,0
 "Care at Home","Voluntary or Not for Profit","Penumbra - Central Aberdeen Supported Living Service","Aberdeen","Adults","04/04/2023",5,5,NA,6,4,"26/01/2023","2013_8",0,0
 "Care at Home","Voluntary or Not for Profit","Hanover Care at Home Service - Scottish Borders","Galashiels","Adults","13/02/2020",5,5,NA,5,5,"15/01/2020","2014_3",0,0
 "Care at Home","Voluntary or Not for Profit","17 Westerton Crescent","Aberdeen","Adults","31/05/2023",5,5,NA,5,5,"22/05/2023","2013_9",0,0
 "Care at Home","Private","CRC Care","Paisley","Adults","08/11/2023",4,4,NA,4,3,"12/10/2023","2014_8",4,4
-"Care at Home","Private","Keane Premier Support Services","Glasgow","Adults","05/07/2023",4,4,NA,4,4,"02/08/2023","2014_8",0,0
-"Care at Home","Voluntary or Not for Profit","The Barrhead Project","Barrhead","Adults","25/09/2022",3,3,NA,3,3,"30/11/2023","2014_5",0,0
+"Care at Home","Private","Keane Premier Support Services","Glasgow","Adults","30/01/2024",4,4,NA,4,4,"02/08/2023","2014_8",0,0
+"Care at Home","Voluntary or Not for Profit","The Barrhead Project","Barrhead","Adults","08/01/2024",5,5,NA,5,5,"30/11/2023","2014_5",0,0
 "Care at Home","Voluntary or Not for Profit","Dundee Specialist Mental Health Outreach Service","Dundee","Adults","22/11/2023",4,4,NA,3,4,"29/09/2023","2014_3",0,0
 "Care at Home","Private","1st Class Care Solutions Limited","Livingston","Adults","20/09/2023",3,3,NA,3,3,"31/08/2023","2014_3",2,2
 "Care at Home","Private","Step Up (Housing, Employability & Community Support Services)","Falkirk","Adults","26/09/2023",5,5,NA,5,5,"04/09/2023","2013_9",0,0
@@ -854,7 +852,6 @@
 "Care at Home","Voluntary or Not for Profit","East Lothian Services","Musselburgh","Adults","07/03/2023",5,5,NA,5,5,"21/02/2023","2014_10",0,0
 "Care at Home","Private","St. Ninians Home Care Ltd","Blairgowrie","Adults","19/12/2022",5,5,NA,5,4,"15/12/2022","2014_4",0,0
 "Care at Home","Voluntary or Not for Profit","Inspire Greenfolds","Huntly","Adults","14/04/2023",5,4,NA,4,4,"21/03/2023","2014_4",0,0
-"Care at Home","Voluntary or Not for Profit","Inspire Elgin","Elgin","Adults","06/03/2020",5,5,NA,5,5,"03/03/2020","2014_3",0,0
 "Care at Home","Voluntary or Not for Profit","Inspire Union Street & Chattan Place","Aberdeen","Adults","18/02/2020",5,5,NA,5,5,"16/01/2020","2014_4",0,0
 "Care at Home","Voluntary or Not for Profit","Inspire Great Northern Road & Hopetoun","Aberdeen","Adults","23/03/2020",5,5,NA,5,4,"12/12/2019","2014_3",0,0
 "Care at Home","Private","SSCN Healthcare","Edinburgh","Adults","02/08/2023",3,4,NA,3,4,"07/07/2023","2014_4",1,1
@@ -868,7 +865,6 @@
 "Other than Care at home","Voluntary or Not for Profit","Alternatives WD CDS","Dumbarton","Adults","06/01/2020",6,5,5,5,5,"19/07/2019","2014_12",0,0
 "Other than Care at home","Voluntary or Not for Profit","Cornerstone Borders Day Service","Airdrie","Adults","16/04/2019",5,5,5,5,4,"15/03/2019","2014_3",0,0
 "Care at Home","Voluntary or Not for Profit","Dundee Youth Housing Service","Dundee","Adults","13/09/2023",4,4,NA,4,4,"10/08/2023","2015_5",0,0
-"Care at Home","Voluntary or Not for Profit","Barnardo's South Ayrshire Family Resource Service","Kilwinning","Adults","28/08/2020",5,5,NA,5,5,"12/03/2020","2015_2",0,0
 "Care at Home","Voluntary or Not for Profit","Cornerstone Castlecraigs Court - Bessie Dunlop Court","Ardrossan","Adults","17/07/2023",4,6,NA,5,4,"05/07/2023","2014_4",0,0
 "Care at Home","Voluntary or Not for Profit","Inspire Viewfield","Aberdeen","Adults","22/11/2022",3,4,NA,4,3,"10/10/2022","2014_4",0,0
 "Care at Home","Voluntary or Not for Profit","Hospice at Home","Denny","Adults","09/02/2023",6,6,NA,6,6,"01/02/2023","2014_8",0,0
@@ -878,13 +874,13 @@
 "Care at Home","Local Authority","Weavers Burn","Dundee","Adults","20/08/2019",5,5,NA,5,5,"23/07/2019","2014_5",0,0
 "Care at Home","Private","Pin-Point Health & Social Care","Aberdeen","Adults","17/08/2021",3,3,NA,3,3,"21/07/2021","2015_6",0,0
 "Other than Care at home","Voluntary or Not for Profit","Garvald Edinburgh Mayfield House","Dalkeith","Adults","05/10/2023",5,5,5,5,5,"13/09/2023","2014_11",0,0
-"Care at Home","Private","G & J Care","Glenrothes","Adults","04/01/2023",3,3,NA,3,3,"28/11/2022","2015_4",0,0
+"Care at Home","Private","G & J Care","Glenrothes","Adults","04/01/2023",3,3,NA,3,3,"22/01/2024","2015_4",0,0
 "Care at Home","Voluntary or Not for Profit","Kibble Housing Support Services","Paisley","Adults","16/10/2019",5,5,NA,5,5,"03/09/2019","2014_12",0,0
 "Care at Home","Voluntary or Not for Profit","Fife Care at Home and Housing Support Service","Kirkcaldy","Adults","06/03/2023",5,5,NA,5,5,"20/02/2023","2014_3",0,0
 "Care at Home","Local Authority","Angus Council Accommodation with Support Service (Mental Health)","Arbroath","Adults","03/05/2023",5,5,NA,4,4,"07/04/2023","2014_12",0,0
 "Care at Home","Voluntary or Not for Profit","Key Community Supports - Glasgow East","Glasgow","Adults","17/03/2020",5,5,NA,5,5,"16/01/2020","2014_5",0,0
 "Care at Home","Voluntary or Not for Profit","Cornerstone Baxter View","Dumbarton","Adults","05/03/2020",6,6,NA,6,6,"16/11/2023","2014_10",0,0
-"Care at Home","Private","Hands-On Homecare Limited","Glasgow","Adults","09/05/2023",3,5,NA,3,3,"11/12/2023","2015_3",0,0
+"Care at Home","Private","Hands-On Homecare Limited","Glasgow","Adults","31/01/2024",4,4,NA,4,4,"11/12/2023","2015_3",0,0
 "Other than Care at home","Private","Academy House Services","Glasgow","Adults","28/06/2019",4,4,4,4,4,"06/06/2019","2015_2",0,0
 "Care at Home","Voluntary or Not for Profit","Enable Scotland West Argyll & Bute Support Service","Lochgilphead","Adults","20/12/2019",5,5,NA,5,4,"04/09/2019","2014_12",0,0
 "Care at Home","Health Board","West Highland Care at Home Service","Isle Of Skye","Adults","15/09/2023",4,3,NA,4,3,"11/08/2023","2014_5",1,1
@@ -921,12 +917,11 @@
 "Care at Home","Voluntary or Not for Profit","Crossroads Caring Scotland - Lochaber","Fort William","Adults","09/01/2020",4,4,NA,4,4,"06/11/2019","2015_3",0,0
 "Care at Home","Private","Poppy Homecare","Musselburgh","Adults","16/01/2023",5,5,NA,4,5,"23/12/2022","2015_3",0,0
 "Care at Home","Voluntary or Not for Profit","Hillcrest Futures Angus - Doocot Park/Lousen Park/River Street/Riverview","Arbroath","Adults","21/12/2022",3,5,NA,5,3,"12/12/2022","2015_4",0,0
-"Care at Home","Voluntary or Not for Profit","Go2 Support Service","Glasgow","Adults","15/09/2020",4,4,NA,5,4,"10/03/2020","2015_3",0,0
+"Care at Home","Voluntary or Not for Profit","Go2 Support Service","Glasgow","Adults","15/09/2020",4,4,NA,5,4,"30/01/2024","2015_3",0,0
 "Care at Home","Private","Lyle Court","Edinburgh","Adults","16/05/2019",5,5,NA,4,4,"24/04/2019","2015_4",0,0
 "Care at Home","Voluntary or Not for Profit","Cornerstone South Aberdeenshire Care at Home","Aberdeen","Adults","01/09/2023",4,5,NA,4,4,"21/08/2023","2014_11",0,0
 "Care at Home","Private","Bright Care (Perthshire & Angus)","Perth","Adults","12/07/2019",5,5,NA,5,4,"17/05/2019","2015_5",0,0
 "Care at Home","Voluntary or Not for Profit","West of Scotland Housing Support","Glasgow","Adults","24/07/2023",5,5,NA,4,4,"12/06/2023","2015_2",0,0
-"Care at Home","Voluntary or Not for Profit","Crossroads Caring Scotland - Lothians Services","Alloa","Adults","19/06/2023",5,4,NA,4,4,"01/06/2023","2015_3",0,0
 "Care at Home","Voluntary or Not for Profit","Wheatley Care Personalised and Self Directed Support Services (North Lanarkshire)","Wishaw","Adults","24/11/2023",4,3,NA,4,4,"08/08/2023","2015_4",0,0
 "Care at Home","Voluntary or Not for Profit","St. James Court","Inverurie","Adults","05/12/2023",4,4,NA,4,4,"08/11/2023","2015_6",0,0
 "Care at Home","Private","CERA - Complex Care","Perth","Adults","28/03/2023",5,4,NA,5,4,"25/01/2023","2015_4",0,0
@@ -947,7 +942,7 @@
 "Care at Home","Voluntary or Not for Profit","Enable Glasgow Care at Home Service","Glasgow","Adults","10/10/2023",5,6,NA,5,5,"01/09/2023","2015_8",0,0
 "Care at Home","Private","Professional Carers","South Queensferry","Adults","09/01/2023",5,5,NA,5,5,"21/12/2022","2015_7",0,0
 "Care at Home","Private","1st Homecare Dumfries","Dumfries","Adults","07/07/2023",5,5,NA,5,4,"13/06/2023","2015_9",0,0
-"Care at Home","Private","1st Homecare Irvine","Irvine","Adults","02/06/2022",4,4,NA,4,4,"31/05/2022","2015_9",0,0
+"Care at Home","Private","1st Homecare Irvine","Irvine","Adults","02/06/2022",4,4,NA,4,4,"31/05/2022","2015_9",1,1
 "Care at Home","Private","Caley Home Care","Edinburgh","Adults","22/12/2022",5,4,NA,5,4,"25/11/2022","2015_11",2,2
 "Other than Care at home","Local Authority","Orchard Grove Day Care","Glasgow","Adults","16/06/2017",5,5,5,6,5,"02/11/2016","2015_11",0,0
 "Care at Home","Voluntary or Not for Profit","Key - Highland (Skye and Easter Ross)","Invergordon","Adults","19/04/2023",4,5,NA,4,4,"17/03/2023","2015_7",1,1
@@ -963,7 +958,7 @@
 "Care at Home","Health Board","S.I.L.C. Support Service (Skye & Lochalsh)","Isle Of Skye","Adults","15/09/2023",3,4,NA,4,2,"18/12/2023","2015_8",0,0
 "Care at Home","Voluntary or Not for Profit","ENABLE Scotland - Fife Services","Kirkcaldy","Adults","06/03/2023",5,5,NA,5,5,"07/02/2023","2016_5",0,0
 "Care at Home","Private","Active Healthcare Services","Livingston","Adults","05/09/2023",5,5,NA,5,5,"11/08/2023","2015_11",0,0
-"Care at Home","Voluntary or Not for Profit","Guide Communicator Service","Kirkintilloch","Adults","22/01/2020",5,5,NA,4,5,"15/11/2023","2016_1",0,0
+"Care at Home","Voluntary or Not for Profit","Guide Communicator Service","Kirkintilloch","Adults","16/01/2024",5,5,NA,4,4,"15/11/2023","2016_1",0,0
 "Care at Home","Private","I C Care Ltd","Glasgow","Adults","23/08/2023",5,4,NA,4,2,"03/07/2023","2016_2",0,0
 "Care at Home","Voluntary or Not for Profit","Castlebrae Retirement Plus Service","Edinburgh","Adults","14/09/2023",5,5,NA,5,5,"29/08/2023","2016_4",0,0
 "Care at Home","Voluntary or Not for Profit","Scottish Autism - South West Scotland Services","Lanark","Adults","18/12/2019",5,5,NA,5,5,"27/11/2019","2015_8",0,0
@@ -981,7 +976,7 @@
 "Care at Home","Voluntary or Not for Profit","Real Life Options Bathgate Gideon Street","Bathgate","Adults","24/04/2023",5,4,NA,4,5,"19/04/2023","2017_9",0,0
 "Care at Home","Voluntary or Not for Profit","Real Life Options North East Fife Services","Cupar","Adults","12/12/2023",5,4,NA,4,4,"17/11/2023","2016_4",0,0
 "Care at Home","Voluntary or Not for Profit","Real Life Options Glenrothes Services","Glenrothes","Adults","19/06/2023",4,5,NA,4,4,"26/04/2023","2016_4",0,0
-"Care at Home","Voluntary or Not for Profit","Real Life Options Glasgow - Glenwood Service","Glasgow","Adults","20/06/2019",4,4,NA,5,4,"15/11/2023","2016_4",0,0
+"Care at Home","Voluntary or Not for Profit","Real Life Options Glasgow - Glenwood Service","Glasgow","Adults","03/01/2024",3,3,NA,3,3,"15/11/2023","2016_4",0,0
 "Care at Home","Voluntary or Not for Profit","Homelink Caithness","Wick","Adults","21/06/2023",4,5,NA,5,5,"18/05/2023","2016_5",0,0
 "Care at Home","Private","Contrast Care Limited","Beauly","Adults","25/07/2023",5,5,NA,5,5,"05/07/2023","2016_4",0,0
 "Care at Home","Private","Hamill Homecare","Glasgow","Adults","27/09/2023",6,6,NA,5,5,"22/08/2023","2016_4",0,0
@@ -994,8 +989,8 @@
 "Care at Home","Private","Pro Care","Largs","Adults","03/11/2023",5,4,NA,5,4,"18/10/2023","2016_5",0,0
 "Care at Home","Private","Rainbow VIPs","Ayr","Adults","22/06/2023",3,3,NA,5,5,"10/05/2023","2016_8",0,0
 "Other than Care at home","Private","Broomhill Day Centre","Penicuik","Adults","08/01/2018",3,3,4,3,3,"03/11/2017","2016_9",0,0
-"Care at Home","Private","Edinburgh Homecare T/A Meloosha Homecare Edinburgh","Edinburgh","Adults","06/12/2023",4,4,NA,4,4,"20/12/2023","2016_11",0,0
-"Care at Home","Private","Care Solutions","Stranraer","Adults","16/12/2019",5,5,NA,5,5,"05/10/2023","2016_4",0,0
+"Care at Home","Private","Edinburgh Homecare T/A Meloosha Homecare Edinburgh","Edinburgh","Adults","25/01/2024",4,4,NA,4,4,"20/12/2023","2016_11",0,0
+"Care at Home","Private","Care Solutions","Stranraer","Adults","30/01/2024",4,5,NA,5,4,"05/10/2023","2016_4",0,0
 "Other than Care at home","Private","Corstorphine Dementia Project Limited","Edinburgh","Adults","05/10/2017",5,5,4,5,5,"31/08/2017","2016_7",0,0
 "Other than Care at home","Voluntary or Not for Profit","Lynton Day Centre","East Linton","Adults","31/05/2023",4,4,4,5,3,"28/04/2023","2016_3",0,0
 "Other than Care at home","Local Authority","Wallacewell Day Care","Glasgow","Adults","22/08/2023",5,5,6,5,4,"11/08/2023","2017_1",0,0
@@ -1020,7 +1015,7 @@
 "Care at Home","Health Board","North Highland Care @ Home Service","Wick","Adults","12/10/2023",4,3,NA,4,3,"14/09/2023","2016_8",1,1
 "Care at Home","Voluntary or Not for Profit","Community Integrated Care - Highland Services North","Glasgow","Adults","10/05/2022",5,5,NA,5,5,"03/05/2022","2016_9",0,0
 "Care at Home","Private","Family Friends","Dundee","Adults","14/08/2020",5,5,NA,4,4,"12/11/2019","2017_2",0,0
-"Care at Home","Private","Bright Care (Stirling)","Stirling","Adults","25/01/2023",5,5,NA,5,4,"18/01/2023","2016_12",0,0
+"Care at Home","Private","Bright Care (Stirling)","Stirling","Adults","25/01/2023",5,5,NA,5,4,"22/01/2024","2016_12",0,0
 "Care at Home","Private","Strachan Care Services","Carnoustie","Adults","06/11/2023",3,4,NA,3,3,"25/09/2023","2017_6",0,0
 "Care at Home","Voluntary or Not for Profit","Sense Scotland Supported Living: Ayrshire & Surrounding Area","Ardrossan","Adults","18/03/2020",5,5,NA,5,5,"22/01/2020","2016_10",0,0
 "Care at Home","Voluntary or Not for Profit","Sense Scotland Supported Living: Glasgow 2 & Surrounding Area","Glasgow","Adults","24/05/2023",5,5,NA,5,5,"28/04/2023","2016_10",0,0
@@ -1030,17 +1025,17 @@
 "Care at Home","Private","Glasgow Homecare Limited t/a Home Instead","Glasgow","Adults","19/05/2023",5,6,NA,5,5,"04/05/2023","2016_11",0,0
 "Care at Home","Private","Gold Healthcare","Inverness","Adults","31/03/2023",5,4,NA,5,5,"01/12/2022","2016_11",0,0
 "Care at Home","Voluntary or Not for Profit","Aberdeen City & Shire Support Service","Inverurie","Adults","04/12/2023",4,5,NA,4,4,"12/06/2023","2017_3",0,0
-"Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - Highland Service B","Inverness","Adults","06/09/2023",3,4,NA,3,3,"14/08/2023","2017_1",0,0
+"Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - Highland Service B","Inverness","Adults","06/09/2023",3,4,NA,3,3,"11/01/2024","2017_1",0,0
 "Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - Highland Service C","Inverness","Adults","13/09/2023",4,4,NA,4,4,"17/08/2023","2017_1",1,1
-"Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - Highland Service D","Inverness","Adults","06/06/2023",3,4,NA,4,3,"11/05/2023","2017_1",0,0
+"Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - Highland Service D","Inverness","Adults","06/06/2023",3,4,NA,4,3,"19/01/2024","2017_1",0,0
 "Other than Care at home","Voluntary or Not for Profit","Gullane Day Centre","Gullane","Adults","24/08/2023",5,5,5,4,4,"28/07/2023","2016_12",0,0
 "Other than Care at home","Private","ION Enablement Centre","Falkirk","Adults","13/09/2023",5,5,4,4,5,"22/08/2023","2016_9",0,0
 "Care at Home","Voluntary or Not for Profit","John Bellany Day Centre","Prestonpans","Adults","31/07/2023",5,5,5,5,4,"19/07/2023","2016_12",0,0
-"Care at Home","Private","Delight Supported Living Ltd - Ayrshire","Irvine","Adults","21/03/2023",3,5,NA,3,4,"13/11/2023","2016_12",0,0
+"Care at Home","Private","Delight Supported Living Ltd - Ayrshire","Irvine","Adults","24/01/2024",3,5,NA,3,4,"10/01/2024","2016_12",0,0
 "Other than Care at home","Voluntary or Not for Profit","GATE","Linlithgow","Adults","20/09/2017",5,5,5,4,4,"04/09/2017","2016_10",0,0
 "Care at Home","Voluntary or Not for Profit","Muirfield Outreach","Irvine","Adults","06/08/2020",6,6,NA,5,6,"05/03/2020","2016_12",0,0
 "Other than Care at home","Voluntary or Not for Profit","Shakti Children's Service","Edinburgh","Adults","13/04/2018",4,4,4,4,4,"16/02/2018","2017_3",0,0
-"Care at Home","Voluntary or Not for Profit","Aberlour Options - Lothian Community Connections","Prestonpans","Adults","19/09/2019",4,4,NA,4,5,"11/09/2019","2017_10",0,0
+"Other than care at home","Voluntary or Not for Profit","Aberlour Options - Lothian Community Connections","Prestonpans","Adults","19/09/2019",4,4,NA,4,5,"11/09/2019","2017_10",0,0
 "Other than Care at home","Local Authority","Inclusive Support Service","Glasgow","Adults","12/02/2020",4,4,NA,4,3,"20/12/2019","2017_11",0,0
 "Care at Home","Private","Care for you Scotland","Paisley","Adults","14/09/2023",5,5,NA,5,2,"31/07/2023","2016_12",0,0
 "Care at Home","Private","Purple Social Care - Care at Home","Edinburgh","Adults","08/03/2023",4,5,NA,4,4,"12/01/2023","2016_12",0,0
@@ -1052,18 +1047,18 @@
 "Other than Care at home","Voluntary or Not for Profit","Primrose Day Centre","Tranent","Adults","17/09/2019",4,4,5,5,4,"08/08/2019","2017_3",0,0
 "Care at Home","Voluntary or Not for Profit","Glasgow Mental Health and Huntingtons Service","Glasgow","Adults","02/02/2023",5,5,NA,5,5,"20/01/2023","2017_6",0,0
 "Care at Home","Private","CERA - Ayrshire","Prestwick","Adults","05/10/2023",4,4,NA,4,4,"19/09/2023","2016_12",1,1
-"Care at Home","Private","Kingdom Care at Home Children and Young People - 1","Dunfermline","Adults","28/02/2020",4,4,NA,4,4,"07/12/2023","2017_3",0,0
+"Care at Home","Private","Kingdom Care at Home Children and Young People - 1","Dunfermline","Adults","09/01/2024",5,4,NA,4,5,"07/12/2023","2017_3",0,0
 "Care at Home","Private","Kingdom Care at Home - 2","Dunfermline","Adults","13/07/2023",3,5,NA,3,3,"22/06/2023","2017_3",0,0
 "Care at Home","Private","Kingdom Care at Home - 1","Dunfermline","Adults","19/10/2023",5,5,NA,5,5,"27/09/2023","2017_3",0,0
 "Care at Home","Voluntary or Not for Profit","The Michael Tracey Project","Glasgow","Adults","07/08/2023",4,5,NA,4,4,"30/06/2023","2017_5",0,0
-"Care at Home","Private","Eidyn Care Limited","Edinburgh","Adults","25/06/2019",6,6,NA,6,5,"22/11/2023","2017_4",1,1
+"Care at Home","Private","Eidyn Care Limited","Edinburgh","Adults","09/01/2024",6,6,NA,6,5,"22/11/2023","2017_4",1,1
 "Care at Home","Private","Shaw Community Living - Edinburgh","Edinburgh","Adults","16/10/2023",5,4,NA,5,4,"10/10/2023","2017_5",0,0
 "Other than Care at home","Voluntary or Not for Profit","Fiveways Day Centre","Dundee","Adults","18/09/2018",4,4,4,4,3,"31/07/2018","2017_6",0,0
 "Care at Home","Private","ION Care and Support Services Falkirk and West Lothian","Broxburn","Adults","26/01/2023",5,5,NA,5,5,"17/01/2023","2017_8",0,0
 "Care at Home","Voluntary or Not for Profit","Queens Cross Wellbeing for Good Mental Health Service","Glasgow","Adults","12/06/2023",6,6,NA,5,5,"05/05/2023","2017_5",0,0
-"Care at Home","Private","Castle Care - Angus","Forfar","Adults","07/01/2020",5,5,NA,4,5,"24/11/2023","2017_9",0,0
+"Care at Home","Private","Castle Care - Angus","Forfar","Adults","10/01/2024",4,4,NA,3,3,"24/11/2023","2017_9",0,0
 "Care at Home","Voluntary or Not for Profit","Trust Housing Association Ltd - Branch 3 Care at Home","Glasgow","Adults","07/09/2023",5,5,NA,5,5,"21/08/2023","2017_5",0,0
-"Care at Home","Voluntary or Not for Profit","Stepping Stones","Clydebank","Adults","29/05/2023",5,5,NA,5,5,"12/05/2023","2017_10",0,0
+"Other than care at home","Voluntary or Not for Profit","Stepping Stones","Clydebank","Adults","29/05/2023",5,5,NA,5,5,"12/05/2023","2017_10",0,0
 "Care at Home","Private","Caledonia Social Care (West)","Glasgow","Adults","24/01/2020",5,5,NA,5,5,"10/01/2020","2017_4",0,0
 "Care at Home","Private","Almond Blossom Care","Edinburgh","Adults","19/12/2023",4,3,NA,3,3,"12/12/2023","2017_7",0,0
 "Other than Care at home","Local Authority","Crosslet Day Services","Dumbarton","Adults","07/09/2018",5,5,5,5,5,"31/05/2018","2017_7",0,0
@@ -1073,12 +1068,12 @@
 "Care at Home","Private","Bespoke Clinical Care","Hamilton","Adults","11/12/2019",6,6,NA,5,6,"27/11/2019","2017_3",0,0
 "Care at Home","Private","1st Focus Homecare","Edinburgh","Adults","12/12/2023",5,5,NA,5,5,"16/11/2023","2017_6",0,0
 "Care at Home","Private","Home Help Me Care Ltd","Edinburgh","Adults","29/11/2023",6,5,NA,5,5,"01/11/2023","2017_8",0,0
-"Care at Home","Private","Potters Health Care","Falkirk","Adults","21/11/2023",5,5,NA,4,5,"02/11/2023","2017_8",0,0
+"Care at Home","Private","Potters Health Care","Falkirk","Adults","21/11/2023",5,5,NA,4,5,"02/11/2023","2017_8",1,1
 "Care at Home","Voluntary or Not for Profit","Together in Lanarkshire","Glasgow","Adults","20/07/2020",5,5,5,5,5,"25/02/2020","2018_5",0,0
 "Other than Care at home","Voluntary or Not for Profit","Barnardo's Thrive","Greenock","Adults","09/12/2021",5,5,5,5,5,"15/09/2021","2018_1",0,0
 "Care at Home","Private","Here2Care","Kirkwall","Adults","17/03/2023",6,6,NA,5,5,"09/02/2023","2017_8",0,0
 "Care at Home","Voluntary or Not for Profit","The Disabilities Trust Community Services (Scotland)","Glasgow","Adults","09/12/2021",4,4,NA,4,4,"29/09/2021","2018_3",0,0
-"Care at Home","Voluntary or Not for Profit","SAMH WayForward Service","Glasgow","Adults","06/05/2019",4,4,NA,4,4,"04/04/2019","2017_6",0,0
+"Care at Home","Voluntary or Not for Profit","SAMH WayForward Service","Glasgow","Adults","06/05/2019",4,4,NA,4,4,"18/01/2024","2017_6",0,0
 "Care at Home","Private","T and I Professional Services","Elgin","Adults","31/01/2023",5,5,NA,4,5,"26/01/2023","2017_8",0,0
 "Care at Home","Voluntary or Not for Profit","Sense Scotland Supported Living Lanarkshire 2 & surrounding area","Hamilton","Adults","14/12/2023",5,5,NA,5,5,"22/11/2023","2017_8",0,0
 "Care at Home","Private","Able Care @ Home","Aberdeen","Adults","24/05/2023",4,4,NA,4,4,"17/05/2023","2017_9",0,0
@@ -1086,7 +1081,7 @@
 "Care at Home","Voluntary or Not for Profit","The Richmond Fellowship Scotland - Dundee Services","Dundee","Adults","30/08/2023",5,6,NA,5,5,"07/08/2023","2017_8",0,0
 "Care at Home","Private","Prestige Nursing and Care - Dundee","Dundee","Adults","10/05/2023",3,4,NA,4,3,"09/03/2023","2018_11",7,7
 "Care at Home","Voluntary or Not for Profit","Cyrenians Communities","Edinburgh","Adults","12/06/2023",5,5,NA,5,5,"02/05/2023","2018_1",0,0
-"Care at Home","Voluntary or Not for Profit","East Lothian Support Services","Musselburgh","Adults","21/06/2023",4,4,NA,4,4,"15/11/2023","2017_9",0,0
+"Care at Home","Voluntary or Not for Profit","East Lothian Support Services","Musselburgh","Adults","08/01/2024",4,4,NA,4,4,"15/11/2023","2017_9",0,0
 "Care at Home","Private","Angus Homecare Services","Forfar","Adults","03/02/2020",4,4,NA,3,4,"18/12/2019","2017_11",0,0
 "Care at Home","Private","TLA Neighbourhood Services","Dundee","Adults","24/08/2023",4,4,NA,3,3,"27/07/2023","2017_9",1,1
 "Care at Home","Local Authority","Woodview","Elgin","Adults","12/10/2018",5,5,NA,4,4,"03/09/2018","2017_8",0,0
@@ -1098,9 +1093,9 @@
 "Care at Home","Local Authority","SE Home Care Service Cluster 2","Edinburgh","Adults","08/12/2022",5,4,NA,4,5,"07/12/2022","2017_10",0,0
 "Care at Home","Voluntary or Not for Profit","FunFirst Children and Young People's Service","Stevenston","Adults","06/12/2019",4,4,NA,4,5,"15/10/2019","2017_10",0,0
 "Care at Home","Private","Acadability","Alexandria","Adults","13/09/2023",4,3,4,4,3,"31/08/2023","2020_2",0,0
-"Care at Home","Voluntary or Not for Profit","Scottish Autism Perth/Angus Outreach Service with Care at Home","Dundee","Adults","03/10/2019",5,5,NA,5,4,"19/12/2023","2017_8",0,0
+"Care at Home","Voluntary or Not for Profit","Scottish Autism Perth/Angus Outreach Service with Care at Home","Dundee","Adults","11/01/2024",5,5,NA,4,4,"19/12/2023","2017_8",0,0
 "Other than Care at home","Voluntary or Not for Profit","Aberlour Options - Moray Community Connections","Elgin","Adults","07/01/2019",5,5,5,5,5,"03/12/2018","2017_9",0,0
-"Care at Home","Private","The No1 Care Agency","Glasgow","Adults","06/09/2021",5,4,NA,4,4,"20/08/2021","2018_6",0,0
+"Care at Home","Private","The No1 Care Agency","Glasgow","Adults","06/09/2021",5,4,NA,4,4,"16/01/2024","2018_6",0,0
 "Other than Care at home","Voluntary or Not for Profit","Fife and Tayside Support Services","Leven","Adults","21/11/2023",4,3,NA,3,3,"07/11/2023","2018_7",0,0
 "Care at Home","Private","HolmCare","Newcastleton","Adults","11/05/2023",4,4,NA,4,3,"24/04/2023","2018_6",0,0
 "Care at Home","Private","CERA - Lothians","North Berwick","Adults","08/03/2021",4,4,NA,4,4,"23/02/2021","2018_2",1,1
@@ -1109,19 +1104,19 @@
 "Care at Home","Private","Newlands Care Angus","Arbroath","Adults","28/11/2023",5,4,NA,5,4,"23/10/2023","2018_5",3,3
 "Care at Home","Private","Epitome Home Care Agency","Edinburgh","Adults","02/11/2023",3,3,NA,3,2,"10/10/2023","2018_3",0,0
 "Care at Home","Private","Bright Care (Borders)","Melrose","Adults","15/06/2023",5,5,NA,5,5,"30/05/2023","2017_11",0,0
-"Care at Home","Voluntary or Not for Profit","Real Life Options Falkirk Outreach","Falkirk","Adults","09/12/2022",6,5,NA,5,5,"23/11/2023","2017_12",0,0
+"Care at Home","Voluntary or Not for Profit","Real Life Options Falkirk Outreach","Falkirk","Adults","04/01/2024",6,5,NA,5,5,"23/11/2023","2017_12",0,0
 "Care at Home","Local Authority","Castle Crags: Care at Home: Group One","Edinburgh","Adults","04/01/2023",5,5,NA,5,5,"21/11/2022","2018_5",0,0
 "Care at Home","Voluntary or Not for Profit","Abbeyfield Strathaven & District Society Ltd","Strathaven","Adults","13/07/2023",5,5,NA,5,5,"22/06/2023","2018_4",0,0
 "Care at Home","Local Authority","Short Term Assessment and Reablement Team","Isle Of Lewis","Adults",NA,5,5,NA,5,4,"01/03/2023","2017_11",0,0
 "Care at Home","Private","Seasoned Hands Care","Edinburgh","Adults","10/02/2023",4,4,NA,4,3,"19/01/2023","2018_6",0,0
 "Care at Home","Private","365 Care","Paisley","Adults","27/07/2023",3,3,NA,3,3,"18/05/2023","2018_9",0,0
 "Care at Home","Private","Living Ambitions - Aberdeen Community Services","Aberdeen","Adults","18/09/2023",4,4,NA,4,4,"06/09/2023","2018_5",0,0
-"Care at Home","Private","Care4U 247 Ltd","Edinburgh","Adults","11/05/2022",5,4,NA,4,4,"30/11/2023","2018_4",0,0
+"Care at Home","Private","Care4U 247 Ltd","Edinburgh","Adults","09/01/2024",5,4,NA,4,4,"30/11/2023","2018_4",0,0
 "Care at Home","Voluntary or Not for Profit","Gateway Housing Support Service and Care at Home Service","Inverness","Adults","13/07/2023",5,5,NA,4,4,"22/06/2023","2018_3",0,0
 "Care at Home","Private","ana care@home","Aberdeen","Adults","14/12/2023",3,5,NA,5,3,"31/10/2023","2018_5",0,0
 "Other than Care at home","Local Authority","LCC Day Support Service","Campbeltown","Adults",NA,NA,NA,NA,NA,NA,NA,"2018_12",0,0
 "Care at Home","Private","Oban Community Carers Ltd","Oban","Adults","14/11/2023",5,5,NA,5,5,"11/10/2023","2018_5",0,0
-"Care at Home","Voluntary or Not for Profit","Aberlour Options - Borders Outreach","Galashiels","Adults","09/12/2020",5,5,NA,4,4,"11/03/2020","2018_5",0,0
+"Other than Care at home","Voluntary or Not for Profit","Aberlour Options - Borders Outreach","Galashiels","Adults","09/12/2020",5,5,NA,4,4,"11/03/2020","2018_5",0,0
 "Care at Home","Private","CERA - Perth & Kinross & Fife","Perth","Adults","10/12/2019",4,4,NA,4,4,"14/11/2019","2018_2",0,0
 "Care at Home","Private","Cera Care - Dumfries and Galloway","Newton Stewart","Adults","29/07/2020",5,5,NA,4,4,"06/03/2020","2018_2",0,0
 "Care at Home","Private","Avenue Care Services - Edinburgh","Edinburgh","Adults","22/03/2023",4,4,NA,4,4,"27/01/2023","2018_7",1,1
@@ -1137,14 +1132,14 @@
 "Care at Home","Private","D.I.A.L. Network","Ayr","Adults","13/04/2023",5,4,NA,4,4,"01/02/2023","2018_7",0,0
 "Care at Home","Private","Homecare Scotland Care Services Ltd","Aberdeen","Adults","02/11/2023",5,5,NA,4,5,"15/09/2023","2018_7",0,0
 "Care at Home","Voluntary or Not for Profit","Tiphereth Supported Living","Edinburgh","Adults","10/03/2020",5,5,NA,4,4,"17/02/2020","2018_9",0,0
-"Care at Home","Voluntary or Not for Profit","FunFirst Children and Young People's Service-East Renfrewshire and South Lanarkshire","Cambuslang","Adults","28/08/2019",4,4,NA,4,4,"14/11/2023","2018_6",0,0
+"Care at Home","Voluntary or Not for Profit","FunFirst Children and Young People's Service-East Renfrewshire and South Lanarkshire","Cambuslang","Adults","08/01/2024",4,4,NA,4,4,"14/11/2023","2018_6",0,0
 "Care at Home","Private","Rainbow Services Central","Falkirk","Adults","09/10/2023",5,4,NA,4,5,"05/10/2023","2018_7",1,1
 "Care at Home","Private","Nightingale Home Care","Brechin","Adults","20/06/2023",5,5,NA,4,5,"01/06/2023","2019_2",0,0
 "Care at Home","Local Authority","Supported Living and Outreach","Lerwick","Adults","20/01/2023",4,5,NA,5,4,"25/11/2022","2018_7",0,0
 "Care at Home","Private","All New Beginnings Ltd","Hamilton","Adults","07/12/2023",5,3,NA,3,4,"14/11/2023","2018_7",1,1
 "Care at Home","Local Authority","East Ayrshire Community Supports","Kilmarnock","Adults","11/05/2023",5,5,NA,4,4,"20/03/2023","2018_10",0,0
 "Care at Home","Private","The Good Care Group Scotland Limited","Newbridge","Adults","19/12/2023",6,6,NA,5,5,"30/11/2023","2018_7",0,0
-"Care at Home","Private","ELB Care trading as Home Instead","Paisley","Adults","31/07/2020",4,4,NA,4,4,"27/11/2023","2018_8",0,0
+"Care at Home","Private","ELB Care trading as Home Instead","Paisley","Adults","10/01/2024",4,4,NA,4,4,"27/11/2023","2018_8",0,0
 "Care at Home","Private","Avicenna Care","Kirkcaldy","Adults","26/04/2023",4,4,NA,4,4,"17/04/2023","2018_10",3,3
 "Care at Home","Private","Cura","Broxburn","Adults","19/10/2023",4,4,NA,4,4,"14/09/2023","2019_1",0,0
 "Care at Home","Private","Beechwood","Dunoon","Adults","08/10/2019",5,5,NA,NA,4,"12/09/2019","2018_7",0,0
@@ -1152,8 +1147,8 @@
 "Care at Home","Private","Excelsior Care Limited","Kirkcaldy","Adults","13/01/2020",5,5,NA,4,4,"28/11/2019","2019_1",0,0
 "Other than Care at home","Private","Badenscoth House","Inverurie","Adults","06/05/2019",5,5,NA,5,5,"17/10/2023","2018_6",0,0
 "Care at Home","Private","Aspire Central Support Services","Bellshill","Adults","04/05/2023",4,4,NA,3,4,"02/03/2023","2018_12",0,0
-"Care at Home","Private","My Homecare Edinburgh","Edinburgh","Adults","19/05/2023",3,3,NA,4,3,"30/11/2023","2018_11",1,1
-"Care at Home","Private","SRS Care Solutions Scotland","Hawick","Adults","25/09/2022",3,4,NA,4,3,"20/12/2023","2018_9",0,0
+"Care at Home","Private","My Homecare Edinburgh","Edinburgh","Adults","17/01/2024",4,3,NA,4,3,"30/11/2023","2018_11",1,1
+"Care at Home","Private","SRS Care Solutions Scotland","Hawick","Adults","08/01/2024",4,4,NA,4,4,"20/12/2023","2018_9",0,0
 "Care at Home","Private","Abbeyfield Care and Support","Stonehaven","Adults","24/07/2020",4,4,NA,4,4,"12/02/2020","2018_11",0,0
 "Care at Home","Voluntary or Not for Profit","The Action Group (Team F) Care at Home","Edinburgh","Adults","22/04/2022",5,4,NA,5,5,"16/03/2022","2019_4",0,0
 "Other than Care at home","Private","SNAP Support Service","Inverness","Adults","14/09/2021",6,5,5,5,5,"12/08/2021","2019_3",0,0
@@ -1184,8 +1179,8 @@
 "Care at Home","Private","1st Homecare Glenrothes","Falkirk (Falkirk)","Adults","20/09/2021",4,4,NA,4,4,"27/08/2021","2019_3",0,0
 "Care at Home","Local Authority","Short Term Assessment and Reablement Team (START)","Elgin","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_2",0,0
 "Care at Home","Private","Home Care (Scotland)","Dingwall","Adults","23/05/2023",5,4,NA,5,5,"22/05/2023","2019_3",1,1
-"Care at Home","Private","Nacor Healthcare","Falkirk","Adults","08/09/2023",3,3,NA,3,3,"18/08/2023","2019_6",0,0
-"Care at Home","Private","Care1 Professional Services Ltd","Glasgow","Adults","12/11/2021",3,3,NA,3,3,"26/10/2021","2019_2",2,2
+"Care at Home","Private","Nacor Healthcare","Falkirk","Adults","08/09/2023",3,3,NA,3,3,"25/01/2024","2019_6",0,0
+"Care at Home","Private","Care1 Professional Services Ltd","Glasgow","Adults","12/11/2021",3,3,NA,3,3,"15/01/2024","2019_2",2,2
 "Care at Home","Voluntary or Not for Profit","Geeza Break - Sitter Service","Glasgow","Adults","13/12/2023",5,5,NA,5,4,"16/11/2023","2019_2",0,0
 "Care at Home","Private","RMR Specialist Care","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_8",0,0
 "Care at Home","Local Authority","Aberdeenshire Council - Central Care at Home Service","Inverurie","Adults","18/02/2022",5,4,NA,4,4,"25/01/2022","2019_4",0,0
@@ -1194,7 +1189,7 @@
 "Care at Home","Private","Hands-4-Care-Services","Motherwell","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_9",0,0
 "Care at Home","Private","Carswell Care","Perthshire","Adults","25/10/2021",3,3,NA,3,3,"31/01/2023","2019_10",2,2
 "Care at Home","Private","Love @ Care-Lanarkshire","Bellshill","Adults","07/01/2022",3,3,NA,4,4,"30/11/2021","2019_6",1,1
-"Care at Home","Private","Assist Care and Support","Bathgate","Adults","18/10/2021",4,4,NA,4,4,"13/12/2023","2019_6",0,0
+"Care at Home","Private","Assist Care and Support","Bathgate","Adults","17/01/2024",4,4,NA,4,4,"13/12/2023","2019_6",0,0
 "Care at Home","Private","JB Homecare and Staff Agency","Edinburgh","Adults","13/12/2023",3,3,NA,3,3,"07/12/2023","2019_3",0,0
 "Other than Care at home","Local Authority","Mountainhall Day Care","Dumfries","Adults","10/01/2022",4,NA,NA,NA,4,"01/12/2021","2019_4",0,0
 "Care at Home","Private","Kareplus Glasgow","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_4",0,0
@@ -1203,7 +1198,7 @@
 "Care at Home","Voluntary or Not for Profit","Fun First Children and Young People's Service - Tayside","Arbroath","Adults","22/02/2023",5,4,NA,4,4,"06/02/2023","2019_8",0,0
 "Care at Home","Private","Wilta Health Solutions Ltd","Dalkeith","Adults",NA,NA,NA,NA,NA,NA,NA,"2020_6",0,0
 "Other than Care at home","Local Authority","Meadowburn Day Care Centre","Glasgow","Adults","20/04/2022",4,NA,NA,4,NA,"17/03/2022","2019_11",0,0
-"Care at Home","Private","Allied Health-Services Fraserburgh","Fraserburgh","Adults","21/08/2023",2,3,NA,3,2,"24/07/2023","2018_12",0,0
+"Care at Home","Private","Allied Health-Services Fraserburgh","Fraserburgh","Adults","21/08/2023",2,3,NA,3,2,"12/12/2023","2018_12",0,0
 "Care at Home","Private","Care Quality Services Limited - Dundee","Dundee","Adults","18/10/2022",5,4,NA,4,4,"12/09/2022","2018_12",0,0
 "Care at Home","Private","Care Quality Services Limited - Moray","Elgin","Adults","02/11/2023",2,2,NA,3,2,"13/12/2023","2018_12",0,0
 "Care at Home","Private","Care4Life Services","Helensburgh","Adults","08/11/2023",5,5,NA,5,4,"06/10/2023","2019_5",0,0
@@ -1217,7 +1212,7 @@
 "Care at Home","Private","SCRT Paisley","Paisley","Adults","05/06/2023",4,4,NA,5,5,"12/05/2023","2019_5",0,0
 "Care at Home","Private","EHSAAS CARE","Livingston","Adults","28/11/2023",5,4,NA,4,4,"21/11/2023","2019_7",2,2
 "Care at Home","Private","Living Ambitions Edinburgh and the Lothians","Edinburgh","Adults","28/04/2023",3,3,NA,3,3,"29/03/2023","2019_9",0,0
-"Care at Home","Voluntary or Not for Profit","Allarton","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_9",0,0
+"Care at Home","Voluntary or Not for Profit","Allarton","Glasgow","Adults","11/10/2021",4,4,NA,4,4,NA,"2019_9",0,0
 "Care at Home","Private","Take Care at Home","Glasgow","Adults","23/03/2022",3,3,NA,3,3,"16/05/2022","2020_3",0,0
 "Care at Home","Private","My Life (Edinburgh & Lothians)","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_9",2,2
 "Care at Home","Private","Sunflower Home Care","Inverness","Adults","11/07/2023",4,4,NA,4,4,"26/06/2023","2019_7",0,0
@@ -1250,7 +1245,7 @@
 "Care at Home","Health Board","Care at Home and Enablement Service East Ross","Invergordon","Adults","25/09/2023",5,4,NA,4,4,"01/09/2023","2019_12",0,0
 "Care at Home","Voluntary or Not for Profit","VSA Outreach Service","Aberdeen","Adults",NA,5,5,NA,5,5,NA,"2020_5",0,0
 "Other than Care at home","Voluntary or Not for Profit","Stanmore Lifeskills","Lanark","Adults","20/09/2022",5,4,5,4,4,"16/06/2022","2020_9",0,0
-"Care at Home","Private","TLC (Scotland)","Prestwick","Adults","29/03/2023",4,3,NA,3,3,"16/03/2023","2019_12",0,0
+"Care at Home","Private","TLC (Scotland)","Prestwick","Adults","29/03/2023",4,3,NA,3,3,"24/01/2024","2019_12",0,0
 "Care at Home","Private","Beelieve Health and Wellbeing Services","Glasgow","Adults","25/04/2023",4,4,NA,4,4,"17/03/2023","2020_6",1,1
 "Care at Home","Private","Constance Care North Lanarkshire and East Renfrewshire","Motherwell","Adults","27/10/2023",4,4,NA,5,5,"21/09/2023","2019_12",1,1
 "Care at Home","Private","Constance Care Ayrshire","Ayr","Adults","17/08/2023",5,4,NA,4,5,"14/08/2023","2019_12",0,0
@@ -1263,9 +1258,9 @@
 "Care at Home","Local Authority","Green Gardens Day Support Service","Peebles","Adults","17/11/2023",5,5,4,5,5,"31/10/2023","2019_12",0,0
 "Care at Home","Local Authority","Lanark Lodge Day Centre","Duns","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_12",0,0
 "Care at Home","Local Authority","Homecare East","Duns","Adults",NA,NA,NA,NA,NA,NA,NA,"2019_12",0,0
-"Care at Home","Local Authority","Homecare South","Hawick","Adults","27/11/2023",3,4,NA,4,4,"19/12/2023","2019_12",0,0
-"Care at Home","Local Authority","Homecare West","Galashiels","Adults","05/09/2023",2,2,NA,3,3,"14/12/2023","2019_12",1,1
-"Care at Home","Private","Creative Homecare","Denny","Adults","23/01/2023",6,5,NA,5,5,"23/12/2022","2020_7",0,0
+"Care at Home","Local Authority","Homecare South","Hawick","Adults","08/01/2024",4,4,NA,4,4,"19/12/2023","2019_12",0,0
+"Care at Home","Local Authority","Homecare West","Galashiels","Adults","08/01/2024",4,4,NA,4,4,"14/12/2023","2019_12",1,1
+"Care at Home","Private","Creative Homecare","Denny","Adults","31/01/2024",6,5,NA,5,5,"12/01/2024","2020_7",0,0
 "Care at Home","Private","Gateways Support Service","Denny","Adults","27/06/2023",5,4,NA,5,4,"09/06/2023","2020_12",0,0
 "Care at Home","Voluntary or Not for Profit","Abbeyfield Care At Home","Stirling","Adults","20/11/2023",5,3,NA,3,5,"08/11/2023","2020_3",0,0
 "Care at Home","Voluntary or Not for Profit","Wheatley Care Falkirk Supported Living Service","Falkirk","Adults","08/11/2023",5,4,NA,4,5,"17/10/2023","2020_3",0,0
@@ -1279,7 +1274,6 @@
 "Care at Home","Private","Millport Care at Home Service","Isle Of Cumbrae","Adults","25/09/2022",4,4,NA,4,4,"24/08/2022","2020_6",0,0
 "Care at Home","Voluntary or Not for Profit","Carr Gomm Support Services 6","Dundee","Adults","12/04/2022",3,4,NA,4,4,"31/03/2022","2020_6",0,0
 "Care at Home","Private","Scotia Care","Arbroath","Adults","10/12/2021",5,4,NA,4,4,"20/10/2021","2020_4",0,0
-"Care at Home","Private","My Life (West Scotland and (Glasgow)","Clydebank","Adults",NA,NA,NA,NA,NA,NA,NA,"2020_4",0,0
 "Care at Home","Voluntary or Not for Profit","Leonard Cheshire Fulwood","Glasgow","Adults","16/05/2023",4,4,NA,4,4,"28/04/2023","2020_11",0,0
 "Care at Home","Private","Shona Care Ltd","Glasgow","Adults","17/07/2023",5,5,NA,5,4,"20/06/2023","2020_9",0,0
 "Care at Home","Voluntary or Not for Profit","Inspire Sycamore Way","Banchory","Adults","21/03/2022",5,5,NA,5,5,"03/03/2022","2020_7",0,0
@@ -1290,14 +1284,14 @@
 "Other than Care at home","Voluntary or Not for Profit","Capability Scotland - Dumfries & Galloway","Dumfries","Adults","17/12/2021",5,5,5,5,5,"18/10/2021","2020_9",0,0
 "Care at Home","Private","Hierarchy Support Services","Livingston","Adults","20/11/2023",5,4,NA,4,4,"08/11/2023","2020_6",0,0
 "Care at Home","Private","Hearts at Home Social Care Limited","Clydebank","Adults",NA,NA,NA,NA,NA,NA,NA,"2020_11",0,0
-"Care at Home","Private","Safe Hands Support Scotland","Stirling","Adults","06/03/2023",5,4,NA,4,5,"08/02/2023","2020_11",0,0
+"Care at Home","Private","Safe Hands Support Scotland","Stirling","Adults","06/03/2023",5,4,NA,4,5,"26/01/2024","2020_11",0,0
 "Care at Home","Private","Call-In Homecare Ltd (Dundee)","Dundee","Adults","08/04/2022",4,3,NA,3,3,"23/02/2022","2021_1",1,1
 "Care at Home","Private","Fraser Elite","Inverness","Adults","17/11/2021",5,5,NA,5,5,"13/10/2021","2020_9",0,0
 "Care at Home","Private","Call -In Homecare West Lothian.","Loanhead","Adults","09/11/2023",4,4,NA,4,4,"06/10/2023","2021_1",0,0
 "Care at Home","Private","Easter Inch Limited t/a T&T Healthcare Solutions","Bathgate","Adults","16/03/2022",5,5,NA,5,5,"11/02/2022","2020_8",0,0
 "Care at Home","Voluntary or Not for Profit","Affinity Trust - Aberdeen","Aberdeen","Adults","04/07/2023",5,5,NA,5,5,"09/06/2023","2020_9",0,0
-"Care at Home","Private","M-VERTH LIMITED","Paisley","Adults","12/01/2023",NA,NA,NA,NA,NA,"12/12/2023","2020_10",1,1
-"Care at Home","Private","Thistle Care Solutions","Falkirk","Adults","18/01/2022",4,4,NA,4,4,"21/12/2023","2020_12",1,1
+"Care at Home","Private","M-VERTH LIMITED","Paisley","Adults","23/01/2024",4,4,NA,3,3,"12/12/2023","2020_10",1,1
+"Care at Home","Private","Thistle Care Solutions","Falkirk","Adults","15/01/2024",5,4,NA,4,5,"21/12/2023","2020_12",1,1
 "Care at Home","Private","Tenacity Home Care","Edinburgh","Adults","28/11/2023",3,3,NA,3,3,"14/11/2023","2020_10",0,0
 "Care at Home","Local Authority","Clydebank Day Service and Opportunities","Clydebank","Adults",NA,NA,NA,NA,NA,NA,NA,"2020_12",0,0
 "Other than Care at home","Voluntary or Not for Profit","Young Adult Services (YAS)","Rosewell","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_2",0,0
@@ -1308,7 +1302,7 @@
 "Care at Home","Voluntary or Not for Profit","Daldorch House Adult Service","Mauchline","Adults","19/04/2022",3,3,NA,3,3,"16/03/2022","2021_1",0,0
 "Care at Home","Private","TAVE Beulah","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_3",0,0
 "Care at Home","Voluntary or Not for Profit","Midlothian Park Cottage","Dalkeith","Adults","15/06/2023",5,5,NA,5,5,"05/06/2023","2021_2",0,0
-"Care at Home","Voluntary or Not for Profit","Leonard Cheshire Lammermuir","Livingston","Adults","18/01/2023",4,3,NA,3,3,"11/01/2023","2020_11",0,0
+"Care at Home","Voluntary or Not for Profit","Leonard Cheshire Lammermuir","Livingston","Adults","30/01/2024",5,5,NA,5,5,"22/01/2024","2020_11",0,0
 "Care at Home","Voluntary or Not for Profit","Leonard Cheshire City Park","Edinburgh","Adults","05/12/2023",3,3,NA,4,3,"17/10/2023","2020_11",0,0
 "Care at Home","Private","Newcross Healthcare Scotland Care at Home","Edinburgh","Adults","09/01/2023",3,NA,NA,NA,4,"11/11/2022","2021_3",0,0
 "Care at Home","Voluntary or Not for Profit","Care Choices","Aberdeen","Adults","16/08/2023",5,5,NA,5,5,"24/07/2023","2020_10",0,0
@@ -1339,7 +1333,7 @@
 "Care at Home","Private","Lothian Healthcare Services","Balerno","Adults","31/07/2023",5,4,NA,4,4,"13/07/2023","2021_6",2,2
 "Care at Home","Private","GGIF Care Ltd Support Service","Aberdeen","Adults","11/07/2023",4,4,NA,4,4,"03/07/2023","2021_6",0,0
 "Care at Home","Private","Oncall Care Service","Glasgow","Adults","29/09/2023",4,4,NA,4,4,"07/09/2023","2021_6",0,0
-"Care at Home","Private","Heart Link Health Care Services","Dunfermline","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_7",0,0
+"Care at Home","Private","Heart Link Health Care Services","Dunfermline","Adults","26/01/2024",5,5,NA,4,4,"22/01/2024","2021_7",0,0
 "Other than Care at home","Voluntary or Not for Profit","Fairhill Rise","Haddington","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_7",0,0
 "Care at Home","Private","HRM HOMECARE SERVICES - NORTH LANARKSHIRE","Coatbridge","Adults","27/02/2023",4,NA,NA,NA,4,"03/02/2023","2021_7",0,0
 "Care at Home","Private","HRM HOMECARE SERVICES - RENFREWSHIRE","Kilmarnock","Adults","06/10/2023",5,5,NA,5,5,"07/09/2023","2021_7",0,0
@@ -1360,9 +1354,9 @@
 "Other than Care at home","Private","Stranraer Skills Station Ltd","Stranraer","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_9",0,0
 "Care at Home","Private","Care Partners Health Care","Dunfermline","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_9",0,0
 "Care at Home","Local Authority","Generic - Care at Home - Barra","Isle Of Barra","Adults","11/09/2023",5,5,NA,5,5,"17/08/2023","2021_10",0,0
-"Care at Home","Private","Home Instead West Fife and Kinross","Inverkeithing","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_10",1,1
+"Care at Home","Private","Home Instead West Fife and Kinross","Inverkeithing","Adults","31/01/2024",5,5,NA,5,5,"29/01/2024","2021_10",1,1
 "Care at Home","Private","Home Instead Dundee & South Angus","Dundee","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_10",0,0
-"Care at Home","Private","ChrystalKay Healthcare Ltd","Edinburgh","Adults","25/09/2023",2,2,NA,2,2,"03/08/2023","2021_11",0,0
+"Care at Home","Private","ChrystalKay Healthcare Ltd","Edinburgh","Adults","25/09/2023",2,2,NA,2,2,"23/01/2024","2021_11",0,0
 "Other than Care at home","Voluntary or Not for Profit","Muirshiel Resource Centre","Port Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_11",0,0
 "Care at Home","Voluntary or Not for Profit","Cornerstone Dundee Supported Living","Dundee","Adults",NA,NA,NA,NA,NA,NA,NA,"2021_11",0,0
 "Care at Home","Voluntary or Not for Profit","Cosgrove Care Supported Living","Glasgow","Adults","17/07/2023",4,5,NA,4,4,"09/06/2023","2021_11",0,0
@@ -1373,12 +1367,12 @@
 "Care at Home","Local Authority","Firrhill Housing Support and Care at Home Service","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_1",0,0
 "Care at Home","Private","Your Care HomeCare","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_1",0,0
 "Care at Home","Voluntary or Not for Profit","Sense Scotland Supported Living West Dunbartonshire and Surrounding Areas","Clydebank","Adults","20/10/2023",5,5,NA,5,5,"07/07/2023","2022_1",0,0
-"Care at Home","Voluntary or Not for Profit","TouchBase Fife","Kirkcaldy","Adults","18/10/2023",5,5,5,5,5,"08/09/2023","2022_1",0,0
-"Care at Home","Voluntary or Not for Profit","TouchBase Dunbartonshire","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_1",0,0
+"Other than care at home","Voluntary or Not for Profit","TouchBase Fife","Kirkcaldy","Adults","18/10/2023",5,5,5,5,5,"08/09/2023","2022_1",0,0
+"Other than care at home","Voluntary or Not for Profit","TouchBase Dunbartonshire","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_1",0,0
 "Care at Home","Private","Mill Court","Lockerbie","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_1",0,0
-"Care at Home","Local Authority","South, HSCP Community Support Service","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_1",0,0
-"Care at Home","Private","Nightingale Home Care","Falkirk","Adults","15/03/2023",5,NA,NA,NA,5,"01/03/2023","2022_1",0,0
-"Care at Home","Local Authority","North West - HSCP - Community Support Service","Glasgow","Adults",NA,NA,NA,NA,NA,NA,"18/12/2023","2022_2",0,0
+"Care at Home","Local Authority","South, HSCP Community Support Service","Glasgow","Adults",NA,NA,NA,NA,NA,NA,"16/01/2024","2022_1",0,0
+"Care at Home","Private","Nightingale Home Care","Falkirk","Adults","15/03/2023",5,NA,NA,NA,5,"25/01/2024","2022_1",0,0
+"Care at Home","Local Authority","North West - HSCP - Community Support Service","Glasgow","Adults","29/01/2024",5,5,NA,5,4,"18/12/2023","2022_2",0,0
 "Care at Home","Private","Home Instead South Lanarkshire - Hamilton","Lanark","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_2",0,0
 "Care at Home","Private","Trust Community Care Limited","Lanarkshire","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_2",0,0
 "Care at Home","Private","Home Instead West Dunbartonshire, Argyll & Bute and Arran","Clydebank","Adults","26/07/2023",5,5,NA,5,4,"17/05/2023","2022_2",1,1
@@ -1387,13 +1381,13 @@
 "Care at Home","Private","Home Instead Inverclyde and North Ayrshire","Greenock","Adults","06/09/2023",5,5,NA,5,5,"07/08/2023","2022_3",0,0
 "Care at Home","Private","Edinburgh Support Services & Healthcare Training Ltd","Edinburgh","Adults","28/08/2023",3,3,NA,3,3,"24/08/2023","2022_3",0,0
 "Care at Home","Voluntary or Not for Profit","Trust Housing Association Ltd - Branch 5","Glasgow","Adults","26/09/2023",5,5,NA,5,5,"20/09/2023","2022_3",0,0
-"Other than Care at home","Voluntary or Not for Profit","Young Adults Day Opportunities Service","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,"07/11/2023","2022_3",0,0
+"Other than Care at home","Voluntary or Not for Profit","Young Adults Day Opportunities Service","Edinburgh","Adults","08/01/2024",5,5,5,5,5,"07/11/2023","2022_3",0,0
 "Care at Home","Private","Forth Valley Homecare Services (Scotia Care Ltd).","Stirling","Adults","05/04/2023",5,4,NA,5,5,"23/03/2023","2022_4",0,0
 "Care at Home","Private","Equity of Services for All","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_4",0,0
 "Care at Home","Private","Nadia Healthcare Services","Falkirk","Adults","15/06/2023",3,3,NA,4,3,"30/05/2023","2022_4",0,0
 "Care at Home","Private","Pixie Care Limited","South Queensferry","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_5",0,0
 "Care at Home","Private","Meloosha Homecare Livingston","Livingston","Adults","08/11/2023",5,4,NA,4,4,"02/11/2023","2022_5",0,0
-"Care at Home","Private","Bluebird Care Ayrshire","Prestwick","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_5",0,0
+"Care at Home","Private","Bluebird Care Ayrshire","Prestwick","Adults","17/10/2023",4,4,NA,4,4,"19/09/2023","2022_5",0,0
 "Care at Home","Private","Visiting Angels Renfrewshire and Inverclyde","Renfrew","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_5",0,0
 "Care at Home","Private","Balmoral Ayrshire","Prestwick","Adults","29/09/2023",4,3,NA,4,4,"06/09/2023","2022_6",0,0
 "Care at Home","Private","Edinburgh Care Ltd trading as Lastminute Care and Nursing","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_6",0,0
@@ -1402,7 +1396,7 @@
 "Care at Home","Local Authority","South Ayrshire Home Support Service","Ayr","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_6",0,0
 "Care at Home","Private","DB Quality Care Ltd","Edinburgh","Adults","27/03/2023",4,NA,NA,NA,4,"08/02/2023","2022_6",0,0
 "Care at Home","Private","St Columba's Hospice Care - Care at Home","Edinburgh","Adults","10/08/2023",5,5,NA,5,5,"10/07/2023","2022_6",0,0
-"Care at Home","Private","Peaky Minders Ltd","Aberdeen","Adults",NA,NA,NA,NA,NA,NA,"22/11/2023","2022_6",0,0
+"Care at Home","Private","Peaky Minders Ltd","Aberdeen","Adults","08/01/2024",3,3,NA,3,2,"22/11/2023","2022_6",0,0
 "Care at Home","Private","Swanton Care and Community, Supported Living Service  Scotland","Falkirk","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_6",0,0
 "Care at Home","Private","EHL Care Ltd t/a Home Instead East Fife","Glenrothes","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_6",0,0
 "Care at Home","Private","Call - In Homecare - Edinburgh South","Edinburgh","Adults","26/06/2023",4,NA,NA,NA,4,"06/06/2023","2022_6",1,1
@@ -1412,7 +1406,7 @@
 "Care at Home","Private","Eden Eagles Care Service","Edinburgh","Adults","24/08/2023",4,4,NA,4,4,"17/08/2023","2022_7",0,0
 "Care at Home","Private","Love Childrens Support - Glasgow","Glasgow","Adults","07/06/2023",4,4,NA,4,4,"12/05/2023","2022_7",1,1
 "Care at Home","Private","Mackcare Limited","Stirling","Adults","15/03/2023",4,NA,NA,NA,4,"28/02/2023","2022_7",0,0
-"Care at Home","Private","Cogent Healthcare","Bathgate","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_7",0,0
+"Care at Home","Private","Cogent Healthcare","Bathgate","Adults",NA,NA,NA,NA,NA,NA,"19/01/2024","2022_7",0,0
 "Care at Home","Voluntary or Not for Profit","Teviot Court","Penicuik","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_8",0,0
 "Care at Home","Voluntary or Not for Profit","Todhill Complex Needs Service -  Care at Home Service","Stevenston","Adults","07/12/2023",4,3,NA,3,3,"16/11/2023","2022_8",0,0
 "Care at Home","Private","Trust Care Staff and Training","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_8",0,0
@@ -1435,7 +1429,7 @@
 "Care at Home","Private","Fife Care Limited","Leven","Adults","07/07/2023",5,5,NA,4,4,"04/07/2023","2022_10",0,0
 "Care at Home","Private","Healthrites Care Solutions","Aberdeen","Adults","14/07/2023",4,4,NA,4,4,"06/07/2023","2022_10",0,0
 "Care at Home","Local Authority","West Lothian Council Housing with Care- (Brucefield House & Norvell Lodge)","Bathgate","Adults","29/11/2023",4,4,NA,4,4,"06/11/2023","2022_11",0,0
-"Care at Home","Local Authority","West Lothian Housing with Care- Colinshiel Court and Rosemount Gardens","Bathgate","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_11",0,0
+"Care at Home","Local Authority","West Lothian Housing with Care- Colinshiel Court and Rosemount Gardens","Bathgate","Adults",NA,NA,NA,NA,NA,NA,"29/01/2024","2022_11",0,0
 "Care at Home","Local Authority","West Lothian Council Housing with Care (Dickson Court & Almondvale Gardens))","West Calder","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_11",0,0
 "Care at Home","Private","Place (personalised care at home)","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_11",0,0
 "Care at Home","Private","Health Caring Solutions","Livingston","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_11",0,0
@@ -1443,7 +1437,7 @@
 "Care at Home","Private","Caring Spirit Group","Bathgate","Adults","02/11/2023",4,4,NA,4,4,"30/10/2023","2022_11",0,0
 "Care at Home","Private","PAK Health Care Solutions","Falkirk","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_11",0,0
 "Care at Home","Private","P4C Healthcare Ltd","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_12",0,0
-"Care at Home","Voluntary or Not for Profit","Hillcrest Futures Edinburgh and Fife","Edinburgh","Adults",NA,6,6,NA,5,5,NA,"2022_12",0,0
+"Care at Home","Voluntary or Not for Profit","Hillcrest Futures Edinburgh and Fife","Edinburgh","Adults","14/06/2017",6,6,NA,5,5,NA,"2022_12",0,0
 "Care at Home","Private","Balmoral Homecare Stirling","Stirling","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_12",0,0
 "Care at Home","Local Authority","Blantyre Intermediate Care","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2022_12",0,0
 "Care at Home","Private","We Care (Highland) Ltd","Inverness","Adults","22/12/2023",3,4,NA,2,2,"29/11/2023","2022_12",0,0
@@ -1458,20 +1452,19 @@
 "Care at Home","Private","Prestige Nursing and Care - Kirkcaldy","Kirkcaldy","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_3",0,0
 "Care at Home","Private","Plum Tree Care Ltd","Paisley","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_3",0,0
 "Care at Home","Voluntary or Not for Profit","ACCORD@Home (hospice at home service)","Paisley","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_4",0,0
-"Care at Home","Private","HBA Care Ltd","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_4",0,0
 "Care at Home","Private","Cowal Care Services Ltd","Dunoon","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_4",0,0
 "Care at Home","Private","Rainbow West Lothian","Livingston","Adults","20/10/2023",5,5,NA,5,5,"09/10/2023","2023_4",0,0
 "Care at Home","Voluntary or Not for Profit","St Peters","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_4",0,0
 "Care at Home","Private","Wellness Social Care Services Limited","Dunfermline","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_4",0,0
 "Care at Home","Private","Diamond Hearts Home Care Ltd","Paisley","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_5",0,0
-"Care at Home","Local Authority","Sir Alexander Fleming Centre","Kilmarnock","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_5",0,0
+"Other than Care at home","Local Authority","Sir Alexander Fleming Centre","Kilmarnock","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_5",0,0
 "Care at Home","Private","Living Ambitions Limited Edinburgh (Bonnington)","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_6",0,0
 "Care at Home","Private","Tace Healthcare","Kirkcaldy","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_6",0,0
 "Care at Home","Private","Care Me Ltd","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_6",0,0
 "Care at Home","Voluntary or Not for Profit","Cornerstone North Lanarkshire Supported Living 1","Airdrie","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_6",0,0
 "Care at Home","Private","Glasgow South East Registration 1","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_6",0,0
 "Care at Home","Local Authority","Bremner Court","Isle Of Lewis","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_6",0,0
-"Care at Home","Private","Double Crown Healthcare Ltd (Home Care at Home)","Paisley","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_6",0,0
+"Care at Home","Private","Double Crown Healthcare Ltd (Home Care at Home)","Renfrew","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_6",0,0
 "Care at Home","Private","Glasgow South East Registration 2","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_6",0,0
 "Care at Home","Private","Glasgow South East Registration 4","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_6",0,0
 "Care at Home","Private","Eagles Recruitments","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_6",0,0
@@ -1488,7 +1481,6 @@
 "Care at Home","Private","Home Instead North Lanarkshire & Glasgow East","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_7",0,0
 "Care at Home","Health Board","Lochaber Care at Home Service","Fort William","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_8",0,0
 "Care at Home","Private","Living Ambitions Limited Glasgow (Clyde)","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_8",0,0
-"Care at Home","Private","Leven","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_8",0,0
 "Care at Home","Voluntary or Not for Profit","40RRC","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_8",0,0
 "Care at Home","Private","Forth","Glasgow","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_8",0,0
 "Care at Home","Voluntary or Not for Profit","Albert Street","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_8",0,0
@@ -1533,3 +1525,7 @@
 "Care at Home","Private","Bluebird Care Aberdeen and Aberdeenshire","Aberdeen","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_12",0,0
 "Care at Home","Private","First Choice Healthcare Services","Stirling","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_12",0,0
 "Care at Home","Local Authority","West Dunbartonshire HSCP Re-ablement Service","Alexandria","Adults",NA,NA,NA,NA,NA,NA,NA,"2023_12",0,0
+"Care at Home","Voluntary or Not for Profit","Angus Learning Disabilities","Forfar","Adults",NA,NA,NA,NA,NA,NA,NA,"2024_1",0,0
+"Care at Home","Private","WNCH","Paisley","Adults",NA,NA,NA,NA,NA,NA,NA,"2024_1",0,0
+"Care at Home","Private","Positive Paths Children and Young People's Service","Edinburgh","Adults",NA,NA,NA,NA,NA,NA,NA,"2024_1",0,0
+"Care at Home","Private","V Healthcare","Broxburn","Adults",NA,NA,NA,NA,NA,NA,NA,"2024_1",0,0
