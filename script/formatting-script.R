@@ -5,7 +5,7 @@ library(lubridate)
 ## clear not needed columns
 
 # Add link directly from CI datastore
-update <- read_csv("https://www.careinspectorate.com/images/documents/7433/MDSF_data_31%20December%202023.csv", locale = locale(encoding = "Windows-1252"))
+update <- read_csv("https://www.careinspectorate.com/images/documents/7446/MDSF_data_31%20January%202024.csv", locale = locale(encoding = "Windows-1252"))
 update$ServiceName <- gsub('[^\x20-\x7E]',  '', update$ServiceName) 
 columns_keep <- c("CareService", "Subtype", "ServiceType", "ServiceName",
                   "Service_town", "Service_Postcode", "ServiceProvider", 
