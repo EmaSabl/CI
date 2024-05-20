@@ -291,12 +291,12 @@ total_services_LA <- all %>%
 
 total_services_LA[is.na(cancel_net_LA)] <- 0
 
-total_services_month <- read_csv("time/total_type_change_LA.csv")
+total_services_month <- read_csv("data/total_type_change_LA.csv")
 
 total_services_month <- total_services_month %>%
   left_join(total_services_LA, by = c("Council", "CareService"))
 
-write.csv(total_services_month, "time/total_type_change_LA.csv", row.names = FALSE)
+write.csv(total_services_month, "data/total_type_change_LA.csv", row.names = FALSE)
 
 
 
@@ -308,7 +308,7 @@ pivot_longer(cols = matches("^[A-Za-z]{3}-\\d{2}$"),  # Regex to match 'MMM-YY' 
  total_services_linegraph <- total_services_month_long %>%
    pivot_wider(names_from = Council,
                values_from = Value)
- write.csv(total_services_linegraph, "time/LAservicebytime.csv", row.names = FALSE)
+ write.csv(total_services_linegraph, "data/LAservicebytime.csv", row.names = FALSE)
 
 ## Create 9 separate tables
 
