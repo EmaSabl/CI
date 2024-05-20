@@ -14,9 +14,9 @@ columns_keep <- c("CareService", "Subtype", "ServiceType", "ServiceName",
                   "GradeSpread", "MinGrade", "MaxGrade", "MinGrade_change", "Publication_of_Latest_Grading",
                   "KQ_Support_Wellbeing", "KQ_Care_and_Support_Planning", "KQ_Setting",
                   "KQ_Staff_Team", "KQ_Leadership", "KQ_Care_Play_and_Learning",
-                  "Complaints_upheld_2122", "Complaints_upheld_2223", "Complaints_upheld_2324",
-                  "Enforcements_issued_2122", "Enforcements_issued_2223", "Enforcements_issued_2324", 
-                  "any_requirements_2122", "any_requirements_2223", "any_requirements_2324",
+                  "Complaints_upheld_2223", "Complaints_upheld_2324", "Complaints_upheld_2425",
+                  "Enforcements_issued_2223", "Enforcements_issued_2324", "Enforcements_issued_2425",
+                  "any_requirements_2223", "any_requirements_2324", "any_requirements_2425",
                   "Last_inspection_Date")
 
 update <- update %>% 
