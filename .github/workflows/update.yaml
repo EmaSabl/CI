@@ -26,7 +26,8 @@ jobs:
             "janitor",
             "Rcpp",
             "s2",
-            "sf"
+            "sf", 
+            "stringdist"
           ))
       shell: Rscript {0}
          
