@@ -393,8 +393,8 @@ compsLA <- comps %>%
 
 compsPast <- read_csv("data/complaints_LA.csv")
 
-compsPast <- compsPast %>% 
-  select(-c("2024/25_Adults", "2024/25_Children"))
+#compsPast <- compsPast %>% 
+#  select(-c("2024/25_Adults", "2024/25_Children"))
 
 complaints_LA <- compsPast %>% 
   left_join(compsLA, by = "Council_Area_Name") 
