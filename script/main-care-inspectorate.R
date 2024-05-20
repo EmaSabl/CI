@@ -378,50 +378,58 @@ pivot_longer(cols = matches("^[A-Za-z]{3}-\\d{2}$"),  # Regex to match 'MMM-YY' 
 
 
 ## COMPLAINTS upheld####
-## For complaints no entry is equal to 0
 comps <- all %>%
-  mutate_at(vars("Complaints_upheld_2122", "Complaints_upheld_2223", "Complaints_upheld_2324"),
+  mutate_at(vars("Complaints_upheld_2425"),
             list(~ ifelse(is.na(.), 0, .)))
 
-#Sum complaints for each row, and then group into LA and client group
+compsLA <- comps %>% 
+  group_by(Council_Area_Name, Client_group) %>% 
+  summarise("2024/25" = sum(Complaints_upheld_2425)) %>% 
+  pivot_wider(id_cols = Council_Area_Name,
+              names_from = Client_group, 
+              values_from = "2024/25") %>% 
+  rename("2024/25_Adults" = "Adults",
+         "2024/25_Children" = "Children")
 
-compsLA <- comps %>%
-  rowwise() %>%
-  mutate(Complaints_since_2122 = sum(c_across(starts_with("Complaints_upheld_")))) %>%
-  ungroup() %>%
-  group_by(Council_Area_Name, Client_group) %>%
-  summarise("All since 2021/22" = sum(Complaints_since_2122),
-            "2023/24" = sum(Complaints_upheld_2324),
-            "2022/23" = sum(Complaints_upheld_2223),
-            "2021/22" = sum(Complaints_upheld_2122))  %>% 
-  pivot_wider(id_cols = Council_Area_Name, 
-                        names_from = Client_group, 
-                        values_from = c("All since 2021/22", "2023/24", "2022/23", "2021/22"))
+compsPast <- read_csv("data/complaints_LA.csv")
+
+compsPast <- compsPast %>% 
+  select(-c("2024/25_Adults", "2024/25_Children"))
+
+complaints_LA <- compsPast %>% 
+  left_join(compsLA, by = "Council_Area_Name") 
+
+
 #export complaints tables
-write.csv(compsLA, "data/complaints_LA.csv", row.names = FALSE)
+write.csv(complaints_LA, "data/complaints_LA.csv", row.names = FALSE)
 
 ## ENFORCEMENTS ####
+##Ading the latest enforcement year 
+
+
 enforcements <- all %>% 
-  filter(!is.na(Enforcements_issued_2122) |
+  filter(!is.na(Enforcements_issued_2425) |
            !is.na(Enforcements_issued_2223) |
            !is.na(Enforcements_issued_2324))
 
 # LA breakdown
 enforcementsLA <- enforcements %>%
-        group_by(Council_Area_Name) %>%
-        summarise(`Enforcements in 21/22` = sum(Enforcements_issued_2122,na.rm = TRUE),
-           `Enforcements in 22/23` = sum(Enforcements_issued_2223, na.rm = TRUE),
-           `Enforcements in 23/24` = sum(Enforcements_issued_2324,na.rm = TRUE))
+  group_by(Council_Area_Name) %>%
+  summarise(`Enforcements in 22/23` = sum(Enforcements_issued_2223, na.rm = TRUE),
+            `Enforcements in 23/24` = sum(Enforcements_issued_2324,na.rm = TRUE),
+            `Enforcements in 24/25` = sum(Enforcements_issued_2425,na.rm = TRUE))
 
 # Care service type breakdown
 enforcementscare <- enforcements %>% 
   group_by(CareService) %>%
-  summarise(`Enforcements in 21/22` = sum(Enforcements_issued_2122, na.rm = TRUE),
-            `Enforcements in 22/23` = sum(Enforcements_issued_2223, na.rm = TRUE),
-            `Enforcements in 23/24` = sum(Enforcements_issued_2324, na.rm = TRUE))
+  summarise(`Enforcements in 22/23` = sum(Enforcements_issued_2223, na.rm = TRUE),
+            `Enforcements in 23/24` = sum(Enforcements_issued_2324, na.rm = TRUE),
+            `Enforcements in 24/25` = sum(Enforcements_issued_2425,na.rm = TRUE))
 
 write.csv(enforcementsLA, "data/enforcements_LA.csv", row.names = FALSE)
 write.csv(enforcementscare, "data/enforcements_service.csv", row.names = FALSE)
+
+## Splitting up adult and child services 
 
 ## Splitting up adult and child services 
 
