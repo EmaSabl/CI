@@ -2,6 +2,7 @@ library(tidyverse)
 library(dplyr)
 library(tidyr)
 library(lubridate)
+library(stringdist)
 ## Load CI datastore
 
 
@@ -38,6 +39,32 @@ column_compare <-
   }
 
 all_prev <- x
+##Fix variations in LA data 
+correct_names <- c("Aberdeen City", "Aberdeenshire", "Angus", "Argyll & Bute", "City of Edinburgh",
+                "Clackmannanshire", "Dumfries & Galloway", "Dundee City", "East Ayrshire", "East Dunbartonshire",
+                "East Lothian", "East Renfrewshire", "Falkirk", "Fife", "Glasgow City", "Highland", "Inverclyde",
+                "Midlothian", "Moray", "Na h-Eileanan Siar", "North Ayrshire", "North Lanarkshire", "Orkney Islands",
+                "Perth & Kinross", "Renfrewshire", "Scottish Borders", "Shetland Islands", "South Ayrshire",
+                "South Lanarkshire", "Stirling", "West Dunbartonshire", "West Lothian", "outside Scotland")
+
+correct_spelling <- function(name, correct_names) {
+  if (name %in% correct_names) {
+    return(name)
+  } else {
+    distances <- stringdist(name, correct_names, method = "jw") # Jaro-Winkler distance
+    closest <- correct_names[which.min(distances)]
+    message(sprintf("Correcting misspelling: '%s' to '%s'", name, closest))
+    return(closest)
+  }
+}
+
+all <- all %>%
+  mutate(Council_Area_Name = sapply(Council_Area_Name, correct_spelling, correct_names = correct_names))
+
+all_prev <- all_prev %>%
+  mutate(Council_Area_Name = sapply(Council_Area_Name, correct_spelling, correct_names = correct_names))
+
+
 ## CANCELLED SERVICES ####
 
 ## Each month publishes files that relate to all registered care services currently operating in Scotland 
@@ -249,7 +276,39 @@ care_tables <- all %>%
         'Grades published' = Publication_of_Latest_Grading,
         Registered = Date_Reg
          )
+#########################################
+#Total services
+all_combinations <- expand(all, Council_Area_Name, CareService)
+latest_date <-paste(month.abb[month_update], year_update, sep = " ")
 
+total_services_LA <- all %>%
+  group_by(Council_Area_Name, CareService) %>%
+  summarise(n = n())  %>%
+  full_join(all_combinations, by = c("Council_Area_Name", "CareService")) %>%
+  rename(!!paste(latest_date) := n,
+         'Council' = Council_Area_Name) %>% 
+  mutate(Council = as.character(Council))
+
+total_services_LA[is.na(cancel_net_LA)] <- 0
+
+total_services_month <- read_csv("time/total_type_change_LA.csv")
+
+total_services_month <- total_services_month %>%
+  left_join(total_services_LA, by = c("Council", "CareService"))
+
+write.csv(total_services_month, "time/total_type_change_LA.csv", row.names = FALSE)
+
+
+
+total_services_month_long <- total_services_month %>%
+pivot_longer(cols = matches("^[A-Za-z]{3}-\\d{2}$"),  # Regex to match 'MMM-YY' pattern
+                names_to = "Date",
+                values_to = "Value")
+ 
+ total_services_linegraph <- total_services_month_long %>%
+   pivot_wider(names_from = Council,
+               values_from = Value)
+ write.csv(total_services_linegraph, "time/LAservicebytime.csv", row.names = FALSE)
 
 ## Create 9 separate tables
 
