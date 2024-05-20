@@ -366,7 +366,7 @@ write.csv(total_services_month, "data/total_type_change_LA.csv", row.names = FAL
 
 
 total_services_month_long <- total_services_month %>%
-pivot_longer(cols = matches("^[A-Za-z]{3}-\\d{2}$"),  # Regex to match 'MMM-YY' pattern
+pivot_longer(cols = matches("^[A-Za-z]{3} \\d{4}$"),  # Regex to match 'MMM YYYY' pattern
                 names_to = "Date",
                 values_to = "Value")
  
@@ -393,8 +393,8 @@ compsLA <- comps %>%
 
 compsPast <- read_csv("data/complaints_LA.csv")
 
-#compsPast <- compsPast %>% 
-#  select(-c("2024/25_Adults", "2024/25_Children"))
+compsPast <- compsPast %>% 
+  select(-c("2024/25_Adults", "2024/25_Children"))
 
 complaints_LA <- compsPast %>% 
   left_join(compsLA, by = "Council_Area_Name") 
