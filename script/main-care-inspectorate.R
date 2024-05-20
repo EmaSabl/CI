@@ -253,14 +253,14 @@ columns_keep_table <- c("CareService", "Subtype", "ServiceType", "ServiceName",
                   "Publication_of_Latest_Grading","KQ_Support_Wellbeing", 
                   "KQ_Care_and_Support_Planning", "KQ_Setting", "KQ_Staff_Team",
                   "KQ_Leadership", "KQ_Care_Play_and_Learning", "Last_inspection_Date", "Date_Reg", 
-                  "Complaints upheld since 21/22", "Enforcements since 21/22")
+                  "Complaints upheld since 22/23", "Enforcements since 22/23")
 
 #These can be added if useful "MinGrade_change","Service_Postcode"
 
 care_tables <- all %>% 
   rowwise() %>%
-  mutate(`Complaints upheld since 21/22` = sum(c_across(starts_with("Complaints_upheld_")), na.rm = TRUE)) %>% 
-  mutate('Enforcements since 21/22' = sum(c_across(starts_with("Complaints_upheld_")), na.rm = TRUE)) %>% 
+  mutate(`Complaints upheld since 22/23` = sum(c_across(starts_with("Complaints_upheld_")), na.rm = TRUE)) %>% 
+  mutate('Enforcements since 22/23' = sum(c_across(starts_with("Enforcements_upheld_")), na.rm = TRUE)) %>% 
   select(all_of(columns_keep_table)) %>%
   rename(Type = CareService,
          Provider = ServiceType,
@@ -276,39 +276,6 @@ care_tables <- all %>%
         'Grades published' = Publication_of_Latest_Grading,
         Registered = Date_Reg
          )
-#########################################
-#Total services
-all_combinations <- expand(all, Council_Area_Name, CareService)
-latest_date <-paste(month.abb[month_update], year_update, sep = " ")
-
-total_services_LA <- all %>%
-  group_by(Council_Area_Name, CareService) %>%
-  summarise(n = n())  %>%
-  full_join(all_combinations, by = c("Council_Area_Name", "CareService")) %>%
-  rename(!!paste(latest_date) := n,
-         'Council' = Council_Area_Name) %>% 
-  mutate(Council = as.character(Council))
-
-total_services_LA[is.na(cancel_net_LA)] <- 0
-
-total_services_month <- read_csv("data/total_type_change_LA.csv")
-
-total_services_month <- total_services_month %>%
-  left_join(total_services_LA, by = c("Council", "CareService"))
-
-write.csv(total_services_month, "data/total_type_change_LA.csv", row.names = FALSE)
-
-
-
-total_services_month_long <- total_services_month %>%
-pivot_longer(cols = matches("^[A-Za-z]{3}-\\d{2}$"),  # Regex to match 'MMM-YY' pattern
-                names_to = "Date",
-                values_to = "Value")
- 
- total_services_linegraph <- total_services_month_long %>%
-   pivot_wider(names_from = Council,
-               values_from = Value)
- write.csv(total_services_linegraph, "data/LAservicebytime.csv", row.names = FALSE)
 
 ## Create 9 separate tables
 
@@ -372,6 +339,43 @@ write.csv(accom, "data/table/accom.csv", row.names = FALSE)
 write.csv(child_care_agency, "data/table/child_care_agency.csv", row.names = FALSE)
 write.csv(adoption_fostering, "data/table/adoption_fostering.csv", row.names = FALSE)
 write.csv(adult_placement, "data/table/adult_placement.csv", row.names = FALSE)
+
+
+#########################################
+#Total services
+all_combinations <- expand(all, Council_Area_Name, CareService)
+latest_date <-paste(month.abb[month_update], year_update, sep = " ")
+
+total_services_LA <- all %>%
+  group_by(Council_Area_Name, CareService) %>%
+  summarise(n = n())  %>%
+  full_join(all_combinations, by = c("Council_Area_Name", "CareService")) %>%
+  rename(!!paste(latest_date) := n,
+         'Council' = Council_Area_Name) %>% 
+  mutate(Council = as.character(Council))
+
+total_services_LA[is.na(cancel_net_LA)] <- 0
+
+total_services_month <- read_csv("data/total_type_change_LA.csv")
+
+total_services_month <- total_services_month %>%
+  left_join(total_services_LA, by = c("Council", "CareService"))
+
+write.csv(total_services_month, "data/total_type_change_LA.csv", row.names = FALSE)
+
+
+
+total_services_month_long <- total_services_month %>%
+pivot_longer(cols = matches("^[A-Za-z]{3}-\\d{2}$"),  # Regex to match 'MMM-YY' pattern
+                names_to = "Date",
+                values_to = "Value")
+ 
+ total_services_linegraph <- total_services_month_long %>%
+   pivot_wider(names_from = Council,
+               values_from = Value)
+ write.csv(total_services_linegraph, "data/LAservicebytime.csv", row.names = FALSE)
+
+
 
 ## COMPLAINTS upheld####
 ## For complaints no entry is equal to 0
