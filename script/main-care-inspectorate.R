@@ -354,7 +354,7 @@ total_services_LA <- all %>%
          'Council' = Council_Area_Name) %>% 
   mutate(Council = as.character(Council))
 
-total_services_LA[is.na(cancel_net_LA)] <- 0
+total_services_LA[is.na(total_services_LA)] <- 0
 
 total_services_month <- read_csv("data/total_type_change_LA.csv")
 
