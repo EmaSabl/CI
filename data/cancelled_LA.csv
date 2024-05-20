@@ -1,30 +1,26 @@
-"Council_Area_Name","Adoption Service","Care Home Service","Child Minding","Day Care of Children","Housing Support Service","Offender Accommodation Service","School Care Accommodation Service","Support Service"
-"outside Scotland",1,0,0,0,0,0,0,0
-"Aberdeenshire",0,1,3,0,2,0,0,1
-"Dundee City",0,2,0,0,0,0,0,0
-"East Lothian",0,1,1,0,0,0,0,1
-"Inverclyde",0,1,0,0,0,0,0,0
-"Renfrewshire",0,1,1,0,1,0,0,0
-"South Lanarkshire",0,1,4,0,0,0,0,9
-"Angus",0,0,2,0,0,0,0,1
+"Council_Area_Name","Adult Placement Service","Care Home Service","Child Minding","Day Care of Children","Fostering Service","Housing Support Service","Nurse Agency","Support Service"
+"Stirling",1,0,1,0,0,0,0,0
+"West Lothian",1,0,1,0,1,0,0,0
+"City of Edinburgh",0,1,1,1,0,1,0,0
+"Highland",0,2,2,1,0,1,0,1
+"Inverclyde",0,2,1,0,0,1,0,1
+"Moray",0,1,1,0,0,1,0,1
+"South Lanarkshire",0,1,2,0,0,0,0,0
+"Aberdeen City",0,0,1,0,0,0,0,0
+"Aberdeenshire",0,0,4,1,0,0,0,0
 "Argyll & Bute",0,0,1,0,0,0,0,0
-"City of Edinburgh",0,0,2,2,1,0,0,1
-"Clackmannanshire",0,0,1,0,0,0,0,0
-"East Renfrewshire",0,0,1,0,0,0,0,0
-"Falkirk",0,0,2,1,1,0,0,0
-"Fife",0,0,2,1,0,0,0,4
-"Highland",0,0,2,0,1,0,0,1
-"Midlothian",0,0,1,0,0,0,0,0
-"Moray",0,0,1,0,0,0,0,0
-"Na h-Eileanan Siar",0,0,1,0,1,0,0,0
-"North Ayrshire",0,0,1,0,0,0,3,1
-"North Lanarkshire",0,0,1,1,0,0,0,0
+"Dumfries & Galloway",0,0,1,0,0,0,0,0
+"Dundee City",0,0,1,1,0,0,0,0
+"East Ayrshire",0,0,2,0,0,0,0,0
+"East Lothian",0,0,1,0,0,0,0,0
+"East Renfrewshire",0,0,1,1,0,0,0,0
+"Falkirk",0,0,2,0,0,0,0,0
+"Fife",0,0,3,0,0,1,0,1
+"Glasgow City",0,0,2,3,0,1,1,2
+"North Lanarkshire",0,0,3,0,0,1,0,1
 "Perth & Kinross",0,0,1,1,0,0,0,0
-"Scottish Borders",0,0,2,1,0,0,0,0
-"West Lothian",0,0,1,2,0,0,0,0
-"Aberdeen City",0,0,0,1,0,0,0,0
-"East Dunbartonshire",0,0,0,1,0,0,0,0
-"Glasgow City",0,0,0,0,1,1,0,2
-"West Dunbartonshire",0,0,0,0,1,0,0,1
-"East Ayrshire",0,0,0,0,0,0,1,0
-"South Ayrshire",0,0,0,0,0,0,1,2
+"Renfrewshire",0,0,1,0,0,2,0,0
+"East Dunbartonshire",0,0,0,1,0,1,0,0
+"Na h-Eileanan Siar",0,0,0,1,0,0,0,0
+"Scottish Borders",0,0,0,1,0,0,0,0
+"West Dunbartonshire",0,0,0,1,0,0,0,0

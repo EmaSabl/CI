@@ -1,15 +1,15 @@
-"Subtype","Provider","Name","Town","Clients","Grades published","Wellbeing support","Care and support","Setting","Staffing","Leadership","Last_inspection_Date","Registered","Complaints upheld since 21/22","Enforcements since 21/22"
-"Residential Special School","Voluntary or Not for Profit","Linn Moor Residential School","Peterculter","Children","08/11/2022",5,5,5,5,5,"14/10/2022","2002_4",1,1
+"Subtype","Provider","Name","Town","Clients","Grades published","Wellbeing support","Care and support","Setting","Staffing","Leadership","Last_inspection_Date","Registered","Complaints upheld since 22/23","Enforcements since 22/23"
+"Residential Special School","Voluntary or Not for Profit","Linn Moor Residential School","Peterculter","Children","08/11/2022",5,5,5,5,5,"14/10/2022","2002_4",1,0
 NA,"Voluntary or Not for Profit","Dick Stewart Project","Glasgow","Adults","19/12/2023",5,5,5,5,5,"06/11/2023","2002_4",0,0
-"Residential Special School","Voluntary or Not for Profit","Kibble Education and Care Centre","Paisley","Children","03/04/2023",5,5,5,5,5,"19/02/2024","2002_4",0,0
+"Residential Special School","Voluntary or Not for Profit","Kibble Education and Care Centre","Paisley","Children","25/04/2024",4,4,4,4,4,"19/02/2024","2002_4",0,0
 NA,"Voluntary or Not for Profit","Rossie Secure Accommodation Services","Montrose","Children","15/01/2024",5,5,5,5,5,"12/12/2023","2002_4",0,0
 "Residential Special School","Private","Hillside School","Burntisland","Children","05/03/2024",1,1,1,1,1,"07/02/2024","2002_4",0,0
 "Residential Special School","Private","Starley Hall School","Burntisland","Children","01/09/2023",4,4,4,4,4,"03/07/2023","2002_4",0,0
 "Residential Special School","Voluntary or Not for Profit","Ochil Tower School","Auchterarder","Children","10/10/2023",3,3,3,3,3,"30/08/2023","2002_4",0,0
 NA,"Local Authority","Crane Services","Edinburgh","Adults","23/03/2022",5,5,5,5,5,"11/02/2022","2002_4",0,0
-"Residential Special School","Voluntary or Not for Profit","Harmeny School","Edinburgh","Children","30/08/2023",4,4,4,4,4,"18/07/2023","2002_4",1,1
+"Residential Special School","Voluntary or Not for Profit","Harmeny School","Edinburgh","Children","30/08/2023",4,4,4,4,4,"18/07/2023","2002_4",1,0
 "Residential Special School","Voluntary or Not for Profit","New Struan School","Alloa","Children","16/08/2023",4,4,4,4,4,"12/07/2023","2002_4",0,0
-NA,"Voluntary or Not for Profit","Sacro National Intensive Support Package","Glasgow","Adults","06/05/2022",5,5,NA,5,5,"15/03/2024","2005_9",0,0
+NA,"Voluntary or Not for Profit","Sacro National Intensive Support Package","Glasgow","Adults","02/04/2024",6,5,NA,5,5,"15/03/2024","2005_9",0,0
 "Residential Special School","Private","Riverside House","Newmilns","Children","15/03/2023",6,6,6,6,6,"06/12/2022","2005_12",0,0
 "Mainstream Residential School","Voluntary or Not for Profit","Merchiston Castle School","Edinburgh","Children","25/02/2022",5,4,5,5,5,"01/12/2021","2005_4",0,0
 "Mainstream Residential School","Voluntary or Not for Profit","Erskine Stewart's Melville Schools","Edinburgh","Children","09/12/2016",6,6,6,5,6,"02/11/2016","2005_4",0,0
@@ -21,13 +21,13 @@ NA,"Voluntary or Not for Profit","Sacro National Intensive Support Package","Gla
 "School Hostel","Local Authority","Papdale Halls of Residence","Kirkwall","Children","24/07/2019",5,5,5,5,5,"20/06/2019","2005_4",0,0
 "School Hostel","Local Authority","Aberdeen City Music School","Aberdeen","Children","17/05/2019",5,5,4,5,4,"06/03/2019","2005_4",0,0
 "Mainstream Residential School","Voluntary or Not for Profit","Lathallan School","Montrose","Children","20/11/2023",4,4,4,4,4,"22/09/2023","2005_4",0,0
-"Mainstream Residential School","Voluntary or Not for Profit","Dollar Academy","Dollar","Children","07/12/2023",5,5,5,5,5,"04/10/2023","2005_4",0,0
+"Mainstream Residential School","Voluntary or Not for Profit","Dollar Academy","Dollar","Children","07/12/2023",5,5,5,5,5,"20/02/2020","2005_4",0,0
 "Mainstream Residential School","Voluntary or Not for Profit","Strathallan School","Perth","Children","01/03/2024",4,4,4,4,4,"16/11/2023","2005_4",0,0
 "Mainstream Residential School","Voluntary or Not for Profit","Ardvreck School","Crieff","Children","09/09/2019",5,5,4,5,5,"19/06/2019","2005_4",0,0
-"Mainstream Residential School","Voluntary or Not for Profit","Kilgraston School","Perth","Children","31/01/2024",4,4,4,4,4,"29/11/2023","2005_4",1,1
+"Mainstream Residential School","Voluntary or Not for Profit","Kilgraston School","Perth","Children","31/01/2024",4,4,4,4,4,"29/11/2023","2005_4",1,0
 "School Hostel","Local Authority","Dunoon School Hostel","Dunoon","Children","30/01/2019",3,3,4,4,3,"13/12/2018","2005_4",0,0
 "Mainstream Residential School","Voluntary or Not for Profit","Lomond School","Helensburgh","Children","01/11/2023",6,6,6,6,6,"07/09/2023","2005_4",0,0
-"Mainstream Residential School","Voluntary or Not for Profit","Gordonstoun School","Elgin","Children","06/02/2018",5,5,5,5,6,"16/11/2017","2005_4",1,1
+"Mainstream Residential School","Voluntary or Not for Profit","Gordonstoun School","Elgin","Children","06/02/2018",5,5,5,5,6,"16/11/2017","2005_4",0,0
 "Mainstream Residential School","Voluntary or Not for Profit","Cargilfield School","Edinburgh","Children","25/01/2023",5,5,5,5,5,"08/11/2022","2005_4",0,0
 "Mainstream Residential School","Voluntary or Not for Profit","St Leonards","St. Andrews","Children","12/05/2023",4,4,4,4,4,"13/03/2023","2005_4",0,0
 "Mainstream Residential School","Voluntary or Not for Profit","Glenalmond College","Perth","Children","22/11/2022",5,5,5,5,5,"29/09/2022","2005_4",0,0
@@ -37,17 +37,17 @@ NA,"Voluntary or Not for Profit","Sacro National Intensive Support Package","Gla
 "School Hostel","Local Authority","Highland Council School Care Accommodation","Portree","Children","24/10/2019",5,5,5,5,5,"11/09/2019","2005_4",0,0
 "Mainstream Residential School","Voluntary or Not for Profit","St. George's, Edinburgh","Edinburgh","Children","02/02/2023",5,5,5,5,5,"16/12/2022","2005_4",0,0
 NA,"Voluntary or Not for Profit","Kibble Safe Centre","Paisley","Children","22/02/2024",6,6,6,6,6,"18/01/2024","2007_6",0,0
-"Residential Special School","Private","Davidshill Farm","Dalry","Children","12/12/2018",6,6,6,6,5,"26/03/2024","2007_10",0,0
-"Residential Special School","Private","Netherton","Cumnock","Children","26/07/2023",3,3,3,3,3,"22/05/2023","2009_1",1,1
+"Residential Special School","Private","Davidshill Farm","Dalry","Children","25/04/2024",6,6,6,6,6,"26/03/2024","2007_10",0,0
+"Residential Special School","Private","Netherton","Cumnock","Children","26/07/2023",3,3,3,3,3,"15/04/2024","2009_1",1,0
 "Residential Special School","Voluntary or Not for Profit","Rossie Youth Accommodation Services","Montrose","Children","01/06/2023",4,4,4,4,4,"17/04/2023","2009_5",0,0
 "Residential Special School","Private","Foxhill Cottage","Mauchline","Children","18/10/2023",5,5,5,5,5,"20/09/2023","2008_4",0,0
-"Residential Special School","Private","Falkland House School","Cupar","Children","18/05/2023",4,4,4,4,4,"19/12/2022","2008_5",1,1
-"Residential Special School","Private","Sunderland House","Dunoon","Children","10/07/2023",3,3,3,3,3,"14/06/2023","2008_8",1,1
+"Residential Special School","Private","Falkland House School","Cupar","Children","18/05/2023",4,4,4,4,4,"19/12/2022","2008_5",1,0
+"Residential Special School","Private","Sunderland House","Dunoon","Children","10/07/2023",3,3,3,3,3,"14/06/2023","2008_8",0,0
 NA,"Voluntary or Not for Profit","Turnaround Residential","Paisley","Adults","23/03/2020",5,5,5,5,5,"22/01/2020","2009_7",0,0
 "Residential Special School","Private","Old Mill","Glasgow","Children","14/05/2021",3,3,4,3,2,"26/03/2021","2010_12",0,0
 "Residential Special School","Private","Millholm","Kilwinning","Children","24/01/2024",4,4,4,4,4,"13/12/2023","2010_2",0,0
 "Residential Special School","Private","Aspris- Rose Cottage","Irvine","Children","27/04/2023",5,5,5,5,5,"07/04/2023","2010_12",0,0
-NA,"Voluntary or Not for Profit","St. Mary's Kenmure","Glasgow","Children","12/01/2024",3,3,3,3,3,"17/11/2023","2012_1",3,3
+NA,"Voluntary or Not for Profit","St. Mary's Kenmure","Glasgow","Children","12/01/2024",3,3,3,3,3,"17/11/2023","2012_1",2,0
 "Residential Special School","Private","Aspris  'Gatehouse'","Kilmarnock","Children","11/05/2023",5,5,5,5,5,"27/02/2023","2011_12",0,0
 "Residential Special School","Voluntary or Not for Profit","St. Philip's School, Plains","Airdrie","Children","13/02/2023",5,5,5,5,5,"23/11/2022","2013_2",0,0
 NA,"Voluntary or Not for Profit","Good Shepherd Centre Bishopton","Bishopton","Children","17/08/2023",4,4,4,4,4,"25/05/2023","2013_8",0,0
@@ -57,11 +57,11 @@ NA,"Voluntary or Not for Profit","Good Shepherd Centre Bishopton","Bishopton","C
 "Residential Special School","Private","Aspris - Woodend Farm","Kilmarnock","Children","21/09/2023",5,5,5,5,5,"01/09/2023","2016_9",0,0
 "Residential Special School","Private","Aspris - Waterside","Kilwinning","Children","28/03/2023",5,5,5,5,5,"22/02/2023","2017_5",0,0
 "Residential Special School","Voluntary or Not for Profit","Arisaig Services","Airdrie","Children","30/01/2023",5,5,5,5,5,"28/11/2022","2018_9",0,0
-"Residential Special School","Private","Aspris - Croekwood","West Kilbride","Children","12/06/2023",4,4,4,4,4,"17/04/2023","2019_1",0,0
-"Residential Special School","Private","Aspris - Clonmacate","Ayr","Children","23/05/2023",5,5,5,5,5,"07/04/2023","2019_9",0,0
+"Residential Special School","Private","Aspris - Croekwood","West Kilbride","Children","12/06/2023",4,4,4,4,4,"08/07/2021","2019_1",0,0
+"Residential Special School","Private","Aspris - Clonmacate","Ayr","Children","23/05/2023",5,5,5,5,5,"06/09/2021","2019_9",0,0
 "Residential Special School","Voluntary or Not for Profit","Blackwood Manor","Lanark","Children","18/03/2022",5,5,5,5,5,"16/02/2022","2020_4",0,0
-"Residential Special School","Voluntary or Not for Profit","Forest View","Lochwinnoch","Children","19/06/2023",5,5,5,5,5,"12/05/2023","2020_11",2,2
-"Residential Special School","Voluntary or Not for Profit","Kibble Campus - North","Paisley","Children","05/04/2023",4,4,4,4,4,"19/02/2024","2022_1",0,0
+"Residential Special School","Voluntary or Not for Profit","Forest View","Lochwinnoch","Children","19/06/2023",5,5,5,5,5,"12/05/2023","2020_11",1,0
+"Residential Special School","Voluntary or Not for Profit","Kibble Campus - North","Paisley","Children","25/04/2024",3,3,3,3,3,"19/02/2024","2022_1",0,0
 "Residential Special School","Voluntary or Not for Profit","Kibble Intensive Services","Paisley","Children","17/05/2023",5,5,5,5,5,"29/03/2023","2022_1",0,0
 "Mainstream Residential School","Private","Fettes College","Edinburgh","Children","19/12/2022",5,5,5,5,5,"14/11/2022","2022_8",0,0
 "Residential Special School","Private","Falkland House School Perth","Perth","Children",NA,NA,NA,NA,NA,NA,NA,"2022_12",0,0
