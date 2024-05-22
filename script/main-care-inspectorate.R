@@ -429,15 +429,22 @@ enforcementscare <- enforcements %>%
 write.csv(enforcementsLA, "data/enforcements_LA.csv", row.names = FALSE)
 write.csv(enforcementscare, "data/enforcements_service.csv", row.names = FALSE)
 
-## Splitting up adult and child services 
 
-## Splitting up adult and child services 
+## GRADES ######################################################
+## Adult services include just care homes
+## Child services include just day care of children, child minding, child care agency
 
 adultservs <- all %>%  
-  filter(Client_group == "Adults")
+  filter(Client_group == "Adults") %>%
+  filter(CareService == "Care Home Service") 
+
 
 childservs <- all %>% 
-  filter(Client_group == "Children")
+  filter(Client_group == "Children") %>% 
+  filter(CareService == "Day Care of Children" | 
+          CareService == "Child Minding" | 
+          CareService == "Child Care Agency")
+
 
 ## ADULT SERVICES DATA #######################
 
