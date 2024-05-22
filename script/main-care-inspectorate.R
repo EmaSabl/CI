@@ -373,9 +373,22 @@ pivot_longer(cols = matches("^[A-Za-z]{3} \\d{4}$"),  # Regex to match 'MMM YYYY
  total_services_linegraph <- total_services_month_long %>%
    pivot_wider(names_from = Council,
                values_from = Value)
- write.csv(total_services_linegraph, "data/LAservicebytime.csv", row.names = FALSE)
+
+## just care home data 
+careHomeTime <- total_services_linegraph %>% 
+  filter(CareService == "Care Home Service") %>% 
+  select(-CareService)
+## just the kid stuff 
+childTime <- total_services_linegraph %>% 
+  filter(CareService == "Day Care of Children" | 
+           CareService == "Child Minding" | 
+           CareService == "Child Care Agency")
 
 
+
+write.csv(total_services_linegraph, "data/LAservicebytime.csv", row.names = FALSE)
+write.csv(careHomeTime, "data/care_homes_totals", row.names = FALSE)
+write.csv(childTime, "data/child_services_totals", row.names = FALSE)
 
 ## COMPLAINTS upheld####
 comps <- all %>%
@@ -463,7 +476,16 @@ AdultLA_avg <- adultservs %>%
   ) %>% 
   filter(Council_Area_Name != 'outside Scotland')  %>% 
   rename (Council = Council_Area_Name)
+## Add filter to PJ and Courier 
 
+PJ_AdultLA_avg <- AdultLA_avg %>% 
+  filter(Council == "Aberdeen City" | Council == "Aberdeenshire" | Council == "Highland" | 
+         Council == "Na h-Eileanan Siar" | Council == "Orkney Islands" |  Council == "Shetland Islands" | Council == "Moray")
+
+
+Cour_AdultLA_avg <- AdultLA_avg %>% 
+  filter(Council ==  "Angus" | Council == "Dundee City" | Council == "Fife" |
+           Council == "Perth & Kinross" | Council == "Stirling")
 
 ## Pivot longer based on the graded columns (KQ)
 
@@ -535,6 +557,18 @@ childLA_avg <- childservs %>%
   filter(Council_Area_Name != 'outside Scotland')  %>% 
   rename (Council = Council_Area_Name) 
 
+## Add filter to PJ and Courier 
+
+PJ_ChildLA_avg <- childLA_avg %>% 
+  filter(Council == "Aberdeen City" | Council == "Aberdeenshire" | Council == "Highland" | 
+           Council == "Na h-Eileanan Siar" | Council == "Orkney Islands" |  Council == "Shetland Islands" | Council == "Moray")
+
+
+Cour_ChildLA_avg <- childLA_avg %>% 
+  filter(Council ==  "Angus" | Council == "Dundee City" | Council == "Fife" |
+           Council == "Perth & Kinross" | Council == "Stirling")
+
+
   
 ## Pivot longer based on the graded columns (KQ)
 
@@ -579,6 +613,10 @@ write.csv(AdultLA_avg, "data/adult_services_avg_LA.csv", row.names = FALSE)
 write.csv(adultLAgrades_spread, "data/adult_grades_counts_LA.csv", row.names = FALSE)
 write.csv(childLA_avg, "data/child_services_avg_LA.csv", row.names = FALSE)
 write.csv(childLAgrades_spread, "data/child_grades_counts_LA.csv", row.names = FALSE)
+write.csv(PJ_AdultLA_avg, "data/PJ_radial_adult_grades.csv", row.names = FALSE)
+write.csv(Cour_AdultLA_avg, "data/C_radial_adult_grades.csv", row.names = FALSE)
+write.csv(PJ_ChildLA_avg, "data/PJ_radial_child_grade.csv", row.names = FALSE)
+write.csv(Cour_ChildLA_avg, "data/C_radial_child_grade.csv", row.names = FALSE)
 
 #Finally update the csv for the previous month
 write.csv(all, "data/CIfull.csv", row.names = FALSE) 
