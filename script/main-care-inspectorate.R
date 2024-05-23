@@ -249,35 +249,45 @@ write.csv(new_LA_month, "data/new_LA_month.csv", row.names = FALSE)
 
 # Select only needed columns and rename them for ease of use
 columns_keep_table <- c("CareService", "Subtype", "ServiceType", "ServiceName",
-                  "Service_town",  "Client_group", 
-                  "Publication_of_Latest_Grading","KQ_Support_Wellbeing", 
-                  "KQ_Care_and_Support_Planning", "KQ_Setting", "KQ_Staff_Team",
-                  "KQ_Leadership", "KQ_Care_Play_and_Learning", "Last_inspection_Date", "Date_Reg", 
-                  "Complaints upheld since 22/23", "Enforcements since 22/23")
+                        "Service_town", "Council_Area_Name",  "Client_group", 
+                        "Publication_of_Latest_Grading","KQ_Support_Wellbeing", 
+                        "KQ_Care_and_Support_Planning", "KQ_Setting", "KQ_Staff_Team",
+                        "KQ_Leadership", "KQ_Care_Play_and_Learning", "Last_inspection_Date", "Date_Reg", 
+                        "Complaints upheld since 22/23", "Enforcements since 22/23")
 
 #These can be added if useful "MinGrade_change","Service_Postcode"
 
 care_tables <- all %>% 
   rowwise() %>%
   mutate(`Complaints upheld since 22/23` = sum(c_across(starts_with("Complaints_upheld_")), na.rm = TRUE)) %>% 
-  mutate('Enforcements since 22/23' = sum(c_across(starts_with("Enforcements_upheld_")), na.rm = TRUE)) %>% 
+  mutate('Enforcements since 22/23' = sum(c_across(starts_with("Enforcements_issued_")), na.rm = TRUE)) %>% 
   select(all_of(columns_keep_table)) %>%
   rename(Type = CareService,
          Provider = ServiceType,
          Name = ServiceName,
          Town = Service_town,
+         Council = Council_Area_Name,
          Clients = Client_group,
          'Wellbeing support' = KQ_Support_Wellbeing,
-        'Care and support' = KQ_Care_and_Support_Planning,
+         'Care and support' = KQ_Care_and_Support_Planning,
          'Setting' = KQ_Setting,
-        Staffing = KQ_Staff_Team,
-        Leadership = KQ_Leadership,
-        'Care and play' = KQ_Care_Play_and_Learning,
-        'Grades published' = Publication_of_Latest_Grading,
-        Registered = Date_Reg
-         )
+         Staffing = KQ_Staff_Team,
+         Leadership = KQ_Leadership,
+         'Care and play' = KQ_Care_Play_and_Learning,
+         'Grades published' = Publication_of_Latest_Grading,
+         Registered = Date_Reg
+  )
 
 ## Create 9 separate tables
+
+care_homes <- care_tables %>% 
+  filter(Clients == "Adults") %>% 
+  filter(Type == "Care Home Service") %>% 
+  subset(select = -c(`Care and play`, `Type`, `Clients`))
+
+all_childcare <- care_tables %>% 
+  filter(Type == "Day Care of Children" | Type == "Child Minding" | Type == "Child Care Agency") %>% 
+  subset(select = -c(`Wellbeing support`, `Care and support`, `Subtype`, `Clients`))
 
 day_care_of_children <- care_tables %>% 
   filter(Type == "Day Care of Children" ) %>% 
@@ -285,7 +295,16 @@ day_care_of_children <- care_tables %>%
                           "Under 3s", "Over 3s")) %>% 
   subset(select = -c(`Wellbeing support`,`Care and support`, `Type`))
 
+#no postcodes are included for child minding 
+child_minding <- care_tables %>% 
+  filter(Type == "Child Minding") %>% 
+  subset(select = -c(`Wellbeing support`, `Care and support`, `Type`))
 
+child_care_agency <- care_tables %>% 
+  filter(Type == "Child Care Agency")%>% 
+  subset(select = -c(Subtype, `Setting`, `Care and play`, `Type`))
+
+### The below tables are not being used###
 support_service <- care_tables %>% 
   filter(Type == "Support Service") %>% 
   subset(select = -c(`Care and play`, `Type`))
@@ -295,28 +314,11 @@ housing_support <- care_tables %>%
   filter(Type == "Housing Support Service") %>% 
   subset(select = -c(`Care and play`, `Type`))
 
-#no postcodes are included for child minding 
-child_minding <- care_tables %>% 
-  filter(Type == "Child Minding") %>% 
-  subset(select = -c(`Wellbeing support`, `Care and support`, `Type`))
-
-care_homes <- care_tables %>% 
-  filter(Type == "Care Home Service") %>% 
-  subset(select = -c(`Care and play`, `Type`))
-
 accom <- care_tables %>% 
   filter(Type == "School Care Accommodation Service" |
            Type == "Offender Accommodation Service" |
            Type == "Secure Accommodation Service") %>% 
   subset(select = -c(`Care and play`, `Type`))
-
-# How interested are we in nursing agencies? There are 127 entries in the August data
-# nurse_agency <- care_tables %>% 
-#   filter(Type == "Nurse Agency")
-
-child_care_agency <- care_tables %>% 
-  filter(Type == "Child Care Agency")%>% 
-  subset(select = -c(Subtype, `Setting`, `Care and play`, `Type`))
 
 
 adoption_fostering <- care_tables %>% 
@@ -330,15 +332,16 @@ adult_placement <- care_tables %>%
   subset(select = -c(`Setting`, `Care and play`, `Type`))
 
 #export tables 
-write.csv(day_care_of_children, "data/table/day_care_of_children.csv", row.names = FALSE)
-write.csv(support_service, "data/table/support_service.csv", row.names = FALSE)
-write.csv(housing_support, "data/table/housing_support.csv", row.names = FALSE)
-write.csv(child_minding, "data/table/child_minding.csv", row.names = FALSE)
-write.csv(care_homes, "data/table/care_homes.csv", row.names = FALSE)
-write.csv(accom, "data/table/accom.csv", row.names = FALSE)
-write.csv(child_care_agency, "data/table/child_care_agency.csv", row.names = FALSE)
-write.csv(adoption_fostering, "data/table/adoption_fostering.csv", row.names = FALSE)
-write.csv(adult_placement, "data/table/adult_placement.csv", row.names = FALSE)
+write.csv(all_childcare, "data/table/all_childcare.csv")
+write.csv(day_care_of_children, "data/table/day_care_of_children.csv")
+write.csv(child_minding, "data/table/child_minding.csv")
+write.csv(care_homes, "data/table/care_homes.csv")
+#write.csv(accom, "data/table/accom.csv")
+write.csv(child_care_agency, "data/table/child_care_agency.csv")
+#write.csv(adoption_fostering, "data/table/adoption_fostering.csv")
+#write.csv(adult_placement, "data/table/adult_placement.csv")
+#write.csv(support_service, "data/table/support_service.csv")
+#write.csv(housing_support, "data/table/housing_support.csv")
 
 
 #########################################
