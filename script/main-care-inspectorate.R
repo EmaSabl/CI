@@ -390,8 +390,8 @@ childTime <- total_services_linegraph %>%
 
 
 write.csv(total_services_linegraph, "data/LAservicebytime.csv", row.names = FALSE)
-write.csv(careHomeTime, "data/care_homes_totals", row.names = FALSE)
-write.csv(childTime, "data/child_services_totals", row.names = FALSE)
+write.csv(careHomeTime, "data/care_homes_totals.csv", row.names = FALSE)
+write.csv(childTime, "data/child_services_totals.csv", row.names = FALSE)
 
 ## COMPLAINTS upheld####
 comps <- all %>%
