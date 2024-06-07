@@ -610,8 +610,52 @@ childLAgrades <- childLAgrades %>%
 ## Each grade in its own column 
 
 childLAgrades_spread <- spread(childLAgrades, key = grade_means, value = Count) 
+###### Scatter plots grades
+
+adult_LA_avg_scatter <- AdultLA_avg %>% 
+  pivot_longer(
+    cols = c('Wellbeing support','Care and support', 'Setting', 'Staffing', 'Leadership'),
+    names_to = "Grade", 
+    values_to = "Average"
+  )
+
+adult_LA_avg_scatter <- adult_LA_avg_scatter %>% 
+  mutate(colour_filter = Council)
+
+adult_scatter_PJ <- adult_LA_avg_scatter %>% 
+  mutate(colour_filter = ifelse(colour_filter %in% c("Aberdeen City", "Aberdeenshire", 
+                                                     "Highland", "Na h-Eileanan Siar", "Orkney Islands", 
+                                                     "Shetland Islands", "Moray"), colour_filter, "Other"))
+adult_scatter_C <- adult_LA_avg_scatter %>% 
+  mutate(colour_filter = ifelse(colour_filter %in% c("Dundee City", "Angus", 
+                                                     "Fife", "Perth & Kinross", "Stirling"), colour_filter, "Other"))
+
+child_LA_avg_scatter <- childLA_avg %>% 
+  pivot_longer(
+    cols = c('Play and learning', 'Setting', 'Staffing', 'Leadership'),
+    names_to = "Grade", 
+    values_to = "Average"
+  ) 
+
+child_LA_avg_scatter<-child_LA_avg_scatter %>% 
+  mutate(colour_filter = Council)
+
+child_scatter_PJ <- child_LA_avg_scatter %>% 
+  mutate(colour_filter = ifelse(colour_filter %in% c("Aberdeen City", "Aberdeenshire", 
+                                                     "Highland", "Na h-Eileanan Siar", "Orkney Islands", 
+                                                     "Shetland Islands", "Moray"), colour_filter, "Other"))
+
+child_scatter_C <- child_LA_avg_scatter %>% 
+  mutate(colour_filter = ifelse(colour_filter %in% c("Dundee City", "Angus", 
+                                                     "Fife", "Perth & Kinross", "Stirling"), colour_filter, "Other"))
 
 # exports for child and adult services
+write.csv(adult_scatter_PJ, "data/PJ_adult_grades_scatter.csv", row.names = FALSE)
+write.csv(adult_scatter_C, "data/C_adult_grades_scatter.csv", row.names = FALSE)
+write.csv(child_scatter_PJ, "data/PJ_child_grades_scatter.csv", row.names = FALSE)
+write.csv(child_scatter_C, "data/PJ_child_grades_scatter.csv", row.names = FALSE)
+
+
 write.csv(AdultLA_avg, "data/adult_services_avg_LA.csv", row.names = FALSE)
 write.csv(adultLAgrades_spread, "data/adult_grades_counts_LA.csv", row.names = FALSE)
 write.csv(childLA_avg, "data/child_services_avg_LA.csv", row.names = FALSE)
