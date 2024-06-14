@@ -123,7 +123,8 @@ cancel_month <- cancelled_services %>%
   group_by(Council_Area_Name) %>% 
   summarise(n = n()) %>% 
   rename(!!paste(month.abb[month_update], year_update) := n,
-         'Council' = Council_Area_Name)
+         'Council' = Council_Area_Name) %>% 
+  mutate(Council = as.character(Council))
 
 cancelled_LA_month <- read_csv("data/cancelled_LA_month.csv")
 
