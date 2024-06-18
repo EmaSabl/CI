@@ -650,6 +650,33 @@ child_scatter_C <- child_LA_avg_scatter %>%
   mutate(colour_filter = ifelse(colour_filter %in% c("Dundee City", "Angus", 
                                                      "Fife", "Perth & Kinross", "Stirling"), colour_filter, "Other"))
 
+###### Grades over time 
+
+Adult_grades_time <- AdultLA_avg %>% 
+  mutate(Date = !!paste(month.abb[month_update], year_update), .before = Council)
+
+
+Adult_grades_historic <- read_csv("data/timeseriesAdultGrades.csv")
+
+Adult_grades_timeseries <- rbind(Adult_grades_historic, Adult_grades_time)
+Adult_grades_timeseries <- apply(Adult_grades_timeseries,2,as.character)
+
+
+##children
+child_grades_time <- childLA_avg %>%
+  mutate(Date = !!paste(month.abb[month_update], year_update), .before = Grades)
+
+child_grades_historic <- read_csv("data/timeseriesChildGrades.csv")
+
+child_grades_timeseries <- rbind(child_grades_historic, child_grades_time)
+child_grades_timeseries <- apply(child_grades_timeseries,2,as.character)
+
+
+write.csv(Adult_grades_timeseries, "data/timeseriesAdultGrades.csv", row.names = FALSE)
+write.csv(child_grades_time, "data/timeseriesChildGrades.csv", row.names = FALSE)
+
+
+
 # exports for child and adult services
 write.csv(adult_scatter_PJ, "data/PJ_adult_grades_scatter.csv", row.names = FALSE)
 write.csv(adult_scatter_C, "data/C_adult_grades_scatter.csv", row.names = FALSE)
