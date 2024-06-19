@@ -503,13 +503,13 @@ write.csv(enforcements_adult, "data/adult_enforcements.csv", row.names = FALSE)
 write.csv(enforcements_child, "data/child_enforcements.csv", row.names = FALSE)
 
 # Care service type breakdown
-enforcementscare <- enforcements %>% 
-  group_by(CareService) %>%
-  summarise(`Enforcements in 22/23` = sum(Enforcements_issued_2223, na.rm = TRUE),
-            `Enforcements in 23/24` = sum(Enforcements_issued_2324, na.rm = TRUE),
-            `Enforcements in 24/25` = sum(Enforcements_issued_2425,na.rm = TRUE))
-
-write.csv(enforcementscare, "data/enforcements_service.csv", row.names = FALSE)
+#enforcementscare <- enforcements %>% 
+#  group_by(CareService) %>%
+#  summarise(`Enforcements in 22/23` = sum(Enforcements_issued_2223, na.rm = TRUE),
+#            `Enforcements in 23/24` = sum(Enforcements_issued_2324, na.rm = TRUE),
+#            `Enforcements in 24/25` = sum(Enforcements_issued_2425,na.rm = TRUE))
+#
+#write.csv(enforcementscare, "data/enforcements_service.csv", row.names = FALSE)
 
 
 ## GRADES ######################################################
