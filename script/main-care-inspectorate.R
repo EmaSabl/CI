@@ -721,7 +721,7 @@ child_grades_timeseries <- apply(child_grades_timeseries,2,as.character)
 
 
 write.csv(Adult_grades_timeseries, "data/timeseriesAdultGrades.csv", row.names = FALSE)
-write.csv(child_grades_time, "data/timeseriesChildGrades.csv", row.names = FALSE)
+write.csv(child_grades_timeseries, "data/timeseriesChildGrades.csv", row.names = FALSE)
 
 
 
