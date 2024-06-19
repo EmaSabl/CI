@@ -725,7 +725,7 @@ child_grades_timeseries <- apply(child_grades_timeseries,2,as.character)
 #write.csv(adult_scatter_PJ, "data/PJ_adult_grades_scatter.csv", row.names = FALSE)
 #write.csv(adult_scatter_C, "data/C_adult_grades_scatter.csv", row.names = FALSE)
 #write.csv(child_scatter_PJ, "data/PJ_child_grades_scatter.csv", row.names = FALSE)
-#write.csv(child_scatter_C, "data/PJ_child_grades_scatter.csv", row.names = FALSE)
+#write.csv(child_scatter_C, "data/C_child_grades_scatter.csv", row.names = FALSE)
 
 
 #write.csv(AdultLA_avg, "data/adult_services_avg_LA.csv", row.names = FALSE)
