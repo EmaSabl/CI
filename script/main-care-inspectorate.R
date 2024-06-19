@@ -47,17 +47,39 @@ correct_names <- c("Aberdeen City", "Aberdeenshire", "Angus", "Argyll & Bute", "
                 "Perth & Kinross", "Renfrewshire", "Scottish Borders", "Shetland Islands", "South Ayrshire",
                 "South Lanarkshire", "Stirling", "West Dunbartonshire", "West Lothian", "outside Scotland")
 
-correct_spelling <- function(name, correct_names) {
+correct_spelling <- function(name, correct_names, threshold = 0.30) {
+  if (is.na(name)) {
+    return(name)
+  }
+  
+  # Specific condition to handle the given code
+  if (name == "SP2021000143") {
+    return("Scottish Borders")
+  }
+  if (name == "Edinburgh, City of") {
+    return("City of Edinburgh")
+  }
+  if (name == "Edinburgh") {
+    return("City of Edinburgh")
+  }
+  
   if (name %in% correct_names) {
     return(name)
   } else {
     distances <- stringdist(name, correct_names, method = "jw") # Jaro-Winkler distance
+    min_distance <- min(distances)
     closest <- correct_names[which.min(distances)]
-    message(sprintf("Correcting misspelling: '%s' to '%s'", name, closest))
-    return(closest)
+    
+    # Set a threshold to avoid incorrect corrections
+    if (min_distance < threshold) {
+      message(sprintf("Correcting misspelling: '%s' to '%s'", name, closest))
+      return(closest)
+    } else {
+      message(sprintf("No suitable correction found for '%s'", name))
+      return(name)
+    }
   }
 }
-
 all <- all %>%
   mutate(Council_Area_Name = sapply(Council_Area_Name, correct_spelling, correct_names = correct_names))
 
