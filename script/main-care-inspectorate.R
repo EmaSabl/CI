@@ -394,60 +394,7 @@ write.csv(total_services_linegraph, "data/LAservicebytime.csv", row.names = FALS
 write.csv(careHomeTime, "data/care_homes_totals.csv", row.names = FALSE)
 write.csv(childTime, "data/child_services_totals.csv", row.names = FALSE)
 
-## COMPLAINTS upheld####
-comps <- all %>%
-  mutate_at(vars("Complaints_upheld_2425"),
-            list(~ ifelse(is.na(.), 0, .)))
-
-compsLA <- comps %>% 
-  group_by(Council_Area_Name, Client_group) %>% 
-  summarise("2024/25" = sum(Complaints_upheld_2425)) %>% 
-  pivot_wider(id_cols = Council_Area_Name,
-              names_from = Client_group, 
-              values_from = "2024/25") %>% 
-  rename("2024/25_Adults" = "Adults",
-         "2024/25_Children" = "Children")
-
-compsPast <- read_csv("data/complaints_LA.csv")
-
-compsPast <- compsPast %>% 
-  select(-c("2024/25_Adults", "2024/25_Children"))
-
-complaints_LA <- compsPast %>% 
-  left_join(compsLA, by = "Council_Area_Name") 
-
-
-#export complaints tables
-write.csv(complaints_LA, "data/complaints_LA.csv", row.names = FALSE)
-
-## ENFORCEMENTS ####
-##Ading the latest enforcement year 
-
-
-enforcements <- all %>% 
-  filter(!is.na(Enforcements_issued_2425) |
-           !is.na(Enforcements_issued_2223) |
-           !is.na(Enforcements_issued_2324))
-
-# LA breakdown
-enforcementsLA <- enforcements %>%
-  group_by(Council_Area_Name) %>%
-  summarise(`Enforcements in 22/23` = sum(Enforcements_issued_2223, na.rm = TRUE),
-            `Enforcements in 23/24` = sum(Enforcements_issued_2324,na.rm = TRUE),
-            `Enforcements in 24/25` = sum(Enforcements_issued_2425,na.rm = TRUE))
-
-# Care service type breakdown
-enforcementscare <- enforcements %>% 
-  group_by(CareService) %>%
-  summarise(`Enforcements in 22/23` = sum(Enforcements_issued_2223, na.rm = TRUE),
-            `Enforcements in 23/24` = sum(Enforcements_issued_2324, na.rm = TRUE),
-            `Enforcements in 24/25` = sum(Enforcements_issued_2425,na.rm = TRUE))
-
-write.csv(enforcementsLA, "data/enforcements_LA.csv", row.names = FALSE)
-write.csv(enforcementscare, "data/enforcements_service.csv", row.names = FALSE)
-
-
-## GRADES ######################################################
+##SPLIT ADULT AND CHILD
 ## Adult services include just care homes
 ## Child services include just day care of children, child minding, child care agency
 
@@ -462,7 +409,88 @@ childservs <- all %>%
           CareService == "Child Minding" | 
           CareService == "Child Care Agency")
 
+## COMPLAINTS upheld####
 
+##new code to replace the old
+
+comps_adult_past <- read_csv("data/adult_complaints.csv")
+comps_adult <- adultservs %>% 
+  mutate_at(vars("Complaints_upheld_2425"),
+            list(~ ifelse(is.na(.), 0, .))) %>% 
+  group_by(Council_Area_Name) %>% 
+  summarise("2024/25" = sum(Complaints_upheld_2425)) 
+
+comps_adult_past <- comps_adult_past%>% 
+  select(-"2024/25")
+
+complaints_adult <- comps_adult_past %>% 
+  left_join(comps_adult, by = "Council_Area_Name")
+
+
+##child complaints
+comps_child_past <- read_csv("data/child_complaints.csv")
+comps_child <- childservs %>% 
+  mutate_at(vars("Complaints_upheld_2425"),
+            list(~ ifelse(is.na(.), 0, .))) %>% 
+  group_by(Council_Area_Name) %>% 
+  summarise("2024/25" = sum(Complaints_upheld_2425)) 
+
+comps_child_past <- comps_child_past%>% 
+  select(-"2024/25")
+
+complaints_child <- comps_child_past %>% 
+  left_join(comps_child, by = "Council_Area_Name")
+
+#export complaints tables
+write.csv(complaints_adult, "data/adult_complaints.csv", row.names = FALSE)
+write.csv(complaints_child, "data/child_complaints.csv", row.names = FALSE)
+
+## ENFORCEMENTS ####
+##################################
+
+
+enforce_adult_past <- read_csv("grades/adult_enforcements.csv")
+enforce_adult <- adultservs %>% 
+  mutate_at(vars("Enforcements_issued_2425"),
+            list(~ ifelse(is.na(.), 0, .))) %>% 
+  group_by(Council_Area_Name) %>% 
+  summarise("2024/25" = sum(Enforcements_issued_2425)) 
+
+enforce_adult_past <- enforce_adult_past%>% 
+  select(-"2024/25")
+
+enforcements_adult <- enforce_adult_past %>% 
+  left_join(enforce_adult, by = "Council_Area_Name")
+
+
+##child enforcements
+enforce_child_past <- read_csv("grades/child_enforcements.csv")
+enforce_child <- childservs %>% 
+  mutate_at(vars("Enforcements_issued_2425"),
+            list(~ ifelse(is.na(.), 0, .))) %>% 
+  group_by(Council_Area_Name) %>% 
+  summarise("2024/25" = sum(Enforcements_issued_2425)) 
+
+enforce_child_past <- enforce_child_past%>% 
+  select(-"2024/25")
+
+enforcements_child <- comps_child_past %>% 
+  left_join(comps_child, by = "Council_Area_Name")
+
+write.csv(enforcements_adult, "data/adult_enforcements.csv", row.names = FALSE)
+write.csv(enforcements_child, "data/child_enforcements.csv", row.names = FALSE)
+
+# Care service type breakdown
+enforcementscare <- enforcements %>% 
+  group_by(CareService) %>%
+  summarise(`Enforcements in 22/23` = sum(Enforcements_issued_2223, na.rm = TRUE),
+            `Enforcements in 23/24` = sum(Enforcements_issued_2324, na.rm = TRUE),
+            `Enforcements in 24/25` = sum(Enforcements_issued_2425,na.rm = TRUE))
+
+write.csv(enforcementscare, "data/enforcements_service.csv", row.names = FALSE)
+
+
+## GRADES ######################################################
 ## ADULT SERVICES DATA #######################
 
 ## Average and count of each ranking for LAs ######
