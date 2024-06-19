@@ -714,7 +714,7 @@ Adult_grades_timeseries <- apply(Adult_grades_timeseries,2,as.character)
 
 ##children
 child_grades_time <- childLA_avg %>%
-  mutate(Date = !!paste(month.abb[month_update], year_update), .before = Grades)
+  mutate(Date = !!paste(month.abb[month_update], year_update), .before = Council)
 
 child_grades_historic <- read_csv("data/timeseriesChildGrades.csv")
 
