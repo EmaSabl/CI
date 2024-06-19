@@ -471,7 +471,7 @@ write.csv(complaints_child, "data/child_complaints.csv", row.names = FALSE)
 ##################################
 
 
-enforce_adult_past <- read_csv("grades/adult_enforcements.csv")
+enforce_adult_past <- read_csv("data/adult_enforcements.csv")
 enforce_adult <- adultservs %>% 
   mutate_at(vars("Enforcements_issued_2425"),
             list(~ ifelse(is.na(.), 0, .))) %>% 
@@ -486,7 +486,7 @@ enforcements_adult <- enforce_adult_past %>%
 
 
 ##child enforcements
-enforce_child_past <- read_csv("grades/child_enforcements.csv")
+enforce_child_past <- read_csv("data/child_enforcements.csv")
 enforce_child <- childservs %>% 
   mutate_at(vars("Enforcements_issued_2425"),
             list(~ ifelse(is.na(.), 0, .))) %>% 
