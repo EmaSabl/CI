@@ -601,8 +601,6 @@ adultLAgrades_spread <- spread(adultLAgrades, key = grade_means, value = Count)
 childLA_avg <- childservs %>% 
   group_by(Council_Area_Name) %>%  
   summarise(
-    'Wellbeing support' = mean(KQ_Support_Wellbeing, na.rm = TRUE),
-    'Care and support' = mean(KQ_Care_and_Support_Planning, na.rm = TRUE),
     'Setting' = mean(KQ_Setting, na.rm = TRUE),
     'Staffing' = mean(KQ_Staff_Team, na.rm = TRUE),
     'Leadership' = mean(KQ_Leadership, na.rm = TRUE),
