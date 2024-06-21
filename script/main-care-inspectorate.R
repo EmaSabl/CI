@@ -450,14 +450,14 @@ comps_adult <- adultservs %>%
   mutate_at(vars("Complaints_upheld_2425"),
             list(~ ifelse(is.na(.), 0, .))) %>% 
   group_by(Council_Area_Name) %>% 
-  summarise("2024/25" = sum(Complaints_upheld_2425)) 
+  summarise("2024/25" = sum(Complaints_upheld_2425)) %>%
+  rename('Council'="Council_Area_Name")
 
 comps_adult_past <- comps_adult_past%>% 
   select(-"2024/25")
 
 complaints_adult <- comps_adult_past %>% 
-  left_join(comps_adult, by = "Council_Area_Name") %>% 
-  rename('Council'="Council_Area_Name")
+  left_join(comps_adult, by = "Council") 
 
 complaints_adult <- left_join(complaints_adult, adult_totals, by='Council')
 
@@ -468,14 +468,14 @@ comps_child <- childservs %>%
   mutate_at(vars("Complaints_upheld_2425"),
             list(~ ifelse(is.na(.), 0, .))) %>% 
   group_by(Council_Area_Name) %>% 
-  summarise("2024/25" = sum(Complaints_upheld_2425)) 
+  summarise("2024/25" = sum(Complaints_upheld_2425)) %>%
+  rename('Council'="Council_Area_Name")
 
 comps_child_past <- comps_child_past%>% 
   select(-"2024/25")
 
 complaints_child <- comps_child_past %>% 
-  left_join(comps_child, by = "Council_Area_Name") %>% 
-  rename('Council'="Council_Area_Name")
+  left_join(comps_child, by = "Council") 
 
 complaints_child <- left_join(complaints_child, child_totals, by = 'Council')
 
