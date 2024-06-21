@@ -433,14 +433,14 @@ childservs <- all %>%
 adult_totals <- adultservs %>% 
   group_by(Council_Area_Name) %>%
   summarise(n = n())  %>% 
-  rename(!!paste(latest_date) := n,
+  rename("Services" = n,
          'Council' = Council_Area_Name) %>% 
   mutate(Council = as.character(Council))
 
 child_totals <- childservs %>%  
   group_by(Council_Area_Name) %>%
   summarise(n = n())  %>% 
-  rename(!!paste(latest_date) := n,
+  rename("Services" = n,
          'Council' = Council_Area_Name) %>% 
   mutate(Council = as.character(Council))
 
@@ -498,7 +498,10 @@ enforce_adult_past <- enforce_adult_past%>%
   select(-"2024/25")
 
 enforcements_adult <- enforce_adult_past %>% 
-  left_join(enforce_adult, by = "Council_Area_Name")
+  left_join(enforce_adult, by = "Council_Area_Name")  %>% 
+  rename('Council'="Council_Area_Name")
+
+enforcements_adult <- left_join(enforcements_adult, adult_totals, by = 'Council')
 
 
 ##child enforcements
@@ -513,10 +516,14 @@ enforce_child_past <- enforce_child_past%>%
   select(-"2024/25")
 
 enforcements_child <- comps_child_past %>% 
-  left_join(comps_child, by = "Council_Area_Name")
+  left_join(comps_child, by = "Council_Area_Name") %>% 
+  rename('Council'="Council_Area_Name")
 
-#write.csv(enforcements_adult, "data/adult_enforcements.csv", row.names = FALSE)
-#write.csv(enforcements_child, "data/child_enforcements.csv", row.names = FALSE)
+enforcements_child <- left_join(enforcements_child, child_totals, by = 'Council')
+
+
+write.csv(enforcements_adult, "data/adult_enforcements.csv", row.names = FALSE)
+write.csv(enforcements_child, "data/child_enforcements.csv", row.names = FALSE)
 
 # Care service type breakdown
 #enforcementscare <- enforcements %>% 
