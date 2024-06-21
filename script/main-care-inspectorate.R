@@ -490,14 +490,14 @@ enforce_adult <- adultservs %>%
   mutate_at(vars("Enforcements_issued_2425"),
             list(~ ifelse(is.na(.), 0, .))) %>% 
   group_by(Council_Area_Name) %>% 
-  summarise("2024/25" = sum(Enforcements_issued_2425)) 
+  summarise("2024/25" = sum(Enforcements_issued_2425)) %>%
+  rename('Council'="Council_Area_Name")
 
 enforce_adult_past <- enforce_adult_past%>% 
   select(-"2024/25")
 
 enforcements_adult <- enforce_adult_past %>% 
-  left_join(enforce_adult, by = "Council_Area_Name")  %>% 
-  rename('Council'="Council_Area_Name")
+  left_join(enforce_adult, by = "Council") 
 
 enforcements_adult <- left_join(enforcements_adult, adult_totals, by = 'Council')
 
@@ -508,14 +508,14 @@ enforce_child <- childservs %>%
   mutate_at(vars("Enforcements_issued_2425"),
             list(~ ifelse(is.na(.), 0, .))) %>% 
   group_by(Council_Area_Name) %>% 
-  summarise("2024/25" = sum(Enforcements_issued_2425)) 
+  summarise("2024/25" = sum(Enforcements_issued_2425)) %>%
+  rename('Council'="Council_Area_Name")
 
 enforce_child_past <- enforce_child_past%>% 
   select(-"2024/25")
 
 enforcements_child <- enforce_child_past %>% 
-  left_join(enforce_child, by = "Council_Area_Name") %>% 
-  rename('Council'="Council_Area_Name")
+  left_join(enforce_child, by = "Council") 
 
 enforcements_child <- left_join(enforcements_child, child_totals, by = 'Council')
 
