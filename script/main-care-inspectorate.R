@@ -722,20 +722,20 @@ child_grades_timeseries <- apply(child_grades_timeseries,2,as.character)
 
 
 # exports for child and adult services
-#write.csv(adult_scatter_PJ, "data/PJ_adult_grades_scatter.csv", row.names = FALSE)
-#write.csv(adult_scatter_C, "data/C_adult_grades_scatter.csv", row.names = FALSE)
-#write.csv(child_scatter_PJ, "data/PJ_child_grades_scatter.csv", row.names = FALSE)
-#write.csv(child_scatter_C, "data/C_child_grades_scatter.csv", row.names = FALSE)
+write.csv(adult_scatter_PJ, "data/PJ_adult_grades_scatter.csv", row.names = FALSE)
+write.csv(adult_scatter_C, "data/C_adult_grades_scatter.csv", row.names = FALSE)
+write.csv(child_scatter_PJ, "data/PJ_child_grades_scatter.csv", row.names = FALSE)
+write.csv(child_scatter_C, "data/C_child_grades_scatter.csv", row.names = FALSE)
 
 
 #write.csv(AdultLA_avg, "data/adult_services_avg_LA.csv", row.names = FALSE)
 #write.csv(adultLAgrades_spread, "data/adult_grades_counts_LA.csv", row.names = FALSE)
 #write.csv(childLA_avg, "data/child_services_avg_LA.csv", row.names = FALSE)
 #write.csv(childLAgrades_spread, "data/child_grades_counts_LA.csv", row.names = FALSE)
-write.csv(PJ_AdultLA_avg, "data/PJ_radial_adult_grades.csv", row.names = FALSE)
-write.csv(Cour_AdultLA_avg, "data/C_radial_adult_grades.csv", row.names = FALSE)
-write.csv(PJ_ChildLA_avg, "data/PJ_radial_child_grade.csv", row.names = FALSE)
-write.csv(Cour_ChildLA_avg, "data/C_radial_child_grade.csv", row.names = FALSE)
+#write.csv(PJ_AdultLA_avg, "data/PJ_radial_adult_grades.csv", row.names = FALSE)
+#write.csv(Cour_AdultLA_avg, "data/C_radial_adult_grades.csv", row.names = FALSE)
+#write.csv(PJ_ChildLA_avg, "data/PJ_radial_child_grade.csv", row.names = FALSE)
+#write.csv(Cour_ChildLA_avg, "data/C_radial_child_grade.csv", row.names = FALSE)
 
 #Finally update the csv for the previous month
 #write.csv(all, "data/CIfull.csv", row.names = FALSE) 
