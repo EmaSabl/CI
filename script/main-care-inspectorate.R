@@ -408,9 +408,9 @@ childTime <- total_services_linegraph %>%
 
 
 
-write.csv(total_services_linegraph, "data/LAservicebytime.csv", row.names = FALSE)
-write.csv(careHomeTime, "data/care_homes_totals.csv", row.names = FALSE)
-write.csv(childTime, "data/child_services_totals.csv", row.names = FALSE)
+#write.csv(total_services_linegraph, "data/LAservicebytime.csv", row.names = FALSE)
+#write.csv(careHomeTime, "data/care_homes_totals.csv", row.names = FALSE)
+#write.csv(childTime, "data/child_services_totals.csv", row.names = FALSE)
 
 ##SPLIT ADULT AND CHILD
 ## Adult services include just care homes
@@ -732,10 +732,10 @@ child_grades_timeseries <- apply(child_grades_timeseries,2,as.character)
 #write.csv(adultLAgrades_spread, "data/adult_grades_counts_LA.csv", row.names = FALSE)
 #write.csv(childLA_avg, "data/child_services_avg_LA.csv", row.names = FALSE)
 #write.csv(childLAgrades_spread, "data/child_grades_counts_LA.csv", row.names = FALSE)
-#write.csv(PJ_AdultLA_avg, "data/PJ_radial_adult_grades.csv", row.names = FALSE)
-#write.csv(Cour_AdultLA_avg, "data/C_radial_adult_grades.csv", row.names = FALSE)
-#write.csv(PJ_ChildLA_avg, "data/PJ_radial_child_grade.csv", row.names = FALSE)
-#write.csv(Cour_ChildLA_avg, "data/C_radial_child_grade.csv", row.names = FALSE)
+write.csv(PJ_AdultLA_avg, "data/PJ_radial_adult_grades.csv", row.names = FALSE)
+write.csv(Cour_AdultLA_avg, "data/C_radial_adult_grades.csv", row.names = FALSE)
+write.csv(PJ_ChildLA_avg, "data/PJ_radial_child_grade.csv", row.names = FALSE)
+write.csv(Cour_ChildLA_avg, "data/C_radial_child_grade.csv", row.names = FALSE)
 
 #Finally update the csv for the previous month
 #write.csv(all, "data/CIfull.csv", row.names = FALSE) 
