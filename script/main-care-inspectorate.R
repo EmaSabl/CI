@@ -456,7 +456,7 @@ comps_adult <- adultservs %>%
 comps_adult_past <- comps_adult_past%>% 
   select(-"2024/25")
 
-complaints_adult <- left_join(comps_adult_past, comps_adult, by = "Council") 
+complaints_adult <- left_join(comps_adult_past, comps_adult, by = 'Council') 
 
 complaints_adult <- left_join(complaints_adult, adult_totals, by='Council')
 
@@ -473,7 +473,7 @@ comps_child <- childservs %>%
 comps_child_past <- comps_child_past%>% 
   select(-"2024/25")
 
-complaints_child <- left_join(comps_child_past, comps_child, by = "Council") 
+complaints_child <- left_join(comps_child_past, comps_child, by = 'Council') 
 
 complaints_child <- left_join(complaints_child, child_totals, by = 'Council')
 
@@ -513,8 +513,8 @@ enforce_child <- childservs %>%
 enforce_child_past <- enforce_child_past%>% 
   select(-"2024/25")
 
-enforcements_child <- comps_child_past %>% 
-  left_join(comps_child, by = "Council_Area_Name") %>% 
+enforcements_child <- enforce_child_past %>% 
+  left_join(enforce_child, by = "Council_Area_Name") %>% 
   rename('Council'="Council_Area_Name")
 
 enforcements_child <- left_join(enforcements_child, child_totals, by = 'Council')
