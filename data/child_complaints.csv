@@ -1,34 +1,34 @@
-"Council","2021/22","2022/23","2023/24","2024/25","May 2024"
-"Aberdeen City",4,4,1,0,254
-"Aberdeenshire",6,7,9,0,426
-"Angus",4,2,3,0,176
-"Argyll & Bute",2,1,3,0,139
-"City of Edinburgh",8,5,11,3,560
-"Clackmannanshire",1,2,1,0,51
-"Dumfries & Galloway",1,3,1,0,157
-"Dundee City",1,4,5,0,148
-"East Ayrshire",1,0,1,0,165
-"East Dunbartonshire",0,2,4,0,155
-"East Lothian",2,5,4,0,164
-"East Renfrewshire",0,0,3,0,148
-"Falkirk",1,2,2,0,224
-"Fife",2,1,5,0,475
-"Glasgow City",10,19,21,2,447
-"Highland",1,3,5,0,380
-"Inverclyde",1,2,1,1,69
-"Midlothian",1,2,4,1,134
-"Moray",1,1,2,0,161
-"Na h-Eileanan Siar",0,0,0,0,33
-"North Ayrshire",3,3,7,0,189
-"North Lanarkshire",1,5,7,1,366
-"Orkney Islands",0,0,0,0,43
-"Perth & Kinross",6,2,1,0,207
-"Renfrewshire",4,11,6,1,165
-"Scottish Borders",0,0,3,0,151
-"Shetland Islands",0,0,0,0,33
-"South Ayrshire",2,0,2,0,117
-"South Lanarkshire",3,7,8,5,354
-"Stirling",2,1,2,0,124
-"West Dunbartonshire",1,1,1,0,74
-"West Lothian",2,9,10,0,276
-"outside Scotland",0,0,0,0,3
+"Council","2021/22","2022/23","2023/24","May 2024","2024/25","Services"
+"Aberdeen City",4,4,1,254,0,254
+"Aberdeenshire",6,7,9,426,0,426
+"Angus",4,2,3,176,0,176
+"Argyll & Bute",2,1,3,139,0,139
+"City of Edinburgh",8,5,11,560,3,560
+"Clackmannanshire",1,2,1,51,0,51
+"Dumfries & Galloway",1,3,1,157,0,157
+"Dundee City",1,4,5,148,0,148
+"East Ayrshire",1,0,1,165,0,165
+"East Dunbartonshire",0,2,4,155,0,155
+"East Lothian",2,5,4,164,0,164
+"East Renfrewshire",0,0,3,148,0,148
+"Falkirk",1,2,2,224,0,224
+"Fife",2,1,5,475,0,475
+"Glasgow City",10,19,21,447,2,447
+"Highland",1,3,5,380,0,380
+"Inverclyde",1,2,1,69,1,69
+"Midlothian",1,2,4,134,1,134
+"Moray",1,1,2,161,0,161
+"Na h-Eileanan Siar",0,0,0,33,0,33
+"North Ayrshire",3,3,7,189,0,189
+"North Lanarkshire",1,5,7,366,1,366
+"Orkney Islands",0,0,0,43,0,43
+"Perth & Kinross",6,2,1,207,0,207
+"Renfrewshire",4,11,6,165,1,165
+"Scottish Borders",0,0,3,151,0,151
+"Shetland Islands",0,0,0,33,0,33
+"South Ayrshire",2,0,2,117,0,117
+"South Lanarkshire",3,7,8,354,5,354
+"Stirling",2,1,2,124,0,124
+"West Dunbartonshire",1,1,1,74,0,74
+"West Lothian",2,9,10,276,0,276
+"outside Scotland",0,0,0,3,0,3

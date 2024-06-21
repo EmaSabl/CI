@@ -1,33 +1,33 @@
-"Council_Area_Name","2021/22","2022/23","2023/24","2024/25"
-"Aberdeen City",0,0,1,1
-"Aberdeenshire",0,2,1,0
-"Angus",0,1,0,1
-"Argyll & Bute",0,0,0,0
-"City of Edinburgh",0,0,0,0
-"Clackmannanshire",0,0,0,0
-"Dumfries & Galloway",0,1,0,0
-"Dundee City",1,0,1,0
-"East Ayrshire",1,0,0,0
-"East Dunbartonshire",0,0,0,0
-"East Lothian",0,1,0,0
-"East Renfrewshire",1,0,1,0
-"Falkirk",0,0,0,0
-"Fife",3,4,2,0
-"Glasgow City",3,0,1,0
-"Highland",1,0,1,1
-"Inverclyde",0,0,0,0
-"Midlothian",1,0,0,0
-"Moray",0,1,0,0
-"Na h-Eileanan Siar",0,0,0,0
-"North Ayrshire",1,0,0,0
-"North Lanarkshire",1,0,1,0
-"Orkney Islands",0,0,0,0
-"Perth & Kinross",1,1,1,0
-"Renfrewshire",1,1,0,0
-"Scottish Borders",0,0,0,0
-"Shetland Islands",0,0,0,0
-"South Ayrshire",1,0,1,0
-"South Lanarkshire",1,1,0,0
-"Stirling",0,0,2,0
-"West Dunbartonshire",0,0,0,0
-"West Lothian",0,1,0,0
+"Council","2021/22","2022/23","2023/24","2024/25","Services"
+"Aberdeen City",0,0,1,1,50
+"Aberdeenshire",0,2,1,0,62
+"Angus",0,1,0,1,29
+"Argyll & Bute",0,0,0,0,17
+"City of Edinburgh",0,0,0,0,79
+"Clackmannanshire",0,0,0,0,9
+"Dumfries & Galloway",0,1,0,0,31
+"Dundee City",1,0,1,0,27
+"East Ayrshire",1,0,0,0,24
+"East Dunbartonshire",0,0,0,0,18
+"East Lothian",0,1,0,0,19
+"East Renfrewshire",1,0,1,0,13
+"Falkirk",0,0,0,0,30
+"Fife",3,4,2,0,79
+"Glasgow City",3,0,1,0,94
+"Highland",1,0,1,1,62
+"Inverclyde",0,0,0,0,18
+"Midlothian",1,0,0,0,12
+"Moray",0,1,0,0,16
+"Na h-Eileanan Siar",0,0,0,0,9
+"North Ayrshire",1,0,0,0,23
+"North Lanarkshire",1,0,1,0,28
+"Orkney Islands",0,0,0,0,5
+"Perth & Kinross",1,1,1,0,41
+"Renfrewshire",1,1,0,0,27
+"Scottish Borders",0,0,0,0,26
+"Shetland Islands",0,0,0,0,10
+"South Ayrshire",1,0,1,0,34
+"South Lanarkshire",1,1,0,0,56
+"Stirling",0,0,2,0,22
+"West Dunbartonshire",0,0,0,0,11
+"West Lothian",0,1,0,0,31
