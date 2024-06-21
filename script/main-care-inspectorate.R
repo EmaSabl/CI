@@ -430,6 +430,20 @@ childservs <- all %>%
 ## COMPLAINTS upheld####
 
 ##new code to replace the old
+adult_totals <- adultservs %>% 
+  group_by(Council_Area_Name) %>%
+  summarise(n = n())  %>% 
+  rename(!!paste(latest_date) := n,
+         'Council' = Council_Area_Name) %>% 
+  mutate(Council = as.character(Council))
+
+child_totals <- childservs %>%  
+  group_by(Council_Area_Name) %>%
+  summarise(n = n())  %>% 
+  rename(!!paste(latest_date) := n,
+         'Council' = Council_Area_Name) %>% 
+  mutate(Council = as.character(Council))
+
 
 comps_adult_past <- read_csv("data/adult_complaints.csv")
 comps_adult <- adultservs %>% 
@@ -442,7 +456,10 @@ comps_adult_past <- comps_adult_past%>%
   select(-"2024/25")
 
 complaints_adult <- comps_adult_past %>% 
-  left_join(comps_adult, by = "Council_Area_Name")
+  left_join(comps_adult, by = "Council_Area_Name") %>% 
+  rename('Council'="Council_Area_Name")
+
+complaints_adult <- left_join(complaints_adult, adult_totals, by='Council')
 
 
 ##child complaints
@@ -457,11 +474,14 @@ comps_child_past <- comps_child_past%>%
   select(-"2024/25")
 
 complaints_child <- comps_child_past %>% 
-  left_join(comps_child, by = "Council_Area_Name")
+  left_join(comps_child, by = "Council_Area_Name") %>% 
+  rename('Council'="Council_Area_Name")
+
+complaints_child <- left_join(complaints_child, child_totals, by = 'Council')
 
 #export complaints tables
-#write.csv(complaints_adult, "data/adult_complaints.csv", row.names = FALSE)
-#write.csv(complaints_child, "data/child_complaints.csv", row.names = FALSE)
+write.csv(complaints_adult, "data/adult_complaints.csv", row.names = FALSE)
+write.csv(complaints_child, "data/child_complaints.csv", row.names = FALSE)
 
 ## ENFORCEMENTS ####
 ##################################
@@ -722,10 +742,10 @@ child_grades_timeseries <- apply(child_grades_timeseries,2,as.character)
 
 
 # exports for child and adult services
-write.csv(adult_scatter_PJ, "data/PJ_adult_grades_scatter.csv", row.names = FALSE)
-write.csv(adult_scatter_C, "data/C_adult_grades_scatter.csv", row.names = FALSE)
-write.csv(child_scatter_PJ, "data/PJ_child_grades_scatter.csv", row.names = FALSE)
-write.csv(child_scatter_C, "data/C_child_grades_scatter.csv", row.names = FALSE)
+#write.csv(adult_scatter_PJ, "data/PJ_adult_grades_scatter.csv", row.names = FALSE)
+#write.csv(adult_scatter_C, "data/C_adult_grades_scatter.csv", row.names = FALSE)
+#write.csv(child_scatter_PJ, "data/PJ_child_grades_scatter.csv", row.names = FALSE)
+#write.csv(child_scatter_C, "data/C_child_grades_scatter.csv", row.names = FALSE)
 
 
 #write.csv(AdultLA_avg, "data/adult_services_avg_LA.csv", row.names = FALSE)
