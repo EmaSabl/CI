@@ -355,11 +355,11 @@ adult_placement <- care_tables %>%
   subset(select = -c(`Setting`, `Care and play`, `Type`))
 
 #export tables 
-#write.csv(all_childcare, "data/table/all_childcare.csv")
-#write.csv(day_care_of_children, "data/table/day_care_of_children.csv")
-#write.csv(child_minding, "data/table/child_minding.csv")
-#write.csv(care_homes, "data/table/care_homes.csv")
-#write.csv(child_care_agency, "data/table/child_care_agency.csv")
+#write.csv(all_childcare, "data/table/all_childcare.csv", row.names = FALSE)
+#write.csv(day_care_of_children, "data/table/day_care_of_children.csv", row.names = FALSE)
+#write.csv(child_minding, "data/table/child_minding.csv", row.names = FALSE)
+#write.csv(care_homes, "data/table/care_homes.csv", row.names = FALSE)
+#write.csv(child_care_agency, "data/table/child_care_agency.csv", row.names = FALSE)
 
 
 
