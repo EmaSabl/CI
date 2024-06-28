@@ -454,7 +454,7 @@ comps_adult <- adultservs %>%
   rename('Council'="Council_Area_Name")
 
 comps_adult_past <- comps_adult_past%>% 
-  select(-c("2024/25", "Services))
+  select(-c("2024/25", "Services"))
 
 complaints_adult <- left_join(comps_adult_past, comps_adult, by = 'Council') 
 
@@ -471,7 +471,7 @@ comps_child <- childservs %>%
   rename('Council'="Council_Area_Name")
 
 comps_child_past <- comps_child_past%>% 
-  select(-c("2024/25", "Services))
+  select(-c("2024/25", "Services"))
 
 complaints_child <- left_join(comps_child_past, comps_child, by = 'Council') 
 
