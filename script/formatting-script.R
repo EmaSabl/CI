@@ -8,7 +8,7 @@ library(lubridate)
 update <- read_csv("https://www.careinspectorate.com/images/documents/7648/MDSF_data_31%20May%202024.csv", locale = locale(encoding = "Windows-1252"))
 update$ServiceName <- gsub('[^\x20-\x7E]',  '', update$ServiceName) 
 columns_keep <- c("CareService", "Subtype", "ServiceType", "ServiceName",
-                  "Service_town", "Service_Postcode", "ServiceProvider", 
+                  "Service_town", "Service_Postcode", "ServiceProvider", "ServiceStatus",
                   "Provided_by_Local_Authority", "Date_Reg", "CareHome_Main_Area_of_Care", 
                   "Council_Area_Name", "NumberStaff", "Registered_Places", "Client_group",
                   "GradeSpread", "MinGrade", "MaxGrade", "MinGrade_change", "Publication_of_Latest_Grading",
