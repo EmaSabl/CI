@@ -284,6 +284,7 @@ care_tables <- all %>%
   rowwise() %>%
   mutate(`Complaints upheld since 22/23` = sum(c_across(starts_with("Complaints_upheld_")), na.rm = TRUE)) %>% 
   mutate('Enforcements since 22/23' = sum(c_across(starts_with("Enforcements_issued_")), na.rm = TRUE)) %>% 
+  filter(ServiceStatus == "Active") %>% 
   select(all_of(columns_keep_table)) %>%
   rename(Type = CareService,
          Provider = ServiceType,
@@ -354,7 +355,25 @@ adult_placement <- care_tables %>%
   filter(Type == "Adult Placement Service")%>% 
   subset(select = -c(`Setting`, `Care and play`, `Type`))
 
+## histogram sheets
+care_home_hist <- care_homes %>% 
+  select(-c(Town, Registered, Last_inspection_Date, 'Enforcements since 22/23')) %>% 
+  mutate('Total' = sum(c_across('Wellbeing support':'Leadership' ), na.rm = TRUE))
+
+day_care_hist <- day_care_of_children %>% 
+  select(-c(Town, Registered, Last_inspection_Date, 'Enforcements since 22/23', Clients)) %>% 
+  mutate('Total' = sum(c_across('Setting':'Care and play' ), na.rm = TRUE))
+
+childmind_hist <- child_minding %>% 
+  select(-c(Subtype, Town, Registered, Last_inspection_Date, 'Enforcements since 22/23', Clients)) %>% 
+  mutate('Total' = sum(c_across('Setting':'Care and play' ), na.rm = TRUE))
+
 #export tables 
+write.csv(care_home_hist, "data/table/carehome_histo.csv", row.names = TRUE)
+write.csv(day_care_hist, "data/table/daycare_histo.csv", row.names = TRUE)
+write.csv(childmind_hist, "data/table/childmind_histo.csv", row.names = TRUE)
+
+
 #write.csv(all_childcare, "data/table/all_childcare.csv", row.names = FALSE)
 #write.csv(day_care_of_children, "data/table/day_care_of_children.csv", row.names = FALSE)
 #write.csv(child_minding, "data/table/child_minding.csv", row.names = FALSE)
@@ -492,8 +511,8 @@ complaints_child <- left_join(comps_child_past, comps_child, by = 'Council')
 complaints_child <- left_join(complaints_child, child_totals, by = 'Council')
 
 #export complaints tables
-write.csv(complaints_adult, "data/adult_complaints.csv", row.names = FALSE)
-write.csv(complaints_child, "data/child_complaints.csv", row.names = FALSE)
+#write.csv(complaints_adult, "data/adult_complaints.csv", row.names = FALSE)
+#write.csv(complaints_child, "data/child_complaints.csv", row.names = FALSE)
 
 ## ENFORCEMENTS ####
 ##################################
@@ -534,8 +553,8 @@ enforcements_child <- enforce_child_past %>%
 enforcements_child <- left_join(enforcements_child, child_totals, by = 'Council')
 
 
-write.csv(enforcements_adult, "data/adult_enforcements.csv", row.names = FALSE)
-write.csv(enforcements_child, "data/child_enforcements.csv", row.names = FALSE)
+#write.csv(enforcements_adult, "data/adult_enforcements.csv", row.names = FALSE)
+#write.csv(enforcements_child, "data/child_enforcements.csv", row.names = FALSE)
 
 # Care service type breakdown
 #enforcementscare <- enforcements %>% 
