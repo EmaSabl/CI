@@ -17,7 +17,7 @@ columns_keep <- c("CareService", "Subtype", "ServiceType", "ServiceName",
                   "Complaints_upheld_2223", "Complaints_upheld_2324", "Complaints_upheld_2425",
                   "Enforcements_issued_2223", "Enforcements_issued_2324", "Enforcements_issued_2425",
                   "any_requirements_2223", "any_requirements_2324", "any_requirements_2425",
-                  "Last_inspection_Date")
+                  "Last_inspection_Date", "ServiceStatus")
 
 update <- update %>% 
   select(all_of(columns_keep)) 
