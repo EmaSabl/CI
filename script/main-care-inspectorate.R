@@ -429,7 +429,9 @@ child_time_scotland <- childTime %>%
   rowwise() %>% 
   select(-'outside Scotland') %>% 
   mutate('Scotland' = sum(c_across('Aberdeen City':'West Lothian'), na.rm = TRUE)) %>% 
-  select(c(CareService, Date, Scotland))
+  select(c(CareService, Date, Scotland)) %>% 
+  pivot_wider(names_from = CareService, 
+              values_from = Scotland)
 
 care_time_scotland <- careHomeTime %>% 
   rowwise() %>% 
