@@ -1,253 +1,85 @@
-"CareService","Date","Scotland"
-"Child Minding","Jun 2017",5523
-"Child Minding","Jul 2017",5510
-"Child Minding","Aug 2017",5483
-"Child Minding","Sep 2017",5476
-"Child Minding","Oct 2017",5462
-"Child Minding","Nov 2017",5447
-"Child Minding","Dec 2017",5426
-"Child Minding","Jan 2018",5394
-"Child Minding","Feb 2018",5366
-"Child Minding","Mar 2018",5334
-"Child Minding","Apr 2018",5308
-"Child Minding","May 2018",5285
-"Child Minding","Jun 2018",5268
-"Child Minding","Jul 2018",5217
-"Child Minding","Aug 2018",5170
-"Child Minding","Sep 2018",5155
-"Child Minding","Oct 2018",5135
-"Child Minding","Nov 2018",5127
-"Child Minding","Dec 2018",5108
-"Child Minding","Jan 2019",5075
-"Child Minding","Feb 2019",5006
-"Child Minding","Mar 2019",4972
-"Child Minding","Apr 2019",4949
-"Child Minding","May 2019",4953
-"Child Minding","Jun 2019",4928
-"Child Minding","Jul 2019",4882
-"Child Minding","Aug 2019",4828
-"Child Minding","Sep 2019",4809
-"Child Minding","Oct 2019",4804
-"Child Minding","Nov 2019",4771
-"Child Minding","Dec 2019",4751
-"Child Minding","Jan 2020",4707
-"Child Minding","Feb 2020",4672
-"Child Minding","Mar 2020",4656
-"Child Minding","Apr 2020",4621
-"Child Minding","May 2020",4615
-"Child Minding","Jun 2020",4596
-"Child Minding","Jul 2020",4579
-"Child Minding","Aug 2020",4527
-"Child Minding","Sep 2020",4457
-"Child Minding","Oct 2020",4394
-"Child Minding","Nov 2020",4361
-"Child Minding","Dec 2020",4330
-"Child Minding","Jan 2021",4301
-"Child Minding","Feb 2021",4281
-"Child Minding","Mar 2021",4263
-"Child Minding","Apr 2021",4254
-"Child Minding","May 2021",4252
-"Child Minding","Jun 2021",4240
-"Child Minding","Jul 2021",4221
-"Child Minding","Aug 2021",4186
-"Child Minding","Sep 2021",4139
-"Child Minding","Oct 2021",4087
-"Child Minding","Nov 2021",4062
-"Child Minding","Dec 2021",3998
-"Child Minding","Jan 2022",3936
-"Child Minding","Feb 2022",3886
-"Child Minding","Mar 2022",3841
-"Child Minding","Apr 2022",3796
-"Child Minding","May 2022",3762
-"Child Minding","Jun 2022",3731
-"Child Minding","Jul 2022",3689
-"Child Minding","Aug 2022",3637
-"Child Minding","Sep 2022",3624
-"Child Minding","Oct 2022",3590
-"Child Minding","Nov 2022",3555
-"Child Minding","Dec 2022",3530
-"Child Minding","Jan 2023",3506
-"Child Minding","Feb 2023",3484
-"Child Minding","Mar 2023",3462
-"Child Minding","Apr 2023",3417
-"Child Minding","May 2023",3386
-"Child Minding","Jun 2023",3350
-"Child Minding","Jul 2023",3327
-"Child Minding","Aug 2023",3282
-"Child Minding","Sep 2023",3270
-"Child Minding","Oct 2023",3249
-"Child Minding","Nov 2023",3242
-"Child Minding","Dec 2023",3225
-"Child Minding","Jan 2024",3185
-"Child Minding","Feb 2024",3177
-"Child Minding","Mar 2024",3156
-"Child Minding","Apr 2024",3139
-"Child Minding","May 2024",3128
-"Child Care Agency","Jun 2017",23
-"Child Care Agency","Jul 2017",23
-"Child Care Agency","Aug 2017",23
-"Child Care Agency","Sep 2017",23
-"Child Care Agency","Oct 2017",23
-"Child Care Agency","Nov 2017",23
-"Child Care Agency","Dec 2017",23
-"Child Care Agency","Jan 2018",23
-"Child Care Agency","Feb 2018",24
-"Child Care Agency","Mar 2018",24
-"Child Care Agency","Apr 2018",24
-"Child Care Agency","May 2018",24
-"Child Care Agency","Jun 2018",24
-"Child Care Agency","Jul 2018",24
-"Child Care Agency","Aug 2018",24
-"Child Care Agency","Sep 2018",24
-"Child Care Agency","Oct 2018",24
-"Child Care Agency","Nov 2018",24
-"Child Care Agency","Dec 2018",23
-"Child Care Agency","Jan 2019",23
-"Child Care Agency","Feb 2019",22
-"Child Care Agency","Mar 2019",22
-"Child Care Agency","Apr 2019",22
-"Child Care Agency","May 2019",21
-"Child Care Agency","Jun 2019",21
-"Child Care Agency","Jul 2019",22
-"Child Care Agency","Aug 2019",21
-"Child Care Agency","Sep 2019",21
-"Child Care Agency","Oct 2019",21
-"Child Care Agency","Nov 2019",21
-"Child Care Agency","Dec 2019",21
-"Child Care Agency","Jan 2020",20
-"Child Care Agency","Feb 2020",20
-"Child Care Agency","Mar 2020",19
-"Child Care Agency","Apr 2020",18
-"Child Care Agency","May 2020",17
-"Child Care Agency","Jun 2020",17
-"Child Care Agency","Jul 2020",16
-"Child Care Agency","Aug 2020",16
-"Child Care Agency","Sep 2020",17
-"Child Care Agency","Oct 2020",17
-"Child Care Agency","Nov 2020",16
-"Child Care Agency","Dec 2020",16
-"Child Care Agency","Jan 2021",15
-"Child Care Agency","Feb 2021",15
-"Child Care Agency","Mar 2021",15
-"Child Care Agency","Apr 2021",15
-"Child Care Agency","May 2021",15
-"Child Care Agency","Jun 2021",0
-"Child Care Agency","Jul 2021",0
-"Child Care Agency","Aug 2021",15
-"Child Care Agency","Sep 2021",15
-"Child Care Agency","Oct 2021",15
-"Child Care Agency","Nov 2021",15
-"Child Care Agency","Dec 2021",0
-"Child Care Agency","Jan 2022",15
-"Child Care Agency","Feb 2022",15
-"Child Care Agency","Mar 2022",13
-"Child Care Agency","Apr 2022",13
-"Child Care Agency","May 2022",13
-"Child Care Agency","Jun 2022",13
-"Child Care Agency","Jul 2022",13
-"Child Care Agency","Aug 2022",13
-"Child Care Agency","Sep 2022",12
-"Child Care Agency","Oct 2022",11
-"Child Care Agency","Nov 2022",11
-"Child Care Agency","Dec 2022",11
-"Child Care Agency","Jan 2023",11
-"Child Care Agency","Feb 2023",11
-"Child Care Agency","Mar 2023",11
-"Child Care Agency","Apr 2023",11
-"Child Care Agency","May 2023",11
-"Child Care Agency","Jun 2023",11
-"Child Care Agency","Jul 2023",11
-"Child Care Agency","Aug 2023",11
-"Child Care Agency","Sep 2023",11
-"Child Care Agency","Oct 2023",11
-"Child Care Agency","Nov 2023",11
-"Child Care Agency","Dec 2023",11
-"Child Care Agency","Jan 2024",11
-"Child Care Agency","Feb 2024",11
-"Child Care Agency","Mar 2024",11
-"Child Care Agency","Apr 2024",11
-"Child Care Agency","May 2024",11
-"Day Care of Children","Jun 2017",3715
-"Day Care of Children","Jul 2017",3715
-"Day Care of Children","Aug 2017",3705
-"Day Care of Children","Sep 2017",3705
-"Day Care of Children","Oct 2017",3705
-"Day Care of Children","Nov 2017",3704
-"Day Care of Children","Dec 2017",3700
-"Day Care of Children","Jan 2018",3684
-"Day Care of Children","Feb 2018",3678
-"Day Care of Children","Mar 2018",3662
-"Day Care of Children","Apr 2018",3661
-"Day Care of Children","May 2018",3658
-"Day Care of Children","Jun 2018",3659
-"Day Care of Children","Jul 2018",3648
-"Day Care of Children","Aug 2018",3658
-"Day Care of Children","Sep 2018",3660
-"Day Care of Children","Oct 2018",3657
-"Day Care of Children","Nov 2018",3652
-"Day Care of Children","Dec 2018",3646
-"Day Care of Children","Jan 2019",3641
-"Day Care of Children","Feb 2019",3639
-"Day Care of Children","Mar 2019",3634
-"Day Care of Children","Apr 2019",3621
-"Day Care of Children","May 2019",3619
-"Day Care of Children","Jun 2019",3613
-"Day Care of Children","Jul 2019",3617
-"Day Care of Children","Aug 2019",3634
-"Day Care of Children","Sep 2019",3632
-"Day Care of Children","Oct 2019",3637
-"Day Care of Children","Nov 2019",3637
-"Day Care of Children","Dec 2019",3641
-"Day Care of Children","Jan 2020",3641
-"Day Care of Children","Feb 2020",3639
-"Day Care of Children","Mar 2020",3635
-"Day Care of Children","Apr 2020",3627
-"Day Care of Children","May 2020",3626
-"Day Care of Children","Jun 2020",3622
-"Day Care of Children","Jul 2020",3621
-"Day Care of Children","Aug 2020",3617
-"Day Care of Children","Sep 2020",3604
-"Day Care of Children","Oct 2020",3595
-"Day Care of Children","Nov 2020",3587
-"Day Care of Children","Dec 2020",3587
-"Day Care of Children","Jan 2021",3582
-"Day Care of Children","Feb 2021",3583
-"Day Care of Children","Mar 2021",3584
-"Day Care of Children","Apr 2021",3588
-"Day Care of Children","May 2021",3589
-"Day Care of Children","Jun 2021",3596
-"Day Care of Children","Jul 2021",3600
-"Day Care of Children","Aug 2021",3601
-"Day Care of Children","Sep 2021",3589
-"Day Care of Children","Oct 2021",3581
-"Day Care of Children","Nov 2021",3581
-"Day Care of Children","Dec 2021",3573
-"Day Care of Children","Jan 2022",3565
-"Day Care of Children","Feb 2022",3558
-"Day Care of Children","Mar 2022",3554
-"Day Care of Children","Apr 2022",3551
-"Day Care of Children","May 2022",3549
-"Day Care of Children","Jun 2022",3541
-"Day Care of Children","Jul 2022",3534
-"Day Care of Children","Aug 2022",3538
-"Day Care of Children","Sep 2022",3530
-"Day Care of Children","Oct 2022",3527
-"Day Care of Children","Nov 2022",3518
-"Day Care of Children","Dec 2022",3516
-"Day Care of Children","Jan 2023",3517
-"Day Care of Children","Feb 2023",3504
-"Day Care of Children","Mar 2023",3501
-"Day Care of Children","Apr 2023",3493
-"Day Care of Children","May 2023",3489
-"Day Care of Children","Jun 2023",3488
-"Day Care of Children","Jul 2023",3472
-"Day Care of Children","Aug 2023",3462
-"Day Care of Children","Sep 2023",3456
-"Day Care of Children","Oct 2023",3455
-"Day Care of Children","Nov 2023",3452
-"Day Care of Children","Dec 2023",3443
-"Day Care of Children","Jan 2024",3437
-"Day Care of Children","Feb 2024",3435
-"Day Care of Children","Mar 2024",3434
-"Day Care of Children","Apr 2024",3426
-"Day Care of Children","May 2024",3426
+"Date","Child Minding","Child Care Agency","Day Care of Children"
+"Jun 2017",5523,23,3715
+"Jul 2017",5510,23,3715
+"Aug 2017",5483,23,3705
+"Sep 2017",5476,23,3705
+"Oct 2017",5462,23,3705
+"Nov 2017",5447,23,3704
+"Dec 2017",5426,23,3700
+"Jan 2018",5394,23,3684
+"Feb 2018",5366,24,3678
+"Mar 2018",5334,24,3662
+"Apr 2018",5308,24,3661
+"May 2018",5285,24,3658
+"Jun 2018",5268,24,3659
+"Jul 2018",5217,24,3648
+"Aug 2018",5170,24,3658
+"Sep 2018",5155,24,3660
+"Oct 2018",5135,24,3657
+"Nov 2018",5127,24,3652
+"Dec 2018",5108,23,3646
+"Jan 2019",5075,23,3641
+"Feb 2019",5006,22,3639
+"Mar 2019",4972,22,3634
+"Apr 2019",4949,22,3621
+"May 2019",4953,21,3619
+"Jun 2019",4928,21,3613
+"Jul 2019",4882,22,3617
+"Aug 2019",4828,21,3634
+"Sep 2019",4809,21,3632
+"Oct 2019",4804,21,3637
+"Nov 2019",4771,21,3637
+"Dec 2019",4751,21,3641
+"Jan 2020",4707,20,3641
+"Feb 2020",4672,20,3639
+"Mar 2020",4656,19,3635
+"Apr 2020",4621,18,3627
+"May 2020",4615,17,3626
+"Jun 2020",4596,17,3622
+"Jul 2020",4579,16,3621
+"Aug 2020",4527,16,3617
+"Sep 2020",4457,17,3604
+"Oct 2020",4394,17,3595
+"Nov 2020",4361,16,3587
+"Dec 2020",4330,16,3587
+"Jan 2021",4301,15,3582
+"Feb 2021",4281,15,3583
+"Mar 2021",4263,15,3584
+"Apr 2021",4254,15,3588
+"May 2021",4252,15,3589
+"Jun 2021",4240,0,3596
+"Jul 2021",4221,0,3600
+"Aug 2021",4186,15,3601
+"Sep 2021",4139,15,3589
+"Oct 2021",4087,15,3581
+"Nov 2021",4062,15,3581
+"Dec 2021",3998,0,3573
+"Jan 2022",3936,15,3565
+"Feb 2022",3886,15,3558
+"Mar 2022",3841,13,3554
+"Apr 2022",3796,13,3551
+"May 2022",3762,13,3549
+"Jun 2022",3731,13,3541
+"Jul 2022",3689,13,3534
+"Aug 2022",3637,13,3538
+"Sep 2022",3624,12,3530
+"Oct 2022",3590,11,3527
+"Nov 2022",3555,11,3518
+"Dec 2022",3530,11,3516
+"Jan 2023",3506,11,3517
+"Feb 2023",3484,11,3504
+"Mar 2023",3462,11,3501
+"Apr 2023",3417,11,3493
+"May 2023",3386,11,3489
+"Jun 2023",3350,11,3488
+"Jul 2023",3327,11,3472
+"Aug 2023",3282,11,3462
+"Sep 2023",3270,11,3456
+"Oct 2023",3249,11,3455
+"Nov 2023",3242,11,3452
+"Dec 2023",3225,11,3443
+"Jan 2024",3185,11,3437
+"Feb 2024",3177,11,3435
+"Mar 2024",3156,11,3434
+"Apr 2024",3139,11,3426
+"May 2024",3128,11,3426
