@@ -402,7 +402,7 @@ total_services_month <- read_csv("data/total_type_change_LA.csv")
 total_services_month <- total_services_month %>%
   left_join(total_services_LA, by = c("Council", "CareService"))
 
-#write.csv(total_services_month, "data/total_type_change_LA.csv", row.names = FALSE)
+write.csv(total_services_month, "data/total_type_change_LA.csv", row.names = FALSE)
 
 
 
