@@ -269,6 +269,8 @@ new_type_final <- left_join (new_type_month,
 #write.csv(new_LA_month, "data/new_LA_month.csv", row.names = FALSE)
 
 ## TABLES ####
+all<- all %>%
+filter(ServiceStatus != "Inactive")
 
 # Select only needed columns and rename them for ease of use
 columns_keep_table <- c("CareService", "Subtype", "ServiceType", "ServiceName",
@@ -284,7 +286,6 @@ care_tables <- all %>%
   rowwise() %>%
   mutate(`Complaints upheld since 22/23` = sum(c_across(starts_with("Complaints_upheld_")), na.rm = TRUE)) %>% 
   mutate('Enforcements since 22/23' = sum(c_across(starts_with("Enforcements_issued_")), na.rm = TRUE)) %>% 
-  filter(ServiceStatus == "Active") %>% 
   select(all_of(columns_keep_table)) %>%
   rename(Type = CareService,
          Provider = ServiceType,
