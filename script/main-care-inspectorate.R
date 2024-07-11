@@ -800,4 +800,4 @@ child_grades_timeseries <- apply(child_grades_timeseries,2,as.character)
 #write.csv(Cour_ChildLA_avg, "data/C_radial_child_grade.csv", row.names = FALSE)
 
 #Finally update the csv for the previous month
-write.csv(all, "data/CIfull.csv", row.names = FALSE) 
+#write.csv(all, "data/CIfull.csv", row.names = FALSE) 
