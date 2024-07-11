@@ -370,16 +370,17 @@ childmind_hist <- child_minding %>%
   mutate('Total' = sum(c_across('Setting':'Care and play' ), na.rm = TRUE))
 
 #export tables 
-write.csv(care_home_hist, "data/table/carehome_histo.csv", row.names = TRUE)
-write.csv(day_care_hist, "data/table/daycare_histo.csv", row.names = TRUE)
-write.csv(childmind_hist, "data/table/childmind_histo.csv", row.names = TRUE)
+#uncomment
+#write.csv(care_home_hist, "data/table/carehome_histo.csv", row.names = TRUE)
+#write.csv(day_care_hist, "data/table/daycare_histo.csv", row.names = TRUE)
+#write.csv(childmind_hist, "data/table/childmind_histo.csv", row.names = TRUE)
 
 
-write.csv(all_childcare, "data/table/all_childcare.csv", row.names = FALSE)
-write.csv(day_care_of_children, "data/table/day_care_of_children.csv", row.names = FALSE)
-write.csv(child_minding, "data/table/child_minding.csv", row.names = FALSE)
-write.csv(care_homes, "data/table/care_homes.csv", row.names = FALSE)
-write.csv(child_care_agency, "data/table/child_care_agency.csv", row.names = FALSE)
+#write.csv(all_childcare, "data/table/all_childcare.csv", row.names = FALSE)
+#write.csv(day_care_of_children, "data/table/day_care_of_children.csv", row.names = FALSE)
+#write.csv(child_minding, "data/table/child_minding.csv", row.names = FALSE)
+#write.csv(care_homes, "data/table/care_homes.csv", row.names = FALSE)
+#write.csv(child_care_agency, "data/table/child_care_agency.csv", row.names = FALSE)
 
 
 
@@ -403,7 +404,7 @@ total_services_month <- read_csv("data/total_type_change_LA.csv")
 total_services_month <- total_services_month %>%
   left_join(total_services_LA, by = c("Council", "CareService"))
 
-#write.csv(total_services_month, "data/total_type_change_LA.csv", row.names = FALSE)
+write.csv(total_services_month, "data/total_type_change_LA.csv", row.names = FALSE)
 
 
 
@@ -441,12 +442,12 @@ care_time_scotland <- careHomeTime %>%
   select(c(Date, Scotland))
 
 
-
-write.csv(total_services_linegraph, "data/LAservicebytime.csv", row.names = FALSE)
-write.csv(careHomeTime, "data/care_homes_totals.csv", row.names = FALSE)
-write.csv(childTime, "data/child_services_totals.csv", row.names = FALSE)
-write.csv(child_time_scotland, "data/child_services_scotland.csv", row.names = FALSE)
-write.csv(care_time_scotland, "data/care_services_scotland.csv", row.names = FALSE)
+#uncomment
+#write.csv(total_services_linegraph, "data/LAservicebytime.csv", row.names = FALSE)
+#write.csv(careHomeTime, "data/care_homes_totals.csv", row.names = FALSE)
+#write.csv(childTime, "data/child_services_totals.csv", row.names = FALSE)
+#write.csv(child_time_scotland, "data/child_services_scotland.csv", row.names = FALSE)
+#write.csv(care_time_scotland, "data/care_services_scotland.csv", row.names = FALSE)
 
 ##SPLIT ADULT AND CHILD
 ## Adult services include just care homes
@@ -514,8 +515,9 @@ complaints_child <- left_join(comps_child_past, comps_child, by = 'Council')
 complaints_child <- left_join(complaints_child, child_totals, by = 'Council')
 
 #export complaints tables
-write.csv(complaints_adult, "data/adult_complaints.csv", row.names = FALSE)
-write.csv(complaints_child, "data/child_complaints.csv", row.names = FALSE)
+#uncomment
+#write.csv(complaints_adult, "data/adult_complaints.csv", row.names = FALSE)
+#write.csv(complaints_child, "data/child_complaints.csv", row.names = FALSE)
 
 ## ENFORCEMENTS ####
 ##################################
@@ -554,9 +556,9 @@ enforcements_child <- enforce_child_past %>%
   left_join(enforce_child, by = "Council") 
 
 enforcements_child <- left_join(enforcements_child, child_totals, by = 'Council')
-
-write.csv(enforcements_adult, "data/adult_enforcements.csv", row.names = FALSE)
-write.csv(enforcements_child, "data/child_enforcements.csv", row.names = FALSE)
+#uncomment
+#write.csv(enforcements_adult, "data/adult_enforcements.csv", row.names = FALSE)
+#write.csv(enforcements_child, "data/child_enforcements.csv", row.names = FALSE)
 
 # Care service type breakdown
 #enforcementscare <- enforcements %>% 
@@ -775,27 +777,27 @@ child_grades_historic <- read_csv("data/timeseriesChildGrades.csv")
 child_grades_timeseries <- rbind(child_grades_historic, child_grades_time)
 child_grades_timeseries <- apply(child_grades_timeseries,2,as.character)
 
-
-write.csv(Adult_grades_timeseries, "data/timeseriesAdultGrades.csv", row.names = FALSE)
-write.csv(child_grades_timeseries, "data/timeseriesChildGrades.csv", row.names = FALSE)
+#uncomment
+#write.csv(Adult_grades_timeseries, "data/timeseriesAdultGrades.csv", row.names = FALSE)
+#write.csv(child_grades_timeseries, "data/timeseriesChildGrades.csv", row.names = FALSE)
 
 
 
 # exports for child and adult services
-write.csv(adult_scatter_PJ, "data/PJ_adult_grades_scatter.csv", row.names = FALSE)
-write.csv(adult_scatter_C, "data/C_adult_grades_scatter.csv", row.names = FALSE)
-write.csv(child_scatter_PJ, "data/PJ_child_grades_scatter.csv", row.names = FALSE)
-write.csv(child_scatter_C, "data/C_child_grades_scatter.csv", row.names = FALSE)
+#write.csv(adult_scatter_PJ, "data/PJ_adult_grades_scatter.csv", row.names = FALSE)
+#write.csv(adult_scatter_C, "data/C_adult_grades_scatter.csv", row.names = FALSE)
+#write.csv(child_scatter_PJ, "data/PJ_child_grades_scatter.csv", row.names = FALSE)
+#write.csv(child_scatter_C, "data/C_child_grades_scatter.csv", row.names = FALSE)
 
 
-write.csv(AdultLA_avg, "data/adult_services_avg_LA.csv", row.names = FALSE)
+#write.csv(AdultLA_avg, "data/adult_services_avg_LA.csv", row.names = FALSE)
 #write.csv(adultLAgrades_spread, "data/adult_grades_counts_LA.csv", row.names = FALSE)
-write.csv(childLA_avg, "data/child_services_avg_LA.csv", row.names = FALSE)
+#write.csv(childLA_avg, "data/child_services_avg_LA.csv", row.names = FALSE)
 #write.csv(childLAgrades_spread, "data/child_grades_counts_LA.csv", row.names = FALSE)
-write.csv(PJ_AdultLA_avg, "data/PJ_radial_adult_grades.csv", row.names = FALSE)
-write.csv(Cour_AdultLA_avg, "data/C_radial_adult_grades.csv", row.names = FALSE)
-write.csv(PJ_ChildLA_avg, "data/PJ_radial_child_grade.csv", row.names = FALSE)
-write.csv(Cour_ChildLA_avg, "data/C_radial_child_grade.csv", row.names = FALSE)
+#write.csv(PJ_AdultLA_avg, "data/PJ_radial_adult_grades.csv", row.names = FALSE)
+#write.csv(Cour_AdultLA_avg, "data/C_radial_adult_grades.csv", row.names = FALSE)
+#write.csv(PJ_ChildLA_avg, "data/PJ_radial_child_grade.csv", row.names = FALSE)
+#write.csv(Cour_ChildLA_avg, "data/C_radial_child_grade.csv", row.names = FALSE)
 
 #Finally update the csv for the previous month
 write.csv(all, "data/CIfull.csv", row.names = FALSE) 
