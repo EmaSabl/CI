@@ -189,6 +189,9 @@ cancelled_type_final <- left_join (cancelled_type_month,
 
 ## NEW SERVICES ####
 # After joining the two together, filter for services registered last month
+all<- all %>%
+filter(ServiceStatus != "Inactive")
+
 update_date <- paste(year_update, month_update, sep = "_")
 
 new_services <- anti_join(all, all_prev, by = "ServiceName")  %>% 
