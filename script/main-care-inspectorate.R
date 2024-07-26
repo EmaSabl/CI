@@ -448,7 +448,7 @@ care_time_scotland <- careHomeTime %>%
 write.csv(total_services_linegraph, "data/LAservicebytime.csv", row.names = FALSE)
 write.csv(careHomeTime, "data/care_homes_totals.csv", row.names = FALSE)
 write.csv(childTime, "data/child_services_totals.csv", row.names = FALSE)
-write.csv(child_time_scotland, "data/child_services_scotland.csv", row.names = FALSE)
+#write.csv(child_time_scotland, "data/child_services_scotland.csv", row.names = FALSE)
 write.csv(care_time_scotland, "data/care_services_scotland.csv", row.names = FALSE)
 
 ##SPLIT ADULT AND CHILD
