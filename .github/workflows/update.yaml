@@ -32,10 +32,10 @@ jobs:
       shell: Rscript {0}
          
 # Run scripts
-#    - name: Format
-#      run: |
-#         source('script/formatting-script.R')
-#      shell: Rscript {0}
+    - name: Format
+      run: |
+          source('script/formatting-script.R')
+      shell: Rscript {0}
     
     - name: CI data
       run: |
