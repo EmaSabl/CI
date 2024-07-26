@@ -183,9 +183,9 @@ cancelled_type_final <- left_join (cancelled_type_month,
 
 
 #write.csv(cancelled_scot, "data/cancelled_scot.csv", row.names = FALSE)
-#write.csv(cancelled_LA, "data/cancelled_LA.csv", row.names = FALSE)
+write.csv(cancelled_LA, "data/cancelled_LA.csv", row.names = FALSE)
 #write.csv(cancelled_type_final, "data/cancelled_type.csv", row.names = FALSE)
-#write.csv(cancelled_LA_month, "data/cancelled_LA_month.csv", row.names = FALSE)
+write.csv(cancelled_LA_month, "data/cancelled_LA_month.csv", row.names = FALSE)
 
 ## NEW SERVICES ####
 # After joining the two together, filter for services registered last month
@@ -265,8 +265,8 @@ new_type_final <- left_join (new_type_month,
 
 #write.csv(new_services_scot_final, "data/new_services_scot.csv", row.names = FALSE)
 #write.csv(new_type_final, "data/new_services_type.csv", row.names = FALSE)
-#write.csv(new_LA, "data/new_services_LA.csv", row.names = FALSE)
-#write.csv(new_LA_month, "data/new_LA_month.csv", row.names = FALSE)
+write.csv(new_LA, "data/new_services_LA.csv", row.names = FALSE)
+write.csv(new_LA_month, "data/new_LA_month.csv", row.names = FALSE)
 
 ## TABLES ####
 all<- all %>%
