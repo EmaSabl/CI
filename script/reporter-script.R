@@ -16,7 +16,7 @@ columns_keep <- c("CareService", "Subtype", "ServiceType", "ServiceName",
                   "Complaints_upheld_2223", "Complaints_upheld_2324", "Complaints_upheld_2425",
                   "Enforcements_issued_2223", "Enforcements_issued_2324", "Enforcements_issued_2425",
                   "any_requirements_2223", "any_requirements_2324", "any_requirements_2425",
-                  "Last_inspection_Date", "ServiceStatus", "first_reqs_2425", "second_reqs_2425")
+                  "Last_inspection_Date", "ServiceStatus")
 
 update <- update %>% 
   select(all_of(columns_keep)) 
@@ -57,7 +57,7 @@ care_homes <- df %>%
 dundee_care_homes <- care_homes %>% 
   filter(Service_town == "Dundee") %>% 
   filter(Council_Area_Name == "Dundee City") %>% 
-  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324, second_reqs_2425)) %>% 
+  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324)) %>% 
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
@@ -66,7 +66,7 @@ write.csv(dundee_care_homes, "data/report/dundee_care_homes.csv")
 aberdeen_care_homes <- care_homes %>% 
   filter(Service_town == "Aberdeen") %>% 
   filter(Council_Area_Name == "Aberdeen City") %>% 
-  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324, second_reqs_2425)) %>% 
+  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324)) %>% 
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
@@ -75,7 +75,7 @@ write.csv(aberdeen_care_homes, "data/report/Aberdeen_care_homes.csv")
 perth_care_homes <- care_homes %>% 
   filter(Service_town == "Perth") %>% 
   filter(Council_Area_Name == "Perth & Kinross") %>% 
-  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324, second_reqs_2425)) %>% 
+  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324)) %>% 
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
@@ -84,7 +84,7 @@ write.csv(perth_care_homes, "data/report/perth_care_homes.csv")
 dunfermline_care_homes <- care_homes %>% 
   filter(Service_town == "Dunfermline") %>% 
   filter(Council_Area_Name == "Fife") %>% 
-  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324, second_reqs_2425)) %>% 
+  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324)) %>% 
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
@@ -93,7 +93,7 @@ write.csv(dunfermline_care_homes, "data/report/dunfermline_care_homes.csv")
 stirling_care_homes <- care_homes %>% 
   filter(Service_town == "Stirling") %>% 
   filter(Council_Area_Name == "Stirling") %>% 
-  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324, second_reqs_2425)) %>% 
+  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324)) %>% 
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
@@ -104,7 +104,7 @@ write.csv(stirling_care_homes, "data/report/stirling_care_homes.csv")
 inverness_care_homes <- care_homes %>% 
   filter(Service_town == "Inverness") %>% 
   filter(Council_Area_Name == "Highland") %>% 
-  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324, second_reqs_2425)) %>% 
+  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324)) %>% 
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
@@ -113,7 +113,7 @@ write.csv(inverness_care_homes, "data/report/inverness_care_homes.csv")
 elgin_care_homes <- care_homes %>% 
   filter(Service_town == "Elgin") %>% 
   filter(Council_Area_Name == "Moray") %>% 
-  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324, second_reqs_2425)) %>% 
+  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324)) %>% 
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
@@ -136,7 +136,7 @@ nursery <- df %>%
 dundee_nursery <- nursery %>% 
   filter(Service_town == "Dundee") %>% 
   filter(Council_Area_Name == "Dundee City") %>% 
-  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324, second_reqs_2425)) %>% 
+  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324)) %>% 
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
@@ -145,7 +145,7 @@ write.csv(dundee_nursery, "data/report/dundee_nursery.csv")
 aberdeen_nursery <- nursery %>% 
   filter(Service_town == "Aberdeen") %>% 
   filter(Council_Area_Name == "Aberdeen City") %>% 
-  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324, second_reqs_2425)) %>% 
+  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324)) %>% 
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
@@ -154,7 +154,7 @@ write.csv(aberdeen_nursery, "data/report/Aberdeen_nursery.csv")
 perth_nursery <- nursery %>% 
   filter(Service_town == "Perth") %>% 
   filter(Council_Area_Name == "Perth & Kinross") %>% 
-  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324, second_reqs_2425)) %>% 
+  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324)) %>% 
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
@@ -163,7 +163,7 @@ write.csv(perth_nursery, "data/report/perth_nursery.csv")
 dunfermline_nursery <- nursery %>% 
   filter(Service_town == "Dunfermline") %>% 
   filter(Council_Area_Name == "Fife") %>% 
-  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324, second_reqs_2425)) %>% 
+  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324)) %>% 
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
@@ -172,7 +172,7 @@ write.csv(dunfermline_nursery, "data/report/dunfermline_nursery.csv")
 stirling_nursery <- nursery %>% 
   filter(Service_town == "Stirling") %>% 
   filter(Council_Area_Name == "Stirling") %>% 
-  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324, second_reqs_2425)) %>% 
+  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324)) %>% 
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
@@ -183,7 +183,7 @@ write.csv(stirling_nursery, "data/report/stirling_nursery.csv")
 inverness_nursery <- nursery %>% 
   filter(Service_town == "Inverness") %>% 
   filter(Council_Area_Name == "Highland") %>% 
-  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324, second_reqs_2425)) %>% 
+  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324)) %>% 
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
@@ -192,7 +192,7 @@ write.csv(inverness_nursery, "data/report/inverness_nursery.csv")
 elgin_nursery <- nursery %>% 
   filter(Service_town == "Elgin") %>% 
   filter(Council_Area_Name == "Moray") %>% 
-  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324, second_reqs_2425)) %>% 
+  select(-c(Complaints_upheld_2223, Complaints_upheld_2324, Enforcements_issued_2223, Enforcements_issued_2324)) %>% 
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
