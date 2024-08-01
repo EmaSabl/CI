@@ -66,7 +66,7 @@ dundee_care_homes <- care_homes %>%
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
-write.csv(dundee_care_homes, "report/dundee_care_homes.csv")
+write.csv(dundee_care_homes, "data/report/dundee_care_homes.csv")
 
 aberdeen_care_homes <- care_homes %>% 
   filter(Service_town == "Aberdeen") %>% 
@@ -84,7 +84,7 @@ perth_care_homes <- care_homes %>%
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
-write.csv(perth_care_homes, "report/perth_care_homes.csv")
+write.csv(perth_care_homes, "data/report/perth_care_homes.csv")
 
 dunfermline_care_homes <- care_homes %>% 
   filter(Service_town == "Dunfermline") %>% 
@@ -93,7 +93,7 @@ dunfermline_care_homes <- care_homes %>%
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
-write.csv(dunfermline_care_homes, "report/dunfermline_care_homes.csv")
+write.csv(dunfermline_care_homes, "data/report/dunfermline_care_homes.csv")
 
 stirling_care_homes <- care_homes %>% 
   filter(Service_town == "Stirling") %>% 
@@ -102,7 +102,7 @@ stirling_care_homes <- care_homes %>%
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
-write.csv(stirling_care_homes, "report/stirling_care_homes.csv")
+write.csv(stirling_care_homes, "data/report/stirling_care_homes.csv")
 
 
 
@@ -113,7 +113,7 @@ inverness_care_homes <- care_homes %>%
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
-write.csv(inverness_care_homes, "report/inverness_care_homes.csv")
+write.csv(inverness_care_homes, "data/report/inverness_care_homes.csv")
 
 elgin_care_homes <- care_homes %>% 
   filter(Service_town == "Elgin") %>% 
@@ -122,7 +122,7 @@ elgin_care_homes <- care_homes %>%
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
-write.csv(elgin_care_homes, "report/elgin_care_homes.csv")
+write.csv(elgin_care_homes, "data/report/elgin_care_homes.csv")
 
 
 ##nurseries
@@ -145,7 +145,7 @@ dundee_nursery <- nursery %>%
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
-write.csv(dundee_nursery, "report/dundee_nursery.csv")
+write.csv(dundee_nursery, "data/report/dundee_nursery.csv")
 
 aberdeen_nursery <- nursery %>% 
   filter(Service_town == "Aberdeen") %>% 
@@ -154,7 +154,7 @@ aberdeen_nursery <- nursery %>%
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
-write.csv(aberdeen_nursery, "report/Aberdeen_nursery.csv")
+write.csv(aberdeen_nursery, "data/report/Aberdeen_nursery.csv")
 
 perth_nursery <- nursery %>% 
   filter(Service_town == "Perth") %>% 
@@ -163,7 +163,7 @@ perth_nursery <- nursery %>%
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
-write.csv(perth_nursery, "report/perth_nursery.csv")
+write.csv(perth_nursery, "data/report/perth_nursery.csv")
 
 dunfermline_nursery <- nursery %>% 
   filter(Service_town == "Dunfermline") %>% 
@@ -172,7 +172,7 @@ dunfermline_nursery <- nursery %>%
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
-write.csv(dunfermline_nursery, "report/dunfermline_nursery.csv")
+write.csv(dunfermline_nursery, "data/report/dunfermline_nursery.csv")
 
 stirling_nursery <- nursery %>% 
   filter(Service_town == "Stirling") %>% 
@@ -181,7 +181,7 @@ stirling_nursery <- nursery %>%
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
-write.csv(stirling_nursery, "report/stirling_nursery.csv")
+write.csv(stirling_nursery, "data/report/stirling_nursery.csv")
 
 
 
@@ -192,7 +192,7 @@ inverness_nursery <- nursery %>%
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
-write.csv(inverness_nursery, "report/inverness_nursery.csv")
+write.csv(inverness_nursery, "data/report/inverness_nursery.csv")
 
 elgin_nursery <- nursery %>% 
   filter(Service_town == "Elgin") %>% 
@@ -201,7 +201,7 @@ elgin_nursery <- nursery %>%
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
-write.csv(elgin_nursery, "report/elgin_nursery.csv")
+write.csv(elgin_nursery, "data/report/elgin_nursery.csv")
 
 ### Local authority averages
 
@@ -236,6 +236,6 @@ averages_nursery <- averages %>%
   filter(CareService == 'Day Care of Children') %>% 
   select(-c(CareService, `Wellbeing support`, `Care and support`))
 
-write.csv(averages_care_homes, "report/care_home_averages.csv", row.names = FALSE)
-write.csv(averages_nursery, "report/nursery_averages.csv", row.names = FALSE)
+write.csv(averages_care_homes, "data/report/care_home_averages.csv", row.names = FALSE)
+write.csv(averages_nursery, "data/report/nursery_averages.csv", row.names = FALSE)
          
