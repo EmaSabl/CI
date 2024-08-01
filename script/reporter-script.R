@@ -6,7 +6,7 @@ library(lubridate)
 ## clear not needed columns
 
 # Add link directly from CI datastore
-update <- read_csv("https://www.careinspectorate.com/images/documents/7648/MDSF_data_31%20May%202024.csv", locale = locale(encoding = "Windows-1252"))
+update <- read_csv("data/CIfull.csv")
 update$ServiceName <- gsub('[^\x20-\x7E]',  '', update$ServiceName) 
 columns_keep <- c("CareService", "Subtype", "ServiceType", "ServiceName",
                   "Service_town", "Service_Postcode", "ServiceProvider", 
@@ -21,11 +21,6 @@ columns_keep <- c("CareService", "Subtype", "ServiceType", "ServiceName",
 update <- update %>% 
   select(all_of(columns_keep)) 
 
-#Fix the formatting - sentence case for towns and remove fully empty entries
-update$Service_town <- str_to_title(update$Service_town)
-
-update <- update %>% 
-  filter(!is.na(CareService) & !is.na(ServiceName) & !is.na(Date_Reg))
 
 
 ##Set the time 
