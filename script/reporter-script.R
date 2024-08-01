@@ -75,7 +75,7 @@ aberdeen_care_homes <- care_homes %>%
   arrange(Complaints_upheld_since_22_23) %>% 
   arrange(desc(Average)) 
 
-write.csv(aberdeen_care_homes, "report/Aberdeen_care_homes.csv")
+write.csv(aberdeen_care_homes, "data/report/Aberdeen_care_homes.csv")
 
 perth_care_homes <- care_homes %>% 
   filter(Service_town == "Perth") %>% 
