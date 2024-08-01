@@ -46,6 +46,11 @@ if (!"Subtype" %in% colnames(df)) {
 }
 summary(df$Subtype)
 str(df$Subtype)
+
+
+subset_df <- df %>% filter(CareService == 'Care Home Service')
+print(colnames(subset_df))
+head(subset_df)
 ##care homes
 
 care_homes <- df %>%
