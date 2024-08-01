@@ -53,24 +53,24 @@ print(colnames(subset_df))
 head(subset_df)
 ##care homes
 
-care_homes <- df %>% filter(CareService == 'Care Home Service')
-care_homes <- care_homes %>% filter(Subtype == "Older People")
-care_homes <- care_homes %>% filter(!is.na(Publication_of_Latest_Grading))
-care_homes <- care_homes %>% select(-c(CareService, GradeSpread, ServiceStatus, KQ_Care_Play_and_Learning))
-care_homes <- care_homes %>% rowwise() %>%
-  mutate(Average = mean(c_across(starts_with("KQ")), na.rm = TRUE)) %>% 
-  mutate(Complaints_upheld_since_22_23 = sum(c_across(starts_with("Complaints_upheld_")), na.rm = TRUE)) %>% 
-  mutate(Enforcements_upheld_since_22_23 = sum(c_across(starts_with("Enforcements_issued_")), na.rm = TRUE))
+#care_homes <- df %>% filter(CareService == 'Care Home Service')
+#care_homes <- care_homes %>% filter(Subtype == "Older People")
+#care_homes <- care_homes %>% filter(!is.na(Publication_of_Latest_Grading))
+#care_homes <- care_homes %>% select(-c(CareService, GradeSpread, ServiceStatus, KQ_Care_Play_and_Learning))
+#care_homes <- care_homes %>% rowwise() %>%
+#  mutate(Average = mean(c_across(starts_with("KQ")), na.rm = TRUE)) %>% 
+#  mutate(Complaints_upheld_since_22_23 = sum(c_across(starts_with("Complaints_upheld_")), na.rm = TRUE)) %>% 
+#  mutate(Enforcements_upheld_since_22_23 = sum(c_across(starts_with("Enforcements_issued_")), na.rm = TRUE))
 
-#care_homes <- df %>%
-#  filter(CareService == 'Care Home Service') %>% 
-#  filter(Subtype == "Older People") %>% 
-#  filter(!is.na(Publication_of_Latest_Grading)) %>% 
-#  select(-c(CareService, GradeSpread, ServiceStatus, KQ_Care_Play_and_Learning)) %>% 
-#  rowwise() %>%
-#  mutate(`Average` = mean(c_across(starts_with("KQ")), na.rm = TRUE)) %>% 
-#  mutate(`Complaints_upheld_since_22_23` = sum(c_across(starts_with("Complaints_upheld_")), na.rm = TRUE)) %>% 
-#  mutate(`Enforcements_upheld_since_22_23` = sum(c_across(starts_with("Enforcements_issued_")), na.rm = TRUE))
+care_homes <- df %>%
+  filter(CareService == 'Care Home Service') %>% 
+  filter(Subtype == "Older People") %>% 
+  filter(!is.na(Publication_of_Latest_Grading)) %>% 
+  select(-c(CareService, GradeSpread, ServiceStatus, KQ_Care_Play_and_Learning)) %>% 
+  rowwise() %>%
+  mutate(`Average` = mean(c_across(starts_with("KQ")), na.rm = TRUE)) %>% 
+  mutate(`Complaints_upheld_since_22_23` = sum(c_across(starts_with("Complaints_upheld_")), na.rm = TRUE)) %>% 
+  mutate(`Enforcements_upheld_since_22_23` = sum(c_across(starts_with("Enforcements_issued_")), na.rm = TRUE))
   
 
 
@@ -142,7 +142,7 @@ write.csv(elgin_care_homes, "data/report/elgin_care_homes.csv")
 
 ##nurseries
 nursery <- df %>%
-  filter(CareService == 'Day Care of Children') #%>% 
+  filter(CareService == 'Day Care of Children') %>% 
   filter(Subtype == "Day Care of Children (under 3s)") %>% 
   filter(!is.na(Publication_of_Latest_Grading)) %>% 
   select(-c(CareService, GradeSpread, ServiceStatus)) %>% 
