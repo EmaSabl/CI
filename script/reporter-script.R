@@ -38,7 +38,9 @@ if (month_update == 0) {
 
 
 df <- update %>% 
-  filter("ServiceStatus" != "Inactive") 
+  filter("ServiceStatus" != "Inactive") %>%
+  mutate(Subtype = as.character(Subtype)) 
+
 
 ##care homes
 
