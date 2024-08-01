@@ -46,7 +46,7 @@ care_homes <- df %>%
   filter(CareService == 'Care Home Service') %>% 
   filter(Subtype == 'Older People') %>% 
   filter(!is.na(Publication_of_Latest_Grading)) %>% 
-  select(-c(CareService, Subtype,GradeSpread, ServiceStatus, KQ_Care_Play_and_Learning)) %>% 
+  select(-c(CareService, GradeSpread, ServiceStatus, KQ_Care_Play_and_Learning)) %>% 
   rowwise() %>%
   mutate(`Average` = mean(c_across(starts_with("KQ")), na.rm = TRUE)) %>% 
   mutate(`Complaints_upheld_since_22_23` = sum(c_across(starts_with("Complaints_upheld_")), na.rm = TRUE)) %>% 
@@ -125,7 +125,7 @@ nursery <- df %>%
   filter(CareService == 'Day Care of Children') #%>% 
   filter(Subtype == 'Day Care of Children (under 3s)') %>% 
   filter(!is.na(Publication_of_Latest_Grading)) %>% 
-  select(-c(CareService, Subtype,GradeSpread, ServiceStatus)) %>% 
+  select(-c(CareService, GradeSpread, ServiceStatus)) %>% 
   rowwise() %>%
   mutate(`Average` = mean(c_across(starts_with("KQ")), na.rm = TRUE)) %>% 
   mutate(`Complaints_upheld_since_22_23` = sum(c_across(starts_with("Complaints_upheld_")), na.rm = TRUE)) %>% 
@@ -204,7 +204,7 @@ averages <- df %>%
   filter(CareService == 'Care Home Service' | CareService == 'Day Care of Children') %>% 
   filter(Subtype =='Older People' | Subtype == 'Day Care of Children (under 3s)') %>% 
   filter(!is.na(Publication_of_Latest_Grading)) %>% 
-  select(-c(Subtype, GradeSpread, ServiceStatus)) %>% 
+  select(-c( GradeSpread, ServiceStatus)) %>% 
   rowwise() %>%
   mutate(`Average` = mean(c_across(starts_with("KQ")), na.rm = TRUE)) %>% 
   mutate(`Complaints_upheld_since_22_23` = sum(c_across(starts_with("Complaints_upheld_")), na.rm = TRUE)) %>% 
