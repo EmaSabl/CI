@@ -50,7 +50,7 @@ str(df$Subtype)
 
 care_homes <- df %>%
   filter(CareService == 'Care Home Service') %>% 
-  filter(df$Subtype == "Older People") %>% 
+  filter(Subtype == "Older People") %>% 
   filter(!is.na(Publication_of_Latest_Grading)) %>% 
   select(-c(CareService, GradeSpread, ServiceStatus, KQ_Care_Play_and_Learning)) %>% 
   rowwise() %>%
@@ -129,7 +129,7 @@ write.csv(elgin_care_homes, "data/report/elgin_care_homes.csv")
 ##nurseries
 nursery <- df %>%
   filter(CareService == 'Day Care of Children') #%>% 
-  filter(df$Subtype == "Day Care of Children (under 3s)") %>% 
+  filter(Subtype == "Day Care of Children (under 3s)") %>% 
   filter(!is.na(Publication_of_Latest_Grading)) %>% 
   select(-c(CareService, GradeSpread, ServiceStatus)) %>% 
   rowwise() %>%
@@ -208,7 +208,7 @@ write.csv(elgin_nursery, "data/report/elgin_nursery.csv")
 
 averages <- df %>%
   filter(CareService == 'Care Home Service' | CareService == 'Day Care of Children') %>% 
-  filter(df$Subtype =="Older People" | df$Subtype == "Day Care of Children (under 3s)") %>% 
+  filter(Subtype =="Older People" | Subtype == "Day Care of Children (under 3s)") %>% 
   filter(!is.na(Publication_of_Latest_Grading)) %>% 
   select(-c( GradeSpread, ServiceStatus)) %>% 
   rowwise() %>%
